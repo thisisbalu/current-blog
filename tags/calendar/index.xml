@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>calendar on Bala Subramanyam Lanka</title>
+    <link>https://thisisbalu.github.io/tags/calendar/</link>
+    <description>Recent content in calendar on Bala Subramanyam Lanka</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 04 Sep 2014 19:59:16 +0000</lastBuildDate><atom:link href="https://thisisbalu.github.io/tags/calendar/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to use Calendar in Java</title>
+      <link>https://thisisbalu.github.io/how-to-use-calendar-in-java/</link>
+      <pubDate>Thu, 04 Sep 2014 19:59:16 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/how-to-use-calendar-in-java/</guid>
+      <description>&lt;p&gt;There is a great confusion between Calendar class and GregorianCalendar class. Let us look into these classes in detail.  These classes are for providing the standard calendar for world.&lt;/p&gt;
+&lt;h4 id=&#34;span-styletext-decorationunderlinecalendar-class-is-an-abstract-classspan&#34;&gt;&lt;span style=&#34;text-decoration:underline;&#34;&gt;Calendar Class is an Abstract Class&lt;/span&gt;&lt;/h4&gt;
+&lt;p&gt;**Package : **java.util.Calendar&lt;/p&gt;
+&lt;p&gt;**Extends : **Object class&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

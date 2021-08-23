@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Object class in java on Bala Subramanyam Lanka</title>
+    <link>https://thisisbalu.github.io/tags/object-class-in-java/</link>
+    <description>Recent content in Object class in java on Bala Subramanyam Lanka</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 14 Aug 2014 20:16:05 +0000</lastBuildDate><atom:link href="https://thisisbalu.github.io/tags/object-class-in-java/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Object Class -The root of class hierarchy</title>
+      <link>https://thisisbalu.github.io/object-class-the-root-of-class-hierarchy/</link>
+      <pubDate>Thu, 14 Aug 2014 20:16:05 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/object-class-the-root-of-class-hierarchy/</guid>
+      <description>&lt;p&gt;Object Class is the root of the class hierarchy in Java. Every class has a Object class as a super class. Hence all the objects extends the methods of this class. Introduced in &lt;strong&gt;JDK1.0&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The Object class, in the java.lang package, sits at the top of the class hierarchy tree. Every class is a descendant, direct or indirect, of the Object class. Every class you use or write inherits the instance methods of Object. You need not use any of these methods, but, if you choose to do so, you may need to override them with code that is specific to your class. The methods inherited from Object are given below.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

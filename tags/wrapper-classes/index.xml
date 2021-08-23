@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>wrapper classes on Bala Subramanyam Lanka</title>
+    <link>https://thisisbalu.github.io/tags/wrapper-classes/</link>
+    <description>Recent content in wrapper classes on Bala Subramanyam Lanka</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 24 Oct 2014 04:00:05 +0000</lastBuildDate><atom:link href="https://thisisbalu.github.io/tags/wrapper-classes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Unboxing and Auto-Unboxing in Java</title>
+      <link>https://thisisbalu.github.io/unboxing-and-auto-unboxing-in-java/</link>
+      <pubDate>Fri, 24 Oct 2014 04:00:05 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/unboxing-and-auto-unboxing-in-java/</guid>
+      <description>&lt;p&gt;Unboxing and AutoUnboxing in Java is a simple concept.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Unboxing&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Unwrapping the object into corresponding primitive data is called **Unboxing. **&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Boxing and Auto-Boxing in Java</title>
+      <link>https://thisisbalu.github.io/boxing-and-auto-boxing-in-java/</link>
+      <pubDate>Thu, 23 Oct 2014 14:21:22 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/boxing-and-auto-boxing-in-java/</guid>
+      <description>&lt;p&gt;Boxing and AutoBoxing in Java is simple concept in Java.&lt;br&gt;
+&lt;strong&gt;Boxing&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Wrapping primitive content into an object is called &lt;strong&gt;boxing&lt;/strong&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Wrapper Classes in Java</title>
+      <link>https://thisisbalu.github.io/wrapper-classes-in-java-2/</link>
+      <pubDate>Mon, 20 Oct 2014 04:00:31 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/wrapper-classes-in-java-2/</guid>
+      <description>&lt;p&gt;Lets see a simple java program to Wrap Primitive Data Types into Object using Wrapper Classes in Java&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Wrapper Classes in Java</title>
+      <link>https://thisisbalu.github.io/wrapper-classes-in-java/</link>
+      <pubDate>Sun, 19 Oct 2014 04:00:49 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/wrapper-classes-in-java/</guid>
+      <description>&lt;p&gt;Java is an Object Oriented Language which views everything as an object. For an instance a simple file can be treated as an object , an address of a system can be seen as an object , an image can be treated as an object (with java.awt.Image) and a simple data type can be converted into an object (with wrapper classes).&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

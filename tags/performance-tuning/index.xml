@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Performance Tuning on Bala Subramanyam Lanka</title>
+    <link>https://thisisbalu.github.io/tags/performance-tuning/</link>
+    <description>Recent content in Performance Tuning on Bala Subramanyam Lanka</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 13 May 2016 16:18:48 +0000</lastBuildDate><atom:link href="https://thisisbalu.github.io/tags/performance-tuning/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>IBM Operational Decision Management(ODM) Performance Tuning – JVM</title>
+      <link>https://thisisbalu.github.io/ibm-odm-performance-tuning-jvm/</link>
+      <pubDate>Fri, 13 May 2016 16:18:48 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/ibm-odm-performance-tuning-jvm/</guid>
+      <description>&lt;p&gt;JVM tuning is important for IBM ODM (Operational Decision Management) because Decision Server Rules and Decision Server Events are both Java Platform, Enterprise Edition (Java EE) applications that run on WebSphere Application Server. Optimal performance is, therefore, dependent upon the correct tuning of Decision Server, WebSphere Application Server, and the underlying JVM.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

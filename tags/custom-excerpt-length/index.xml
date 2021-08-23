@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>custom excerpt length on Bala Subramanyam Lanka</title>
+    <link>https://thisisbalu.github.io/tags/custom-excerpt-length/</link>
+    <description>Recent content in custom excerpt length on Bala Subramanyam Lanka</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 16 Mar 2015 15:45:27 +0000</lastBuildDate><atom:link href="https://thisisbalu.github.io/tags/custom-excerpt-length/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Custom Excerpt Length in WordPress</title>
+      <link>https://thisisbalu.github.io/custom-excerpt-length-in-wordpress/</link>
+      <pubDate>Mon, 16 Mar 2015 15:45:27 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/custom-excerpt-length-in-wordpress/</guid>
+      <description>&lt;p&gt;In WordPress, excerpt means a _short extract from the blog post. _The default length of the excerpt in WordPress is 55 characters. For the customisation purposes setting user defined length to the excerpt in WordPress is needed at times. This needs adding a small php function in to functions.php file. As mentioned above default length of the excerpt is 55 characters, to override the  default functionality excerpt length we have to add a filter in the same file.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>parameter on Bala Subramanyam Lanka</title>
+    <link>https://thisisbalu.github.io/tags/parameter/</link>
+    <description>Recent content in parameter on Bala Subramanyam Lanka</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 05 Oct 2014 14:30:06 +0000</lastBuildDate><atom:link href="https://thisisbalu.github.io/tags/parameter/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to pass Array to method Java</title>
+      <link>https://thisisbalu.github.io/how-to-pass-array-to-method-java/</link>
+      <pubDate>Sun, 05 Oct 2014 14:30:06 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/how-to-pass-array-to-method-java/</guid>
+      <description>&lt;p&gt;Arrays can be passed as the parameter in Java. They are Passes-By-Reference which means when we pass the array copy of the objects are not passed just the reference of the array is passed. Arrays can be passed in two ways .&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Passing Primitive Type Array&lt;/li&gt;
+&lt;li&gt;Passing Derived Type Array&lt;/li&gt;
+&lt;/ol&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

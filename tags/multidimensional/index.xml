@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>multidimensional on Bala Subramanyam Lanka</title>
+    <link>https://thisisbalu.github.io/tags/multidimensional/</link>
+    <description>Recent content in multidimensional on Bala Subramanyam Lanka</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 07 Oct 2014 14:30:58 +0000</lastBuildDate><atom:link href="https://thisisbalu.github.io/tags/multidimensional/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Multi Dimensional Arrays in Java</title>
+      <link>https://thisisbalu.github.io/multi-dimensional-arrays-in-java/</link>
+      <pubDate>Tue, 07 Oct 2014 14:30:58 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/multi-dimensional-arrays-in-java/</guid>
+      <description>&lt;p&gt;Multi Dimensional arrays in Java can be termed as arrays of arrays. We can create two-dimensional, three-dimensional, four-dimensional or n-dimensional arrays in Java. Its quite simple to create arrays in Java, yet more the dimensions more the confusion. Let us see a quick tutorial. In this tutorial I’m going to take three-dimensional array as example.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

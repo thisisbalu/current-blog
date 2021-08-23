@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Rule Engine Execution Modes</title>
+    <meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+
+<link rel="stylesheet" href="/css/bootstrap.min.css"/>
+<link rel="stylesheet" href="/css/layouts/main.css"/>
+<link rel="stylesheet" href="/css/navigators/navbar.css"/>
+<link rel="stylesheet" href="/css/plyr.css"/>
+<link rel="stylesheet" href="/css/flag-icon.min.css"/>
+
+
+<link href="https://fonts.googleapis.com/css2?family=Muli:wght@300;400;500;600" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" />
+
+
+
+
+  
+
+  
+  
+  
+    
+  
+  
+
+  <link rel="icon" type="image/png" href="/images/logos/favicon-32x32_hu6c0760df4368777065bb45ed9c8928ba_2423_42x0_resize_box_2.png" />
+
+<meta property="og:title" content="Rule Engine Execution Modes" />
+<meta property="og:description" content="The execution of the rules inside the rule engine of IBM Operational Decision Management follows three rule engine execution modes – RetePlus, sequential, and Fastpath execution modes. Execution mode affects which rules are executed and in which order. Execution mode specifies the algorithm used by the rule engine inside Decision Server." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://thisisbalu.github.io/rule-engine-execution-modes/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2015-10-15T19:48:10&#43;00:00" />
+<meta property="article:modified_time" content="2015-10-15T19:48:10&#43;00:00" />
+
+
+
+    
+    
+<meta name="description" content="Rule Engine Execution Modes" />
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/atom-one-dark.min.css"
+/>
+<link rel="stylesheet" href="/css/layouts/single.css"/>
+<link rel="stylesheet" href="/css/navigators/sidebar.css">
+
+<link rel="stylesheet" href="/css/style.css"/>
+
+
+
+    
+    
+  </head>
+
+  <body data-spy="scroll" data-target="#TableOfContents" data-offset="80">
+    <div class="container-fluid bg-dimmed wrapper">
+      
+      
+    
+
+
+
+
+
+  
+
+
+  
+
+
+
+
+  
+  
+    
+  
+  
+
+
+
+  
+  
+    
+  
+  
+
+
+<nav class="navbar navbar-expand-xl top-navbar final-navbar shadow">
+  <div class="container">
+      <button class="navbar-toggler navbar-light" id="sidebar-toggler" type="button" onclick="toggleSidebar()">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="/">
+      
+        <img src="/images/logos/apple-icon-114x114_hu10b496cbdd14ccc59d427707b2b76be1_9048_42x0_resize_box_2.png" alt="Logo">
+      Bala Subramanyam Lanka</a>
+    <button class="navbar-toggler navbar-light" id="toc-toggler" type="button" onclick="toggleTOC()">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse lang-selector" id="top-nav-items">
+      <ul class="navbar-nav ml-auto">
+      
+      </ul>
+    </div>
+  </div>
+  
+  
+    <img src="/images/logos/apple-icon-114x114_hu10b496cbdd14ccc59d427707b2b76be1_9048_42x0_resize_box_2.png" class="d-none" id="main-logo" alt="Logo">
+  
+  
+    <img src="/images/logos/apple-icon-114x114_hu10b496cbdd14ccc59d427707b2b76be1_9048_42x0_resize_box_2.png" class="d-none" id="inverted-logo" alt="Inverted Logo">
+  
+</nav>
+
+
+
+      
+      
+  <section class="sidebar-section" id="sidebar-section">
+    <div class="sidebar-holder">
+      <div class="sidebar" id="sidebar">
+        <form class="mx-auto" method="get" action="/search">
+          <input type="text" name="keyword" value="" placeholder="Search" data-search="" id="search-box" />
+        </form>
+        <div class="sidebar-tree">
+          <ul class="tree" id="tree">
+            <li id="list-heading"><a href="/posts" data-filter="all">Posts</a></li>
+            <div class="subtree">
+                
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/sample/" title="Welcome">Welcome</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li>
+      <i class="fas fa-plus-circle"></i><a class="" href="">getting-started</a>
+      
+      <ul class="">
+        
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/2016-09-28-different-brms-tools-market/" title="Github Pages">Github Pages</a></li>
+  
+
+
+      </ul>
+    </li>
+  
+
+
+            </div>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+      
+      
+<section class="content-section" id="content-section">
+  <div class="content">
+    <div class="container p-0 read-area">
+      
+      <div class="hero-area col-sm-12" id="hero-area" style='background-image: url(https://thisisbalu.github.io/images/default-hero.jpg);'>
+      </div>
+
+      
+      <div class="page-content">
+        <div class="author-profile ml-auto align-self-lg-center">
+          <img class="rounded-circle" src='/images/author/balu_hu35c00e1b0d1c2b7ef4062ee49dc08602_54380_120x120_fit_box_2.png' alt="Author Image">
+          <h5 class="author-name">Bala Subramanyam Lanka</h5>
+          <p>October 15, 2015</p>
+        </div>
+
+        <div class="title">
+          <h1>Rule Engine Execution Modes</h1>
+        </div>
+        
+        <div class="post-content" id="post-content">
+          <p>The execution of the rules inside the rule engine of IBM Operational Decision Management follows three rule engine execution modes – RetePlus, sequential, and Fastpath execution modes. Execution mode affects which rules are executed and in which order. Execution mode specifies the algorithm used by the rule engine inside Decision Server.</p>
+<h2 id="rete-plus-rule-engine-execution-mode">Rete Plus Rule Engine Execution Mode</h2>
+<p>Use RetePlus optimization techniques to improve performance through reduction of the number of rules and conditions, computation of the rules to run, and prioritization of the rule order.</p>
+<p class="p">
+  In RetePlus mode, the rule engine execution minimizes the number of rules and conditions to be evaluated, computes which rules must be run, and identifies in which order these rules must be run. In RetePlus, the rule engine uses a <dfn class="term">working memory</dfn> and an <dfn class="term">agenda</dfn> for storing and manipulating application objects. The working memory contains references to the application objects. The agenda lists and orders the rule instances that are eligible to be run.
+</p>
+<blockquote>
+<p class="p">
+  RetePlus, an extension based on the <a href="http://www.balasubramanyamlanka.com/rete-algorithm/">Rete algorithm</a>, was the default execution mode for rule flow tasks in Operational Decision Manager V8.5.1 and earlier. Note that the execution mode is always RetePlus if there is no rule flow.
+</p><figure id="attachment_1339" aria-describedby="caption-attachment-1339" style="width: 448px" class="wp-caption aligncenter">
+</blockquote>
+<p><a href="http://www.balasubramanyamlanka.com/wp-content/uploads/2015/10/rete-plus-mode-execution.jpg"><img loading="lazy" class="size-full wp-image-1339" src="http://www.balasubramanyamlanka.com/wp-content/uploads/2015/10/rete-plus-mode-execution.jpg" alt="Rete Plus Mode Execution" width="448" height="242" srcset="http://www.balasubramanyamlanka.com/wp-content/uploads/2015/10/rete-plus-mode-execution.jpg 448w, http://www.balasubramanyamlanka.com/wp-content/uploads/2015/10/rete-plus-mode-execution-300x162.jpg 300w" sizes="(max-width: 448px) 85vw, 448px" /></a><figcaption id="caption-attachment-1339" class="wp-caption-text">Rete Plus Mode Execution</figcaption></figure></p>
+<h6 id="the-reteplus-algorithm-operates-as-follows">The RetePlus algorithm operates as follows:</h6>
+<ol>
+<li>The rule engine matches the conditions of the rules in the ruleset against the objects in working memory. During the pattern matching process, RetePlus creates a network based on semantic relationships between rule condition tests.</li>
+<li>For each match, a rule instance is created and put on the agenda. Then, based on some ordering principles, the agenda selects the rule instance to be run.</li>
+<li>When the rule instance is executed, the rule action is executed. This action modifies the working memory in the following way
+<ul>
+<li>By adding an object to the working memory.</li>
+<li>By removing an object from the working memory.</li>
+<li>By modifying the attributes of an existing object.</li>
+</ul>
+</li>
+<li>The process carries on cyclically until no more rule instances are left on the agenda.</li>
+</ol>
+<blockquote>
+<p>whenever the working memory is modified, the rule engine repeats the pattern matching process. It reassesses matches after each rule instance is executed and modifies the data. As a possible consequence, the list of rule instances in the agenda can change. Thus, RetePlus is incremental and data-driven.</p>
+</blockquote>
+<h6 id="conclusion">Conclusion:</h6>
+<ol>
+<li>Default mode that executes in most of the cases.</li>
+<li>Characteristics
+<ul>
+<li>Rule Chaining</li>
+<li>Agenda</li>
+<li>Input : Objects in the working memory or ruleset.</li>
+</ul>
+</li>
+<li>Excels in incremental, data-driven execution(execution which reacts to the changes of data)</li>
+<li>Best performance for applications that performs computation or correlation between objects.</li>
+<li>Recommended for
+<ul>
+<li>Rules with dynamic priorities</li>
+<li>Rule chaining : execution of a rule may cause other rules to fire</li>
+<li>Rule actions that manipulate working memory objects(update, retract and insert)</li>
+<li>Event management.</li>
+</ul>
+</li>
+</ol>
+<h2 id="sequential-rule-engine-execution-mode">Sequential Rule Engine Execution Mode</h2>
+<p>The sequential mode executes all the eligible rules for a given rule task in sequence, which provides specific performance advantages.<figure id="attachment_1340" aria-describedby="caption-attachment-1340" style="width: 476px" class="wp-caption aligncenter"></p>
+<p><a href="http://www.balasubramanyamlanka.com/wp-content/uploads/2015/10/sequential-rule-execution-mode.jpg"><img loading="lazy" class="wp-image-1340 size-full" src="http://www.balasubramanyamlanka.com/wp-content/uploads/2015/10/sequential-rule-execution-mode.jpg" alt="Sequential Rule Execution Mode" width="476" height="250" srcset="http://www.balasubramanyamlanka.com/wp-content/uploads/2015/10/sequential-rule-execution-mode.jpg 476w, http://www.balasubramanyamlanka.com/wp-content/uploads/2015/10/sequential-rule-execution-mode-300x158.jpg 300w" sizes="(max-width: 476px) 85vw, 476px" /></a><figcaption id="caption-attachment-1340" class="wp-caption-text">Sequential Rule Execution Mode</figcaption></figure></p>
+<h6 id="the-sequential-algorithm-operates-as-follows">The sequential algorithm operates as follows:</h6>
+<ol>
+<li>The rule engine performs pattern matching on input ruleset parameters and on the conditions defined on the collections of objects in working memory.</li>
+<li>For each match, a rule instance is created and immediately executed. When a rule instance is executed, it sets the value of an attribute or an output ruleset parameter.</li>
+</ol>
+<h6 id="conclusion-1">Conclusion:</h6>
+<ol>
+<li>A mode for sequential exection.</li>
+<li>Characteristics:
+<ul>
+<li>No rule chaining</li>
+<li>No agenda</li>
+<li>Input : Ruleset parameters recommended.</li>
+</ul>
+</li>
+<li>For applications, that perform validation and compliance.</li>
+<li>Recommended for
+<ul>
+<li>Numerous rules with randomly ordered tests</li>
+<li>Rules that use ruleset parameters.</li>
+<li>Rules that use same class in their conditions, but perform different tests on this class.</li>
+</ul>
+</li>
+</ol>
+<h2 id="fastpathrule-engine-execution-mode">Fastpath Rule Engine Execution Mode</h2>
+<p>Fastpath is a sequential execution mode that also detects semantic relations between rule tests in the same way as RetePlus. However, unlike RetePlus, the Fastpath mode does not support the inference.<figure id="attachment_1341" aria-describedby="caption-attachment-1341" style="width: 505px" class="wp-caption aligncenter"></p>
+<p><a href="http://www.balasubramanyamlanka.com/wp-content/uploads/2015/10/fastpath-rule-engine-execution-mode.jpg"><img loading="lazy" class="wp-image-1341 size-full" src="http://www.balasubramanyamlanka.com/wp-content/uploads/2015/10/fastpath-rule-engine-execution-mode.jpg" alt="Fastpath Rule Execution Mode" width="505" height="273" srcset="http://www.balasubramanyamlanka.com/wp-content/uploads/2015/10/fastpath-rule-engine-execution-mode.jpg 505w, http://www.balasubramanyamlanka.com/wp-content/uploads/2015/10/fastpath-rule-engine-execution-mode-300x162.jpg 300w" sizes="(max-width: 505px) 85vw, 505px" /></a><figcaption id="caption-attachment-1341" class="wp-caption-text">Fastpath Rule Execution Mode</figcaption></figure></p>
+<p>The Fastpath algorithm operates as follows:</p>
+<ol>
+<li>The rule engine uses a working memory that references application objects or ruleset parameters. Fastpath performs the pattern matching process, as in RetePlus, by creating a tree based on semantic relations between rule condition tests.</li>
+<li>For each match, a rule instance is created and inserted in the agenda.</li>
+<li>After the pattern matching process, the rule instances in the agenda are executed.</li>
+<li>The rule engine stops after the rule instances have been executed. This behavior also depends on the exit criteria of the rule task. The pattern matching process is not repeated.</li>
+</ol>
+<h6 id="conclusion-2">Conclusion:</h6>
+<ol>
+<li>A mode for sequential execution, with detection of semantic relation between rule tests.</li>
+<li>Characteristics:
+<ul>
+<li>No rule chaining</li>
+<li>No agenda</li>
+<li>Input : Objects in the working memory or ruleset.</li>
+</ul>
+</li>
+<li>For applications that perform validation and compliance, or stateless correlation objects.</li>
+<li>Recommended for
+<ul>
+<li>Rules with shared test patterns</li>
+<li>Rules with heterogeneous bindings</li>
+<li>Rules that use ruleset parameters or working memory objects.</li>
+</ul>
+</li>
+</ol>
+<p>Happy Learning! Happy Exploring!!</p>
+<p> </p>
+<p>Sources:</p>
+<ul>
+<li><a href="https://www.ibm.com/support/knowledgecenter/">https://www.ibm.com/support/knowledgecenter/</a></li>
+<li><a href="https://en.wikipedia.org">https://en.wikipedia.org</a></li>
+</ul>
+<p> </p>
+        </div>
+
+        
+        
+
+        
+      <hr />
+        
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+  
+
+  
+  
+
+
+<div class="row next-prev-navigator">
+  
+  
+</div>
+
+      <hr />
+      
+      
+      </div>
+    </div>
+  </div>
+  
+  <a id="scroll-to-top" class="btn"><i class="fas fa-chevron-circle-up"></i></a>
+  
+</section>
+
+
+      
+      
+  <section class="toc-section" id="toc-section">
+    
+    <div class="toc-holder">
+      <h5 class="text-center pl-3">Table of Contents</h5>
+      <hr>
+      <div class="toc">
+        <nav id="TableOfContents">
+  <ul>
+    <li><a href="#rete-plus-rule-engine-execution-mode">Rete Plus Rule Engine Execution Mode</a>
+      <ul>
+        <li>
+          <ul>
+            <li>
+              <ul>
+                <li>
+                  <ul>
+                    <li><a href="#the-reteplus-algorithm-operates-as-follows">The RetePlus algorithm operates as follows:</a></li>
+                    <li><a href="#conclusion">Conclusion:</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li><a href="#sequential-rule-engine-execution-mode">Sequential Rule Engine Execution Mode</a>
+      <ul>
+        <li>
+          <ul>
+            <li>
+              <ul>
+                <li>
+                  <ul>
+                    <li><a href="#the-sequential-algorithm-operates-as-follows">The sequential algorithm operates as follows:</a></li>
+                    <li><a href="#conclusion-1">Conclusion:</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li><a href="#fastpathrule-engine-execution-mode">Fastpath Rule Engine Execution Mode</a>
+      <ul>
+        <li>
+          <ul>
+            <li>
+              <ul>
+                <li>
+                  <ul>
+                    <li><a href="#conclusion-2">Conclusion:</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+      </div>
+    </div>
+    
+  </section>
+
+    </div>
+
+    
+    
+
+
+
+
+
+
+
+
+
+  
+      
+  
+
+
+
+  
+  
+    
+  
+
+  
+  
+    
+  
+
+  
+  
+    
+    
+      
+    
+  
+
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+    
+  
+  
+
+  
+  
+  
+
+  <footer class="container-fluid text-center align-content-center footer pb-2">
+    <div class="container pt-5">
+      <div class="row text-left">
+        
+        <div class="col-md-4 col-sm-12">
+          <h5>Navigation</h5>
+          
+          <ul>
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="/#about">About</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="/#skills">Skills</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="/#experiences">Experience</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="/#education">Education</a>
+                </li>
+              
+              
+          </ul>
+          
+        </div>
+        
+        
+        <div class="col-md-4 col-sm-12">
+          <h5>Contact me:</h5>
+          <ul>
+            
+            <li><span>Email: </span> <span>baluatcomputerscience@outlook.com</span></li>
+            
+          </ul>
+        </div>
+        
+        
+        
+      </div>
+    </div>
+    
+    
+    <hr />
+    <div class="container">
+      <div class="row text-left">
+        <div class="col-md-4">
+        </div>
+        <div class="col-md-4 text-center">© 2021 Copyright.</div>
+        <div class="col-md-4 text-right">
+        </div>
+      </div>
+    </div>
+    
+  </footer>
+
+
+    <script type="text/javascript" src="/js/jquery-3.4.1.min.js"></script>
+<script type="text/javascript" src="/js/popper.min.js"></script>
+<script type="text/javascript" src="/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="/js/navbar.js"></script>
+<script type="text/javascript" src="/js/plyr.js"></script>
+<script type="text/javascript" src="/js/main.js"></script>
+
+
+    
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js"></script>
+<script src="/js/single.js"></script>
+<script>
+  hljs.initHighlightingOnLoad();
+</script>
+
+
+  </body>
+</html>

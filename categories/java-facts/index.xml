@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Java Facts on Bala Subramanyam Lanka</title>
+    <link>https://thisisbalu.github.io/categories/java-facts/</link>
+    <description>Recent content in Java Facts on Bala Subramanyam Lanka</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 17 Oct 2014 04:00:51 +0000</lastBuildDate><atom:link href="https://thisisbalu.github.io/categories/java-facts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Features of Java</title>
+      <link>https://thisisbalu.github.io/features-of-java/</link>
+      <pubDate>Fri, 17 Oct 2014 04:00:51 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/features-of-java/</guid>
+      <description>&lt;p&gt;There are 12 features of Java. Sometimes features of Java are also called as Java Buzzwords. Features are as follows:&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Java Team</title>
+      <link>https://thisisbalu.github.io/java-team/</link>
+      <pubDate>Wed, 15 Oct 2014 14:30:00 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/java-team/</guid>
+      <description>&lt;p&gt;Yes this post is about the people who created Java Language. After thorough search over internet and referring many books i got all the names of the people who made Java a Popular programming language.  James Gosling is the one who lead the team. Following members are the Java Team.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>How Java got started?</title>
+      <link>https://thisisbalu.github.io/how-java-got-started/</link>
+      <pubDate>Tue, 14 Oct 2014 14:30:04 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/how-java-got-started/</guid>
+      <description>&lt;h2 class=&#34;offscreen&#34; id=&#34;how-java-got-started&#34;&gt;How Java got started&lt;/h2&gt;
+&lt;p&gt;Java was conceived by &lt;strong&gt;James Gosling&lt;/strong&gt;, &lt;strong&gt;Patrick Naughton&lt;/strong&gt;, &lt;strong&gt;Chris Warth&lt;/strong&gt;, &lt;strong&gt;Ed Frank&lt;/strong&gt;, and &lt;strong&gt;Mike Sheridan&lt;/strong&gt; at Sun Microsystems, Inc. in 1991. It took 18 months to develop the first working version. This language was initially called “Oak,” but was renamed “Java” in 1995. Between the initial implementation of Oak in the fall of 1992 and the public announcement of Java in the spring of 1995, many more people contributed to the design and evolution of the language. &lt;strong&gt;Bill Joy&lt;/strong&gt;, &lt;strong&gt;Arthur van Hoff&lt;/strong&gt;, &lt;strong&gt;Jonathan Payne&lt;/strong&gt;, &lt;strong&gt;Frank Yellin&lt;/strong&gt;, and &lt;strong&gt;Tim Lindholm&lt;/strong&gt; were key contributors to the maturing of the original prototype.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>The Java Mascot – Duke</title>
+      <link>https://thisisbalu.github.io/the-java-mascot-duke/</link>
+      <pubDate>Tue, 02 Sep 2014 18:40:43 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/the-java-mascot-duke/</guid>
+      <description>&lt;p&gt;Before knowing about the Duke, The Java Mascot let us know about mascot.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;What is a Mascot?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;A mascot is any person, animal, or object thought to bring luck or anything used to represent a group with a common public identity, such as a school, professional sports team, society, military unit, or brand name. Mascots are also used as fictional, representative spokespeople for consumer products.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Java Versions and Features</title>
+      <link>https://thisisbalu.github.io/java-versions-and-features/</link>
+      <pubDate>Wed, 27 Aug 2014 19:31:27 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/java-versions-and-features/</guid>
+      <description>&lt;p&gt;Java is the language that is updated with new versions and features frequently. J2SE 8 is the present version of the Java. Lets drive into the history of the Java Versions and Features in detail. All the versions of the Java have their Code Names (&lt;a href=&#34;http://javaindetail.com/2014/08/26/java-code-names/&#34; title=&#34;Java Code Names&#34;&gt;Click here for code names and release dates&lt;/a&gt;) Following are the Versions and Features of Java.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Java Code Names</title>
+      <link>https://thisisbalu.github.io/java-code-names/</link>
+      <pubDate>Tue, 26 Aug 2014 19:20:04 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/java-code-names/</guid>
+      <description>&lt;p&gt;We daily program, daily use Java, daily think about Java but many of us do not know code names of Java versions. Yes code names for each version released till date. Let us know in detail about the Java code names in Java In Detail :)&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

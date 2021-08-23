@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>svg on Bala Subramanyam Lanka</title>
+    <link>https://thisisbalu.github.io/tags/svg/</link>
+    <description>Recent content in svg on Bala Subramanyam Lanka</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 19 Apr 2015 15:39:54 +0000</lastBuildDate><atom:link href="https://thisisbalu.github.io/tags/svg/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Why WordPress restricts uploading SVG files?</title>
+      <link>https://thisisbalu.github.io/why-wordpress-restricts-uploading-svg-files/</link>
+      <pubDate>Sun, 19 Apr 2015 15:39:54 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/why-wordpress-restricts-uploading-svg-files/</guid>
+      <description>&lt;p&gt;WordPress media uploader restricts uploading SVG files into WordPress. It throws an error message “Sorry, this file type is not permitted for security reasons.” Yes! for security reasons WordPress blocks uploading SVG files. Error Dialog will be as follows.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Uploading SVG files through WordPress Media Uploader</title>
+      <link>https://thisisbalu.github.io/uploading-svg-files-through-wordpress-media-uploader/</link>
+      <pubDate>Fri, 17 Apr 2015 17:03:50 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/uploading-svg-files-through-wordpress-media-uploader/</guid>
+      <description>&lt;p&gt;Uploading SVG files through media uploader in WordPress is an issue faced by all the WordPress users or the bloggers who are interested in adding SVG image files in to their posts. SVG (&lt;a href=&#34;http://www.balasubramanyamlanka.com/infinitely-scalable-svg-scalable-vector-graphics/&#34;&gt;Scalable Vector Graphics&lt;/a&gt;) files are very popular because of their infinite scalability.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Advantages of SVG (Scalable Vector Graphics)</title>
+      <link>https://thisisbalu.github.io/advantages-of-svg/</link>
+      <pubDate>Sun, 05 Apr 2015 13:41:28 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/advantages-of-svg/</guid>
+      <description>&lt;p&gt;SVG is trending technology in the internet world. There are many advantages of SVG. In crisp, SVG which stands for &lt;a href=&#34;http://www.balasubramanyamlanka.com/infinitely-scalable-svg-scalable-vector-graphics/&#34;&gt;Scalable Vector Graphics&lt;/a&gt; is used to define vector-based graphics for the Web. It was introduced by W3C in the year 1999 and it became W3C Recommendation from the year 2001&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Inline SVG in WordPress Post</title>
+      <link>https://thisisbalu.github.io/inline-svg-in-wordpress-post/</link>
+      <pubDate>Thu, 02 Apr 2015 17:38:03 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/inline-svg-in-wordpress-post/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://www.balasubramanyamlanka.com/infinitely-scalable-svg-scalable-vector-graphics/&#34;&gt;Scalable Vector Graphics (SVG)&lt;/a&gt; is a trending technology. As SVG is infinitely scalable graphics, it is widely used. There is a problem in using these graphics inside the a WordPress post. Yes, there are two problems with SVG in WordPress post. First thing is that you cannot upload a SVG image into the WordPress uploads and the second one is we cannot use inline SVG in WordPress post.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Infinitely Scalable SVG – Scalable Vector Graphics</title>
+      <link>https://thisisbalu.github.io/infinitely-scalable-svg-scalable-vector-graphics/</link>
+      <pubDate>Wed, 01 Apr 2015 18:09:25 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/infinitely-scalable-svg-scalable-vector-graphics/</guid>
+      <description>&lt;p&gt;Scalable Vector Graphics, widely known as SVG is becoming popular now a days. Scalable Vector Graphics is an open standard that was developed by &lt;a href=&#34;http://en.wikipedia.org/wiki/World_Wide_Web_Consortium&#34;&gt;World Wide Web Consortium(W3C)&lt;/a&gt; in 1999. SVG is an XML based vector image format for 2D Graphics that has support for interactivity and animation. In the year 2003 it became W3c recommendation. It is text based, which means you can create SVG in simple text file. Simply it is an image that will be written in xml with some of the predefined xml attributes and tags.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

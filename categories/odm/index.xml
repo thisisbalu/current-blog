@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ODM on Bala Subramanyam Lanka</title>
+    <link>https://thisisbalu.github.io/categories/odm/</link>
+    <description>Recent content in ODM on Bala Subramanyam Lanka</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 04 Jun 2016 20:00:23 +0000</lastBuildDate><atom:link href="https://thisisbalu.github.io/categories/odm/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>RetePlus Algorithm with Example – IBM ODM</title>
+      <link>https://thisisbalu.github.io/reteplus-algorithm-example/</link>
+      <pubDate>Sat, 04 Jun 2016 20:00:23 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/reteplus-algorithm-example/</guid>
+      <description>&lt;p&gt;RetePlus algorithm is one of the &lt;a href=&#34;http://www.balasubramanyamlanka.com/rule-engine-execution-modes/&#34;&gt;execution modes&lt;/a&gt; in IBM ODM which is based on &lt;a href=&#34;http://www.balasubramanyamlanka.com/rete-algorithm/&#34;&gt;Rete algorithm&lt;/a&gt;. It works based on working memory, agenda creation, supports negative patterns, object notification, and Logical Objects. Use RetePlus optimization techniques to improve performance through reduction of the number of rules and conditions, computation of the rules to run, and prioritization of the rule order.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Synchronizing Rules and RuleDocs – Rule Solutions for Office, ODM</title>
+      <link>https://thisisbalu.github.io/synchronising-rules-ruledocs-rule-solutions-office/</link>
+      <pubDate>Thu, 02 Jun 2016 20:25:15 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/synchronising-rules-ruledocs-rule-solutions-office/</guid>
+      <description>&lt;p class=&#34;shortdesc&#34;&gt;
+  RuleDocs are Microsoft Office documents that contain your rules, decision tables, and ruleflows. Rules and ruleflows are stored in Word documents, while decision tables are stored as spreadsheets in Excel. We use t to edit and manage rules offline. You can also use them to present the rules together with documentation and supporting information, including the original policy or requirement.</description>
+    </item>
+    
+    <item>
+      <title>Rule Solutions for Office Installation – IBM ODM</title>
+      <link>https://thisisbalu.github.io/rule-solutions-office-installation-odm/</link>
+      <pubDate>Tue, 31 May 2016 17:59:20 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/rule-solutions-office-installation-odm/</guid>
+      <description>&lt;p class=&#34;p&#34;&gt;
+  &lt;span class=&#34;keyword&#34;&gt;Rule Solutions for Office&lt;/span&gt; enables you to edit business rules in Microsoft Office documents called RuleDocs. You can update and share rules with RuleDocs, which can also provide supporting documentation and information such as the original policies for the rules. &lt;span class=&#34;keyword&#34;&gt;Rule Solutions &lt;/span&gt;works in conjunction with &lt;span class=&#34;keyword&#34;&gt;Decision Center&lt;/span&gt;, which serves as a workspace for business users to collaborate on authoring, editing, organizing, and searching for business rules.</description>
+    </item>
+    
+    <item>
+      <title>Organizing your application into rule projects – IBM ODM</title>
+      <link>https://thisisbalu.github.io/organizing-application-rule-projects-ibm-odm/</link>
+      <pubDate>Thu, 26 May 2016 01:48:58 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/organizing-application-rule-projects-ibm-odm/</guid>
+      <description>&lt;p&gt;By organizing your rule application as modular rule projects, you can improve the performance of Rule Designer for large rule applications, and facilitate the assignment of permissions in Decision Center&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Development Standards for Execution Object Model (XOM)</title>
+      <link>https://thisisbalu.github.io/development-standards-execution-object-model-xom/</link>
+      <pubDate>Tue, 24 May 2016 19:48:17 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/development-standards-execution-object-model-xom/</guid>
+      <description>&lt;p&gt;The Execution Object Model (XOM) is the model against which the rules run. It references the application objects and data and is the base implementation of the Business Object Model (BOM). Rule projects reference the XOM. Through the Execution Object Model, the rule engine can access application objects and methods, which can be Java objects, XML data, or data from other sources. At run time, rules that were written against the BOM are run against the XOM.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>firing and firinglimit in Rule task – IBM ODM</title>
+      <link>https://thisisbalu.github.io/firing-firinglimit-ruletask-ibm-odm/</link>
+      <pubDate>Fri, 20 May 2016 20:08:14 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/firing-firinglimit-ruletask-ibm-odm/</guid>
+      <description>&lt;p&gt;Configuring the Rule task execution plays the key role in executing the rules in a rule flow. firing and firinglimit are the two rule task properties that help rule execution in a rule flow.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Ruleset Statistics – IBM ODM</title>
+      <link>https://thisisbalu.github.io/ruleset-statistics-ibm-odm/</link>
+      <pubDate>Thu, 19 May 2016 18:40:25 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/ruleset-statistics-ibm-odm/</guid>
+      <description>&lt;p&gt;A ruleset is a collection of rules and is the smallest executable unit in IBM ODM. Before it runs, a ruleset is parsed to convert rules into a format that can be executed in memory. The time it takes a ruleset to run the first time it is invoked is the sum of ruleset parsing time and actual ruleset execution time.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Rule Engine Execution Mode – Choosing and Setting in ODM</title>
+      <link>https://thisisbalu.github.io/rule-engine-execution-mode-choosing-setting-odm/</link>
+      <pubDate>Mon, 16 May 2016 16:30:46 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/rule-engine-execution-mode-choosing-setting-odm/</guid>
+      <description>&lt;p&gt;IBM Operational Decision Management has three Rule Engine &lt;a href=&#34;http://www.balasubramanyamlanka.com/rule-engine-execution-modes/&#34;&gt;Execution modes&lt;/a&gt;. The tricky part comes while choosing the appropriate execution mode for the rules in the rule task. To choose the correct execution mode, we should consider all the rules in the rule task. &lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>IBM Operational Decision Management(ODM) Performance Tuning – JVM</title>
+      <link>https://thisisbalu.github.io/ibm-odm-performance-tuning-jvm/</link>
+      <pubDate>Fri, 13 May 2016 16:18:48 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/ibm-odm-performance-tuning-jvm/</guid>
+      <description>&lt;p&gt;JVM tuning is important for IBM ODM (Operational Decision Management) because Decision Server Rules and Decision Server Events are both Java Platform, Enterprise Edition (Java EE) applications that run on WebSphere Application Server. Optimal performance is, therefore, dependent upon the correct tuning of Decision Server, WebSphere Application Server, and the underlying JVM.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Rule Engine Execution Modes</title>
+      <link>https://thisisbalu.github.io/rule-engine-execution-modes/</link>
+      <pubDate>Thu, 15 Oct 2015 19:48:10 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/rule-engine-execution-modes/</guid>
+      <description>&lt;p&gt;The execution of the rules inside the rule engine of IBM Operational Decision Management follows three rule engine execution modes – RetePlus, sequential, and Fastpath execution modes. Execution mode affects which rules are executed and in which order. Execution mode specifies the algorithm used by the rule engine inside Decision Server.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

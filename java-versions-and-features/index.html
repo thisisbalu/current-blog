@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Java Versions and Features</title>
+    <meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+
+<link rel="stylesheet" href="/css/bootstrap.min.css"/>
+<link rel="stylesheet" href="/css/layouts/main.css"/>
+<link rel="stylesheet" href="/css/navigators/navbar.css"/>
+<link rel="stylesheet" href="/css/plyr.css"/>
+<link rel="stylesheet" href="/css/flag-icon.min.css"/>
+
+
+<link href="https://fonts.googleapis.com/css2?family=Muli:wght@300;400;500;600" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" />
+
+
+
+
+  
+
+  
+  
+  
+    
+  
+  
+
+  <link rel="icon" type="image/png" href="/images/logos/favicon-32x32_hu6c0760df4368777065bb45ed9c8928ba_2423_42x0_resize_box_2.png" />
+
+<meta property="og:title" content="Java Versions and Features" />
+<meta property="og:description" content="Java is the language that is updated with new versions and features frequently. J2SE 8 is the present version of the Java. Lets drive into the history of the Java Versions and Features in detail. All the versions of the Java have their Code Names (Click here for code names and release dates) Following are the Versions and Features of Java." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://thisisbalu.github.io/java-versions-and-features/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2014-08-27T19:31:27&#43;00:00" />
+<meta property="article:modified_time" content="2014-08-27T19:31:27&#43;00:00" />
+
+
+
+    
+    
+<meta name="description" content="Java Versions and Features" />
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/atom-one-dark.min.css"
+/>
+<link rel="stylesheet" href="/css/layouts/single.css"/>
+<link rel="stylesheet" href="/css/navigators/sidebar.css">
+
+<link rel="stylesheet" href="/css/style.css"/>
+
+
+
+    
+    
+  </head>
+
+  <body data-spy="scroll" data-target="#TableOfContents" data-offset="80">
+    <div class="container-fluid bg-dimmed wrapper">
+      
+      
+    
+
+
+
+
+
+  
+
+
+  
+
+
+
+
+  
+  
+    
+  
+  
+
+
+
+  
+  
+    
+  
+  
+
+
+<nav class="navbar navbar-expand-xl top-navbar final-navbar shadow">
+  <div class="container">
+      <button class="navbar-toggler navbar-light" id="sidebar-toggler" type="button" onclick="toggleSidebar()">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="/">
+      
+        <img src="/images/logos/apple-icon-114x114_hu10b496cbdd14ccc59d427707b2b76be1_9048_42x0_resize_box_2.png" alt="Logo">
+      Bala Subramanyam Lanka</a>
+    <button class="navbar-toggler navbar-light" id="toc-toggler" type="button" onclick="toggleTOC()">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse lang-selector" id="top-nav-items">
+      <ul class="navbar-nav ml-auto">
+      
+      </ul>
+    </div>
+  </div>
+  
+  
+    <img src="/images/logos/apple-icon-114x114_hu10b496cbdd14ccc59d427707b2b76be1_9048_42x0_resize_box_2.png" class="d-none" id="main-logo" alt="Logo">
+  
+  
+    <img src="/images/logos/apple-icon-114x114_hu10b496cbdd14ccc59d427707b2b76be1_9048_42x0_resize_box_2.png" class="d-none" id="inverted-logo" alt="Inverted Logo">
+  
+</nav>
+
+
+
+      
+      
+  <section class="sidebar-section" id="sidebar-section">
+    <div class="sidebar-holder">
+      <div class="sidebar" id="sidebar">
+        <form class="mx-auto" method="get" action="/search">
+          <input type="text" name="keyword" value="" placeholder="Search" data-search="" id="search-box" />
+        </form>
+        <div class="sidebar-tree">
+          <ul class="tree" id="tree">
+            <li id="list-heading"><a href="/posts" data-filter="all">Posts</a></li>
+            <div class="subtree">
+                
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/sample/" title="Welcome">Welcome</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li>
+      <i class="fas fa-plus-circle"></i><a class="" href="">getting-started</a>
+      
+      <ul class="">
+        
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/2016-09-28-different-brms-tools-market/" title="Github Pages">Github Pages</a></li>
+  
+
+
+      </ul>
+    </li>
+  
+
+
+            </div>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+      
+      
+<section class="content-section" id="content-section">
+  <div class="content">
+    <div class="container p-0 read-area">
+      
+      <div class="hero-area col-sm-12" id="hero-area" style='background-image: url(https://thisisbalu.github.io/images/default-hero.jpg);'>
+      </div>
+
+      
+      <div class="page-content">
+        <div class="author-profile ml-auto align-self-lg-center">
+          <img class="rounded-circle" src='/images/author/balu_hu35c00e1b0d1c2b7ef4062ee49dc08602_54380_120x120_fit_box_2.png' alt="Author Image">
+          <h5 class="author-name">Bala Subramanyam Lanka</h5>
+          <p>August 27, 2014</p>
+        </div>
+
+        <div class="title">
+          <h1>Java Versions and Features</h1>
+        </div>
+        
+        <div class="post-content" id="post-content">
+          <p>Java is the language that is updated with new versions and features frequently. J2SE 8 is the present version of the Java. Lets drive into the history of the Java Versions and Features in detail. All the versions of the Java have their Code Names (<a href="http://javaindetail.com/2014/08/26/java-code-names/" title="Java Code Names">Click here for code names and release dates</a>) Following are the Versions and Features of Java.</p>
+<p><strong>JDK 1.0</strong></p>
+<ol>
+<li>Originally called Oak.</li>
+<li>Initial release.</li>
+<li>The first stable version, JDK 1.0.2, is called Java 1.</li>
+</ol>
+<p><strong>JDK 1.1</strong></p>
+<ol>
+<li>An extensive retooling of the AWT event model.</li>
+<li>Inner classes added to the language.</li>
+<li>JavaBeans.</li>
+<li>JDBC.</li>
+<li>RMI.</li>
+<li>Reflection which supported Introspection only, no modification at runtime was possible.</li>
+<li>JIT(Just In Time) compiler on Microsoft Windows platforms, produced for JavaSoft by Symantec.</li>
+</ol>
+<p><strong>J2SE 1.2</strong></p>
+<ol>
+<li>Collections framework.</li>
+<li>Java String memory map for constants.</li>
+<li>Jar Signer for signing Java ARchive (JAR) files.</li>
+<li>Policy Tool for granting access to system resources.</li>
+<li>Java Foundation Classes (JFC) which consists of Swing 1.0, Drag and Drop, and Java 2D class libraries.</li>
+<li>Java Plug-in</li>
+<li>Scrollable result sets, BLOB, CLOB, batch update, user-defined types in JDBC.</li>
+<li>Audio support in Applets.</li>
+</ol>
+<p><strong>J2SE 1.3</strong></p>
+<ol>
+<li>HotSpot JVM included (the HotSpot JVM was first released in April 1999 for the J2SE 1.2 JVM).</li>
+<li>RMI was modified to support optional compatibility with CORBA.</li>
+<li>Java Naming and Directory Interface (JNDI) included in core libraries (previously available as an extension).</li>
+<li>Java Platform Debugger Architecture (JPDA).</li>
+<li>JavaSound.</li>
+<li>Synthetic proxy classes.</li>
+</ol>
+<p><strong>J2SE 1.4</strong></p>
+<ol>
+<li>Regular expressions.</li>
+<li>Exception chaining allows an exception to encapsulate original lower-level exception.</li>
+<li>Internet Protocol version 6 (IPv6) support.</li>
+<li>Non-blocking IO (named New Input/Output, NIO).</li>
+<li>Logging API.</li>
+<li>Image I/O API for reading and writing images in formats like JPEG and PNG.</li>
+<li>Integrated XML parser and XSLT processor (JAXP).</li>
+<li>Integrated security and cryptography extensions (JCE, JSSE, JAAS).</li>
+<li>Java Web Start included.</li>
+<li>Preferences API.</li>
+</ol>
+<p><strong>J2SE 5.0</strong></p>
+<ol>
+<li>Generics.</li>
+<li>Enhanced for Loop.</li>
+<li>Autoboxing/Unboxing.</li>
+<li>Typesafe Enums.</li>
+<li>Varargs.</li>
+<li>Static Import.</li>
+<li>Metadata (Annotations).</li>
+<li>Instrumentation.</li>
+<li>Automatic stub generation for RMI objects.</li>
+<li>Swing: New skinnable look and feel, called synth.</li>
+<li>The concurrency utilities in package java.util.concurrent.</li>
+<li>Scanner class for parsing data from various input streams and buffers.</li>
+</ol>
+<p><strong>J2SE 6.0</strong></p>
+<ol>
+<li>Scripting Language Support : Generic API for tight integration with scripting languages, and built-in Mozilla JavaScript Rhino integration.</li>
+<li>Dramatic performance improvements for the core platform and Swing.</li>
+<li>Improved Web Service support through JAX-WS.</li>
+<li>JDBC 4.0 support.</li>
+<li>Java Compiler API : an API allowing a Java program to select and invoke a Java Compiler programmatically.</li>
+<li>Upgrade of JAXB to version 2.0: Including integration of a StAX parser.</li>
+<li>Support for pluggable annotations.</li>
+<li>Many GUI improvements, such as integration of SwingWorker in the API, table sorting and filtering, and true Swing double-buffering (eliminating the gray-area effect).</li>
+<li>JVM improvements include: synchronization and compiler performance optimizations, new algorithms and upgrades to existing garbage collection algorithms, and application start-up performance.</li>
+</ol>
+<p><strong>J2SE 7.0</strong></p>
+<ol>
+<li>JVM support for dynamic languages, with the new invokedynamic bytecode under JSR-292,[95] following the prototyping work currently done on the Multi Language Virtual Machine.</li>
+<li>Compressed 64-bit pointers.</li>
+<li>These small language changes (grouped under a project named Coin).
+<ol>
+<li>Strings in switch.</li>
+<li>Automatic resource management in try-statement.</li>
+<li>Improved type inference for generic instance creation, aka the diamond operator &lt;&gt;</li>
+<li>Simplified varargs method declaration.</li>
+<li>Binary integer literals.</li>
+<li>Allowing underscores in numeric literals.</li>
+<li>Catching multiple exception types and rethrowing exceptions with improved type checking.</li>
+</ol>
+</li>
+<li> Concurrency utilities.</li>
+<li>New file I/O library to enhance platform independence and add support for metadata and symbolic links. The new packages are java.nio.file and java.nio.file.attribute</li>
+<li>Timsort is used to sort collections and arrays of objects instead of merge sort.</li>
+<li>Library-level support for elliptic curve cryptography algorithms.</li>
+<li>An XRender pipeline for Java 2D, which improves handling of features specific to modern GPUs.</li>
+<li>New platform APIs for the graphics features originally implemented in version 6u10 as unsupported APIs.</li>
+<li>Enhanced library-level support for new network protocols, including SCTP and Sockets Direct Protocol.</li>
+<li>Upstream updates to XML and Unicode.</li>
+</ol>
+<p><strong>J2SE 8.0</strong></p>
+<ol>
+<li>Lambda Expressions.</li>
+<li>Pipelines and Streams.</li>
+<li>Date and Time API.</li>
+<li>Default Methods.</li>
+<li>Type Annotations.</li>
+<li>Nashhorn JavaScript Engine.</li>
+<li>Concurrent Accumulators.</li>
+<li>Parallel operations.</li>
+<li>PermGen Error Removed.</li>
+<li>TLS SNI.</li>
+</ol>
+        </div>
+
+        
+        
+
+        
+      <hr />
+        
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+  
+
+  
+  
+
+
+<div class="row next-prev-navigator">
+  
+  
+</div>
+
+      <hr />
+      
+      
+      </div>
+    </div>
+  </div>
+  
+  <a id="scroll-to-top" class="btn"><i class="fas fa-chevron-circle-up"></i></a>
+  
+</section>
+
+
+      
+      
+  <section class="toc-section" id="toc-section">
+    
+    <div class="toc-holder">
+      <h5 class="text-center pl-3">Table of Contents</h5>
+      <hr>
+      <div class="toc">
+        <nav id="TableOfContents"></nav>
+      </div>
+    </div>
+    
+  </section>
+
+    </div>
+
+    
+    
+
+
+
+
+
+
+
+
+
+  
+      
+  
+
+
+
+  
+  
+    
+  
+
+  
+  
+    
+  
+
+  
+  
+    
+    
+      
+    
+  
+
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+    
+  
+  
+
+  
+  
+  
+
+  <footer class="container-fluid text-center align-content-center footer pb-2">
+    <div class="container pt-5">
+      <div class="row text-left">
+        
+        <div class="col-md-4 col-sm-12">
+          <h5>Navigation</h5>
+          
+          <ul>
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="/#about">About</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="/#skills">Skills</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="/#experiences">Experience</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="/#education">Education</a>
+                </li>
+              
+              
+          </ul>
+          
+        </div>
+        
+        
+        <div class="col-md-4 col-sm-12">
+          <h5>Contact me:</h5>
+          <ul>
+            
+            <li><span>Email: </span> <span>baluatcomputerscience@outlook.com</span></li>
+            
+          </ul>
+        </div>
+        
+        
+        
+      </div>
+    </div>
+    
+    
+    <hr />
+    <div class="container">
+      <div class="row text-left">
+        <div class="col-md-4">
+        </div>
+        <div class="col-md-4 text-center">© 2021 Copyright.</div>
+        <div class="col-md-4 text-right">
+        </div>
+      </div>
+    </div>
+    
+  </footer>
+
+
+    <script type="text/javascript" src="/js/jquery-3.4.1.min.js"></script>
+<script type="text/javascript" src="/js/popper.min.js"></script>
+<script type="text/javascript" src="/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="/js/navbar.js"></script>
+<script type="text/javascript" src="/js/plyr.js"></script>
+<script type="text/javascript" src="/js/main.js"></script>
+
+
+    
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js"></script>
+<script src="/js/single.js"></script>
+<script>
+  hljs.initHighlightingOnLoad();
+</script>
+
+
+  </body>
+</html>

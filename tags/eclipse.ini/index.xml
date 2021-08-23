@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eclipse.ini on Bala Subramanyam Lanka</title>
+    <link>https://thisisbalu.github.io/tags/eclipse.ini/</link>
+    <description>Recent content in eclipse.ini on Bala Subramanyam Lanka</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 14 May 2016 18:22:48 +0000</lastBuildDate><atom:link href="https://thisisbalu.github.io/tags/eclipse.ini/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Initializing IBM RAD/RSA – eclipse.ini</title>
+      <link>https://thisisbalu.github.io/initialize-ibm-rad-rsa-options-eclipse-ini/</link>
+      <pubDate>Sat, 14 May 2016 18:22:48 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/initialize-ibm-rad-rsa-options-eclipse-ini/</guid>
+      <description>&lt;p&gt;IBM has a mega line up in the IDE business. Some of the IDEs provided by IBM are Eclipse, Rational Application Developer, Rational Software Architect Designer, Rational Business Developer, etc, When it comes to enterprise java development or operational decision management or business modelling, people use mostly RAD/RSA.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>pattern on Bala Subramanyam Lanka</title>
+    <link>https://thisisbalu.github.io/tags/pattern/</link>
+    <description>Recent content in pattern on Bala Subramanyam Lanka</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 21 Sep 2014 14:30:31 +0000</lastBuildDate><atom:link href="https://thisisbalu.github.io/tags/pattern/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to use Regular Expressions in Java – Pattern and Matcher Tutorial</title>
+      <link>https://thisisbalu.github.io/how-to-use-regular-expression-in-java-pattern-and-matcher-tutorial/</link>
+      <pubDate>Sun, 21 Sep 2014 14:30:31 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/how-to-use-regular-expression-in-java-pattern-and-matcher-tutorial/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Pattern Class in Java&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Pattern class is compiled representation of a regular expression. A regular expression, specified as a string, must first be compiled into an instance of this class. The resulting pattern can then be used to create a Matcher object that can match arbitrary character sequences against the regular expression. All of the state involved in performing a match resides in the matcher, so many matcher’s can share the same pattern.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

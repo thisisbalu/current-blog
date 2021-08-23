@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Regex on Bala Subramanyam Lanka</title>
+    <link>https://thisisbalu.github.io/categories/regex/</link>
+    <description>Recent content in Regex on Bala Subramanyam Lanka</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 24 Sep 2014 14:30:54 +0000</lastBuildDate><atom:link href="https://thisisbalu.github.io/categories/regex/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to validate an email using Regex in Java</title>
+      <link>https://thisisbalu.github.io/how-to-validate-an-email-using-regex-in-java/</link>
+      <pubDate>Wed, 24 Sep 2014 14:30:54 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/how-to-validate-an-email-using-regex-in-java/</guid>
+      <description>Validating an email address in Java is quite simple with the Regular Expression(regex). I searched for many of the regular expression and found a simple way of validating an email.
+REGEX FOR EMAIL VALIDATING&amp;lt;blockquote style=&amp;ldquo;style=&amp;ldquo;font-size: 15px;&amp;quot;&amp;gt;
+^[_A-Za-z0-9-]+(.[_A-Za-z0-9-]+)*@[A-Za-z0-9-]+(.[A-Za-z0-9-]+)*(.[A-Za-z]{2,})$ 
+email Validating Tutorial
+package com.javaindetail.emailvalidation;import java.util.regex.Matcher;import java.util.regex.Pattern;public class EmailValidationRegex {private static final String EMAIL_VALIDATION_REGEX = &#34;^[_A-Za-z0-9-]+(\.[_A-Za-z0-9-]+)*@[A-Za-z0-9-]+(\.[A-Za-z0-9-]+)*(\.[A-Za-z]{2,})$&#34;;private static final String EMAIL1 = &#34;baluatcomputerscience@javaindetail.com&#34;;public static void main(String[] args) {Pattern pattern = Pattern.</description>
+    </item>
+    
+    <item>
+      <title>How to use Regular Expressions in Java – String Class Tutorial</title>
+      <link>https://thisisbalu.github.io/how-to-use-regular-expressions-in-java-string-class-tutorial/</link>
+      <pubDate>Mon, 22 Sep 2014 14:30:36 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/how-to-use-regular-expressions-in-java-string-class-tutorial/</guid>
+      <description>&lt;p&gt;We can use Regular Expressions on String class in Java. It can be applied on the following Methods.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;public boolean matches(String regex) – Tells whether or not this string matches the given regular expression.&lt;/li&gt;
+&lt;li&gt;public String[] split(String regex,int limit) –  Splits this string around matches of the given regular expression.&lt;/li&gt;
+&lt;li&gt;public String[] split(String regex) –   Splits this string around matches of the given regular expression.&lt;/li&gt;
+&lt;li&gt;replaceAll(String regex, String replacement) –    Replaces each substring of this string that matches the given regular expression with the given replacement.&lt;/li&gt;
+&lt;li&gt;replaceFirst(String regex, String replacement) –  Replaces the first substring of this string that matches the given regular expression with the given replacement.&lt;/li&gt;
+&lt;/ol&gt;</description>
+    </item>
+    
+    <item>
+      <title>How to use Regular Expressions in Java – Pattern and Matcher Tutorial</title>
+      <link>https://thisisbalu.github.io/how-to-use-regular-expression-in-java-pattern-and-matcher-tutorial/</link>
+      <pubDate>Sun, 21 Sep 2014 14:30:31 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/how-to-use-regular-expression-in-java-pattern-and-matcher-tutorial/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Pattern Class in Java&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Pattern class is compiled representation of a regular expression. A regular expression, specified as a string, must first be compiled into an instance of this class. The resulting pattern can then be used to create a Matcher object that can match arbitrary character sequences against the regular expression. All of the state involved in performing a match resides in the matcher, so many matcher’s can share the same pattern.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>How to use Regular Expressions in Java – Syntaxes</title>
+      <link>https://thisisbalu.github.io/how-to-use-regular-expressions-in-java-syntaxes/</link>
+      <pubDate>Sat, 20 Sep 2014 17:33:55 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/how-to-use-regular-expressions-in-java-syntaxes/</guid>
+      <description>Many languages like Java, Phython, C#, Perl, Groovy and others support Regular Expressions in their own way. Let us see how regular expressions are used and the syntax of different regular expressions in Java.
+Following are the List of Syntaxes
+   Expression  &amp;lt;th&amp;gt; Description &amp;lt;/th&amp;gt;     ^  &amp;lt;td&amp;gt; beginning of line. &amp;lt;/td&amp;gt;     $  &amp;lt;td&amp;gt; end of line. &amp;lt;/td&amp;gt;     .</description>
+    </item>
+    
+    <item>
+      <title>What is meant by Regular Expression and Where it is used in Java</title>
+      <link>https://thisisbalu.github.io/what-is-meant-by-regular-expression-and-where-it-is-used-in-java/</link>
+      <pubDate>Fri, 19 Sep 2014 14:30:40 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/what-is-meant-by-regular-expression-and-where-it-is-used-in-java/</guid>
+      <description>&lt;p&gt;Regular Expression, widely termed as Regex is a sequence of characters which forms a search pattern. It is used to match the patterns in the string or the text. Using the regex we can find a pattern and also we can replace the pattern(speaking in perspective with Java). Always regex is applied to the string or text from left to right.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>collections in java on Bala Subramanyam Lanka</title>
+    <link>https://thisisbalu.github.io/tags/collections-in-java/</link>
+    <description>Recent content in collections in java on Bala Subramanyam Lanka</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 06 Mar 2015 18:33:12 +0000</lastBuildDate><atom:link href="https://thisisbalu.github.io/tags/collections-in-java/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Selecting Appropriate Collection in Java</title>
+      <link>https://thisisbalu.github.io/selecting-appropriate-collection-in-java/</link>
+      <pubDate>Fri, 06 Mar 2015 18:33:12 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/selecting-appropriate-collection-in-java/</guid>
+      <description>&lt;p&gt;Collections in java is one of the important concept, that will help developers to minimise the coding efforts and increase the code efficiency. Of course everyone knows this fact. I always had a confusion between arraylist and the vector, Hashmap and Identity HashMap, HashMap and TreeMap and many! Selecting appropriate collection in java is a challenge. You can find the roadmap for selecting the correct collection while coding. Everything is self explanatory in the image.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

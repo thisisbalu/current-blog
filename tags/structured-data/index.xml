@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>structured data on Bala Subramanyam Lanka</title>
+    <link>https://thisisbalu.github.io/tags/structured-data/</link>
+    <description>Recent content in structured data on Bala Subramanyam Lanka</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 15 Apr 2015 17:08:44 +0000</lastBuildDate><atom:link href="https://thisisbalu.github.io/tags/structured-data/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Structured Data</title>
+      <link>https://thisisbalu.github.io/structured-data/</link>
+      <pubDate>Wed, 15 Apr 2015 17:08:44 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/structured-data/</guid>
+      <description>&lt;p&gt;There are many definitions for structured data. The term structured data can be referred as the data that resides in a fixed field within a record or a file. It can be also defined as the data that has a defined length and format. Examples of the structured data include numbers, dates, strings, records in databases, spreadsheets, etc.,. This kind of data can be easily entered, stored, analysed and queried.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

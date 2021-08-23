@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Expert System on Bala Subramanyam Lanka</title>
+    <link>https://thisisbalu.github.io/tags/expert-system/</link>
+    <description>Recent content in Expert System on Bala Subramanyam Lanka</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 22 May 2016 19:39:56 +0000</lastBuildDate><atom:link href="https://thisisbalu.github.io/tags/expert-system/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>What is an Expert System?</title>
+      <link>https://thisisbalu.github.io/expert-system/</link>
+      <pubDate>Sun, 22 May 2016 19:39:56 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/expert-system/</guid>
+      <description>&lt;p&gt;An Expert system is a computer system that uses artificial intelligence methods to solve problems within a specialized domain that ordinarily requires human expertise. They are designed to solve complex problems by reasoning about knowledge, represented primarily as if–then rules rather than through conventional procedural code.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

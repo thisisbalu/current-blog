@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Final Keyword in Java – Three Main Uses</title>
+    <meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+
+<link rel="stylesheet" href="/css/bootstrap.min.css"/>
+<link rel="stylesheet" href="/css/layouts/main.css"/>
+<link rel="stylesheet" href="/css/navigators/navbar.css"/>
+<link rel="stylesheet" href="/css/plyr.css"/>
+<link rel="stylesheet" href="/css/flag-icon.min.css"/>
+
+
+<link href="https://fonts.googleapis.com/css2?family=Muli:wght@300;400;500;600" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" />
+
+
+
+
+  
+
+  
+  
+  
+    
+  
+  
+
+  <link rel="icon" type="image/png" href="/images/logos/favicon-32x32_hu6c0760df4368777065bb45ed9c8928ba_2423_42x0_resize_box_2.png" />
+
+<meta property="og:title" content="Final Keyword in Java – Three Main Uses" />
+<meta property="og:description" content="In Java, the keyword final is a simple but powerful tool that allows us to write code that is more readable, enables the compiler to catch some logic errors, and prevents accidental misuse of classes and member functions.
+Final keyword has mainly THREE USES as listed below
+
+a final class cannot be inherited.
+a final method cannot be overridden.
+final data members, parameters and local variables cannot change once they are declared with final keyword.
+" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://thisisbalu.github.io/final-keyword-in-java-three-main-uses/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2014-09-18T14:30:00&#43;00:00" />
+<meta property="article:modified_time" content="2014-09-18T14:30:00&#43;00:00" />
+
+
+
+    
+    
+<meta name="description" content="Final Keyword in Java – Three Main Uses" />
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/atom-one-dark.min.css"
+/>
+<link rel="stylesheet" href="/css/layouts/single.css"/>
+<link rel="stylesheet" href="/css/navigators/sidebar.css">
+
+<link rel="stylesheet" href="/css/style.css"/>
+
+
+
+    
+    
+  </head>
+
+  <body data-spy="scroll" data-target="#TableOfContents" data-offset="80">
+    <div class="container-fluid bg-dimmed wrapper">
+      
+      
+    
+
+
+
+
+
+  
+
+
+  
+
+
+
+
+  
+  
+    
+  
+  
+
+
+
+  
+  
+    
+  
+  
+
+
+<nav class="navbar navbar-expand-xl top-navbar final-navbar shadow">
+  <div class="container">
+      <button class="navbar-toggler navbar-light" id="sidebar-toggler" type="button" onclick="toggleSidebar()">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="/">
+      
+        <img src="/images/logos/apple-icon-114x114_hu10b496cbdd14ccc59d427707b2b76be1_9048_42x0_resize_box_2.png" alt="Logo">
+      Bala Subramanyam Lanka</a>
+    <button class="navbar-toggler navbar-light" id="toc-toggler" type="button" onclick="toggleTOC()">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse lang-selector" id="top-nav-items">
+      <ul class="navbar-nav ml-auto">
+      
+      </ul>
+    </div>
+  </div>
+  
+  
+    <img src="/images/logos/apple-icon-114x114_hu10b496cbdd14ccc59d427707b2b76be1_9048_42x0_resize_box_2.png" class="d-none" id="main-logo" alt="Logo">
+  
+  
+    <img src="/images/logos/apple-icon-114x114_hu10b496cbdd14ccc59d427707b2b76be1_9048_42x0_resize_box_2.png" class="d-none" id="inverted-logo" alt="Inverted Logo">
+  
+</nav>
+
+
+
+      
+      
+  <section class="sidebar-section" id="sidebar-section">
+    <div class="sidebar-holder">
+      <div class="sidebar" id="sidebar">
+        <form class="mx-auto" method="get" action="/search">
+          <input type="text" name="keyword" value="" placeholder="Search" data-search="" id="search-box" />
+        </form>
+        <div class="sidebar-tree">
+          <ul class="tree" id="tree">
+            <li id="list-heading"><a href="/posts" data-filter="all">Posts</a></li>
+            <div class="subtree">
+                
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/sample/" title="Welcome">Welcome</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li>
+      <i class="fas fa-plus-circle"></i><a class="" href="">getting-started</a>
+      
+      <ul class="">
+        
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/2016-09-28-different-brms-tools-market/" title="Github Pages">Github Pages</a></li>
+  
+
+
+      </ul>
+    </li>
+  
+
+
+            </div>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+      
+      
+<section class="content-section" id="content-section">
+  <div class="content">
+    <div class="container p-0 read-area">
+      
+      <div class="hero-area col-sm-12" id="hero-area" style='background-image: url(https://thisisbalu.github.io/images/default-hero.jpg);'>
+      </div>
+
+      
+      <div class="page-content">
+        <div class="author-profile ml-auto align-self-lg-center">
+          <img class="rounded-circle" src='/images/author/balu_hu35c00e1b0d1c2b7ef4062ee49dc08602_54380_120x120_fit_box_2.png' alt="Author Image">
+          <h5 class="author-name">Bala Subramanyam Lanka</h5>
+          <p>September 18, 2014</p>
+        </div>
+
+        <div class="title">
+          <h1>Final Keyword in Java – Three Main Uses</h1>
+        </div>
+        
+        <div class="post-content" id="post-content">
+          <p>In Java, the keyword final is a simple but powerful tool that allows us to write code that is more readable, enables the compiler to catch some logic errors, and prevents accidental misuse of classes and member functions.</p>
+<p>Final keyword has mainly THREE USES as listed below</p>
+<ol>
+<li>a final class cannot be inherited.</li>
+<li>a final method cannot be overridden.</li>
+<li>final data members, parameters and local variables cannot change once they are declared with final keyword.</li>
+</ol>
+<p><strong>Usage of Final in Class Tutorial</strong></p>
+<pre><code class="language-java" prism="1">
+package com.javaindetail.finaluses;
+
+
+final class FinalTutorial {
+  public void display() {
+    System.out.println("hello javaindetail");
+  }
+}
+
+public class FinalClass extends FinalTutorial{
+  public static void main(String[] args) {
+    System.out.println("final tutorial");
+  }
+}
+
+</code></pre>
+<p>** Output**</p>
+<pre><code class="language-java" prism="1">
+Exception in thread "main" java.lang.Error: Unresolved compilation problem: 
+	at com.javaindetail.finaluses.FinalClass.main(FinalClass.java:12)
+</code></pre>
+<p><strong>Usage of Final in method Tutorial</strong></p>
+<pre><code class="language-java" prism="1">
+package com.javaindetail.finaluses;
+
+class FinalTutorial {
+  final public void display() {
+    System.out.println("hello javaindetail");
+  }
+}
+
+public class FinalClass extends FinalTutorial {
+  public void display() {
+    System.out.println("hello from final class");
+  }
+
+  public static void main(String[] args) {
+    FinalClass class1 = new FinalClass();
+    class1.display();
+  }
+}
+</code></pre>
+<p><strong>Output</strong></p>
+<pre><code class="language-java" prism="1">
+java.lang.VerifyError: class com.javaindetail.finaluses.FinalClass overrides final method display.()V
+at java.lang.ClassLoader.defineClass1(Native Method)
+at java.lang.ClassLoader.defineClassCond(Unknown Source)
+at java.lang.ClassLoader.defineClass(Unknown Source)
+at java.security.SecureClassLoader.defineClass(Unknown Source)
+at java.net.URLClassLoader.defineClass(Unknown Source)
+at java.net.URLClassLoader.access$000(Unknown Source)
+at java.net.URLClassLoader$1.run(Unknown Source)
+at java.security.AccessController.doPrivileged(Native Method)
+at java.net.URLClassLoader.findClass(Unknown Source)
+at java.lang.ClassLoader.loadClass(Unknown Source)
+at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+at java.lang.ClassLoader.loadClass(Unknown Source)
+Exception in thread "main"
+</code></pre>
+<p><strong>Final Usage in Variables Tutorial</strong></p>
+<pre><code class="language-java" prism="1">
+package com.javaindetail.finaluses;
+
+public class FinalVariables {
+
+  public static void main(String[] args) {
+    
+    final int a = 10;
+    final String str = "javaindetail";
+    
+    System.out.println("value of a is "+a);
+    System.out.println("valuee of str is "+str);
+    
+    a = 20;
+    str = "com";
+
+  }
+
+}
+</code></pre>
+<p>** Output**</p>
+<pre><code class="language-java" prism="1">
+Exception in thread "main" java.lang.Error: Unresolved compilation problems: 
+	The final local variable a cannot be assigned. It must be blank and not using a compound assignment
+	The final local variable str cannot be assigned. It must be blank and not using a compound assignment
+
+	at com.javaindetail.finaluses.FinalVariables.main(FinalVariables.java:13)
+</code></pre><blockquote>
+</blockquote>
+        </div>
+
+        
+        
+
+        
+      <hr />
+        
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+  
+
+  
+  
+
+
+<div class="row next-prev-navigator">
+  
+  
+</div>
+
+      <hr />
+      
+      
+      </div>
+    </div>
+  </div>
+  
+  <a id="scroll-to-top" class="btn"><i class="fas fa-chevron-circle-up"></i></a>
+  
+</section>
+
+
+      
+      
+  <section class="toc-section" id="toc-section">
+    
+    <div class="toc-holder">
+      <h5 class="text-center pl-3">Table of Contents</h5>
+      <hr>
+      <div class="toc">
+        <nav id="TableOfContents"></nav>
+      </div>
+    </div>
+    
+  </section>
+
+    </div>
+
+    
+    
+
+
+
+
+
+
+
+
+
+  
+      
+  
+
+
+
+  
+  
+    
+  
+
+  
+  
+    
+  
+
+  
+  
+    
+    
+      
+    
+  
+
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+    
+  
+  
+
+  
+  
+  
+
+  <footer class="container-fluid text-center align-content-center footer pb-2">
+    <div class="container pt-5">
+      <div class="row text-left">
+        
+        <div class="col-md-4 col-sm-12">
+          <h5>Navigation</h5>
+          
+          <ul>
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="/#about">About</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="/#skills">Skills</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="/#experiences">Experience</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="/#education">Education</a>
+                </li>
+              
+              
+          </ul>
+          
+        </div>
+        
+        
+        <div class="col-md-4 col-sm-12">
+          <h5>Contact me:</h5>
+          <ul>
+            
+            <li><span>Email: </span> <span>baluatcomputerscience@outlook.com</span></li>
+            
+          </ul>
+        </div>
+        
+        
+        
+      </div>
+    </div>
+    
+    
+    <hr />
+    <div class="container">
+      <div class="row text-left">
+        <div class="col-md-4">
+        </div>
+        <div class="col-md-4 text-center">© 2021 Copyright.</div>
+        <div class="col-md-4 text-right">
+        </div>
+      </div>
+    </div>
+    
+  </footer>
+
+
+    <script type="text/javascript" src="/js/jquery-3.4.1.min.js"></script>
+<script type="text/javascript" src="/js/popper.min.js"></script>
+<script type="text/javascript" src="/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="/js/navbar.js"></script>
+<script type="text/javascript" src="/js/plyr.js"></script>
+<script type="text/javascript" src="/js/main.js"></script>
+
+
+    
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js"></script>
+<script src="/js/single.js"></script>
+<script>
+  hljs.initHighlightingOnLoad();
+</script>
+
+
+  </body>
+</html>

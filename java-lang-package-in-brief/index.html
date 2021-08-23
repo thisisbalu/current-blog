@@ -1,0 +1,1376 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>java.lang package in brief</title>
+    <meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+
+<link rel="stylesheet" href="/css/bootstrap.min.css"/>
+<link rel="stylesheet" href="/css/layouts/main.css"/>
+<link rel="stylesheet" href="/css/navigators/navbar.css"/>
+<link rel="stylesheet" href="/css/plyr.css"/>
+<link rel="stylesheet" href="/css/flag-icon.min.css"/>
+
+
+<link href="https://fonts.googleapis.com/css2?family=Muli:wght@300;400;500;600" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" />
+
+
+
+
+  
+
+  
+  
+  
+    
+  
+  
+
+  <link rel="icon" type="image/png" href="/images/logos/favicon-32x32_hu6c0760df4368777065bb45ed9c8928ba_2423_42x0_resize_box_2.png" />
+
+<meta property="og:title" content="java.lang package in brief" />
+<meta property="og:description" content="How many classes, interfaces, Exceptions, Errors, Annotations, Enums are there in java.lang? What are the classes, interfaces, Exceptions, Errors, Annotations, Enums present in java.lang package? Lets see in brief.
+This post is just briefing of the java.lang package." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://thisisbalu.github.io/java-lang-package-in-brief/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2014-08-17T17:35:41&#43;00:00" />
+<meta property="article:modified_time" content="2014-08-17T17:35:41&#43;00:00" />
+
+
+
+    
+    
+<meta name="description" content="java.lang package in brief" />
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/atom-one-dark.min.css"
+/>
+<link rel="stylesheet" href="/css/layouts/single.css"/>
+<link rel="stylesheet" href="/css/navigators/sidebar.css">
+
+<link rel="stylesheet" href="/css/style.css"/>
+
+
+
+    
+    
+  </head>
+
+  <body data-spy="scroll" data-target="#TableOfContents" data-offset="80">
+    <div class="container-fluid bg-dimmed wrapper">
+      
+      
+    
+
+
+
+
+
+  
+
+
+  
+
+
+
+
+  
+  
+    
+  
+  
+
+
+
+  
+  
+    
+  
+  
+
+
+<nav class="navbar navbar-expand-xl top-navbar final-navbar shadow">
+  <div class="container">
+      <button class="navbar-toggler navbar-light" id="sidebar-toggler" type="button" onclick="toggleSidebar()">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="/">
+      
+        <img src="/images/logos/apple-icon-114x114_hu10b496cbdd14ccc59d427707b2b76be1_9048_42x0_resize_box_2.png" alt="Logo">
+      Bala Subramanyam Lanka</a>
+    <button class="navbar-toggler navbar-light" id="toc-toggler" type="button" onclick="toggleTOC()">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse lang-selector" id="top-nav-items">
+      <ul class="navbar-nav ml-auto">
+      
+      </ul>
+    </div>
+  </div>
+  
+  
+    <img src="/images/logos/apple-icon-114x114_hu10b496cbdd14ccc59d427707b2b76be1_9048_42x0_resize_box_2.png" class="d-none" id="main-logo" alt="Logo">
+  
+  
+    <img src="/images/logos/apple-icon-114x114_hu10b496cbdd14ccc59d427707b2b76be1_9048_42x0_resize_box_2.png" class="d-none" id="inverted-logo" alt="Inverted Logo">
+  
+</nav>
+
+
+
+      
+      
+  <section class="sidebar-section" id="sidebar-section">
+    <div class="sidebar-holder">
+      <div class="sidebar" id="sidebar">
+        <form class="mx-auto" method="get" action="/search">
+          <input type="text" name="keyword" value="" placeholder="Search" data-search="" id="search-box" />
+        </form>
+        <div class="sidebar-tree">
+          <ul class="tree" id="tree">
+            <li id="list-heading"><a href="/posts" data-filter="all">Posts</a></li>
+            <div class="subtree">
+                
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/sample/" title="Welcome">Welcome</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li>
+      <i class="fas fa-plus-circle"></i><a class="" href="">getting-started</a>
+      
+      <ul class="">
+        
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/2016-09-28-different-brms-tools-market/" title="Github Pages">Github Pages</a></li>
+  
+
+
+      </ul>
+    </li>
+  
+
+
+            </div>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+      
+      
+<section class="content-section" id="content-section">
+  <div class="content">
+    <div class="container p-0 read-area">
+      
+      <div class="hero-area col-sm-12" id="hero-area" style='background-image: url(https://thisisbalu.github.io/images/default-hero.jpg);'>
+      </div>
+
+      
+      <div class="page-content">
+        <div class="author-profile ml-auto align-self-lg-center">
+          <img class="rounded-circle" src='/images/author/balu_hu35c00e1b0d1c2b7ef4062ee49dc08602_54380_120x120_fit_box_2.png' alt="Author Image">
+          <h5 class="author-name">Bala Subramanyam Lanka</h5>
+          <p>August 17, 2014</p>
+        </div>
+
+        <div class="title">
+          <h1>java.lang package in brief</h1>
+        </div>
+        
+        <div class="post-content" id="post-content">
+          <p>How many classes, interfaces, Exceptions, Errors, Annotations, Enums are there in java.lang? What are the classes, interfaces, Exceptions, Errors, Annotations, Enums present in java.lang package? Lets see in brief.</p>
+<p>This post is just briefing of the java.lang package.</p>
+<p>There are <strong>35 classes</strong> in java.lang package as follows.</p>
+<table>
+  <tr>
+    <th colspan="2">
+      Class Summary
+    </th>
+  </tr>
+  <tr>
+    <td>
+      Name
+    </td>
+<pre><code>&lt;td&gt;
+  Description
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      Boolean
+    </td>
+<pre><code>&lt;td&gt;
+  The Boolean class wraps a value of the primitive type boolean in an object.
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      Byte
+    </td>
+<pre><code>&lt;td&gt;
+  The Byte class wraps a value of primitive type byte in an object.
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      Character
+    </td>
+<pre><code>&lt;td&gt;
+  The Character class wraps a value of the primitive type char in an object.
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      Character.Subset
+    </td>
+<pre><code>&lt;td&gt;
+  Instances of this class represent particular subsets of the Unicode character set.
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      Character.UnicodeBlock
+    </td>
+<pre><code>&lt;td&gt;
+  A family of character subsets representing the character blocks in the Unicode specification.
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      Class<T>
+    </td>
+<pre><code>&lt;td&gt;
+  Instances of the class Class represent classes and interfaces in a running Java application.
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      ClassLoader
+    </td>
+<pre><code>&lt;td&gt;
+  A class loader is an object that is responsible for loading classes.
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      Compiler
+    </td>
+<pre><code>&lt;td&gt;
+  The Compiler class is provided to support Java-to-native-code compilers and related services.
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      Double
+    </td>
+<pre><code>&lt;td&gt;
+  The Double class wraps a value of the primitive type double in an object.
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      Enum<E extends Enum<E>>
+    </td>
+<pre><code>&lt;td&gt;
+  This is the common base class of all Java language enumeration types.
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      Float
+    </td>
+<pre><code>&lt;td&gt;
+  The Float class wraps a value of primitive type float in an object.
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      InheritableThreadLocal<T>
+    </td>
+<pre><code>&lt;td&gt;
+  This class extends ThreadLocal to provide inheritance of values from parent thread to child thread: when a child thread is created, the child receives initial values for all inheritable thread-local variables for which the parent has values.
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      Integer
+    </td>
+<pre><code>&lt;td&gt;
+  The Integer class wraps a value of the primitive type int in an object.
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      Long
+    </td>
+<pre><code>&lt;td&gt;
+  The Long class wraps a value of the primitive type long in an object.
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      Math
+    </td>
+<pre><code>&lt;td&gt;
+  The class Math contains methods for performing basic numeric operations such as the elementary exponential, logarithm, square root, and trigonometric functions.
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      Number
+    </td>
+<pre><code>&lt;td&gt;
+  The abstract class Number is the superclass of classes BigDecimal, BigInteger, Byte, Double, Float, Integer, Long, and Short.
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      Object
+    </td>
+<pre><code>&lt;td&gt;
+  Class Object is the root of the class hierarchy.
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      Package
+    </td>
+<pre><code>&lt;td&gt;
+  Package objects contain version information about the implementation and specification of a Java package.
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      Process
+    </td>
+<pre><code>&lt;td&gt;
+  The ProcessBuilder.start() and Runtime.exec methods create a native process and return an instance of a subclass of Process that can be used to control the process and obtain information about it.
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      ProcessBuilder
+    </td>
+<pre><code>&lt;td&gt;
+  This class is used to create operating system processes.
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      Runtime
+    </td>
+<pre><code>&lt;td&gt;
+  Every Java application has a single instance of class Runtime that allows the application to interface with the environment in which the application is running.
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      RuntimePermission
+    </td>
+<pre><code>&lt;td&gt;
+  This class is for runtime permissions.
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      SecurityManager
+    </td>
+<pre><code>&lt;td&gt;
+  The security manager is a class that allows applications to implement a security policy.
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      Short
+    </td>
+<pre><code>&lt;td&gt;
+  The Short class wraps a value of primitive type short in an object.
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      StackTraceElement
+    </td>
+<pre><code>&lt;td&gt;
+  An element in a stack trace, as returned by Throwable.getStackTrace().
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      StrictMath
+    </td>
+<pre><code>&lt;td&gt;
+  The class StrictMath contains methods for performing basic numeric operations such as the elementary exponential, logarithm, square root, and trigonometric functions.
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      String
+    </td>
+<pre><code>&lt;td&gt;
+  The String class represents character strings.
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      StringBuffer
+    </td>
+<pre><code>&lt;td&gt;
+  A thread-safe, mutable sequence of characters.
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      StringBuilder
+    </td>
+<pre><code>&lt;td&gt;
+  A mutable sequence of characters.
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      System
+    </td>
+<pre><code>&lt;td&gt;
+  The System class contains several useful class fields and methods.
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      Thread
+    </td>
+<pre><code>&lt;td&gt;
+  A thread is a thread of execution in a program.
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      ThreadGroup
+    </td>
+<pre><code>&lt;td&gt;
+  A thread group represents a set of threads.
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      ThreadLocal<T>
+    </td>
+<pre><code>&lt;td&gt;
+  This class provides thread-local variables.
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      Throwable
+    </td>
+<pre><code>&lt;td&gt;
+  The Throwable class is the superclass of all errors and exceptions in the Java language.
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      Void
+    </td>
+<pre><code>&lt;td&gt;
+  The Void class is an uninstantiable placeholder class to hold a reference to the Class object representing the Java keyword void.
+&lt;/td&gt;
+</code></pre>
+  </tr>
+</table>
+<p>There are <strong>9 Interfaces</strong> in java.lang package</p>
+<table>
+  <tr>
+    <th colspan="2">
+      Interface Summary
+    </th>
+  </tr>
+  <tr>
+    <td>
+      Name
+    </td>
+<pre><code>&lt;td&gt;
+  Description
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      Appendable
+    </td>
+<pre><code>&lt;td&gt;
+  An object to which char sequences and values can be appended.
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      CharSequence
+    </td>
+<pre><code>&lt;td&gt;
+  A CharSequence is a readable sequence of char values.
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      Cloneable
+    </td>
+<pre><code>&lt;td&gt;
+  A class implements the Cloneable interface to indicate to the Object.clone() method that it is legal for that method to make a field-for-field copy of instances of that class.
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      Comparable<T>
+    </td>
+<pre><code>&lt;td&gt;
+  This interface imposes a total ordering on the objects of each class that implements it.
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      Iterable<T>
+    </td>
+<pre><code>&lt;td&gt;
+  Implementing this interface allows an object to be the target of the &amp;#8220;foreach&amp;#8221; statement.
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      Readable
+    </td>
+<pre><code>&lt;td&gt;
+  A Readable is a source of characters.
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      Runnable
+    </td>
+<pre><code>&lt;td&gt;
+  The Runnable interface should be implemented by any class whose instances are intended to be executed by a thread.
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      Thread.UncaughtExceptionHandler
+    </td>
+<pre><code>&lt;td&gt;
+  Interface for handlers invoked when a Thread abruptly terminates due to an uncaught exception.
+&lt;/td&gt;
+</code></pre>
+  </tr>
+</table>
+<p>There is <strong>1 Enum</strong> in java.lang package</p>
+<table>
+  <tr>
+    <th colspan="2">
+      Enum Summary
+    </th>
+  </tr>
+  <tr>
+    <td>
+      Name
+    </td>
+<pre><code>&lt;td&gt;
+  Description
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      Thread.State
+    </td>
+<pre><code>&lt;td&gt;
+  A thread state.
+&lt;/td&gt;
+</code></pre>
+  </tr>
+</table>
+<p>There <strong>26 Exceptions</strong> in java.lang package</p>
+<table>
+  <tr>
+    <th colspan="2">
+      Exception Summary
+    </th>
+  </tr>
+  <tr>
+    <td>
+      Name
+    </td>
+<pre><code>&lt;td&gt;
+  Description
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      ArithmeticException
+    </td>
+<pre><code>&lt;td&gt;
+  Thrown when an exceptional arithmetic condition has occurred.
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      ArrayIndexOutOfBoundsException
+    </td>
+<pre><code>&lt;td&gt;
+  Thrown to indicate that an array has been accessed with an illegal index.
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      ArrayStoreException
+    </td>
+<pre><code>&lt;td&gt;
+  Thrown to indicate that an attempt has been made to store the wrong type of object into an array of objects.
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      ClassCastException
+    </td>
+<pre><code>&lt;td&gt;
+  Thrown to indicate that the code has attempted to cast an object to a subclass of which it is not an instance.
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      ClassNotFoundException
+    </td>
+<pre><code>&lt;td&gt;
+  Thrown when an application tries to load in a class through its string name using: The forName method in class Class.
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      CloneNotSupportedException
+    </td>
+<pre><code>&lt;td&gt;
+  Thrown to indicate that the clone method in class Object has been called to clone an object, but that the object&amp;#8217;s class does not implement the Cloneable interface.
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      EnumConstantNotPresentException
+    </td>
+<pre><code>&lt;td&gt;
+  Thrown when an application tries to access an enum constant by name and the enum type contains no constant with the specified name.
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      Exception
+    </td>
+<pre><code>&lt;td&gt;
+  The class Exception and its subclasses are a form of Throwable that indicates conditions that a reasonable application might want to catch.
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      IllegalAccessException
+    </td>
+<pre><code>&lt;td&gt;
+  An IllegalAccessException is thrown when an application tries to reflectively create an instance (other than an array), set or get a field, or invoke a method, but the currently executing method does not have access to the definition of the specified class, field, method or constructor.
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      IllegalArgumentException
+    </td>
+<pre><code>&lt;td&gt;
+  Thrown to indicate that a method has been passed an illegal or inappropriate argument.
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      IllegalMonitorStateException
+    </td>
+<pre><code>&lt;td&gt;
+  Thrown to indicate that a thread has attempted to wait on an object&amp;#8217;s monitor or to notify other threads waiting on an object&amp;#8217;s monitor without owning the specified monitor.
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      IllegalStateException
+    </td>
+<pre><code>&lt;td&gt;
+  Signals that a method has been invoked at an illegal or inappropriate time.
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      IllegalThreadStateException
+    </td>
+<pre><code>&lt;td&gt;
+  Thrown to indicate that a thread is not in an appropriate state for the requested operation.
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      IndexOutOfBoundsException
+    </td>
+<pre><code>&lt;td&gt;
+  Thrown to indicate that an index of some sort (such as to an array, to a string, or to a vector) is out of range.
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      InstantiationException
+    </td>
+<pre><code>&lt;td&gt;
+  Thrown when an application tries to create an instance of a class using the newInstance method in class Class, but the specified class object cannot be instantiated.
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      InterruptedException
+    </td>
+<pre><code>&lt;td&gt;
+  Thrown when a thread is waiting, sleeping, or otherwise occupied, and the thread is interrupted, either before or during the activity.
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      NegativeArraySizeException
+    </td>
+<pre><code>&lt;td&gt;
+  Thrown if an application tries to create an array with negative size.
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      NoSuchFieldException
+    </td>
+<pre><code>&lt;td&gt;
+  Signals that the class doesn&amp;#8217;t have a field of a specified name.
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      NoSuchMethodException
+    </td>
+<pre><code>&lt;td&gt;
+  Thrown when a particular method cannot be found.
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      NullPointerException
+    </td>
+<pre><code>&lt;td&gt;
+  Thrown when an application attempts to use null in a case where an object is required.
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      NumberFormatException
+    </td>
+<pre><code>&lt;td&gt;
+  Thrown to indicate that the application has attempted to convert a string to one of the numeric types, but that the string does not have the appropriate format.
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      RuntimeException
+    </td>
+<pre><code>&lt;td&gt;
+  RuntimeException is the superclass of those exceptions that can be thrown during the normal operation of the Java Virtual Machine.
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      SecurityException
+    </td>
+<pre><code>&lt;td&gt;
+  Thrown by the security manager to indicate a security violation.
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      StringIndexOutOfBoundsException
+    </td>
+<pre><code>&lt;td&gt;
+  Thrown by String methods to indicate that an index is either negative or greater than the size of the string.
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      TypeNotPresentException
+    </td>
+<pre><code>&lt;td&gt;
+  Thrown when an application tries to access a type using a string representing the type&amp;#8217;s name, but no definition for the type with the specified name can be found.
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      UnsupportedOperationException
+    </td>
+<pre><code>&lt;td&gt;
+  Thrown to indicate that the requested operation is not supported.
+&lt;/td&gt;
+</code></pre>
+  </tr>
+</table>
+<p>There are <strong>22 Errors</strong> in java.lang package</p>
+<table>
+  <tr>
+    <th colspan="2">
+      Error Summary
+    </th>
+  </tr>
+  <tr>
+    <td>
+      Name
+    </td>
+<pre><code>&lt;td&gt;
+  Description
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      AbstractMethodError
+    </td>
+<pre><code>&lt;td&gt;
+  Thrown when an application tries to call an abstract method.
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      AssertionError
+    </td>
+<pre><code>&lt;td&gt;
+  Thrown to indicate that an assertion has failed.
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      ClassCircularityError
+    </td>
+<pre><code>&lt;td&gt;
+  Thrown when a circularity has been detected while initializing a class.
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      ClassFormatError
+    </td>
+<pre><code>&lt;td&gt;
+  Thrown when the Java Virtual Machine attempts to read a class file and determines that the file is malformed or otherwise cannot be interpreted as a class file.
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      Error
+    </td>
+<pre><code>&lt;td&gt;
+  An Error is a subclass of Throwable that indicates serious problems that a reasonable application should not try to catch.
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      ExceptionInInitializerError
+    </td>
+<pre><code>&lt;td&gt;
+  Signals that an unexpected exception has occurred in a static initializer.
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      IllegalAccessError
+    </td>
+<pre><code>&lt;td&gt;
+  Thrown if an application attempts to access or modify a field, or to call a method that it does not have access to.
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      IncompatibleClassChangeError
+    </td>
+<pre><code>&lt;td&gt;
+  Thrown when an incompatible class change has occurred to some class definition.
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      InstantiationError
+    </td>
+<pre><code>&lt;td&gt;
+  Thrown when an application tries to use the Java new construct to instantiate an abstract class or an interface.
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      InternalError
+    </td>
+<pre><code>&lt;td&gt;
+  Thrown to indicate some unexpected internal error has occurred in the Java Virtual Machine.
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      LinkageError
+    </td>
+<pre><code>&lt;td&gt;
+  Subclasses of LinkageError indicate that a class has some dependency on another class; however, the latter class has incompatibly changed after the compilation of the former class.
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      NoClassDefFoundError
+    </td>
+<pre><code>&lt;td&gt;
+  Thrown if the Java Virtual Machine or a ClassLoader instance tries to load in the definition of a class (as part of a normal method call or as part of creating a new instance using thenew expression) and no definition of the class could be found.
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      NoSuchFieldError
+    </td>
+<pre><code>&lt;td&gt;
+  Thrown if an application tries to access or modify a specified field of an object, and that object no longer has that field.
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      NoSuchMethodError
+    </td>
+<pre><code>&lt;td&gt;
+  Thrown if an application tries to call a specified method of a class (either static or instance), and that class no longer has a definition of that method.
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      OutOfMemoryError
+    </td>
+<pre><code>&lt;td&gt;
+  Thrown when the Java Virtual Machine cannot allocate an object because it is out of memory, and no more memory could be made available by the garbage collector.
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      StackOverflowError
+    </td>
+<pre><code>&lt;td&gt;
+  Thrown when a stack overflow occurs because an application recurses too deeply.
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      ThreadDeath
+    </td>
+<pre><code>&lt;td&gt;
+  An instance of ThreadDeath is thrown in the victim thread when the stop method with zero arguments in class Thread is called.
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      UnknownError
+    </td>
+<pre><code>&lt;td&gt;
+  Thrown when an unknown but serious exception has occurred in the Java Virtual Machine.
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      UnsatisfiedLinkError
+    </td>
+<pre><code>&lt;td&gt;
+  Thrown if the Java Virtual Machine cannot find an appropriate native-language definition of a method declared native.
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      UnsupportedClassVersionError
+    </td>
+<pre><code>&lt;td&gt;
+  Thrown when the Java Virtual Machine attempts to read a class file and determines that the major and minor version numbers in the file are not supported.
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      VerifyError
+    </td>
+<pre><code>&lt;td&gt;
+  Thrown when the &amp;#8220;verifier&amp;#8221; detects that a class file, though well formed, contains some sort of internal inconsistency or security problem.
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      VirtualMachineError
+    </td>
+<pre><code>&lt;td&gt;
+  Thrown to indicate that the Java Virtual Machine is broken or has run out of resources necessary for it to continue operating.
+&lt;/td&gt;
+</code></pre>
+  </tr>
+</table>
+<p>Also java.lang had <strong>3 Annotations.</strong></p>
+<table>
+  <tr>
+    <th colspan="2">
+      Annotation Types Summary
+    </th>
+  </tr>
+  <tr>
+    <td>
+      Name
+    </td>
+<pre><code>&lt;td&gt;
+  Description
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      Deprecated
+    </td>
+<pre><code>&lt;td&gt;
+  A program element annotated @Deprecated is one that programmers are discouraged from using, typically because it is dangerous, or because a better alternative exists.
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      Override
+    </td>
+<pre><code>&lt;td&gt;
+  Indicates that a method declaration is intended to override a method declaration in a superclass.
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      SuppressWarnings
+    </td>
+<pre><code>&lt;td&gt;
+  Indicates that the named compiler warnings should be suppressed in the annotated element (and in all program elements contained in the annotated element).
+&lt;/td&gt;
+</code></pre>
+  </tr>
+</table>
+        </div>
+
+        
+        
+
+        
+      <hr />
+        
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+  
+
+  
+  
+
+
+<div class="row next-prev-navigator">
+  
+  
+</div>
+
+      <hr />
+      
+      
+      </div>
+    </div>
+  </div>
+  
+  <a id="scroll-to-top" class="btn"><i class="fas fa-chevron-circle-up"></i></a>
+  
+</section>
+
+
+      
+      
+  <section class="toc-section" id="toc-section">
+    
+    <div class="toc-holder">
+      <h5 class="text-center pl-3">Table of Contents</h5>
+      <hr>
+      <div class="toc">
+        <nav id="TableOfContents"></nav>
+      </div>
+    </div>
+    
+  </section>
+
+    </div>
+
+    
+    
+
+
+
+
+
+
+
+
+
+  
+      
+  
+
+
+
+  
+  
+    
+  
+
+  
+  
+    
+  
+
+  
+  
+    
+    
+      
+    
+  
+
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+    
+  
+  
+
+  
+  
+  
+
+  <footer class="container-fluid text-center align-content-center footer pb-2">
+    <div class="container pt-5">
+      <div class="row text-left">
+        
+        <div class="col-md-4 col-sm-12">
+          <h5>Navigation</h5>
+          
+          <ul>
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="/#about">About</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="/#skills">Skills</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="/#experiences">Experience</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="/#education">Education</a>
+                </li>
+              
+              
+          </ul>
+          
+        </div>
+        
+        
+        <div class="col-md-4 col-sm-12">
+          <h5>Contact me:</h5>
+          <ul>
+            
+            <li><span>Email: </span> <span>baluatcomputerscience@outlook.com</span></li>
+            
+          </ul>
+        </div>
+        
+        
+        
+      </div>
+    </div>
+    
+    
+    <hr />
+    <div class="container">
+      <div class="row text-left">
+        <div class="col-md-4">
+        </div>
+        <div class="col-md-4 text-center">© 2021 Copyright.</div>
+        <div class="col-md-4 text-right">
+        </div>
+      </div>
+    </div>
+    
+  </footer>
+
+
+    <script type="text/javascript" src="/js/jquery-3.4.1.min.js"></script>
+<script type="text/javascript" src="/js/popper.min.js"></script>
+<script type="text/javascript" src="/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="/js/navbar.js"></script>
+<script type="text/javascript" src="/js/plyr.js"></script>
+<script type="text/javascript" src="/js/main.js"></script>
+
+
+    
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js"></script>
+<script src="/js/single.js"></script>
+<script>
+  hljs.initHighlightingOnLoad();
+</script>
+
+
+  </body>
+</html>

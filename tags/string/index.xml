@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>String on Bala Subramanyam Lanka</title>
+    <link>https://thisisbalu.github.io/tags/string/</link>
+    <description>Recent content in String on Bala Subramanyam Lanka</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 28 Sep 2014 14:30:53 +0000</lastBuildDate><atom:link href="https://thisisbalu.github.io/tags/string/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to split a String in Java</title>
+      <link>https://thisisbalu.github.io/how-to-split-a-string-in-java/</link>
+      <pubDate>Sun, 28 Sep 2014 14:30:53 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/how-to-split-a-string-in-java/</guid>
+      <description>&lt;p&gt;There are three better ways to split a string in Java.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Using split() method of String Class&lt;/li&gt;
+&lt;li&gt;Using StringTokenizer class of java.util package.&lt;/li&gt;
+&lt;li&gt;Using useDelimiter() of Scanner Class.&lt;/li&gt;
+&lt;/ol&gt;</description>
+    </item>
+    
+    <item>
+      <title>How to use StringTokenizer in Java</title>
+      <link>https://thisisbalu.github.io/how-to-use-stringtokenizer-in-java/</link>
+      <pubDate>Sat, 27 Sep 2014 14:30:33 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/how-to-use-stringtokenizer-in-java/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Package&lt;/strong&gt; : java.util.StringTokenizer&lt;br&gt;
+&lt;strong&gt;Extends&lt;/strong&gt; : java.lang.Object class&lt;br&gt;
+&lt;strong&gt;Implements&lt;/strong&gt; : Enumeration&lt;Object&gt;&lt;br&gt;
+&lt;strong&gt;Brief Description&lt;/strong&gt; : StringTokenizer in java is used to split or break a string into tokens based on a delimiter. Its methods do not distinguish among identifiers, numbers, and quoted strings.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>How to count the occurrences of a character in Java – Three Better Ways</title>
+      <link>https://thisisbalu.github.io/how-to-count-the-occurrences-of-a-character-in-java-three-better-ways/</link>
+      <pubDate>Tue, 23 Sep 2014 14:30:00 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/how-to-count-the-occurrences-of-a-character-in-java-three-better-ways/</guid>
+      <description>&lt;p&gt;There are three ways.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Using charAt – Traditional For Loop&lt;/li&gt;
+&lt;li&gt;Using toCharArray – Enhanced For Loop&lt;/li&gt;
+&lt;li&gt;Using replaceAll – Efficient Way without Looping&lt;/li&gt;
+&lt;/ol&gt;</description>
+    </item>
+    
+    <item>
+      <title>How to use Regular Expressions in Java – String Class Tutorial</title>
+      <link>https://thisisbalu.github.io/how-to-use-regular-expressions-in-java-string-class-tutorial/</link>
+      <pubDate>Mon, 22 Sep 2014 14:30:36 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/how-to-use-regular-expressions-in-java-string-class-tutorial/</guid>
+      <description>&lt;p&gt;We can use Regular Expressions on String class in Java. It can be applied on the following Methods.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;public boolean matches(String regex) – Tells whether or not this string matches the given regular expression.&lt;/li&gt;
+&lt;li&gt;public String[] split(String regex,int limit) –  Splits this string around matches of the given regular expression.&lt;/li&gt;
+&lt;li&gt;public String[] split(String regex) –   Splits this string around matches of the given regular expression.&lt;/li&gt;
+&lt;li&gt;replaceAll(String regex, String replacement) –    Replaces each substring of this string that matches the given regular expression with the given replacement.&lt;/li&gt;
+&lt;li&gt;replaceFirst(String regex, String replacement) –  Replaces the first substring of this string that matches the given regular expression with the given replacement.&lt;/li&gt;
+&lt;/ol&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

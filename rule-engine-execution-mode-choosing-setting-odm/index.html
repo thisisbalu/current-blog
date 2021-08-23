@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Rule Engine Execution Mode – Choosing and Setting in ODM</title>
+    <meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+
+<link rel="stylesheet" href="/css/bootstrap.min.css"/>
+<link rel="stylesheet" href="/css/layouts/main.css"/>
+<link rel="stylesheet" href="/css/navigators/navbar.css"/>
+<link rel="stylesheet" href="/css/plyr.css"/>
+<link rel="stylesheet" href="/css/flag-icon.min.css"/>
+
+
+<link href="https://fonts.googleapis.com/css2?family=Muli:wght@300;400;500;600" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" />
+
+
+
+
+  
+
+  
+  
+  
+    
+  
+  
+
+  <link rel="icon" type="image/png" href="/images/logos/favicon-32x32_hu6c0760df4368777065bb45ed9c8928ba_2423_42x0_resize_box_2.png" />
+
+<meta property="og:title" content="Rule Engine Execution Mode – Choosing and Setting in ODM" />
+<meta property="og:description" content="IBM Operational Decision Management has three Rule Engine Execution modes. The tricky part comes while choosing the appropriate execution mode for the rules in the rule task. To choose the correct execution mode, we should consider all the rules in the rule task. " />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://thisisbalu.github.io/rule-engine-execution-mode-choosing-setting-odm/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2016-05-16T16:30:46&#43;00:00" />
+<meta property="article:modified_time" content="2016-05-16T16:30:46&#43;00:00" />
+
+
+
+    
+    
+<meta name="description" content="Rule Engine Execution Mode – Choosing and Setting in ODM" />
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/atom-one-dark.min.css"
+/>
+<link rel="stylesheet" href="/css/layouts/single.css"/>
+<link rel="stylesheet" href="/css/navigators/sidebar.css">
+
+<link rel="stylesheet" href="/css/style.css"/>
+
+
+
+    
+    
+  </head>
+
+  <body data-spy="scroll" data-target="#TableOfContents" data-offset="80">
+    <div class="container-fluid bg-dimmed wrapper">
+      
+      
+    
+
+
+
+
+
+  
+
+
+  
+
+
+
+
+  
+  
+    
+  
+  
+
+
+
+  
+  
+    
+  
+  
+
+
+<nav class="navbar navbar-expand-xl top-navbar final-navbar shadow">
+  <div class="container">
+      <button class="navbar-toggler navbar-light" id="sidebar-toggler" type="button" onclick="toggleSidebar()">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="/">
+      
+        <img src="/images/logos/apple-icon-114x114_hu10b496cbdd14ccc59d427707b2b76be1_9048_42x0_resize_box_2.png" alt="Logo">
+      Bala Subramanyam Lanka</a>
+    <button class="navbar-toggler navbar-light" id="toc-toggler" type="button" onclick="toggleTOC()">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse lang-selector" id="top-nav-items">
+      <ul class="navbar-nav ml-auto">
+      
+      </ul>
+    </div>
+  </div>
+  
+  
+    <img src="/images/logos/apple-icon-114x114_hu10b496cbdd14ccc59d427707b2b76be1_9048_42x0_resize_box_2.png" class="d-none" id="main-logo" alt="Logo">
+  
+  
+    <img src="/images/logos/apple-icon-114x114_hu10b496cbdd14ccc59d427707b2b76be1_9048_42x0_resize_box_2.png" class="d-none" id="inverted-logo" alt="Inverted Logo">
+  
+</nav>
+
+
+
+      
+      
+  <section class="sidebar-section" id="sidebar-section">
+    <div class="sidebar-holder">
+      <div class="sidebar" id="sidebar">
+        <form class="mx-auto" method="get" action="/search">
+          <input type="text" name="keyword" value="" placeholder="Search" data-search="" id="search-box" />
+        </form>
+        <div class="sidebar-tree">
+          <ul class="tree" id="tree">
+            <li id="list-heading"><a href="/posts" data-filter="all">Posts</a></li>
+            <div class="subtree">
+                
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/sample/" title="Welcome">Welcome</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li>
+      <i class="fas fa-plus-circle"></i><a class="" href="">getting-started</a>
+      
+      <ul class="">
+        
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/2016-09-28-different-brms-tools-market/" title="Github Pages">Github Pages</a></li>
+  
+
+
+      </ul>
+    </li>
+  
+
+
+            </div>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+      
+      
+<section class="content-section" id="content-section">
+  <div class="content">
+    <div class="container p-0 read-area">
+      
+      <div class="hero-area col-sm-12" id="hero-area" style='background-image: url(https://thisisbalu.github.io/images/default-hero.jpg);'>
+      </div>
+
+      
+      <div class="page-content">
+        <div class="author-profile ml-auto align-self-lg-center">
+          <img class="rounded-circle" src='/images/author/balu_hu35c00e1b0d1c2b7ef4062ee49dc08602_54380_120x120_fit_box_2.png' alt="Author Image">
+          <h5 class="author-name">Bala Subramanyam Lanka</h5>
+          <p>May 16, 2016</p>
+        </div>
+
+        <div class="title">
+          <h1>Rule Engine Execution Mode – Choosing and Setting in ODM</h1>
+        </div>
+        
+        <div class="post-content" id="post-content">
+          <p>IBM Operational Decision Management has three Rule Engine <a href="http://www.balasubramanyamlanka.com/rule-engine-execution-modes/">Execution modes</a>. The tricky part comes while choosing the appropriate execution mode for the rules in the rule task. To choose the correct execution mode, we should consider all the rules in the rule task. </p>
+<h2 id="choose-the-rule-engine-execution-mode-as-per-the-below">Choose the Rule Engine Execution mode as per the below</h2>
+<ol>
+<li>If the rules implement an intricate use case where rule chaining is a key feature, use <strong>RetePlus</strong> Mode.</li>
+<li>If the rules are numerous, with randomly ordered sets. If there is no rule chaining in the rule task and the rules perform the basic tests on ruleset parameters, use <strong>Sequential</strong> Mode.</li>
+<li>If the rules are numerous, with shared test patterns (for example, the rules generated by decision tables), or with heterogeneous bindings, and there is no rule chaining within the rule task, use <strong>FastPath</strong> Mode.</li>
+</ol>
+<h2 id="below-table-helps-in-selecting-correct-rule-execution-mode">Below table helps in selecting correct rule execution mode</h2>
+<div class="table-responsive">
+  <table  style="width:100%; "  class="easy-table easy-table-cuscosky " >
+    <tr>
+      <th  style="width:20px;text-align:left" >
+        S.No
+      </th>
+<pre><code>  &lt;th  style=&quot;width:200px;text-align:left&quot; &gt;
+    Rule Task
+  &lt;/th&gt;
+  
+  &lt;th  style=&quot;width:50px;text-align:center&quot; &gt;
+    RetePlus
+  &lt;/th&gt;
+  
+  &lt;th  style=&quot;width:50px;text-align:center&quot; &gt;
+    Sequential
+  &lt;/th&gt;
+  
+  &lt;th  style=&quot;width:50px;text-align:center&quot; &gt;
+    FastPath
+  &lt;/th&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+  &lt;td  style=&quot;text-align:left&quot; &gt;
+    1
+  &lt;/td&gt;
+  
+  &lt;td  style=&quot;text-align:left&quot; &gt;
+    Copliance and Validation application
+  &lt;/td&gt;
+  
+  &lt;td  style=&quot;text-align:center&quot; &gt;
+    No
+  &lt;/td&gt;
+  
+  &lt;td  style=&quot;text-align:center&quot; &gt;
+    Yes
+  &lt;/td&gt;
+  
+  &lt;td  style=&quot;text-align:center&quot; &gt;
+    Yes
+  &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+  &lt;td  style=&quot;text-align:left&quot; &gt;
+    2
+  &lt;/td&gt;
+  
+  &lt;td  style=&quot;text-align:left&quot; &gt;
+    Computation application
+  &lt;/td&gt;
+  
+  &lt;td  style=&quot;text-align:center&quot; &gt;
+    Yes
+  &lt;/td&gt;
+  
+  &lt;td  style=&quot;text-align:center&quot; &gt;
+    No
+  &lt;/td&gt;
+  
+  &lt;td  style=&quot;text-align:center&quot; &gt;
+    No
+  &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+  &lt;td  style=&quot;text-align:left&quot; &gt;
+    3
+  &lt;/td&gt;
+  
+  &lt;td  style=&quot;text-align:left&quot; &gt;
+    Correlation Application
+  &lt;/td&gt;
+  
+  &lt;td  style=&quot;text-align:center&quot; &gt;
+    Yes
+  &lt;/td&gt;
+  
+  &lt;td  style=&quot;text-align:center&quot; &gt;
+    No
+  &lt;/td&gt;
+  
+  &lt;td  style=&quot;text-align:center&quot; &gt;
+    Yes
+  &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+  &lt;td  style=&quot;text-align:left&quot; &gt;
+    4
+  &lt;/td&gt;
+  
+  &lt;td  style=&quot;text-align:left&quot; &gt;
+    Stateful Application
+  &lt;/td&gt;
+  
+  &lt;td  style=&quot;text-align:center&quot; &gt;
+    Yes
+  &lt;/td&gt;
+  
+  &lt;td  style=&quot;text-align:center&quot; &gt;
+    No
+  &lt;/td&gt;
+  
+  &lt;td  style=&quot;text-align:center&quot; &gt;
+    No
+  &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+  &lt;td  style=&quot;text-align:left&quot; &gt;
+    5
+  &lt;/td&gt;
+  
+  &lt;td  style=&quot;text-align:left&quot; &gt;
+    Rule Chaining
+  &lt;/td&gt;
+  
+  &lt;td  style=&quot;text-align:center&quot; &gt;
+    Yes
+  &lt;/td&gt;
+  
+  &lt;td  style=&quot;text-align:center&quot; &gt;
+    No
+  &lt;/td&gt;
+  
+  &lt;td  style=&quot;text-align:center&quot; &gt;
+    No
+  &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+  &lt;td  style=&quot;text-align:left&quot; &gt;
+    6
+  &lt;/td&gt;
+  
+  &lt;td  style=&quot;text-align:left&quot; &gt;
+    Shared Test Patterns
+  &lt;/td&gt;
+  
+  &lt;td  style=&quot;text-align:center&quot; &gt;
+    No
+  &lt;/td&gt;
+  
+  &lt;td  style=&quot;text-align:center&quot; &gt;
+    No
+  &lt;/td&gt;
+  
+  &lt;td  style=&quot;text-align:center&quot; &gt;
+    Yes
+  &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+  &lt;td  style=&quot;text-align:left&quot; &gt;
+    7
+  &lt;/td&gt;
+  
+  &lt;td  style=&quot;text-align:left&quot; &gt;
+    Heterogenous bindings
+  &lt;/td&gt;
+  
+  &lt;td  style=&quot;text-align:center&quot; &gt;
+    Yes
+  &lt;/td&gt;
+  
+  &lt;td  style=&quot;text-align:center&quot; &gt;
+    No
+  &lt;/td&gt;
+  
+  &lt;td  style=&quot;text-align:center&quot; &gt;
+    Yes
+  &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+  &lt;td  style=&quot;text-align:left&quot; &gt;
+    8
+  &lt;/td&gt;
+  
+  &lt;td  style=&quot;text-align:left&quot; &gt;
+    Dynamic Priorities
+  &lt;/td&gt;
+  
+  &lt;td  style=&quot;text-align:center&quot; &gt;
+    Yes
+  &lt;/td&gt;
+  
+  &lt;td  style=&quot;text-align:center&quot; &gt;
+    No
+  &lt;/td&gt;
+  
+  &lt;td  style=&quot;text-align:center&quot; &gt;
+    No
+  &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+  &lt;td  style=&quot;text-align:left&quot; &gt;
+    9
+  &lt;/td&gt;
+  
+  &lt;td  style=&quot;text-align:left&quot; &gt;
+    Runtime rule selection that a few among many
+  &lt;/td&gt;
+  
+  &lt;td  style=&quot;text-align:center&quot; &gt;
+    Yes
+  &lt;/td&gt;
+  
+  &lt;td  style=&quot;text-align:center&quot; &gt;
+    Yes
+  &lt;/td&gt;
+  
+  &lt;td  style=&quot;text-align:center&quot; &gt;
+    No
+  &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+  &lt;td  style=&quot;text-align:left&quot; &gt;
+    10
+  &lt;/td&gt;
+  
+  &lt;td  style=&quot;text-align:left&quot; &gt;
+    Numerous Rules
+  &lt;/td&gt;
+  
+  &lt;td  style=&quot;text-align:center&quot; &gt;
+    No
+  &lt;/td&gt;
+  
+  &lt;td  style=&quot;text-align:center&quot; &gt;
+    Yes
+  &lt;/td&gt;
+  
+  &lt;td  style=&quot;text-align:center&quot; &gt;
+    Yes
+  &lt;/td&gt;
+&lt;/tr&gt;
+</code></pre>
+  </table>
+</div>
+<h2 id="how-to-set-rule-engine-execution-mode-in-odm">How to set Rule Engine Execution Mode in ODM</h2>
+<ol>
+<li>Open the rule flow in the project.</li>
+<li>Click Rule Task in the Properties view.</li>
+<li>Select one of the following algorithms:
+<ul>
+<li><strong>RetePlus</strong>. The default execution mode is set to Fastpath in Operational Decision Manager V8.6, whereas in previous versions the default execution mode is RetePlus. If you want to still use RetePlus with your migrated rule projects, set the default execution mode to RetePlus in the Rule Designer Preferences dialog. Otherwise, you must manually set the execution mode to RetePlus for each newly created rule task.</li>
+<li><strong>Sequential</strong>.</li>
+<li><strong>Fastpath</strong>. As this is the default mode, you do not have to choose Fastpath for a rule task unless you are changing the execution mode back to Fastpath. Also, if you do not need inference, consider switching to Fastpath in rule tasks that were created in a previous release, where the default was RetePlus. All newly created rule tasks take Fastpath by default.</li>
+</ul>
+</li>
+</ol>
+<blockquote>
+<p>The default execution mode is set to Fastpath in Operational Decision Manager V8.6, whereas in previous versions the default execution mode is RetePlus.</p>
+</blockquote>
+<p>Happy Learning! Happy Exploring!!</p>
+<p> </p>
+<p><em><span style="text-decoration: underline;"><strong>Sources</strong></span>:</em></p>
+<ul>
+<li><em><a href="http://www.ibm.com/support/knowledgecenter">http://www.ibm.com/support/knowledgecenter</a></em></li>
+</ul>
+        </div>
+
+        
+        
+
+        
+      <hr />
+        
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+  
+
+  
+  
+
+
+<div class="row next-prev-navigator">
+  
+  
+</div>
+
+      <hr />
+      
+      
+      </div>
+    </div>
+  </div>
+  
+  <a id="scroll-to-top" class="btn"><i class="fas fa-chevron-circle-up"></i></a>
+  
+</section>
+
+
+      
+      
+  <section class="toc-section" id="toc-section">
+    
+    <div class="toc-holder">
+      <h5 class="text-center pl-3">Table of Contents</h5>
+      <hr>
+      <div class="toc">
+        <nav id="TableOfContents">
+  <ul>
+    <li><a href="#choose-the-rule-engine-execution-mode-as-per-the-below">Choose the Rule Engine Execution mode as per the below</a></li>
+    <li><a href="#below-table-helps-in-selecting-correct-rule-execution-mode">Below table helps in selecting correct rule execution mode</a></li>
+    <li><a href="#how-to-set-rule-engine-execution-mode-in-odm">How to set Rule Engine Execution Mode in ODM</a></li>
+  </ul>
+</nav>
+      </div>
+    </div>
+    
+  </section>
+
+    </div>
+
+    
+    
+
+
+
+
+
+
+
+
+
+  
+      
+  
+
+
+
+  
+  
+    
+  
+
+  
+  
+    
+  
+
+  
+  
+    
+    
+      
+    
+  
+
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+    
+  
+  
+
+  
+  
+  
+
+  <footer class="container-fluid text-center align-content-center footer pb-2">
+    <div class="container pt-5">
+      <div class="row text-left">
+        
+        <div class="col-md-4 col-sm-12">
+          <h5>Navigation</h5>
+          
+          <ul>
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="/#about">About</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="/#skills">Skills</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="/#experiences">Experience</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="/#education">Education</a>
+                </li>
+              
+              
+          </ul>
+          
+        </div>
+        
+        
+        <div class="col-md-4 col-sm-12">
+          <h5>Contact me:</h5>
+          <ul>
+            
+            <li><span>Email: </span> <span>baluatcomputerscience@outlook.com</span></li>
+            
+          </ul>
+        </div>
+        
+        
+        
+      </div>
+    </div>
+    
+    
+    <hr />
+    <div class="container">
+      <div class="row text-left">
+        <div class="col-md-4">
+        </div>
+        <div class="col-md-4 text-center">© 2021 Copyright.</div>
+        <div class="col-md-4 text-right">
+        </div>
+      </div>
+    </div>
+    
+  </footer>
+
+
+    <script type="text/javascript" src="/js/jquery-3.4.1.min.js"></script>
+<script type="text/javascript" src="/js/popper.min.js"></script>
+<script type="text/javascript" src="/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="/js/navbar.js"></script>
+<script type="text/javascript" src="/js/plyr.js"></script>
+<script type="text/javascript" src="/js/main.js"></script>
+
+
+    
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js"></script>
+<script src="/js/single.js"></script>
+<script>
+  hljs.initHighlightingOnLoad();
+</script>
+
+
+  </body>
+</html>

@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Development Standards for Execution Object Model (XOM)</title>
+    <meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+
+<link rel="stylesheet" href="/css/bootstrap.min.css"/>
+<link rel="stylesheet" href="/css/layouts/main.css"/>
+<link rel="stylesheet" href="/css/navigators/navbar.css"/>
+<link rel="stylesheet" href="/css/plyr.css"/>
+<link rel="stylesheet" href="/css/flag-icon.min.css"/>
+
+
+<link href="https://fonts.googleapis.com/css2?family=Muli:wght@300;400;500;600" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" />
+
+
+
+
+  
+
+  
+  
+  
+    
+  
+  
+
+  <link rel="icon" type="image/png" href="/images/logos/favicon-32x32_hu6c0760df4368777065bb45ed9c8928ba_2423_42x0_resize_box_2.png" />
+
+<meta property="og:title" content="Development Standards for Execution Object Model (XOM)" />
+<meta property="og:description" content="The Execution Object Model (XOM) is the model against which the rules run. It references the application objects and data and is the base implementation of the Business Object Model (BOM). Rule projects reference the XOM. Through the Execution Object Model, the rule engine can access application objects and methods, which can be Java objects, XML data, or data from other sources. At run time, rules that were written against the BOM are run against the XOM." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://thisisbalu.github.io/development-standards-execution-object-model-xom/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2016-05-24T19:48:17&#43;00:00" />
+<meta property="article:modified_time" content="2016-05-24T19:48:17&#43;00:00" />
+
+
+
+    
+    
+<meta name="description" content="Development Standards for Execution Object Model (XOM)" />
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/atom-one-dark.min.css"
+/>
+<link rel="stylesheet" href="/css/layouts/single.css"/>
+<link rel="stylesheet" href="/css/navigators/sidebar.css">
+
+<link rel="stylesheet" href="/css/style.css"/>
+
+
+
+    
+    
+  </head>
+
+  <body data-spy="scroll" data-target="#TableOfContents" data-offset="80">
+    <div class="container-fluid bg-dimmed wrapper">
+      
+      
+    
+
+
+
+
+
+  
+
+
+  
+
+
+
+
+  
+  
+    
+  
+  
+
+
+
+  
+  
+    
+  
+  
+
+
+<nav class="navbar navbar-expand-xl top-navbar final-navbar shadow">
+  <div class="container">
+      <button class="navbar-toggler navbar-light" id="sidebar-toggler" type="button" onclick="toggleSidebar()">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="/">
+      
+        <img src="/images/logos/apple-icon-114x114_hu10b496cbdd14ccc59d427707b2b76be1_9048_42x0_resize_box_2.png" alt="Logo">
+      Bala Subramanyam Lanka</a>
+    <button class="navbar-toggler navbar-light" id="toc-toggler" type="button" onclick="toggleTOC()">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse lang-selector" id="top-nav-items">
+      <ul class="navbar-nav ml-auto">
+      
+      </ul>
+    </div>
+  </div>
+  
+  
+    <img src="/images/logos/apple-icon-114x114_hu10b496cbdd14ccc59d427707b2b76be1_9048_42x0_resize_box_2.png" class="d-none" id="main-logo" alt="Logo">
+  
+  
+    <img src="/images/logos/apple-icon-114x114_hu10b496cbdd14ccc59d427707b2b76be1_9048_42x0_resize_box_2.png" class="d-none" id="inverted-logo" alt="Inverted Logo">
+  
+</nav>
+
+
+
+      
+      
+  <section class="sidebar-section" id="sidebar-section">
+    <div class="sidebar-holder">
+      <div class="sidebar" id="sidebar">
+        <form class="mx-auto" method="get" action="/search">
+          <input type="text" name="keyword" value="" placeholder="Search" data-search="" id="search-box" />
+        </form>
+        <div class="sidebar-tree">
+          <ul class="tree" id="tree">
+            <li id="list-heading"><a href="/posts" data-filter="all">Posts</a></li>
+            <div class="subtree">
+                
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/sample/" title="Welcome">Welcome</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li>
+      <i class="fas fa-plus-circle"></i><a class="" href="">getting-started</a>
+      
+      <ul class="">
+        
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/2016-09-28-different-brms-tools-market/" title="Github Pages">Github Pages</a></li>
+  
+
+
+      </ul>
+    </li>
+  
+
+
+            </div>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+      
+      
+<section class="content-section" id="content-section">
+  <div class="content">
+    <div class="container p-0 read-area">
+      
+      <div class="hero-area col-sm-12" id="hero-area" style='background-image: url(https://thisisbalu.github.io/images/default-hero.jpg);'>
+      </div>
+
+      
+      <div class="page-content">
+        <div class="author-profile ml-auto align-self-lg-center">
+          <img class="rounded-circle" src='/images/author/balu_hu35c00e1b0d1c2b7ef4062ee49dc08602_54380_120x120_fit_box_2.png' alt="Author Image">
+          <h5 class="author-name">Bala Subramanyam Lanka</h5>
+          <p>May 24, 2016</p>
+        </div>
+
+        <div class="title">
+          <h1>Development Standards for Execution Object Model (XOM)</h1>
+        </div>
+        
+        <div class="post-content" id="post-content">
+          <p>The Execution Object Model (XOM) is the model against which the rules run. It references the application objects and data and is the base implementation of the Business Object Model (BOM). Rule projects reference the XOM. Through the Execution Object Model, the rule engine can access application objects and methods, which can be Java objects, XML data, or data from other sources. At run time, rules that were written against the BOM are run against the XOM.</p>
+<figure id="attachment_1396" aria-describedby="caption-attachment-1396" style="width: 558px" class="wp-caption aligncenter">
+<p><a href="http://www.balasubramanyamlanka.com/wp-content/uploads/2016/05/Execution-Object-Model-XOM.png"><img loading="lazy" class="size-full wp-image-1396" src="http://www.balasubramanyamlanka.com/wp-content/uploads/2016/05/Execution-Object-Model-XOM.png" alt="Execution Object Model (XOM)" width="558" height="241" srcset="http://www.balasubramanyamlanka.com/wp-content/uploads/2016/05/Execution-Object-Model-XOM.png 558w, http://www.balasubramanyamlanka.com/wp-content/uploads/2016/05/Execution-Object-Model-XOM-300x130.png 300w" sizes="(max-width: 558px) 85vw, 558px" /></a><figcaption id="caption-attachment-1396" class="wp-caption-text">Execution Object Model (XOM)</figcaption></figure></p>
+<p>Every BOM element (business element) must have a corresponding Execution Object Model element (execution element). The correspondence between execution elements and business elements does not need to be one-to-one. If a business element originates from an execution element, you do not need to specify an explicit mapping. If a business element does not originate from an execution element, you must specify a BOM to XOM mapping.</p>
+<p>When the data model is in Java, the BOM can directly be generated from Java Execution Object Model (XOM). XOM annotations are used to configure BOM generation and are also considered a standard way of documenting the BOM verbalizations in XOM. If you want to extend the BOM with business classes and methods, you can then map these business elements to XOM elements using BOM to XOM mapping in the BOM Editor.</p>
+<h2 id="annotations-to-the-xom">Annotations to the XOM</h2>
+<ul>
+<li>Annotations are added to the XOM to customize the way that the BOM is created from Java classes.</li>
+<li>You can use annotations in your Java source code. Annotations are a type of metadata that you can add to classes, members, and parameters.</li>
+<li>You use the annotations to apply changes to classes, members, or parameters in the BOM.</li>
+</ul>
+<p>For example, you can add an annotation to a class to define a business name for the class. In the BOM, the class takes the name defined by the annotation. When you create the BOM from the XOM, the BOM Verbalization page of the New BOM Entry wizard displays the business name of the class.</p>
+<p>There are eight different types of annotations those are provided by ilog.rules.bom.annotations package. They are as follows</p>
+<li style="padding-left: 30px;">
+  BoundedIntDomain
+</li>
+<li style="padding-left: 30px;">
+  BusinessName
+</li>
+<li style="padding-left: 30px;">
+  BusinessType
+</li>
+<li style="padding-left: 30px;">
+  CollectionDomain
+</li>
+<li style="padding-left: 30px;">
+  CustomProperties
+</li>
+<li style="padding-left: 30px;">
+  CustomProperty
+</li>
+<li style="padding-left: 30px;">
+  NotBusiness
+</li>
+<li style="padding-left: 30px;">
+  PatternDomain
+</li>
+<blockquote>
+<p>To use the annotations from the ilog.rules.bom.annotations package, you must add /studio/lib/jrules-engine.jar to the classpath of your XOM. However, if you just want to use the @java.beans.ConstructorProperties annotation, you do not need to add the jrules-engine.jar to the classpath.</p>
+</blockquote>
+<h6 id="notbusiness">@NotBusiness</h6>
+<p>The classes and members with the @NotBusiness annotation are not imported in the BOM. For example, if you encounter problems when loading a class, you can filter out the member that uses this class by setting the @NotBusiness annotation to this member.</p>
+<p><strong>Syntax</strong> : @NotBusines</p>
+<pre class="lang:default highlight:0 decode:true" title="In the XOM, the annotation can be used as follows">public class Customer {
+ public Customer(String name) {...}
+ public String getName() {...}
+@NotBusiness
+public Object readResolve() throws ObjectStreamException {...}
+}</pre>
+<pre class="lang:default highlight:0 decode:true " title="The result in the BOM is the following code">class Customer {
+ Customer(string arg);
+ readonly string name;
+}</pre>
+<h6 id="businessname">@BusinessName</h6>
+<p>In Java, the parameter names are not stored in the class. You can set the @BusinessName annotation to give a business name to the parameter. The parameter names are stored in the BOM and used in the BOM to XOM mapping, and in the DVS constructor for testing. Syntax @BusinessName(</p>
+<p>In Java, the parameter names are not stored in the class. You can set the @BusinessName annotation to give a business name to the parameter. The parameter names are stored in the BOM and used in the BOM to XOM mapping, and in the DVS constructor for testing.</p>
+<p><strong>Syntax</strong> : @BusinessName(<a string>)</p>
+<pre class="lang:default highlight:0 decode:true" title="In the XOM, the annotation can be used as follows">public class Customer {
+ public Customer(@BusinessName("name") String name) {...}
+ public String getName() {...}
+}</pre>
+<pre class="lang:default highlight:0 decode:true" title="The result in the BOM is the following code">class Customer {
+ Customer(string name);
+ readonly string name;
+}</pre>
+<h6 id="businesstype">@BusinessType</h6>
+<p>The @BusinessType annotation changes the type of a member or a parameter in the BOM. For example, if you want to change a type int to an enumeration in the BOM to verbalize it. An enumeration is a class with a domain set as an enumeration of static references. When you apply the @BusinessType annotation to a method, the return type of the method is modified.</p>
+<p><strong>Syntax</strong> : @BusinessType(<a string>)</p>
+<pre class="lang:default highlight:0 decode:true" title="In the XOM, the annotation can be used as follows">public class Customer {
+ public Customer(@BusinessType("Category") int category) {...}
+}</pre>
+<pre class="lang:default highlight:0 decode:true " title="The result in the BOM is the following code">class Customer {
+ Customer(Category category);
+}</pre>
+<h6 id="boundedintdomain">@BoundedIntDomain</h6>
+<p>The @BoundedIntDomain provides a bounded domain to specify an interval between two bounding values on a member or a parameter of type int.</p>
+<p><strong>Syntax</strong> : @BoundedIntDomain(min = <an int>, max = <an int>)</p>
+<pre class="lang:default highlight:0 decode:true " title="In the XOM, the annotation can be used as follows">public class Customer {
+ @BoundedIntDomain(min = 0, max = 120)
+ public int age;
+}</pre>
+<pre class="lang:default highlight:0 decode:true " title="The result in the BOM is the following code">class Customer {
+ int age domain [0,120];
+}</pre>
+<h6 id="collectiondomain">@CollectionDomain</h6>
+<p>The @CollectionDomain provides a collection domain to specify the type of collection elements and the cardinality. The collection domain and the element type are used by the Business Action Language (BAL).</p>
+<p><strong>Syntax</strong> : @CollectionDomain(&lt;&gt;)</p>
+<pre class="lang:default highlight:0 decode:true " title=" In the XOM, the annotation can be used as follows">public class Cart {
+@CollectionDomain(elementType = "Item")
+public List items;
+@CollectionDomain(min = 1, max = 12)
+public Person[] passengers;
+}</pre>
+<pre class="lang:default highlight:0 decode:true " title="The result in the BOM is the following code">class Cart{
+List items domain 0,* class Item;
+Person[] passengers domain 1,12 class Person;
+}</pre>
+<h6 id="patterndomain">@PatternDomain</h6>
+<p>The @PatternDomain annotation enables you to specify a pattern domain for a member or a parameter.</p>
+<p><strong>Syntax</strong> : @PatternDomain(<a string>)</p>
+<pre class="lang:default highlight:0 decode:true" title=" In the XOM, the annotation can be used as follows">public class Customer {
+ @PatternDomain("[A-Za-z]");
+ public String getName() {...}
+}</pre>
+<pre class="lang:default highlight:0 decode:true " title="The result in the BOM is the following code">class Customer {
+ readonly string name domain "[A-Za-z]";
+}</pre>
+<h6 id="customproperty">@CustomProperty</h6>
+<p>The @CustomProperty annotation sets a property on a class, a member, or a parameter.</p>
+<p><strong>Syntax</strong> : @CustomProperty(name=<a string>, value=<a string>)</p>
+<pre class="lang:default highlight:0 decode:true " title=" In the XOM, the annotation can be used as follows">public class Customer {
+ @CustomProperty(name = "dataio.default", value = "true")
+ public Customer(@BusinessName("name") String name);
+ public String getName() {...}
+}</pre>
+<pre class="lang:default highlight:0 decode:true " title="The result in the BOM is the following code">class Customer {
+ Customer(string name)
+ property dataio.default "true";
+ readonly string name;
+}</pre>
+<h6 id="customproperties">@CustomProperties</h6>
+<p>The @CustomProperties annotation sets several properties on a class, a member, or a parameter.</p>
+<p><strong>Syntax</strong> @CustomProperties(names={<strings>},values={<strings>})</p>
+<pre class="lang:default highlight:0 decode:true " title="In the XOM, the annotation can be used as follows">public class Customer {
+ @CustomProperties(names = {"cobol_length", "other" }, values = { "9",
+"true"})
+ public String getName() {...}
+}</pre>
+<pre class="lang:default highlight:0 decode:true " title="The result in the BOM is the following code">class Customer {
+ Customer(string name)
+ property cobol_length "9"
+ property other "true";
+ readonly string name;
+}</pre>
+<h6 id="javabeansconstructorproperties">@java.beans.ConstructorProperties</h6>
+<p>You can use the @java.beans.ConstructorProperties annotation to provide a name for a constructor. You can also use the@BusinessName on the parameters to give a name to each argument in the BOM.</p>
+<p><strong>Syntax</strong> : @java.beans.ConstructorProperties({<strings>})</p>
+<pre class="lang:default highlight:0 decode:true " title="In the XOM, the annotation can be used as follows">public class Customer {
+ @ConstructorProperties("name", "age")
+ public Customer(String name, int age);
+}</pre>
+<pre class="lang:default highlight:0 decode:true " title="The result in the BOM is the following code">class Customer {
+ Customer(string name, int age);
+}</pre>
+<p>Happy Learning! Happy Exploring!!</p>
+<p> </p>
+<p><em><strong><span style="text-decoration: underline;">Sources</span></strong>:</em></p>
+<ul>
+<li><em><a href="http://www.ibm.com/support/knowledgecenter">http://www.ibm.com/support/knowledgecenter</a></em></li>
+<li><em><a href="http://www.ibm.com/support/knowledgecenter/SSQP76_8.0.0/com.ibm.wodm.dserver.rules.ref.res/html/api/html/ilog/rules/bom/annotations/package-summary.html">http://www.ibm.com/support/knowledgecenter/SSQP76_8.0.0/com.ibm.wodm.dserver.rules.ref.res/html/api/html/ilog/rules/bom/annotations/package-summary.html</a></em></li>
+<li><em><a href="https://www.ibm.com/support/knowledgecenter/SSQP76_8.6.0/com.ibm.odm.dserver.rules.ref.res/html/api/html/ilog/rules/bom/annotations/package-summary.html">https://www.ibm.com/support/knowledgecenter/SSQP76_8.6.0/com.ibm.odm.dserver.rules.ref.res/html/api/html/ilog/rules/bom/annotations/package-summary.html</a></em></li>
+</ul>
+        </div>
+
+        
+        
+
+        
+      <hr />
+        
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+  
+
+  
+  
+
+
+<div class="row next-prev-navigator">
+  
+  
+</div>
+
+      <hr />
+      
+      
+      </div>
+    </div>
+  </div>
+  
+  <a id="scroll-to-top" class="btn"><i class="fas fa-chevron-circle-up"></i></a>
+  
+</section>
+
+
+      
+      
+  <section class="toc-section" id="toc-section">
+    
+    <div class="toc-holder">
+      <h5 class="text-center pl-3">Table of Contents</h5>
+      <hr>
+      <div class="toc">
+        <nav id="TableOfContents">
+  <ul>
+    <li><a href="#annotations-to-the-xom">Annotations to the XOM</a>
+      <ul>
+        <li>
+          <ul>
+            <li>
+              <ul>
+                <li>
+                  <ul>
+                    <li><a href="#notbusiness">@NotBusiness</a></li>
+                    <li><a href="#businessname">@BusinessName</a></li>
+                    <li><a href="#businesstype">@BusinessType</a></li>
+                    <li><a href="#boundedintdomain">@BoundedIntDomain</a></li>
+                    <li><a href="#collectiondomain">@CollectionDomain</a></li>
+                    <li><a href="#patterndomain">@PatternDomain</a></li>
+                    <li><a href="#customproperty">@CustomProperty</a></li>
+                    <li><a href="#customproperties">@CustomProperties</a></li>
+                    <li><a href="#javabeansconstructorproperties">@java.beans.ConstructorProperties</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+      </div>
+    </div>
+    
+  </section>
+
+    </div>
+
+    
+    
+
+
+
+
+
+
+
+
+
+  
+      
+  
+
+
+
+  
+  
+    
+  
+
+  
+  
+    
+  
+
+  
+  
+    
+    
+      
+    
+  
+
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+    
+  
+  
+
+  
+  
+  
+
+  <footer class="container-fluid text-center align-content-center footer pb-2">
+    <div class="container pt-5">
+      <div class="row text-left">
+        
+        <div class="col-md-4 col-sm-12">
+          <h5>Navigation</h5>
+          
+          <ul>
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="/#about">About</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="/#skills">Skills</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="/#experiences">Experience</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="/#education">Education</a>
+                </li>
+              
+              
+          </ul>
+          
+        </div>
+        
+        
+        <div class="col-md-4 col-sm-12">
+          <h5>Contact me:</h5>
+          <ul>
+            
+            <li><span>Email: </span> <span>baluatcomputerscience@outlook.com</span></li>
+            
+          </ul>
+        </div>
+        
+        
+        
+      </div>
+    </div>
+    
+    
+    <hr />
+    <div class="container">
+      <div class="row text-left">
+        <div class="col-md-4">
+        </div>
+        <div class="col-md-4 text-center">© 2021 Copyright.</div>
+        <div class="col-md-4 text-right">
+        </div>
+      </div>
+    </div>
+    
+  </footer>
+
+
+    <script type="text/javascript" src="/js/jquery-3.4.1.min.js"></script>
+<script type="text/javascript" src="/js/popper.min.js"></script>
+<script type="text/javascript" src="/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="/js/navbar.js"></script>
+<script type="text/javascript" src="/js/plyr.js"></script>
+<script type="text/javascript" src="/js/main.js"></script>
+
+
+    
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js"></script>
+<script src="/js/single.js"></script>
+<script>
+  hljs.initHighlightingOnLoad();
+</script>
+
+
+  </body>
+</html>

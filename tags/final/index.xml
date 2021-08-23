@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>final on Bala Subramanyam Lanka</title>
+    <link>https://thisisbalu.github.io/tags/final/</link>
+    <description>Recent content in final on Bala Subramanyam Lanka</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 18 Sep 2014 14:30:00 +0000</lastBuildDate><atom:link href="https://thisisbalu.github.io/tags/final/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Final Keyword in Java – Three Main Uses</title>
+      <link>https://thisisbalu.github.io/final-keyword-in-java-three-main-uses/</link>
+      <pubDate>Thu, 18 Sep 2014 14:30:00 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/final-keyword-in-java-three-main-uses/</guid>
+      <description>&lt;p&gt;In Java, the keyword final is a simple but powerful tool that allows us to write code that is more readable, enables the compiler to catch some logic errors, and prevents accidental misuse of classes and member functions.&lt;/p&gt;
+&lt;p&gt;Final keyword has mainly THREE USES as listed below&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;a final class cannot be inherited.&lt;/li&gt;
+&lt;li&gt;a final method cannot be overridden.&lt;/li&gt;
+&lt;li&gt;final data members, parameters and local variables cannot change once they are declared with final keyword.&lt;/li&gt;
+&lt;/ol&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

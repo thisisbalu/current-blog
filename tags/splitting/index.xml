@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>splitting on Bala Subramanyam Lanka</title>
+    <link>https://thisisbalu.github.io/tags/splitting/</link>
+    <description>Recent content in splitting on Bala Subramanyam Lanka</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 28 Sep 2014 14:30:53 +0000</lastBuildDate><atom:link href="https://thisisbalu.github.io/tags/splitting/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to split a String in Java</title>
+      <link>https://thisisbalu.github.io/how-to-split-a-string-in-java/</link>
+      <pubDate>Sun, 28 Sep 2014 14:30:53 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/how-to-split-a-string-in-java/</guid>
+      <description>&lt;p&gt;There are three better ways to split a string in Java.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Using split() method of String Class&lt;/li&gt;
+&lt;li&gt;Using StringTokenizer class of java.util package.&lt;/li&gt;
+&lt;li&gt;Using useDelimiter() of Scanner Class.&lt;/li&gt;
+&lt;/ol&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>packages in java on Bala Subramanyam Lanka</title>
+    <link>https://thisisbalu.github.io/tags/packages-in-java/</link>
+    <description>Recent content in packages in java on Bala Subramanyam Lanka</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 28 Sep 2014 15:05:33 +0000</lastBuildDate><atom:link href="https://thisisbalu.github.io/tags/packages-in-java/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Java Packages In Detail With Versions</title>
+      <link>https://thisisbalu.github.io/java-packages-in-detail-with-versions/</link>
+      <pubDate>Sun, 28 Sep 2014 15:05:33 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/java-packages-in-detail-with-versions/</guid>
+      <description>&lt;p&gt;Welcome to my blog Java In Detail. Let us see Packages In Detail :)&lt;/p&gt;
+&lt;p&gt;I collected all the java packages, their brief descriptions and their versions in java standard environment till version 8. Below packages are given in the tabular format for your quick reference. Happy Learning!&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

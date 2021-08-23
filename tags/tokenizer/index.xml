@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>tokenizer on Bala Subramanyam Lanka</title>
+    <link>https://thisisbalu.github.io/tags/tokenizer/</link>
+    <description>Recent content in tokenizer on Bala Subramanyam Lanka</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 27 Sep 2014 14:30:33 +0000</lastBuildDate><atom:link href="https://thisisbalu.github.io/tags/tokenizer/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to use StringTokenizer in Java</title>
+      <link>https://thisisbalu.github.io/how-to-use-stringtokenizer-in-java/</link>
+      <pubDate>Sat, 27 Sep 2014 14:30:33 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/how-to-use-stringtokenizer-in-java/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Package&lt;/strong&gt; : java.util.StringTokenizer&lt;br&gt;
+&lt;strong&gt;Extends&lt;/strong&gt; : java.lang.Object class&lt;br&gt;
+&lt;strong&gt;Implements&lt;/strong&gt; : Enumeration&lt;Object&gt;&lt;br&gt;
+&lt;strong&gt;Brief Description&lt;/strong&gt; : StringTokenizer in java is used to split or break a string into tokens based on a delimiter. Its methods do not distinguish among identifiers, numbers, and quoted strings.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

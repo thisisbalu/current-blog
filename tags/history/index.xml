@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>history on Bala Subramanyam Lanka</title>
+    <link>https://thisisbalu.github.io/tags/history/</link>
+    <description>Recent content in history on Bala Subramanyam Lanka</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 14 Apr 2015 13:44:29 +0000</lastBuildDate><atom:link href="https://thisisbalu.github.io/tags/history/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>History of Hadoop</title>
+      <link>https://thisisbalu.github.io/history-of-hadoop/</link>
+      <pubDate>Tue, 14 Apr 2015 13:44:29 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/history-of-hadoop/</guid>
+      <description>&lt;p&gt;History of Hadoop had started in the year 2002 with the project Apache Nutch. Hadoop was created by Doug Cutting, the creator of Apache Lucene, the widely used text search library. Hadoop has its origins in Apache Nutch, an open source web search engine which itself is a part of Lucene Project.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Java Redefined the term Internet</title>
+      <link>https://thisisbalu.github.io/java-redefined-the-term-internet/</link>
+      <pubDate>Thu, 16 Oct 2014 04:00:23 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/java-redefined-the-term-internet/</guid>
+      <description>&lt;p&gt;Today lets see how java changed the Internet. The Internet helped catapult Java to the forefront of programming, and Java, in turn, had a profound effect on the Internet. In addition to simplifying web programming in general, Java innovated a new type of networked program called the applet that changed the way the online world thought about content. The main factors that changed the internet are discussed below.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Java Team</title>
+      <link>https://thisisbalu.github.io/java-team/</link>
+      <pubDate>Wed, 15 Oct 2014 14:30:00 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/java-team/</guid>
+      <description>&lt;p&gt;Yes this post is about the people who created Java Language. After thorough search over internet and referring many books i got all the names of the people who made Java a Popular programming language.  James Gosling is the one who lead the team. Following members are the Java Team.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>How Java got started?</title>
+      <link>https://thisisbalu.github.io/how-java-got-started/</link>
+      <pubDate>Tue, 14 Oct 2014 14:30:04 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/how-java-got-started/</guid>
+      <description>&lt;h2 class=&#34;offscreen&#34; id=&#34;how-java-got-started&#34;&gt;How Java got started&lt;/h2&gt;
+&lt;p&gt;Java was conceived by &lt;strong&gt;James Gosling&lt;/strong&gt;, &lt;strong&gt;Patrick Naughton&lt;/strong&gt;, &lt;strong&gt;Chris Warth&lt;/strong&gt;, &lt;strong&gt;Ed Frank&lt;/strong&gt;, and &lt;strong&gt;Mike Sheridan&lt;/strong&gt; at Sun Microsystems, Inc. in 1991. It took 18 months to develop the first working version. This language was initially called “Oak,” but was renamed “Java” in 1995. Between the initial implementation of Oak in the fall of 1992 and the public announcement of Java in the spring of 1995, many more people contributed to the design and evolution of the language. &lt;strong&gt;Bill Joy&lt;/strong&gt;, &lt;strong&gt;Arthur van Hoff&lt;/strong&gt;, &lt;strong&gt;Jonathan Payne&lt;/strong&gt;, &lt;strong&gt;Frank Yellin&lt;/strong&gt;, and &lt;strong&gt;Tim Lindholm&lt;/strong&gt; were key contributors to the maturing of the original prototype.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

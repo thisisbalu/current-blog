@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>identifiers on Bala Subramanyam Lanka</title>
+    <link>https://thisisbalu.github.io/tags/identifiers/</link>
+    <description>Recent content in identifiers on Bala Subramanyam Lanka</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 09 Oct 2014 14:30:38 +0000</lastBuildDate><atom:link href="https://thisisbalu.github.io/tags/identifiers/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Legal Identifiers in Java</title>
+      <link>https://thisisbalu.github.io/legal-identifiers-in-java/</link>
+      <pubDate>Thu, 09 Oct 2014 14:30:38 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/legal-identifiers-in-java/</guid>
+      <description>&lt;p&gt;What are Legal Identifiers in Java? It’s simple, The rules the compiler uses to determine whether a name is legal. Technically, legal identifiers must be composed of only Unicode characters, numbers, currency symbols, and connecting characters (like underscores).&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

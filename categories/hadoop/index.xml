@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hadoop on Bala Subramanyam Lanka</title>
+    <link>https://thisisbalu.github.io/categories/hadoop/</link>
+    <description>Recent content in Hadoop on Bala Subramanyam Lanka</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 14 Apr 2015 13:44:29 +0000</lastBuildDate><atom:link href="https://thisisbalu.github.io/categories/hadoop/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>History of Hadoop</title>
+      <link>https://thisisbalu.github.io/history-of-hadoop/</link>
+      <pubDate>Tue, 14 Apr 2015 13:44:29 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/history-of-hadoop/</guid>
+      <description>&lt;p&gt;History of Hadoop had started in the year 2002 with the project Apache Nutch. Hadoop was created by Doug Cutting, the creator of Apache Lucene, the widely used text search library. Hadoop has its origins in Apache Nutch, an open source web search engine which itself is a part of Lucene Project.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Origin of the Name Hadoop</title>
+      <link>https://thisisbalu.github.io/origin-of-the-name-hadoop/</link>
+      <pubDate>Mon, 13 Apr 2015 17:54:15 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/origin-of-the-name-hadoop/</guid>
+      <description>&lt;p&gt;Origin of the Name Hadoop is not from an acronym and the name Hadoop doesn’t have any specific meaning too. It’s just a made up name! Hadoop Project’s creator, Doug Cutting, explains how the name came in to existing —&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>How MapReduce is different from Grid Computing and High Performance Computing?</title>
+      <link>https://thisisbalu.github.io/how-mapreduce-is-different-from-grid-computing-and-high-performance-computing/</link>
+      <pubDate>Sat, 11 Apr 2015 15:49:08 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/how-mapreduce-is-different-from-grid-computing-and-high-performance-computing/</guid>
+      <description>&lt;p&gt;Grid computing and High Performance Computing have been doing large scale batch processing from years, using such Application Program Interfaces (API) and as Message Passing Interface (MPS). Yes they are a sort of Distributive computing.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>How MapReduce is different from Volunteer Computing (SETI@home, Folding@home, GIMPS)?</title>
+      <link>https://thisisbalu.github.io/how-mapreduce-is-different-from-volunteer-computing-setihome-foldinghome/</link>
+      <pubDate>Fri, 10 Apr 2015 17:48:19 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/how-mapreduce-is-different-from-volunteer-computing-setihome-foldinghome/</guid>
+      <description>&lt;p&gt;Volunteer Computing can be also termed as Distributive Computing. There are some of the volunteer computing projects such as SETI@home, Folding@home etc, GIMPS., in the world. Volunteer Computing is nothing but the owners of the computers donate their computing resources such as processing power and storage to some of the projects like SETI@home or Folding@home or GIMPS.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Why MapReduce is needed instead of traditional Databases?</title>
+      <link>https://thisisbalu.github.io/why-mapreduce-is-needed-instead-of-traditional-databases/</link>
+      <pubDate>Thu, 09 Apr 2015 15:55:28 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/why-mapreduce-is-needed-instead-of-traditional-databases/</guid>
+      <description>&lt;p&gt;Why can’t we use databases with lots of disks to do large-scale batch analysis? Why MapReduce is needed? MapReduce has its own advantages over traditional databases(especially our relational databases). Both the traditional databases and MapReduce have their own perspectives. It depends on we are going to expose it. Lets discuss some of the points.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Data Storage and Analysis Problems Faced in Digital Universe</title>
+      <link>https://thisisbalu.github.io/data-storage-and-analysis-problems-faced-in-digital-universe/</link>
+      <pubDate>Wed, 08 Apr 2015 17:17:32 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/data-storage-and-analysis-problems-faced-in-digital-universe/</guid>
+      <description>&lt;p&gt;Data Storage and Analysis of the stored data is currently the problem in the &lt;a href=&#34;http://www.balasubramanyamlanka.com/data-how-it-is-important-in-this-digital-universe/&#34;&gt;Digital Universe&lt;/a&gt;. When I am studying 7th standard, that is in 2003 there used to be Floppy Disks in use! Yes those disks have storage capacity of 1.44 MB and with access speed of 60kbps. Now a days we have flash storage upto 128 GB with access speed of 60mbps to 120 mbps. We can just imagine how fast the storage capabilities and access speeds have been increased.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

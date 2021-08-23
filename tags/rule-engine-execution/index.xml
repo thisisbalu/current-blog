@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rule Engine Execution on Bala Subramanyam Lanka</title>
+    <link>https://thisisbalu.github.io/tags/rule-engine-execution/</link>
+    <description>Recent content in Rule Engine Execution on Bala Subramanyam Lanka</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 16 May 2016 16:30:46 +0000</lastBuildDate><atom:link href="https://thisisbalu.github.io/tags/rule-engine-execution/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Rule Engine Execution Mode – Choosing and Setting in ODM</title>
+      <link>https://thisisbalu.github.io/rule-engine-execution-mode-choosing-setting-odm/</link>
+      <pubDate>Mon, 16 May 2016 16:30:46 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/rule-engine-execution-mode-choosing-setting-odm/</guid>
+      <description>&lt;p&gt;IBM Operational Decision Management has three Rule Engine &lt;a href=&#34;http://www.balasubramanyamlanka.com/rule-engine-execution-modes/&#34;&gt;Execution modes&lt;/a&gt;. The tricky part comes while choosing the appropriate execution mode for the rules in the rule task. To choose the correct execution mode, we should consider all the rules in the rule task. &lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

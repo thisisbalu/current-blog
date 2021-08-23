@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>java features on Bala Subramanyam Lanka</title>
+    <link>https://thisisbalu.github.io/tags/java-features/</link>
+    <description>Recent content in java features on Bala Subramanyam Lanka</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 17 Oct 2014 04:00:51 +0000</lastBuildDate><atom:link href="https://thisisbalu.github.io/tags/java-features/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Features of Java</title>
+      <link>https://thisisbalu.github.io/features-of-java/</link>
+      <pubDate>Fri, 17 Oct 2014 04:00:51 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/features-of-java/</guid>
+      <description>&lt;p&gt;There are 12 features of Java. Sometimes features of Java are also called as Java Buzzwords. Features are as follows:&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Java Versions and Features</title>
+      <link>https://thisisbalu.github.io/java-versions-and-features/</link>
+      <pubDate>Wed, 27 Aug 2014 19:31:27 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/java-versions-and-features/</guid>
+      <description>&lt;p&gt;Java is the language that is updated with new versions and features frequently. J2SE 8 is the present version of the Java. Lets drive into the history of the Java Versions and Features in detail. All the versions of the Java have their Code Names (&lt;a href=&#34;http://javaindetail.com/2014/08/26/java-code-names/&#34; title=&#34;Java Code Names&#34;&gt;Click here for code names and release dates&lt;/a&gt;) Following are the Versions and Features of Java.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

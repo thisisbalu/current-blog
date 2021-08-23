@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>auto-boxing on Bala Subramanyam Lanka</title>
+    <link>https://thisisbalu.github.io/tags/auto-boxing/</link>
+    <description>Recent content in auto-boxing on Bala Subramanyam Lanka</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 23 Oct 2014 14:21:22 +0000</lastBuildDate><atom:link href="https://thisisbalu.github.io/tags/auto-boxing/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Boxing and Auto-Boxing in Java</title>
+      <link>https://thisisbalu.github.io/boxing-and-auto-boxing-in-java/</link>
+      <pubDate>Thu, 23 Oct 2014 14:21:22 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/boxing-and-auto-boxing-in-java/</guid>
+      <description>&lt;p&gt;Boxing and AutoBoxing in Java is simple concept in Java.&lt;br&gt;
+&lt;strong&gt;Boxing&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Wrapping primitive content into an object is called &lt;strong&gt;boxing&lt;/strong&gt;.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

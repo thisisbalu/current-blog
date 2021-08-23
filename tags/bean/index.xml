@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>bean on Bala Subramanyam Lanka</title>
+    <link>https://thisisbalu.github.io/tags/bean/</link>
+    <description>Recent content in bean on Bala Subramanyam Lanka</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 12 Oct 2014 14:30:46 +0000</lastBuildDate><atom:link href="https://thisisbalu.github.io/tags/bean/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>JavaBean Standards in Java</title>
+      <link>https://thisisbalu.github.io/javabean-standards-in-java/</link>
+      <pubDate>Sun, 12 Oct 2014 14:30:46 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/javabean-standards-in-java/</guid>
+      <description>&lt;p&gt;Today lets talk about Javabean Standards. JavaBeans are Java classes that have properties. For our purposes, think of properties as private instance variables. Since they’re private, the only way they can be accessed from outside of their class is through methods in the class. The methods that change a property’s value are called &lt;strong&gt;setter&lt;/strong&gt; methods, and the methods that retrieve a property’s value are called &lt;strong&gt;getter&lt;/strong&gt; methods.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>How to print bean object in Java</title>
+      <link>https://thisisbalu.github.io/how-to-print-bean-object-in-java/</link>
+      <pubDate>Sat, 30 Aug 2014 19:52:12 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/how-to-print-bean-object-in-java/</guid>
+      <description>To print any object in Java we have to convert it into string. The basic method we have to convert in to string is toString() method in java.lang.Object class. But this method by default prints the hexadecimal address value of the object. For example let us take the following Bean Class.
+PersonBean Class
+package com.javaindetail.bean;public class PersonBean {private String firstName;private String lastName;private String age;private String address;public String getFirstName() {return firstName;}public void setFirstName(String firstName) {this.</description>
+    </item>
+    
+  </channel>
+</rss>

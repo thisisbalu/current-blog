@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>sorting on Bala Subramanyam Lanka</title>
+    <link>https://thisisbalu.github.io/tags/sorting/</link>
+    <description>Recent content in sorting on Bala Subramanyam Lanka</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 01 Oct 2014 14:30:29 +0000</lastBuildDate><atom:link href="https://thisisbalu.github.io/tags/sorting/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to sort Arrays in Java</title>
+      <link>https://thisisbalu.github.io/how-to-sort-arrays-in-java/</link>
+      <pubDate>Wed, 01 Oct 2014 14:30:29 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/how-to-sort-arrays-in-java/</guid>
+      <description>&lt;p&gt;Yes we have many sorting algorithms to sort elements. We used to implement one of the sorting algorithm to sort elements in previous programming languages like C, C++ etc.. But sorting an array in Java is a simple process. All we have to do is to use the sort method of Arrays class in Java.&lt;/p&gt;
+&lt;p&gt;Internally sort() method of java.util.Arrays class uses &lt;em&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;Dual-Pivot Quicksort by Vladimir Yaroslavskiy, Jon Bentley, and Joshua Bloch.&lt;/span&gt;&lt;/em&gt; This algorithm offers O(n log(n)) performance on many data sets that cause other quicksorts to degrade to quadratic performance, and is typically faster than traditional (one-pivot) Quicksort implementations.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

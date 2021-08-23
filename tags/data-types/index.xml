@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>data types on Bala Subramanyam Lanka</title>
+    <link>https://thisisbalu.github.io/tags/data-types/</link>
+    <description>Recent content in data types on Bala Subramanyam Lanka</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 19 Oct 2014 04:00:49 +0000</lastBuildDate><atom:link href="https://thisisbalu.github.io/tags/data-types/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Wrapper Classes in Java</title>
+      <link>https://thisisbalu.github.io/wrapper-classes-in-java/</link>
+      <pubDate>Sun, 19 Oct 2014 04:00:49 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/wrapper-classes-in-java/</guid>
+      <description>&lt;p&gt;Java is an Object Oriented Language which views everything as an object. For an instance a simple file can be treated as an object , an address of a system can be seen as an object , an image can be treated as an object (with java.awt.Image) and a simple data type can be converted into an object (with wrapper classes).&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

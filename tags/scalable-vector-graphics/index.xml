@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>scalable Vector Graphics on Bala Subramanyam Lanka</title>
+    <link>https://thisisbalu.github.io/tags/scalable-vector-graphics/</link>
+    <description>Recent content in scalable Vector Graphics on Bala Subramanyam Lanka</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 01 Apr 2015 18:09:25 +0000</lastBuildDate><atom:link href="https://thisisbalu.github.io/tags/scalable-vector-graphics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Infinitely Scalable SVG – Scalable Vector Graphics</title>
+      <link>https://thisisbalu.github.io/infinitely-scalable-svg-scalable-vector-graphics/</link>
+      <pubDate>Wed, 01 Apr 2015 18:09:25 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/infinitely-scalable-svg-scalable-vector-graphics/</guid>
+      <description>&lt;p&gt;Scalable Vector Graphics, widely known as SVG is becoming popular now a days. Scalable Vector Graphics is an open standard that was developed by &lt;a href=&#34;http://en.wikipedia.org/wiki/World_Wide_Web_Consortium&#34;&gt;World Wide Web Consortium(W3C)&lt;/a&gt; in 1999. SVG is an XML based vector image format for 2D Graphics that has support for interactivity and animation. In the year 2003 it became W3c recommendation. It is text based, which means you can create SVG in simple text file. Simply it is an image that will be written in xml with some of the predefined xml attributes and tags.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

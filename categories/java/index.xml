@@ -1,0 +1,500 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Java on Bala Subramanyam Lanka</title>
+    <link>https://thisisbalu.github.io/categories/java/</link>
+    <description>Recent content in Java on Bala Subramanyam Lanka</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 12 May 2016 18:16:30 +0000</lastBuildDate><atom:link href="https://thisisbalu.github.io/categories/java/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>IBM WebSphere Application Server Garbage Collection Policies</title>
+      <link>https://thisisbalu.github.io/ibm-websphere-application-server-garbage-collection-policies/</link>
+      <pubDate>Thu, 12 May 2016 18:16:30 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/ibm-websphere-application-server-garbage-collection-policies/</guid>
+      <description>&lt;p&gt;As long as an object is being referenced, the JVM considers it alive. Once an object is no longer referenced and therefore is not reachable by the application code, the garbage collector removes it and reclaims the unused memory. Java implicitly collects the garbage when objects are no longer referenced or  when Java heap is insufficient and unable to satisfy a request for storage, such as object creation, it automatically triggers garbage collection to free memory.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Roadmap for Upgrading to Java SE7 Programmer II (1Z0-805)</title>
+      <link>https://thisisbalu.github.io/roadmap-upgrading-java-se7-programmer-ii-1z0-805/</link>
+      <pubDate>Thu, 05 May 2016 18:25:42 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/roadmap-upgrading-java-se7-programmer-ii-1z0-805/</guid>
+      <description>&lt;p&gt;People who are already certified for Java SE6 or below versions(Sun Certified Java Programmer-SCJP or Oracle Certified Java Programmer-OCJP) can upgrade to OCP Java SE7 Programmer II. This particular exam 1Z0-805 covers only certain topics.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Roadmap for OCP Java SE7 Programmer II (1Z0-804)</title>
+      <link>https://thisisbalu.github.io/roadmap-ocp-java-se7-programmer-ii-1z0-804/</link>
+      <pubDate>Thu, 05 May 2016 02:42:58 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/roadmap-ocp-java-se7-programmer-ii-1z0-804/</guid>
+      <description>&lt;p&gt;As I have discussed in the previous post, I have collected all the topics that we should get prepared for getting certified as Oracle Certified Professional Java SE7 Programmer II. All the topics of OCA are included in the OCP certification plus some more additional topics.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Roadmap for OCA Java SE7 Programmer I (1Z0-803)</title>
+      <link>https://thisisbalu.github.io/syllabus-oca-java-se7-programmer-1z0-803/</link>
+      <pubDate>Mon, 02 May 2016 19:04:04 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/syllabus-oca-java-se7-programmer-1z0-803/</guid>
+      <description>&lt;p&gt;When I have started preparing for the Java Certification(Oracle Certified Associate Java SE 7 Programmer 1Z0-803), I couldn’t find the topics that should be prepared for the exam. After the referring to the many friends and books, I got the list of topics that we should get prepared.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Java Certification by Oracle – JAVA SE</title>
+      <link>https://thisisbalu.github.io/java-certification-oracle-java-se/</link>
+      <pubDate>Sun, 01 May 2016 12:07:39 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/java-certification-oracle-java-se/</guid>
+      <description>&lt;p&gt;Getting certified by Oracle will become an add-on for any professional. I gave a serious thought about getting certified by Oracle in java by preparing for it. I will be sharing all my knowledge with you daily through my posts. &lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Selecting Appropriate Collection in Java</title>
+      <link>https://thisisbalu.github.io/selecting-appropriate-collection-in-java/</link>
+      <pubDate>Fri, 06 Mar 2015 18:33:12 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/selecting-appropriate-collection-in-java/</guid>
+      <description>&lt;p&gt;Collections in java is one of the important concept, that will help developers to minimise the coding efforts and increase the code efficiency. Of course everyone knows this fact. I always had a confusion between arraylist and the vector, Hashmap and Identity HashMap, HashMap and TreeMap and many! Selecting appropriate collection in java is a challenge. You can find the roadmap for selecting the correct collection while coding. Everything is self explanatory in the image.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>How to remove white spaces in Java?</title>
+      <link>https://thisisbalu.github.io/how-to-remove-white-spaces-in-java/</link>
+      <pubDate>Sat, 25 Oct 2014 05:41:43 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/how-to-remove-white-spaces-in-java/</guid>
+      <description>&lt;p&gt;Removing white spaces in Java is simple. All we have to do is to use &lt;a href=&#34;http://javaindetail.com/2014/09/19/what-is-meant-by-regular-expression-and-where-it-is-used-in-java/&#34;&gt;Regex&lt;/a&gt; and replaceAll() method of String class. A small tutorial is given below.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Unboxing and Auto-Unboxing in Java</title>
+      <link>https://thisisbalu.github.io/unboxing-and-auto-unboxing-in-java/</link>
+      <pubDate>Fri, 24 Oct 2014 04:00:05 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/unboxing-and-auto-unboxing-in-java/</guid>
+      <description>&lt;p&gt;Unboxing and AutoUnboxing in Java is a simple concept.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Unboxing&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Unwrapping the object into corresponding primitive data is called **Unboxing. **&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Boxing and Auto-Boxing in Java</title>
+      <link>https://thisisbalu.github.io/boxing-and-auto-boxing-in-java/</link>
+      <pubDate>Thu, 23 Oct 2014 14:21:22 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/boxing-and-auto-boxing-in-java/</guid>
+      <description>&lt;p&gt;Boxing and AutoBoxing in Java is simple concept in Java.&lt;br&gt;
+&lt;strong&gt;Boxing&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Wrapping primitive content into an object is called &lt;strong&gt;boxing&lt;/strong&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Wrapper Classes in Java</title>
+      <link>https://thisisbalu.github.io/wrapper-classes-in-java-2/</link>
+      <pubDate>Mon, 20 Oct 2014 04:00:31 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/wrapper-classes-in-java-2/</guid>
+      <description>&lt;p&gt;Lets see a simple java program to Wrap Primitive Data Types into Object using Wrapper Classes in Java&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Primitive Data Types in Java</title>
+      <link>https://thisisbalu.github.io/primitive-data-types-in-java/</link>
+      <pubDate>Mon, 13 Oct 2014 14:30:02 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/primitive-data-types-in-java/</guid>
+      <description>&lt;p&gt;There are eight primitive data types in Java:byte, short, int, long, char, float, double, and boolean. These can be put in four groups:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;Integers&lt;/span&gt; &lt;strong&gt;:&lt;/strong&gt; This group includes byte, short,int, and long, which are for whole-valued signed numbers.&lt;/li&gt;
+&lt;li&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;Floating-point numbers&lt;/span&gt; &lt;span style=&#34;text-decoration: underline;&#34;&gt;:&lt;/span&gt; This group includes float and double, which represent numbers with fractional precision.&lt;/li&gt;
+&lt;li&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;Characters&lt;/span&gt; &lt;strong&gt;:&lt;/strong&gt; This group includes char, which represents symbols in a character set, like letters and numbers.&lt;/li&gt;
+&lt;li&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;Boolean&lt;/span&gt; &lt;strong&gt;:&lt;/strong&gt; This group includes boolean, which is a special type for representing true/false values.&lt;/li&gt;
+&lt;/ol&gt;</description>
+    </item>
+    
+    <item>
+      <title>JavaBean Standards in Java</title>
+      <link>https://thisisbalu.github.io/javabean-standards-in-java/</link>
+      <pubDate>Sun, 12 Oct 2014 14:30:46 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/javabean-standards-in-java/</guid>
+      <description>&lt;p&gt;Today lets talk about Javabean Standards. JavaBeans are Java classes that have properties. For our purposes, think of properties as private instance variables. Since they’re private, the only way they can be accessed from outside of their class is through methods in the class. The methods that change a property’s value are called &lt;strong&gt;setter&lt;/strong&gt; methods, and the methods that retrieve a property’s value are called &lt;strong&gt;getter&lt;/strong&gt; methods.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Source File Declaration Rules in Java</title>
+      <link>https://thisisbalu.github.io/source-file-declaration-rules-in-java/</link>
+      <pubDate>Sat, 11 Oct 2014 14:30:01 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/source-file-declaration-rules-in-java/</guid>
+      <description>&lt;p&gt;Today lets see rules associated with declaring classes, import statements, and package statements in a source file. We can call them as declaration rules in Java.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Java Code Conventions</title>
+      <link>https://thisisbalu.github.io/java-code-conventions/</link>
+      <pubDate>Fri, 10 Oct 2014 14:30:17 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/java-code-conventions/</guid>
+      <description>&lt;h2 id=&#34;why-have-java-code-conventions&#34;&gt;Why Have Java Code Conventions&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;80% of the lifetime cost of a piece of software goes to maintenance.&lt;/li&gt;
+&lt;li&gt;Hardly any software is maintained for its whole life by the original author.&lt;/li&gt;
+&lt;li&gt;Code conventions improve the readability of the software, allowing engineers to understand new code more quickly and thoroughly.&lt;/li&gt;
+&lt;li&gt;If you ship your source code as a product, you need to make sure it is as well packaged and clean as any other product you create.&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+    <item>
+      <title>Legal Identifiers in Java</title>
+      <link>https://thisisbalu.github.io/legal-identifiers-in-java/</link>
+      <pubDate>Thu, 09 Oct 2014 14:30:38 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/legal-identifiers-in-java/</guid>
+      <description>&lt;p&gt;What are Legal Identifiers in Java? It’s simple, The rules the compiler uses to determine whether a name is legal. Technically, legal identifiers must be composed of only Unicode characters, numbers, currency symbols, and connecting characters (like underscores).&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>What is a Jagged Array in Java</title>
+      <link>https://thisisbalu.github.io/what-is-a-jagged-array-in-java/</link>
+      <pubDate>Wed, 08 Oct 2014 14:30:09 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/what-is-a-jagged-array-in-java/</guid>
+      <description>&lt;p&gt;Jagged array in Java are Multi-Dimensional arrays with different array sizes. Jagged Arrays are sometimes termed as Ragged Arrays. Lets go through a quick tutorial&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Multi Dimensional Arrays in Java</title>
+      <link>https://thisisbalu.github.io/multi-dimensional-arrays-in-java/</link>
+      <pubDate>Tue, 07 Oct 2014 14:30:58 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/multi-dimensional-arrays-in-java/</guid>
+      <description>&lt;p&gt;Multi Dimensional arrays in Java can be termed as arrays of arrays. We can create two-dimensional, three-dimensional, four-dimensional or n-dimensional arrays in Java. Its quite simple to create arrays in Java, yet more the dimensions more the confusion. Let us see a quick tutorial. In this tutorial I’m going to take three-dimensional array as example.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>How to Return an Array Java</title>
+      <link>https://thisisbalu.github.io/how-to-return-an-array-java/</link>
+      <pubDate>Mon, 06 Oct 2014 14:30:57 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/how-to-return-an-array-java/</guid>
+      <description>&lt;p&gt;In Java, Arrays can be returned from the method. Again same as passing parameters two types of arrays are there. Array of primitive datatypes and the array of derived datatypes.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Method Returning An Array Of Primitive Type&lt;/li&gt;
+&lt;li&gt;Method Returrning An Array Of Derived Type&lt;/li&gt;
+&lt;/ol&gt;</description>
+    </item>
+    
+    <item>
+      <title>How to pass Array to method Java</title>
+      <link>https://thisisbalu.github.io/how-to-pass-array-to-method-java/</link>
+      <pubDate>Sun, 05 Oct 2014 14:30:06 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/how-to-pass-array-to-method-java/</guid>
+      <description>&lt;p&gt;Arrays can be passed as the parameter in Java. They are Passes-By-Reference which means when we pass the array copy of the objects are not passed just the reference of the array is passed. Arrays can be passed in two ways .&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Passing Primitive Type Array&lt;/li&gt;
+&lt;li&gt;Passing Derived Type Array&lt;/li&gt;
+&lt;/ol&gt;</description>
+    </item>
+    
+    <item>
+      <title>How to create Array of Objects Java</title>
+      <link>https://thisisbalu.github.io/how-to-create-array-of-objects-java/</link>
+      <pubDate>Sat, 04 Oct 2014 14:30:48 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/how-to-create-array-of-objects-java/</guid>
+      <description>&lt;p&gt;In Java, Array of objects java can hold the references to any type of Object. ARRAY CAN CONTAIN ONLY REFERENCES TO THE OBJECTS, BUT NOT THE OBJECTS ITSELF. Let us see Tutorial&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>How to assign specific value to each element in Array</title>
+      <link>https://thisisbalu.github.io/how-to-assign-specific-value-to-each-element-in-array/</link>
+      <pubDate>Fri, 03 Oct 2014 14:30:09 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/how-to-assign-specific-value-to-each-element-in-array/</guid>
+      <description>&lt;p&gt;We can assign specific value to each element in the array in Java using the fill() method of java.util.Arrays class. This method is used mainly to initialize whole array at a time without looping through the array in Java. Let go through a tutorial.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>How to search an element in an array in java</title>
+      <link>https://thisisbalu.github.io/how-to-search-an-element-in-an-array-in-java/</link>
+      <pubDate>Thu, 02 Oct 2014 14:30:22 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/how-to-search-an-element-in-an-array-in-java/</guid>
+      <description>&lt;p&gt;In Java searching an element in an array is simple. All we have to use is java.util.Arrays class binarySearch() method.&lt;/p&gt;
+&lt;p&gt;Searches the specified array of ints for the specified value using the binary search algorithm. The array must be sorted (as by the sort(int[]) method) prior to making this call. If it is not sorted, the results are undefined. If the array contains multiple elements with the specified value, there is no guarantee which one will be found.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>How to sort Arrays in Java</title>
+      <link>https://thisisbalu.github.io/how-to-sort-arrays-in-java/</link>
+      <pubDate>Wed, 01 Oct 2014 14:30:29 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/how-to-sort-arrays-in-java/</guid>
+      <description>&lt;p&gt;Yes we have many sorting algorithms to sort elements. We used to implement one of the sorting algorithm to sort elements in previous programming languages like C, C++ etc.. But sorting an array in Java is a simple process. All we have to do is to use the sort method of Arrays class in Java.&lt;/p&gt;
+&lt;p&gt;Internally sort() method of java.util.Arrays class uses &lt;em&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;Dual-Pivot Quicksort by Vladimir Yaroslavskiy, Jon Bentley, and Joshua Bloch.&lt;/span&gt;&lt;/em&gt; This algorithm offers O(n log(n)) performance on many data sets that cause other quicksorts to degrade to quadratic performance, and is typically faster than traditional (one-pivot) Quicksort implementations.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>How to print Array in array format in Java</title>
+      <link>https://thisisbalu.github.io/how-to-print-array-in-array-format-in-java/</link>
+      <pubDate>Tue, 30 Sep 2014 14:30:48 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/how-to-print-array-in-array-format-in-java/</guid>
+      <description>&lt;p&gt;To print an array or to display an array in Java we used to iterate through the array using for loop and print them in sysout. But java.util.Arrays class have inbuilt method toString() which prints the array directly without looping through array. It prints in the format of square brackets with comma separated elements eg : [ 1, 2, 3, 4 ]&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>How to copy an Array in Java – Four different ways</title>
+      <link>https://thisisbalu.github.io/copy-an-array-in-java-four-different-ways/</link>
+      <pubDate>Mon, 29 Sep 2014 14:30:05 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/copy-an-array-in-java-four-different-ways/</guid>
+      <description>&lt;p&gt;There are four ways to copy an array in Java. Following are the different ways&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Using for Loop&lt;/li&gt;
+&lt;li&gt;Using copyOf() method of Array Class&lt;/li&gt;
+&lt;li&gt;Using clone() Method&lt;/li&gt;
+&lt;li&gt;Using arraycopy() method Of System Class&lt;/li&gt;
+&lt;/ol&gt;</description>
+    </item>
+    
+    <item>
+      <title>Java Packages In Detail With Versions</title>
+      <link>https://thisisbalu.github.io/java-packages-in-detail-with-versions/</link>
+      <pubDate>Sun, 28 Sep 2014 15:05:33 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/java-packages-in-detail-with-versions/</guid>
+      <description>&lt;p&gt;Welcome to my blog Java In Detail. Let us see Packages In Detail :)&lt;/p&gt;
+&lt;p&gt;I collected all the java packages, their brief descriptions and their versions in java standard environment till version 8. Below packages are given in the tabular format for your quick reference. Happy Learning!&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>How to split a String in Java</title>
+      <link>https://thisisbalu.github.io/how-to-split-a-string-in-java/</link>
+      <pubDate>Sun, 28 Sep 2014 14:30:53 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/how-to-split-a-string-in-java/</guid>
+      <description>&lt;p&gt;There are three better ways to split a string in Java.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Using split() method of String Class&lt;/li&gt;
+&lt;li&gt;Using StringTokenizer class of java.util package.&lt;/li&gt;
+&lt;li&gt;Using useDelimiter() of Scanner Class.&lt;/li&gt;
+&lt;/ol&gt;</description>
+    </item>
+    
+    <item>
+      <title>How to use StringTokenizer in Java</title>
+      <link>https://thisisbalu.github.io/how-to-use-stringtokenizer-in-java/</link>
+      <pubDate>Sat, 27 Sep 2014 14:30:33 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/how-to-use-stringtokenizer-in-java/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Package&lt;/strong&gt; : java.util.StringTokenizer&lt;br&gt;
+&lt;strong&gt;Extends&lt;/strong&gt; : java.lang.Object class&lt;br&gt;
+&lt;strong&gt;Implements&lt;/strong&gt; : Enumeration&lt;Object&gt;&lt;br&gt;
+&lt;strong&gt;Brief Description&lt;/strong&gt; : StringTokenizer in java is used to split or break a string into tokens based on a delimiter. Its methods do not distinguish among identifiers, numbers, and quoted strings.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Execution of Finally block with return statements</title>
+      <link>https://thisisbalu.github.io/execution-of-finally-block-with-return-statements/</link>
+      <pubDate>Fri, 26 Sep 2014 14:30:44 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/execution-of-finally-block-with-return-statements/</guid>
+      <description>&lt;p&gt;&lt;em&gt;Will the code in the finally block be called and run after a return statement is executed in the try block?&lt;/em&gt;&lt;br&gt;
+&lt;em&gt;What if there is a return statement in the try block and the finally block as well?&lt;/em&gt;&lt;br&gt;
+&lt;em&gt;What if exception is thrown in the try block and the return statement in finally block?&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Finally Block in Java – In Detail</title>
+      <link>https://thisisbalu.github.io/finally-block-in-java-in-detail/</link>
+      <pubDate>Thu, 25 Sep 2014 14:30:28 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/finally-block-in-java-in-detail/</guid>
+      <description>&lt;p&gt;Finally is a keyword that is used as finally block in exception handling. Finally block is used with the try block and catch blocks. Finally block always executes when the try block exits.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Placing cleanup code in a finally block is always a good practice, even when no exceptions are anticipated.&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>How to count the occurrences of a character in Java – Three Better Ways</title>
+      <link>https://thisisbalu.github.io/how-to-count-the-occurrences-of-a-character-in-java-three-better-ways/</link>
+      <pubDate>Tue, 23 Sep 2014 14:30:00 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/how-to-count-the-occurrences-of-a-character-in-java-three-better-ways/</guid>
+      <description>&lt;p&gt;There are three ways.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Using charAt – Traditional For Loop&lt;/li&gt;
+&lt;li&gt;Using toCharArray – Enhanced For Loop&lt;/li&gt;
+&lt;li&gt;Using replaceAll – Efficient Way without Looping&lt;/li&gt;
+&lt;/ol&gt;</description>
+    </item>
+    
+    <item>
+      <title>What is meant by Regular Expression and Where it is used in Java</title>
+      <link>https://thisisbalu.github.io/what-is-meant-by-regular-expression-and-where-it-is-used-in-java/</link>
+      <pubDate>Fri, 19 Sep 2014 14:30:40 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/what-is-meant-by-regular-expression-and-where-it-is-used-in-java/</guid>
+      <description>&lt;p&gt;Regular Expression, widely termed as Regex is a sequence of characters which forms a search pattern. It is used to match the patterns in the string or the text. Using the regex we can find a pattern and also we can replace the pattern(speaking in perspective with Java). Always regex is applied to the string or text from left to right.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Final Keyword in Java – Three Main Uses</title>
+      <link>https://thisisbalu.github.io/final-keyword-in-java-three-main-uses/</link>
+      <pubDate>Thu, 18 Sep 2014 14:30:00 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/final-keyword-in-java-three-main-uses/</guid>
+      <description>&lt;p&gt;In Java, the keyword final is a simple but powerful tool that allows us to write code that is more readable, enables the compiler to catch some logic errors, and prevents accidental misuse of classes and member functions.&lt;/p&gt;
+&lt;p&gt;Final keyword has mainly THREE USES as listed below&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;a final class cannot be inherited.&lt;/li&gt;
+&lt;li&gt;a final method cannot be overridden.&lt;/li&gt;
+&lt;li&gt;final data members, parameters and local variables cannot change once they are declared with final keyword.&lt;/li&gt;
+&lt;/ol&gt;</description>
+    </item>
+    
+    <item>
+      <title>Generating Unique Id in Java Part 2 – UID Java Tutorial</title>
+      <link>https://thisisbalu.github.io/generating-unique-id-in-java-part-2-uid-java-tutorial/</link>
+      <pubDate>Wed, 17 Sep 2014 14:30:13 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/generating-unique-id-in-java-part-2-uid-java-tutorial/</guid>
+      <description>&lt;p&gt;With reference to the previous &lt;a href=&#34;http://javaindetail.com/2014/09/16/generating-unique-id-in-java-part-1-uuid-java-tutorial/&#34;&gt;post&lt;/a&gt;, we had another way to generate the unique id in Java through UID class from the rmi server package in Java. This is an alternative method to use if we are still using Java versions below 5.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;UID Class in Java&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Package : java.rmi.server.UID&lt;br&gt;
+Extends : Object&lt;br&gt;
+Implements : Serializable&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Generating Unique Id in Java Part 1 – UUID Java Tutorial</title>
+      <link>https://thisisbalu.github.io/generating-unique-id-in-java-part-1-uuid-java-tutorial/</link>
+      <pubDate>Tue, 16 Sep 2014 17:16:41 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/generating-unique-id-in-java-part-1-uuid-java-tutorial/</guid>
+      <description>&lt;p&gt;Generating the Unique Ids in Java is a very easy task. There are many ways to generate unique ids in Java, one of the best way is to use UUID class from the util package in Java.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;UUID – Universally Unique Identifier&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;A universally unique identifier (UUID) is an identifier standard used in software construction, standardized by the Open Software Foundation (OSF) as part of the Distributed Computing Environment (DCE).&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>How to concatenate two strings in Java</title>
+      <link>https://thisisbalu.github.io/how-to-concatenate-two-strings-in-java/</link>
+      <pubDate>Mon, 08 Sep 2014 18:06:54 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/how-to-concatenate-two-strings-in-java/</guid>
+      <description>&lt;p&gt;The basic operation we perform daily in Java is concatenating the strings. Concatenation of strings in Java can be achieved in three ways.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Concatenation using + operator.&lt;/li&gt;
+&lt;li&gt;Concatenation using concat() method of String class.&lt;/li&gt;
+&lt;li&gt;Concatenation using append() method of StringBuffer class.&lt;/li&gt;
+&lt;/ol&gt;</description>
+    </item>
+    
+    <item>
+      <title>How to use Calendar in Java</title>
+      <link>https://thisisbalu.github.io/how-to-use-calendar-in-java/</link>
+      <pubDate>Thu, 04 Sep 2014 19:59:16 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/how-to-use-calendar-in-java/</guid>
+      <description>&lt;p&gt;There is a great confusion between Calendar class and GregorianCalendar class. Let us look into these classes in detail.  These classes are for providing the standard calendar for world.&lt;/p&gt;
+&lt;h4 id=&#34;span-styletext-decorationunderlinecalendar-class-is-an-abstract-classspan&#34;&gt;&lt;span style=&#34;text-decoration:underline;&#34;&gt;Calendar Class is an Abstract Class&lt;/span&gt;&lt;/h4&gt;
+&lt;p&gt;**Package : **java.util.Calendar&lt;/p&gt;
+&lt;p&gt;**Extends : **Object class&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>How to use SimpleDateFormat in Java</title>
+      <link>https://thisisbalu.github.io/how-to-use-simpledateformat-in-java/</link>
+      <pubDate>Wed, 03 Sep 2014 19:58:37 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/how-to-use-simpledateformat-in-java/</guid>
+      <description>&lt;p&gt;**Package : **java.text.SimpleDateFormat&lt;/p&gt;
+&lt;p&gt;**Extends : **DateFormat class (java.text.DateFormat class extends java.text.Format, java.text.Format extends java.lang.Object)&lt;/p&gt;
+&lt;p&gt;**Implements : **Serializable Interface, Cloneable Interface.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>How to use Date in Java</title>
+      <link>https://thisisbalu.github.io/how-to-use-date-in-java/</link>
+      <pubDate>Tue, 02 Sep 2014 17:44:39 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/how-to-use-date-in-java/</guid>
+      <description>&lt;p&gt;**Package : **java.util.Date&lt;/p&gt;
+&lt;p&gt;**Extends : **Object class&lt;/p&gt;
+&lt;p&gt;**Implements :  **Serializable class, Cloneable class, Comparable&lt;date&gt;&lt;/p&gt;
+&lt;p&gt;**Brief Description : **Date class is used to represent the specific instance of time with milliseconds precision introduced in JDK 1.0. Date class used prior to the JDK 1.1 for getting the date and time in the Java program.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>How to print bean object in Java</title>
+      <link>https://thisisbalu.github.io/how-to-print-bean-object-in-java/</link>
+      <pubDate>Sat, 30 Aug 2014 19:52:12 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/how-to-print-bean-object-in-java/</guid>
+      <description>To print any object in Java we have to convert it into string. The basic method we have to convert in to string is toString() method in java.lang.Object class. But this method by default prints the hexadecimal address value of the object. For example let us take the following Bean Class.
+PersonBean Class
+package com.javaindetail.bean;public class PersonBean {private String firstName;private String lastName;private String age;private String address;public String getFirstName() {return firstName;}public void setFirstName(String firstName) {this.</description>
+    </item>
+    
+    <item>
+      <title>java.lang package in brief</title>
+      <link>https://thisisbalu.github.io/java-lang-package-in-brief/</link>
+      <pubDate>Sun, 17 Aug 2014 17:35:41 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/java-lang-package-in-brief/</guid>
+      <description>&lt;p&gt;How many classes, interfaces, Exceptions, Errors, Annotations, Enums are there in java.lang? What are the classes, interfaces, Exceptions, Errors, Annotations, Enums present in java.lang package? Lets see in brief.&lt;/p&gt;
+&lt;p&gt;This post is just briefing of the java.lang package.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>How to use equals method in java.lang.Object class</title>
+      <link>https://thisisbalu.github.io/equals-java-lang-object-equals-method-of-object-class/</link>
+      <pubDate>Sat, 16 Aug 2014 18:15:17 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/equals-java-lang-object-equals-method-of-object-class/</guid>
+      <description>&lt;p&gt;Let us see equals method in detail in java in detail ;)&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-java&#34; prism=&#34;1&#34;&gt;public boolean equals(Object obj)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Indicates whether some other object is “equal to” this one.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>How to clone an object in java</title>
+      <link>https://thisisbalu.github.io/clone-java-lang-object-clone-method-of-object-class/</link>
+      <pubDate>Fri, 15 Aug 2014 17:39:40 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/clone-java-lang-object-clone-method-of-object-class/</guid>
+      <description>&lt;p&gt;Creates and returns a copy of this object. The precise meaning of “copy” may depend on the class of the object. The general intent is that, for any object x, the expression:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-java&#34; prism=&#34;1&#34;&gt;
+x.clone() != x
+&lt;/code&gt;&lt;/pre&gt;</description>
+    </item>
+    
+    <item>
+      <title>How to use Object Class Constructor</title>
+      <link>https://thisisbalu.github.io/object-java-lang-object/</link>
+      <pubDate>Fri, 15 Aug 2014 16:37:54 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/object-java-lang-object/</guid>
+      <description>&lt;p&gt;Before going into the Object constructor let us know what is a constructor?&lt;/p&gt;
+&lt;p&gt;A class contains constructors that are invoked to create objects from the class blueprint. Constructor declarations look like method declarations except that they use the name of the class and have no return type.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Object Class -The root of class hierarchy</title>
+      <link>https://thisisbalu.github.io/object-class-the-root-of-class-hierarchy/</link>
+      <pubDate>Thu, 14 Aug 2014 20:16:05 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/object-class-the-root-of-class-hierarchy/</guid>
+      <description>&lt;p&gt;Object Class is the root of the class hierarchy in Java. Every class has a Object class as a super class. Hence all the objects extends the methods of this class. Introduced in &lt;strong&gt;JDK1.0&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The Object class, in the java.lang package, sits at the top of the class hierarchy tree. Every class is a descendant, direct or indirect, of the Object class. Every class you use or write inherits the instance methods of Object. You need not use any of these methods, but, if you choose to do so, you may need to override them with code that is specific to your class. The methods inherited from Object are given below.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>matches on Bala Subramanyam Lanka</title>
+    <link>https://thisisbalu.github.io/tags/matches/</link>
+    <description>Recent content in matches on Bala Subramanyam Lanka</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 22 Sep 2014 14:30:36 +0000</lastBuildDate><atom:link href="https://thisisbalu.github.io/tags/matches/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to use Regular Expressions in Java – String Class Tutorial</title>
+      <link>https://thisisbalu.github.io/how-to-use-regular-expressions-in-java-string-class-tutorial/</link>
+      <pubDate>Mon, 22 Sep 2014 14:30:36 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/how-to-use-regular-expressions-in-java-string-class-tutorial/</guid>
+      <description>&lt;p&gt;We can use Regular Expressions on String class in Java. It can be applied on the following Methods.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;public boolean matches(String regex) – Tells whether or not this string matches the given regular expression.&lt;/li&gt;
+&lt;li&gt;public String[] split(String regex,int limit) –  Splits this string around matches of the given regular expression.&lt;/li&gt;
+&lt;li&gt;public String[] split(String regex) –   Splits this string around matches of the given regular expression.&lt;/li&gt;
+&lt;li&gt;replaceAll(String regex, String replacement) –    Replaces each substring of this string that matches the given regular expression with the given replacement.&lt;/li&gt;
+&lt;li&gt;replaceFirst(String regex, String replacement) –  Replaces the first substring of this string that matches the given regular expression with the given replacement.&lt;/li&gt;
+&lt;/ol&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

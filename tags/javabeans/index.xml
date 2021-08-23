@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>javabeans on Bala Subramanyam Lanka</title>
+    <link>https://thisisbalu.github.io/tags/javabeans/</link>
+    <description>Recent content in javabeans on Bala Subramanyam Lanka</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 12 Oct 2014 14:30:46 +0000</lastBuildDate><atom:link href="https://thisisbalu.github.io/tags/javabeans/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>JavaBean Standards in Java</title>
+      <link>https://thisisbalu.github.io/javabean-standards-in-java/</link>
+      <pubDate>Sun, 12 Oct 2014 14:30:46 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/javabean-standards-in-java/</guid>
+      <description>&lt;p&gt;Today lets talk about Javabean Standards. JavaBeans are Java classes that have properties. For our purposes, think of properties as private instance variables. Since they’re private, the only way they can be accessed from outside of their class is through methods in the class. The methods that change a property’s value are called &lt;strong&gt;setter&lt;/strong&gt; methods, and the methods that retrieve a property’s value are called &lt;strong&gt;getter&lt;/strong&gt; methods.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

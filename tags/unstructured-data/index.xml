@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>unstructured data on Bala Subramanyam Lanka</title>
+    <link>https://thisisbalu.github.io/tags/unstructured-data/</link>
+    <description>Recent content in unstructured data on Bala Subramanyam Lanka</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 16 Apr 2015 15:36:09 +0000</lastBuildDate><atom:link href="https://thisisbalu.github.io/tags/unstructured-data/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Unstructured Data</title>
+      <link>https://thisisbalu.github.io/unstructured-data/</link>
+      <pubDate>Thu, 16 Apr 2015 15:36:09 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/unstructured-data/</guid>
+      <description>&lt;p&gt;Unstructured data is the data that does not follow a specific format. We can also define unstructured data as the information that does not have a pre defined data model or not in a organised manner. If 20 percent of the data available to enterprises is structured data, the other 80 percent is unstructured. If there is a chance to analyse this whole data, we can see this world from the different perspective!&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

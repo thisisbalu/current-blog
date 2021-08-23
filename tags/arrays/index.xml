@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>arrays on Bala Subramanyam Lanka</title>
+    <link>https://thisisbalu.github.io/tags/arrays/</link>
+    <description>Recent content in arrays on Bala Subramanyam Lanka</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 08 Oct 2014 14:30:09 +0000</lastBuildDate><atom:link href="https://thisisbalu.github.io/tags/arrays/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>What is a Jagged Array in Java</title>
+      <link>https://thisisbalu.github.io/what-is-a-jagged-array-in-java/</link>
+      <pubDate>Wed, 08 Oct 2014 14:30:09 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/what-is-a-jagged-array-in-java/</guid>
+      <description>&lt;p&gt;Jagged array in Java are Multi-Dimensional arrays with different array sizes. Jagged Arrays are sometimes termed as Ragged Arrays. Lets go through a quick tutorial&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Multi Dimensional Arrays in Java</title>
+      <link>https://thisisbalu.github.io/multi-dimensional-arrays-in-java/</link>
+      <pubDate>Tue, 07 Oct 2014 14:30:58 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/multi-dimensional-arrays-in-java/</guid>
+      <description>&lt;p&gt;Multi Dimensional arrays in Java can be termed as arrays of arrays. We can create two-dimensional, three-dimensional, four-dimensional or n-dimensional arrays in Java. Its quite simple to create arrays in Java, yet more the dimensions more the confusion. Let us see a quick tutorial. In this tutorial I’m going to take three-dimensional array as example.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>How to Return an Array Java</title>
+      <link>https://thisisbalu.github.io/how-to-return-an-array-java/</link>
+      <pubDate>Mon, 06 Oct 2014 14:30:57 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/how-to-return-an-array-java/</guid>
+      <description>&lt;p&gt;In Java, Arrays can be returned from the method. Again same as passing parameters two types of arrays are there. Array of primitive datatypes and the array of derived datatypes.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Method Returning An Array Of Primitive Type&lt;/li&gt;
+&lt;li&gt;Method Returrning An Array Of Derived Type&lt;/li&gt;
+&lt;/ol&gt;</description>
+    </item>
+    
+    <item>
+      <title>How to pass Array to method Java</title>
+      <link>https://thisisbalu.github.io/how-to-pass-array-to-method-java/</link>
+      <pubDate>Sun, 05 Oct 2014 14:30:06 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/how-to-pass-array-to-method-java/</guid>
+      <description>&lt;p&gt;Arrays can be passed as the parameter in Java. They are Passes-By-Reference which means when we pass the array copy of the objects are not passed just the reference of the array is passed. Arrays can be passed in two ways .&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Passing Primitive Type Array&lt;/li&gt;
+&lt;li&gt;Passing Derived Type Array&lt;/li&gt;
+&lt;/ol&gt;</description>
+    </item>
+    
+    <item>
+      <title>How to create Array of Objects Java</title>
+      <link>https://thisisbalu.github.io/how-to-create-array-of-objects-java/</link>
+      <pubDate>Sat, 04 Oct 2014 14:30:48 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/how-to-create-array-of-objects-java/</guid>
+      <description>&lt;p&gt;In Java, Array of objects java can hold the references to any type of Object. ARRAY CAN CONTAIN ONLY REFERENCES TO THE OBJECTS, BUT NOT THE OBJECTS ITSELF. Let us see Tutorial&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>How to assign specific value to each element in Array</title>
+      <link>https://thisisbalu.github.io/how-to-assign-specific-value-to-each-element-in-array/</link>
+      <pubDate>Fri, 03 Oct 2014 14:30:09 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/how-to-assign-specific-value-to-each-element-in-array/</guid>
+      <description>&lt;p&gt;We can assign specific value to each element in the array in Java using the fill() method of java.util.Arrays class. This method is used mainly to initialize whole array at a time without looping through the array in Java. Let go through a tutorial.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>How to search an element in an array in java</title>
+      <link>https://thisisbalu.github.io/how-to-search-an-element-in-an-array-in-java/</link>
+      <pubDate>Thu, 02 Oct 2014 14:30:22 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/how-to-search-an-element-in-an-array-in-java/</guid>
+      <description>&lt;p&gt;In Java searching an element in an array is simple. All we have to use is java.util.Arrays class binarySearch() method.&lt;/p&gt;
+&lt;p&gt;Searches the specified array of ints for the specified value using the binary search algorithm. The array must be sorted (as by the sort(int[]) method) prior to making this call. If it is not sorted, the results are undefined. If the array contains multiple elements with the specified value, there is no guarantee which one will be found.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>How to print Array in array format in Java</title>
+      <link>https://thisisbalu.github.io/how-to-print-array-in-array-format-in-java/</link>
+      <pubDate>Tue, 30 Sep 2014 14:30:48 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/how-to-print-array-in-array-format-in-java/</guid>
+      <description>&lt;p&gt;To print an array or to display an array in Java we used to iterate through the array using for loop and print them in sysout. But java.util.Arrays class have inbuilt method toString() which prints the array directly without looping through array. It prints in the format of square brackets with comma separated elements eg : [ 1, 2, 3, 4 ]&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>How to copy an Array in Java – Four different ways</title>
+      <link>https://thisisbalu.github.io/copy-an-array-in-java-four-different-ways/</link>
+      <pubDate>Mon, 29 Sep 2014 14:30:05 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/copy-an-array-in-java-four-different-ways/</guid>
+      <description>&lt;p&gt;There are four ways to copy an array in Java. Following are the different ways&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Using for Loop&lt;/li&gt;
+&lt;li&gt;Using copyOf() method of Array Class&lt;/li&gt;
+&lt;li&gt;Using clone() Method&lt;/li&gt;
+&lt;li&gt;Using arraycopy() method Of System Class&lt;/li&gt;
+&lt;/ol&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

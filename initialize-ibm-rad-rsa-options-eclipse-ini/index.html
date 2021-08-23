@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Initializing IBM RAD/RSA – eclipse.ini</title>
+    <meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+
+<link rel="stylesheet" href="/css/bootstrap.min.css"/>
+<link rel="stylesheet" href="/css/layouts/main.css"/>
+<link rel="stylesheet" href="/css/navigators/navbar.css"/>
+<link rel="stylesheet" href="/css/plyr.css"/>
+<link rel="stylesheet" href="/css/flag-icon.min.css"/>
+
+
+<link href="https://fonts.googleapis.com/css2?family=Muli:wght@300;400;500;600" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" />
+
+
+
+
+  
+
+  
+  
+  
+    
+  
+  
+
+  <link rel="icon" type="image/png" href="/images/logos/favicon-32x32_hu6c0760df4368777065bb45ed9c8928ba_2423_42x0_resize_box_2.png" />
+
+<meta property="og:title" content="Initializing IBM RAD/RSA – eclipse.ini" />
+<meta property="og:description" content="IBM has a mega line up in the IDE business. Some of the IDEs provided by IBM are Eclipse, Rational Application Developer, Rational Software Architect Designer, Rational Business Developer, etc, When it comes to enterprise java development or operational decision management or business modelling, people use mostly RAD/RSA." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://thisisbalu.github.io/initialize-ibm-rad-rsa-options-eclipse-ini/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2016-05-14T18:22:48&#43;00:00" />
+<meta property="article:modified_time" content="2016-05-14T18:22:48&#43;00:00" />
+
+
+
+    
+    
+<meta name="description" content="Initializing IBM RAD/RSA – eclipse.ini" />
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/atom-one-dark.min.css"
+/>
+<link rel="stylesheet" href="/css/layouts/single.css"/>
+<link rel="stylesheet" href="/css/navigators/sidebar.css">
+
+<link rel="stylesheet" href="/css/style.css"/>
+
+
+
+    
+    
+  </head>
+
+  <body data-spy="scroll" data-target="#TableOfContents" data-offset="80">
+    <div class="container-fluid bg-dimmed wrapper">
+      
+      
+    
+
+
+
+
+
+  
+
+
+  
+
+
+
+
+  
+  
+    
+  
+  
+
+
+
+  
+  
+    
+  
+  
+
+
+<nav class="navbar navbar-expand-xl top-navbar final-navbar shadow">
+  <div class="container">
+      <button class="navbar-toggler navbar-light" id="sidebar-toggler" type="button" onclick="toggleSidebar()">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="/">
+      
+        <img src="/images/logos/apple-icon-114x114_hu10b496cbdd14ccc59d427707b2b76be1_9048_42x0_resize_box_2.png" alt="Logo">
+      Bala Subramanyam Lanka</a>
+    <button class="navbar-toggler navbar-light" id="toc-toggler" type="button" onclick="toggleTOC()">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse lang-selector" id="top-nav-items">
+      <ul class="navbar-nav ml-auto">
+      
+      </ul>
+    </div>
+  </div>
+  
+  
+    <img src="/images/logos/apple-icon-114x114_hu10b496cbdd14ccc59d427707b2b76be1_9048_42x0_resize_box_2.png" class="d-none" id="main-logo" alt="Logo">
+  
+  
+    <img src="/images/logos/apple-icon-114x114_hu10b496cbdd14ccc59d427707b2b76be1_9048_42x0_resize_box_2.png" class="d-none" id="inverted-logo" alt="Inverted Logo">
+  
+</nav>
+
+
+
+      
+      
+  <section class="sidebar-section" id="sidebar-section">
+    <div class="sidebar-holder">
+      <div class="sidebar" id="sidebar">
+        <form class="mx-auto" method="get" action="/search">
+          <input type="text" name="keyword" value="" placeholder="Search" data-search="" id="search-box" />
+        </form>
+        <div class="sidebar-tree">
+          <ul class="tree" id="tree">
+            <li id="list-heading"><a href="/posts" data-filter="all">Posts</a></li>
+            <div class="subtree">
+                
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/sample/" title="Welcome">Welcome</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li>
+      <i class="fas fa-plus-circle"></i><a class="" href="">getting-started</a>
+      
+      <ul class="">
+        
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/2016-09-28-different-brms-tools-market/" title="Github Pages">Github Pages</a></li>
+  
+
+
+      </ul>
+    </li>
+  
+
+
+            </div>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+      
+      
+<section class="content-section" id="content-section">
+  <div class="content">
+    <div class="container p-0 read-area">
+      
+      <div class="hero-area col-sm-12" id="hero-area" style='background-image: url(https://thisisbalu.github.io/images/default-hero.jpg);'>
+      </div>
+
+      
+      <div class="page-content">
+        <div class="author-profile ml-auto align-self-lg-center">
+          <img class="rounded-circle" src='/images/author/balu_hu35c00e1b0d1c2b7ef4062ee49dc08602_54380_120x120_fit_box_2.png' alt="Author Image">
+          <h5 class="author-name">Bala Subramanyam Lanka</h5>
+          <p>May 14, 2016</p>
+        </div>
+
+        <div class="title">
+          <h1>Initializing IBM RAD/RSA – eclipse.ini</h1>
+        </div>
+        
+        <div class="post-content" id="post-content">
+          <p>IBM has a mega line up in the IDE business. Some of the IDEs provided by IBM are Eclipse, Rational Application Developer, Rational Software Architect Designer, Rational Business Developer, etc, When it comes to enterprise java development or operational decision management or business modelling, people use mostly RAD/RSA.</p>
+<p>Before using those IDEs, it will be good if we know how to initialize them correctly while opening. Eclipse is available for free whereas other enterprise IDEs are not freeware. All of the enterprise IDEs are called as IBM Rational IDEs. Rational IDEs are nothing but enhanced versions of Eclipse with special features. That is why if we check the package structure of the Rational IDEs, Eclipse will the root package.</p>
+<p>Eclipse startup is controlled by the options in <strong><em>$ECLIPSE_HOME/eclipse.ini</em>.</strong> If <em>$ECLIPSE_HOME</em> is not defined, the default eclipse.ini in your Eclipse installation directory. In the case of Mac, the <strong><em>Eclipse.app/Contents/MacOS</em></strong> is used.</p>
+<h2 id="how-eclipseini-works">How eclipse.ini works?</h2>
+<p>When we launch RAD/RSA immediately “<span style="text-decoration: underline;"><em>eclipse.ini</em></span>” file will be checked for the options specified in it. Then the IDE will be launched with the options specified in the file. So, the options that we are going to specify in that ini file is important.</p>
+<p><strong>Initialization file for Rational Software Architect:</strong></p>
+<pre class="lang:default decode:true" title="eclipse.ini">-vm
+jdk1.7.0_21/jre/bin/java.exe
+-startup
+plugins/org.eclipse.equinox.launcher_1.2.0.v20110502.jar
+-install
+c:/IBMRSA851
+--launcher.library
+plugins/org.eclipse.equinox.launcher.win32.win32.x86_64_1.1.100.v20110502
+-vmargs
+-xquickstart
+-xms40m
+-xmx1024m
+-xmnx64m
+-xgpolicy:gencon
+-xscmx96m
+-xshareclasses:name=IBMSDP_%U
+-xnolinenumbers
+-xx:MaxPermSize=128M
+-xcompressedrefs
+-Dcom.ibm.ws.management.event.max_polling_interval=1000
+-Djava.util.Arrays.useLegacyMergeSort=true</pre>
+<h2 id="important-points-to-remember">Important points to remember</h2>
+<ol>
+<li>You can, and should, experiment with changes to the launch command from your Command Prompt/Terminal before changing the eclipse.ini itself.</li>
+<li>Each option and each argument to an option must be on its own line.</li>
+<li>All lines after -vmargs are passed as arguments to the JVM, so all arguments and options for eclipse must be specified before -vmargs (just like when you use arguments on the command-line)</li>
+<li>Any use of -vmargs on the command-line replaces all -vmargs settings in the .ini file unless –launcher.appendVmargs is specified either in the .ini file or on the command-line.</li>
+<li>Make a backup–keep a copy of the original contents on hand so you don’t break your installation and have to download it all again.</li>
+</ol>
+<blockquote>
+<p>Remember guys, any tool that is developed by IBM uses its own developer kit called IBM SDK which is built on top of Java. Therefore we can pass 3 types of options for jvm – <a href="https://www.ibm.com/support/knowledgecenter/SSYKE2_7.0.0/com.ibm.java.aix.71.doc/diag/appendixes/cmdline/commands_gc.html?lang=en">Garbage Collector command-line options</a>(IBM SDK), <a href="https://www.ibm.com/support/knowledgecenter/SSYKE2_7.0.0/com.ibm.java.zos.71.doc/diag/appendixes/cmdline/commands_jit.html?lang=en">JIT and AOT command-line options</a>(IBM SDK) and <a href="https://www.ibm.com/support/knowledgecenter/SSYKE2_7.0.0/com.ibm.java.zos.71.doc/diag/appendixes/cmdline/commands_jvm.html?lang=en">JVM command-line options</a>(JAVA)</p>
+</blockquote>
+<p>Of all the options those are given in the initialization file, JVM options are important. So, I am giving a brief intro of some options that we pass to JVM. Those are as follows –</p>
+<ul>
+<li><span class="keyword parmname parmname"><em><strong>-Xquickstart</strong></em> : </span>The effect is faster compilation times that improve startup time, but longer running applications might run slower. <span class="ph">When the AOT compiler is active (both shared classes and AOT compilation enabled), <span class="keyword parmname parmname">-Xquickstart</span> causes all methods to be AOT compiled. The AOT compilation improves the startup time of subsequent runs, but might reduce performance for longer running applications.</span> <span class="keyword parmname parmname">-Xquickstart</span> can degrade performance if it is used with long-running applications that contain hot methods. The implementation of <span class="keyword parmname parmname">-Xquickstart</span> is subject to change in future releases. By default, <span class="keyword parmname parmname">-Xquickstart</span> is disabled..Another way to specify a behavior identical to <span class="keyword parmname parmname">-Xquickstart</span> is to use the <span class="keyword parmname parmname">-client</span> option. These two options can be used interchangeably on the command line.</li>
+<li><em><strong>-Xms<size></strong></em> : Set initial Java heap size.</li>
+<li><em><strong>-Xmx<size></strong></em> : Set maximum Java heap size.</li>
+<li><em><strong>-Xmnx<size></strong></em> : By default, this option is set to 25% of the value of the <span class="keyword parmname parmname">-Xmx</span> option. This option returns an error if you try to use it with <span class="keyword parmname parmname">-Xmn</span>. You can use the <span class="keyword parmname parmname">-verbose:sizes</span> option to find out the values that the VM is currently using. If the scavenger is disabled, this option is ignored.</li>
+<li><em><strong>–</strong><em>Xgpolicy</em><strong>:<value></strong></em> : To select the IBM’s Garbage Collection Policy. Please check <a href="http://www.balasubramanyamlanka.com/ibm-websphere-application-server-garbage-collection-policies/">here</a> for the IBM Garbage Collection Policy for in-depth understanding.</li>
+<li><em><strong>-Xscmx<size></strong></em> : This option applies only if a cache is being created and no cache of the same name exists. The default cache size is platform-dependent. You can find out the size value being used by adding <strong class="ph b">-verbose:sizes</strong> as a command-line argument. Minimum cache size is 4 KB. Maximum cache size is platform-dependent. The size of the cache that you can specify is limited by the amount of physical memory and paging space available to the system. The virtual address space of a process is shared between the shared classes cache and the Java™ heap. Increasing the maximum size of the Java heap reduces the size of the shared classes cache that you can create.</li>
+<li><em><strong>-Xshareclasses</strong></em> : To disable shared class cache for <strong>WebSphere</strong> Application Server, add –<strong>Xshareclasses</strong>:none as a generic JVM argument through the admin console. See more information about this in the information center on Tuning the IBM virtual machine for Java.</li>
+<li><em><strong>-Xnolinenumbers</strong></em> : If you start the JVM with <span class="keyword parmname parmname">-Xnolinenumbers</span> when creating a new shared classes cache, the Class Debug Area is not created. The option <span class="keyword parmname parmname">-Xnolinenumbers</span> advises the JVM not to load any class debug information, so there is no need for this region. If <span class="keyword parmname parmname">-Xscdmx</span> is also used on the command line to specify a non-zero debug area size, then a debug area is created despite the use of <span class="keyword parmname parmname">-Xnolinenumbers</span>.</li>
+<li><em><strong>-XX:MaxPermSize=<size></strong></em> : It is used to set size for Permanent Generation. The Permanent Generation is where class files are kept. These are the result of compiled classes and JSP pages. If this space is full, it triggers a Full Garbage Collection. If the Full Garbage Collection cannot clean out old unreferenced classes and there is no room left to expand the Permanent Space, an Out‐of‐ Memory error (OOME) is thrown and the JVM will crash.</li>
+</ul>
+<p>Happy Learning! Happy Exploring!!</p>
+<p> </p>
+<p>Sources:</p>
+<ul>
+<li><a href="https://wiki.eclipse.org">https://wiki.eclipse.org</a></li>
+<li><a href="http://www.ibm.com/developerworks/rational/library/rational-ide-v9/">http://www.ibm.com/developerworks/rational/library/rational-ide-v9/</a></li>
+<li><a href="https://www.ibm.com/support/knowledgecenter/SSYKE2_7.0.0/com.ibm.java.aix.71.doc/diag/appendixes/cmdline/commands_gc.html">https://www.ibm.com/support/knowledgecenter/SSYKE2_7.0.0/com.ibm.java.aix.71.doc/diag/appendixes/cmdline/commands_gc.html</a></li>
+<li><a href="https://www.ibm.com/support/knowledgecenter/SSYKE2_7.0.0/com.ibm.java.zos.71.doc/diag/appendixes/cmdline/commands_jit.html">https://www.ibm.com/support/knowledgecenter/SSYKE2_7.0.0/com.ibm.java.zos.71.doc/diag/appendixes/cmdline/commands_jit.html</a></li>
+<li><a href="https://www.ibm.com/support/knowledgecenter/SSYKE2_7.0.0/com.ibm.java.zos.71.doc/diag/appendixes/cmdline/commands_jvm.html?lang=en">https://www.ibm.com/support/knowledgecenter/SSYKE2_7.0.0/com.ibm.java.zos.71.doc/diag/appendixes/cmdline/commands_jvm.html?lang=en</a></li>
+</ul>
+        </div>
+
+        
+        
+
+        
+      <hr />
+        
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+  
+
+  
+  
+
+
+<div class="row next-prev-navigator">
+  
+  
+</div>
+
+      <hr />
+      
+      
+      </div>
+    </div>
+  </div>
+  
+  <a id="scroll-to-top" class="btn"><i class="fas fa-chevron-circle-up"></i></a>
+  
+</section>
+
+
+      
+      
+  <section class="toc-section" id="toc-section">
+    
+    <div class="toc-holder">
+      <h5 class="text-center pl-3">Table of Contents</h5>
+      <hr>
+      <div class="toc">
+        <nav id="TableOfContents">
+  <ul>
+    <li><a href="#how-eclipseini-works">How eclipse.ini works?</a></li>
+    <li><a href="#important-points-to-remember">Important points to remember</a></li>
+  </ul>
+</nav>
+      </div>
+    </div>
+    
+  </section>
+
+    </div>
+
+    
+    
+
+
+
+
+
+
+
+
+
+  
+      
+  
+
+
+
+  
+  
+    
+  
+
+  
+  
+    
+  
+
+  
+  
+    
+    
+      
+    
+  
+
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+    
+  
+  
+
+  
+  
+  
+
+  <footer class="container-fluid text-center align-content-center footer pb-2">
+    <div class="container pt-5">
+      <div class="row text-left">
+        
+        <div class="col-md-4 col-sm-12">
+          <h5>Navigation</h5>
+          
+          <ul>
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="/#about">About</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="/#skills">Skills</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="/#experiences">Experience</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="/#education">Education</a>
+                </li>
+              
+              
+          </ul>
+          
+        </div>
+        
+        
+        <div class="col-md-4 col-sm-12">
+          <h5>Contact me:</h5>
+          <ul>
+            
+            <li><span>Email: </span> <span>baluatcomputerscience@outlook.com</span></li>
+            
+          </ul>
+        </div>
+        
+        
+        
+      </div>
+    </div>
+    
+    
+    <hr />
+    <div class="container">
+      <div class="row text-left">
+        <div class="col-md-4">
+        </div>
+        <div class="col-md-4 text-center">© 2021 Copyright.</div>
+        <div class="col-md-4 text-right">
+        </div>
+      </div>
+    </div>
+    
+  </footer>
+
+
+    <script type="text/javascript" src="/js/jquery-3.4.1.min.js"></script>
+<script type="text/javascript" src="/js/popper.min.js"></script>
+<script type="text/javascript" src="/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="/js/navbar.js"></script>
+<script type="text/javascript" src="/js/plyr.js"></script>
+<script type="text/javascript" src="/js/main.js"></script>
+
+
+    
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js"></script>
+<script src="/js/single.js"></script>
+<script>
+  hljs.initHighlightingOnLoad();
+</script>
+
+
+  </body>
+</html>

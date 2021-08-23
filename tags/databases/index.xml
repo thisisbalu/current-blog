@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Databases on Bala Subramanyam Lanka</title>
+    <link>https://thisisbalu.github.io/tags/databases/</link>
+    <description>Recent content in Databases on Bala Subramanyam Lanka</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 09 Apr 2015 15:55:28 +0000</lastBuildDate><atom:link href="https://thisisbalu.github.io/tags/databases/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Why MapReduce is needed instead of traditional Databases?</title>
+      <link>https://thisisbalu.github.io/why-mapreduce-is-needed-instead-of-traditional-databases/</link>
+      <pubDate>Thu, 09 Apr 2015 15:55:28 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/why-mapreduce-is-needed-instead-of-traditional-databases/</guid>
+      <description>&lt;p&gt;Why can’t we use databases with lots of disks to do large-scale batch analysis? Why MapReduce is needed? MapReduce has its own advantages over traditional databases(especially our relational databases). Both the traditional databases and MapReduce have their own perspectives. It depends on we are going to expose it. Lets discuss some of the points.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

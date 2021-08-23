@@ -1,0 +1,767 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Java</title>
+    <meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+
+<link rel="stylesheet" href="/css/bootstrap.min.css"/>
+<link rel="stylesheet" href="/css/layouts/main.css"/>
+<link rel="stylesheet" href="/css/navigators/navbar.css"/>
+<link rel="stylesheet" href="/css/plyr.css"/>
+<link rel="stylesheet" href="/css/flag-icon.min.css"/>
+
+
+<link href="https://fonts.googleapis.com/css2?family=Muli:wght@300;400;500;600" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" />
+
+
+
+
+  
+
+  
+  
+  
+    
+  
+  
+
+  <link rel="icon" type="image/png" href="/images/logos/favicon-32x32_hu6c0760df4368777065bb45ed9c8928ba_2423_42x0_resize_box_2.png" />
+
+<meta property="og:title" content="Java" />
+<meta property="og:description" content="" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://thisisbalu.github.io/categories/java/" />
+
+
+
+    
+    
+    <link rel="stylesheet" href="/css/layouts/list.css">
+    <link rel="stylesheet" href="/css/navigators/sidebar.css">
+    
+    <link rel="stylesheet" href="/css/style.css"/>
+
+
+
+    
+    
+  </head>
+
+  <body data-spy="scroll" data-target="#TableOfContents" data-offset="80">
+    <div class="container-fluid bg-dimmed wrapper">
+      
+      
+    
+
+
+
+
+
+  
+
+
+  
+
+
+
+
+  
+  
+    
+  
+  
+
+
+
+  
+  
+    
+  
+  
+
+
+<nav class="navbar navbar-expand-xl top-navbar final-navbar shadow">
+  <div class="container">
+      <button class="navbar-toggler navbar-light" id="sidebar-toggler" type="button" onclick="toggleSidebar()">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="/">
+      
+        <img src="/images/logos/apple-icon-114x114_hu10b496cbdd14ccc59d427707b2b76be1_9048_42x0_resize_box_2.png" alt="Logo">
+      Bala Subramanyam Lanka</a>
+    <button class="navbar-toggler navbar-light" id="toc-toggler" type="button" onclick="toggleTOC()">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse lang-selector" id="top-nav-items">
+      <ul class="navbar-nav ml-auto">
+      
+      </ul>
+    </div>
+  </div>
+  
+  
+    <img src="/images/logos/apple-icon-114x114_hu10b496cbdd14ccc59d427707b2b76be1_9048_42x0_resize_box_2.png" class="d-none" id="main-logo" alt="Logo">
+  
+  
+    <img src="/images/logos/apple-icon-114x114_hu10b496cbdd14ccc59d427707b2b76be1_9048_42x0_resize_box_2.png" class="d-none" id="inverted-logo" alt="Inverted Logo">
+  
+</nav>
+
+
+
+      
+      
+  
+  
+
+  <section class="sidebar-section" id="sidebar-section">
+    <div class="sidebar-holder">
+      <div class="sidebar" id="sidebar">
+        <form class="mx-auto" method="get" action="/search">
+          <input type="text" name="keyword" value="" placeholder="Search" data-search="" id="search-box" />
+        </form>
+        <div class="sidebar-tree">
+          <ul class="tree" id="tree">
+            <li id="list-heading"><a href="/categories" data-filter="all">Categories</a></li>
+            <div class="subtree taxonomy-terms">
+              
+              
+
+
+
+  
+  
+        
+          
+            
+          
+          <li><a class="taxonomy-term " href="https://thisisbalu.github.io/categories/algorithms/" data-taxonomy-term="algorithms"><span class="taxonomy-label">Algorithms</span></a></li>
+        
+          
+            
+          
+          <li><a class="taxonomy-term " href="https://thisisbalu.github.io/categories/big-data/" data-taxonomy-term="big-data"><span class="taxonomy-label">Big Data</span></a></li>
+        
+          
+            
+          
+          <li><a class="taxonomy-term " href="https://thisisbalu.github.io/categories/brms/" data-taxonomy-term="brms"><span class="taxonomy-label">BRMS</span></a></li>
+        
+          
+            
+          
+          <li><a class="taxonomy-term " href="https://thisisbalu.github.io/categories/features/" data-taxonomy-term="features"><span class="taxonomy-label">Features</span></a></li>
+        
+          
+            
+          
+          <li><a class="taxonomy-term " href="https://thisisbalu.github.io/categories/hadoop/" data-taxonomy-term="hadoop"><span class="taxonomy-label">Hadoop</span></a></li>
+        
+          
+            
+          
+          <li><a class="taxonomy-term " href="https://thisisbalu.github.io/categories/html/css/" data-taxonomy-term="html/css"><span class="taxonomy-label">HTML/CSS</span></a></li>
+        
+          
+            
+          
+          <li><a class="taxonomy-term " href="https://thisisbalu.github.io/categories/ibm/" data-taxonomy-term="ibm"><span class="taxonomy-label">IBM</span></a></li>
+        
+          
+            
+          
+          <li><a class="taxonomy-term active" href="https://thisisbalu.github.io/categories/java/" data-taxonomy-term="java"><span class="taxonomy-label">Java</span></a></li>
+        
+          
+            
+          
+          <li><a class="taxonomy-term " href="https://thisisbalu.github.io/categories/java-certification/" data-taxonomy-term="java-certification"><span class="taxonomy-label">Java Certification</span></a></li>
+        
+          
+            
+          
+          <li><a class="taxonomy-term " href="https://thisisbalu.github.io/categories/java-facts/" data-taxonomy-term="java-facts"><span class="taxonomy-label">Java Facts</span></a></li>
+        
+          
+            
+          
+          <li><a class="taxonomy-term " href="https://thisisbalu.github.io/categories/mapreduce/" data-taxonomy-term="mapreduce"><span class="taxonomy-label">MapReduce</span></a></li>
+        
+          
+            
+          
+          <li><a class="taxonomy-term " href="https://thisisbalu.github.io/categories/odm/" data-taxonomy-term="odm"><span class="taxonomy-label">ODM</span></a></li>
+        
+          
+            
+          
+          <li><a class="taxonomy-term " href="https://thisisbalu.github.io/categories/regex/" data-taxonomy-term="regex"><span class="taxonomy-label">Regex</span></a></li>
+        
+          
+            
+          
+          <li><a class="taxonomy-term " href="https://thisisbalu.github.io/categories/technology/" data-taxonomy-term="technology"><span class="taxonomy-label">Technology</span></a></li>
+        
+          
+            
+          
+          <li><a class="taxonomy-term " href="https://thisisbalu.github.io/categories/uncategorized/" data-taxonomy-term="uncategorized"><span class="taxonomy-label">Uncategorized</span></a></li>
+        
+          
+            
+          
+          <li><a class="taxonomy-term " href="https://thisisbalu.github.io/categories/wordpress/" data-taxonomy-term="wordpress"><span class="taxonomy-label">Wordpress</span></a></li>
+        
+  
+
+
+            </div>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+      
+      
+<section class="content-section" id="content-section">
+  <div class="content container-fluid" id="content">
+    <div class="container-fluid post-card-holder" id="post-card-holder">
+      
+      
+      
+        
+          <div class="post-card">
+  <a href="/copy-an-array-in-java-four-different-ways/" class="post-card-link">
+    <div class="card">
+      <div class="card-head">
+        <img class="card-img-top" src='/images/default-hero.jpg' alt="Hero Image">
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">How to copy an Array in Java – Four different ways</h5>
+        <p class="card-text post-summary"><p>There are four ways to copy an array in Java. Following are the different ways</p>
+<ol>
+<li>Using for Loop</li>
+<li>Using copyOf() method of Array Class</li>
+<li>Using clone() Method</li>
+<li>Using arraycopy() method Of System Class</li>
+</ol></p>
+      </div>
+      <div class="card-footer">
+        <span class="float-left">September 29, 2014</span>
+        <a
+        href="/copy-an-array-in-java-four-different-ways/"
+        class="float-right btn btn-outline-info btn-sm"
+        >Read</a
+        >
+      </div>
+    </div>
+  </a>
+</div>
+
+        
+      
+        
+          <div class="post-card">
+  <a href="/java-packages-in-detail-with-versions/" class="post-card-link">
+    <div class="card">
+      <div class="card-head">
+        <img class="card-img-top" src='/images/default-hero.jpg' alt="Hero Image">
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">Java Packages In Detail With Versions</h5>
+        <p class="card-text post-summary"><p>Welcome to my blog Java In Detail. Let us see Packages In Detail :)</p>
+<p>I collected all the java packages, their brief descriptions and their versions in java standard environment till version 8. Below packages are given in the tabular format for your quick reference. Happy Learning!</p></p>
+      </div>
+      <div class="card-footer">
+        <span class="float-left">September 28, 2014</span>
+        <a
+        href="/java-packages-in-detail-with-versions/"
+        class="float-right btn btn-outline-info btn-sm"
+        >Read</a
+        >
+      </div>
+    </div>
+  </a>
+</div>
+
+        
+      
+        
+          <div class="post-card">
+  <a href="/how-to-split-a-string-in-java/" class="post-card-link">
+    <div class="card">
+      <div class="card-head">
+        <img class="card-img-top" src='/images/default-hero.jpg' alt="Hero Image">
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">How to split a String in Java</h5>
+        <p class="card-text post-summary"><p>There are three better ways to split a string in Java.</p>
+<ol>
+<li>Using split() method of String Class</li>
+<li>Using StringTokenizer class of java.util package.</li>
+<li>Using useDelimiter() of Scanner Class.</li>
+</ol></p>
+      </div>
+      <div class="card-footer">
+        <span class="float-left">September 28, 2014</span>
+        <a
+        href="/how-to-split-a-string-in-java/"
+        class="float-right btn btn-outline-info btn-sm"
+        >Read</a
+        >
+      </div>
+    </div>
+  </a>
+</div>
+
+        
+      
+        
+          <div class="post-card">
+  <a href="/how-to-use-stringtokenizer-in-java/" class="post-card-link">
+    <div class="card">
+      <div class="card-head">
+        <img class="card-img-top" src='/images/default-hero.jpg' alt="Hero Image">
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">How to use StringTokenizer in Java</h5>
+        <p class="card-text post-summary"><p><strong>Package</strong> : java.util.StringTokenizer<br>
+<strong>Extends</strong> : java.lang.Object class<br>
+<strong>Implements</strong> : Enumeration<Object><br>
+<strong>Brief Description</strong> : StringTokenizer in java is used to split or break a string into tokens based on a delimiter. Its methods do not distinguish among identifiers, numbers, and quoted strings.</p></p>
+      </div>
+      <div class="card-footer">
+        <span class="float-left">September 27, 2014</span>
+        <a
+        href="/how-to-use-stringtokenizer-in-java/"
+        class="float-right btn btn-outline-info btn-sm"
+        >Read</a
+        >
+      </div>
+    </div>
+  </a>
+</div>
+
+        
+      
+        
+          <div class="post-card">
+  <a href="/execution-of-finally-block-with-return-statements/" class="post-card-link">
+    <div class="card">
+      <div class="card-head">
+        <img class="card-img-top" src='/images/default-hero.jpg' alt="Hero Image">
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">Execution of Finally block with return statements</h5>
+        <p class="card-text post-summary"><p><em>Will the code in the finally block be called and run after a return statement is executed in the try block?</em><br>
+<em>What if there is a return statement in the try block and the finally block as well?</em><br>
+<em>What if exception is thrown in the try block and the return statement in finally block?</em></p></p>
+      </div>
+      <div class="card-footer">
+        <span class="float-left">September 26, 2014</span>
+        <a
+        href="/execution-of-finally-block-with-return-statements/"
+        class="float-right btn btn-outline-info btn-sm"
+        >Read</a
+        >
+      </div>
+    </div>
+  </a>
+</div>
+
+        
+      
+        
+          <div class="post-card">
+  <a href="/finally-block-in-java-in-detail/" class="post-card-link">
+    <div class="card">
+      <div class="card-head">
+        <img class="card-img-top" src='/images/default-hero.jpg' alt="Hero Image">
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">Finally Block in Java – In Detail</h5>
+        <p class="card-text post-summary"><p>Finally is a keyword that is used as finally block in exception handling. Finally block is used with the try block and catch blocks. Finally block always executes when the try block exits.</p>
+<p><em>Placing cleanup code in a finally block is always a good practice, even when no exceptions are anticipated.</em></p></p>
+      </div>
+      <div class="card-footer">
+        <span class="float-left">September 25, 2014</span>
+        <a
+        href="/finally-block-in-java-in-detail/"
+        class="float-right btn btn-outline-info btn-sm"
+        >Read</a
+        >
+      </div>
+    </div>
+  </a>
+</div>
+
+        
+      
+        
+          <div class="post-card">
+  <a href="/how-to-count-the-occurrences-of-a-character-in-java-three-better-ways/" class="post-card-link">
+    <div class="card">
+      <div class="card-head">
+        <img class="card-img-top" src='/images/default-hero.jpg' alt="Hero Image">
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">How to count the occurrences of a character in Java – Three Better Ways</h5>
+        <p class="card-text post-summary"><p>There are three ways.</p>
+<ol>
+<li>Using charAt – Traditional For Loop</li>
+<li>Using toCharArray – Enhanced For Loop</li>
+<li>Using replaceAll – Efficient Way without Looping</li>
+</ol></p>
+      </div>
+      <div class="card-footer">
+        <span class="float-left">September 23, 2014</span>
+        <a
+        href="/how-to-count-the-occurrences-of-a-character-in-java-three-better-ways/"
+        class="float-right btn btn-outline-info btn-sm"
+        >Read</a
+        >
+      </div>
+    </div>
+  </a>
+</div>
+
+        
+      
+        
+          <div class="post-card">
+  <a href="/what-is-meant-by-regular-expression-and-where-it-is-used-in-java/" class="post-card-link">
+    <div class="card">
+      <div class="card-head">
+        <img class="card-img-top" src='/images/default-hero.jpg' alt="Hero Image">
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">What is meant by Regular Expression and Where it is used in Java</h5>
+        <p class="card-text post-summary"><p>Regular Expression, widely termed as Regex is a sequence of characters which forms a search pattern. It is used to match the patterns in the string or the text. Using the regex we can find a pattern and also we can replace the pattern(speaking in perspective with Java). Always regex is applied to the string or text from left to right.</p></p>
+      </div>
+      <div class="card-footer">
+        <span class="float-left">September 19, 2014</span>
+        <a
+        href="/what-is-meant-by-regular-expression-and-where-it-is-used-in-java/"
+        class="float-right btn btn-outline-info btn-sm"
+        >Read</a
+        >
+      </div>
+    </div>
+  </a>
+</div>
+
+        
+      
+        
+          <div class="post-card">
+  <a href="/final-keyword-in-java-three-main-uses/" class="post-card-link">
+    <div class="card">
+      <div class="card-head">
+        <img class="card-img-top" src='/images/default-hero.jpg' alt="Hero Image">
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">Final Keyword in Java – Three Main Uses</h5>
+        <p class="card-text post-summary"><p>In Java, the keyword final is a simple but powerful tool that allows us to write code that is more readable, enables the compiler to catch some logic errors, and prevents accidental misuse of classes and member functions.</p>
+<p>Final keyword has mainly THREE USES as listed below</p>
+<ol>
+<li>a final class cannot be inherited.</li>
+<li>a final method cannot be overridden.</li>
+<li>final data members, parameters and local variables cannot change once they are declared with final keyword.</li>
+</ol></p>
+      </div>
+      <div class="card-footer">
+        <span class="float-left">September 18, 2014</span>
+        <a
+        href="/final-keyword-in-java-three-main-uses/"
+        class="float-right btn btn-outline-info btn-sm"
+        >Read</a
+        >
+      </div>
+    </div>
+  </a>
+</div>
+
+        
+      
+        
+          <div class="post-card">
+  <a href="/generating-unique-id-in-java-part-2-uid-java-tutorial/" class="post-card-link">
+    <div class="card">
+      <div class="card-head">
+        <img class="card-img-top" src='/images/default-hero.jpg' alt="Hero Image">
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">Generating Unique Id in Java Part 2 – UID Java Tutorial</h5>
+        <p class="card-text post-summary"><p>With reference to the previous <a href="http://javaindetail.com/2014/09/16/generating-unique-id-in-java-part-1-uuid-java-tutorial/">post</a>, we had another way to generate the unique id in Java through UID class from the rmi server package in Java. This is an alternative method to use if we are still using Java versions below 5.</p>
+<p><strong>UID Class in Java</strong></p>
+<p>Package : java.rmi.server.UID<br>
+Extends : Object<br>
+Implements : Serializable</p></p>
+      </div>
+      <div class="card-footer">
+        <span class="float-left">September 17, 2014</span>
+        <a
+        href="/generating-unique-id-in-java-part-2-uid-java-tutorial/"
+        class="float-right btn btn-outline-info btn-sm"
+        >Read</a
+        >
+      </div>
+    </div>
+  </a>
+</div>
+
+        
+      
+        
+          <div class="post-card">
+  <a href="/generating-unique-id-in-java-part-1-uuid-java-tutorial/" class="post-card-link">
+    <div class="card">
+      <div class="card-head">
+        <img class="card-img-top" src='/images/default-hero.jpg' alt="Hero Image">
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">Generating Unique Id in Java Part 1 – UUID Java Tutorial</h5>
+        <p class="card-text post-summary"><p>Generating the Unique Ids in Java is a very easy task. There are many ways to generate unique ids in Java, one of the best way is to use UUID class from the util package in Java.</p>
+<p><strong>UUID – Universally Unique Identifier</strong></p>
+<p>A universally unique identifier (UUID) is an identifier standard used in software construction, standardized by the Open Software Foundation (OSF) as part of the Distributed Computing Environment (DCE).</p></p>
+      </div>
+      <div class="card-footer">
+        <span class="float-left">September 16, 2014</span>
+        <a
+        href="/generating-unique-id-in-java-part-1-uuid-java-tutorial/"
+        class="float-right btn btn-outline-info btn-sm"
+        >Read</a
+        >
+      </div>
+    </div>
+  </a>
+</div>
+
+        
+      
+        
+          <div class="post-card">
+  <a href="/how-to-concatenate-two-strings-in-java/" class="post-card-link">
+    <div class="card">
+      <div class="card-head">
+        <img class="card-img-top" src='/images/default-hero.jpg' alt="Hero Image">
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">How to concatenate two strings in Java</h5>
+        <p class="card-text post-summary"><p>The basic operation we perform daily in Java is concatenating the strings. Concatenation of strings in Java can be achieved in three ways.</p>
+<ol>
+<li>Concatenation using + operator.</li>
+<li>Concatenation using concat() method of String class.</li>
+<li>Concatenation using append() method of StringBuffer class.</li>
+</ol></p>
+      </div>
+      <div class="card-footer">
+        <span class="float-left">September 8, 2014</span>
+        <a
+        href="/how-to-concatenate-two-strings-in-java/"
+        class="float-right btn btn-outline-info btn-sm"
+        >Read</a
+        >
+      </div>
+    </div>
+  </a>
+</div>
+
+        
+      
+    </div>
+    <div class="paginator">
+      
+<ul class="pagination">
+  <li class="page-item">
+    <a href="/categories/java/" class="page-link" aria-label="First"><span aria-hidden="true">&laquo;&laquo;</span></a>
+  </li>
+  <li class="page-item">
+    <a href="/categories/java/page/2/" class="page-link" aria-label="Previous"><span aria-hidden="true">&laquo;</span></a>
+  </li>
+  <li class="page-item">
+    <a class="page-link" href="/categories/java/">1</a>
+  </li>
+  <li class="page-item">
+    <a class="page-link" href="/categories/java/page/2/">2</a>
+  </li>
+  <li class="page-item active">
+    <a class="page-link" href="/categories/java/page/3/">3</a>
+  </li>
+  <li class="page-item">
+    <a class="page-link" href="/categories/java/page/4/">4</a>
+  </li>
+  <li class="page-item">
+    <a href="/categories/java/page/4/" class="page-link" aria-label="Next"><span aria-hidden="true">&raquo;</span></a>
+  </li>
+  <li class="page-item">
+    <a href="/categories/java/page/4/" class="page-link" aria-label="Last"><span aria-hidden="true">&raquo;&raquo;</span></a>
+  </li>
+</ul>
+
+
+    </div>
+  </div>
+</section>
+
+
+      
+       
+    </div>
+
+    
+    
+
+
+
+
+
+
+
+
+
+  
+      
+  
+
+
+
+  
+  
+    
+  
+
+  
+  
+    
+  
+
+  
+  
+    
+    
+      
+    
+  
+
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+    
+  
+  
+
+  
+  
+  
+
+  <footer class="container-fluid text-center align-content-center footer pb-2">
+    <div class="container pt-5">
+      <div class="row text-left">
+        
+        <div class="col-md-4 col-sm-12">
+          <h5>Navigation</h5>
+          
+          <ul>
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="/#about">About</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="/#skills">Skills</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="/#experiences">Experience</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="/#education">Education</a>
+                </li>
+              
+              
+          </ul>
+          
+        </div>
+        
+        
+        <div class="col-md-4 col-sm-12">
+          <h5>Contact me:</h5>
+          <ul>
+            
+            <li><span>Email: </span> <span>baluatcomputerscience@outlook.com</span></li>
+            
+          </ul>
+        </div>
+        
+        
+        
+      </div>
+    </div>
+    
+    
+    <hr />
+    <div class="container">
+      <div class="row text-left">
+        <div class="col-md-4">
+        </div>
+        <div class="col-md-4 text-center">© 2021 Copyright.</div>
+        <div class="col-md-4 text-right">
+        </div>
+      </div>
+    </div>
+    
+  </footer>
+
+
+    <script type="text/javascript" src="/js/jquery-3.4.1.min.js"></script>
+<script type="text/javascript" src="/js/popper.min.js"></script>
+<script type="text/javascript" src="/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="/js/navbar.js"></script>
+<script type="text/javascript" src="/js/plyr.js"></script>
+<script type="text/javascript" src="/js/main.js"></script>
+
+
+    
+    
+    <script src="/js/list.js"></script>
+
+  </body>
+</html>

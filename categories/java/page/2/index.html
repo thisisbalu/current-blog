@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Java</title>
+    <meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+
+<link rel="stylesheet" href="/css/bootstrap.min.css"/>
+<link rel="stylesheet" href="/css/layouts/main.css"/>
+<link rel="stylesheet" href="/css/navigators/navbar.css"/>
+<link rel="stylesheet" href="/css/plyr.css"/>
+<link rel="stylesheet" href="/css/flag-icon.min.css"/>
+
+
+<link href="https://fonts.googleapis.com/css2?family=Muli:wght@300;400;500;600" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" />
+
+
+
+
+  
+
+  
+  
+  
+    
+  
+  
+
+  <link rel="icon" type="image/png" href="/images/logos/favicon-32x32_hu6c0760df4368777065bb45ed9c8928ba_2423_42x0_resize_box_2.png" />
+
+<meta property="og:title" content="Java" />
+<meta property="og:description" content="" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://thisisbalu.github.io/categories/java/" />
+
+
+
+    
+    
+    <link rel="stylesheet" href="/css/layouts/list.css">
+    <link rel="stylesheet" href="/css/navigators/sidebar.css">
+    
+    <link rel="stylesheet" href="/css/style.css"/>
+
+
+
+    
+    
+  </head>
+
+  <body data-spy="scroll" data-target="#TableOfContents" data-offset="80">
+    <div class="container-fluid bg-dimmed wrapper">
+      
+      
+    
+
+
+
+
+
+  
+
+
+  
+
+
+
+
+  
+  
+    
+  
+  
+
+
+
+  
+  
+    
+  
+  
+
+
+<nav class="navbar navbar-expand-xl top-navbar final-navbar shadow">
+  <div class="container">
+      <button class="navbar-toggler navbar-light" id="sidebar-toggler" type="button" onclick="toggleSidebar()">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="/">
+      
+        <img src="/images/logos/apple-icon-114x114_hu10b496cbdd14ccc59d427707b2b76be1_9048_42x0_resize_box_2.png" alt="Logo">
+      Bala Subramanyam Lanka</a>
+    <button class="navbar-toggler navbar-light" id="toc-toggler" type="button" onclick="toggleTOC()">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse lang-selector" id="top-nav-items">
+      <ul class="navbar-nav ml-auto">
+      
+      </ul>
+    </div>
+  </div>
+  
+  
+    <img src="/images/logos/apple-icon-114x114_hu10b496cbdd14ccc59d427707b2b76be1_9048_42x0_resize_box_2.png" class="d-none" id="main-logo" alt="Logo">
+  
+  
+    <img src="/images/logos/apple-icon-114x114_hu10b496cbdd14ccc59d427707b2b76be1_9048_42x0_resize_box_2.png" class="d-none" id="inverted-logo" alt="Inverted Logo">
+  
+</nav>
+
+
+
+      
+      
+  
+  
+
+  <section class="sidebar-section" id="sidebar-section">
+    <div class="sidebar-holder">
+      <div class="sidebar" id="sidebar">
+        <form class="mx-auto" method="get" action="/search">
+          <input type="text" name="keyword" value="" placeholder="Search" data-search="" id="search-box" />
+        </form>
+        <div class="sidebar-tree">
+          <ul class="tree" id="tree">
+            <li id="list-heading"><a href="/categories" data-filter="all">Categories</a></li>
+            <div class="subtree taxonomy-terms">
+              
+              
+
+
+
+  
+  
+        
+          
+            
+          
+          <li><a class="taxonomy-term " href="https://thisisbalu.github.io/categories/algorithms/" data-taxonomy-term="algorithms"><span class="taxonomy-label">Algorithms</span></a></li>
+        
+          
+            
+          
+          <li><a class="taxonomy-term " href="https://thisisbalu.github.io/categories/big-data/" data-taxonomy-term="big-data"><span class="taxonomy-label">Big Data</span></a></li>
+        
+          
+            
+          
+          <li><a class="taxonomy-term " href="https://thisisbalu.github.io/categories/brms/" data-taxonomy-term="brms"><span class="taxonomy-label">BRMS</span></a></li>
+        
+          
+            
+          
+          <li><a class="taxonomy-term " href="https://thisisbalu.github.io/categories/features/" data-taxonomy-term="features"><span class="taxonomy-label">Features</span></a></li>
+        
+          
+            
+          
+          <li><a class="taxonomy-term " href="https://thisisbalu.github.io/categories/hadoop/" data-taxonomy-term="hadoop"><span class="taxonomy-label">Hadoop</span></a></li>
+        
+          
+            
+          
+          <li><a class="taxonomy-term " href="https://thisisbalu.github.io/categories/html/css/" data-taxonomy-term="html/css"><span class="taxonomy-label">HTML/CSS</span></a></li>
+        
+          
+            
+          
+          <li><a class="taxonomy-term " href="https://thisisbalu.github.io/categories/ibm/" data-taxonomy-term="ibm"><span class="taxonomy-label">IBM</span></a></li>
+        
+          
+            
+          
+          <li><a class="taxonomy-term active" href="https://thisisbalu.github.io/categories/java/" data-taxonomy-term="java"><span class="taxonomy-label">Java</span></a></li>
+        
+          
+            
+          
+          <li><a class="taxonomy-term " href="https://thisisbalu.github.io/categories/java-certification/" data-taxonomy-term="java-certification"><span class="taxonomy-label">Java Certification</span></a></li>
+        
+          
+            
+          
+          <li><a class="taxonomy-term " href="https://thisisbalu.github.io/categories/java-facts/" data-taxonomy-term="java-facts"><span class="taxonomy-label">Java Facts</span></a></li>
+        
+          
+            
+          
+          <li><a class="taxonomy-term " href="https://thisisbalu.github.io/categories/mapreduce/" data-taxonomy-term="mapreduce"><span class="taxonomy-label">MapReduce</span></a></li>
+        
+          
+            
+          
+          <li><a class="taxonomy-term " href="https://thisisbalu.github.io/categories/odm/" data-taxonomy-term="odm"><span class="taxonomy-label">ODM</span></a></li>
+        
+          
+            
+          
+          <li><a class="taxonomy-term " href="https://thisisbalu.github.io/categories/regex/" data-taxonomy-term="regex"><span class="taxonomy-label">Regex</span></a></li>
+        
+          
+            
+          
+          <li><a class="taxonomy-term " href="https://thisisbalu.github.io/categories/technology/" data-taxonomy-term="technology"><span class="taxonomy-label">Technology</span></a></li>
+        
+          
+            
+          
+          <li><a class="taxonomy-term " href="https://thisisbalu.github.io/categories/uncategorized/" data-taxonomy-term="uncategorized"><span class="taxonomy-label">Uncategorized</span></a></li>
+        
+          
+            
+          
+          <li><a class="taxonomy-term " href="https://thisisbalu.github.io/categories/wordpress/" data-taxonomy-term="wordpress"><span class="taxonomy-label">Wordpress</span></a></li>
+        
+  
+
+
+            </div>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+      
+      
+<section class="content-section" id="content-section">
+  <div class="content container-fluid" id="content">
+    <div class="container-fluid post-card-holder" id="post-card-holder">
+      
+      
+      
+        
+          <div class="post-card">
+  <a href="/source-file-declaration-rules-in-java/" class="post-card-link">
+    <div class="card">
+      <div class="card-head">
+        <img class="card-img-top" src='/images/default-hero.jpg' alt="Hero Image">
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">Source File Declaration Rules in Java</h5>
+        <p class="card-text post-summary"><p>Today lets see rules associated with declaring classes, import statements, and package statements in a source file. We can call them as declaration rules in Java.</p></p>
+      </div>
+      <div class="card-footer">
+        <span class="float-left">October 11, 2014</span>
+        <a
+        href="/source-file-declaration-rules-in-java/"
+        class="float-right btn btn-outline-info btn-sm"
+        >Read</a
+        >
+      </div>
+    </div>
+  </a>
+</div>
+
+        
+      
+        
+          <div class="post-card">
+  <a href="/java-code-conventions/" class="post-card-link">
+    <div class="card">
+      <div class="card-head">
+        <img class="card-img-top" src='/images/default-hero.jpg' alt="Hero Image">
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">Java Code Conventions</h5>
+        <p class="card-text post-summary"><h2 id="why-have-java-code-conventions">Why Have Java Code Conventions</h2>
+<ul>
+<li>80% of the lifetime cost of a piece of software goes to maintenance.</li>
+<li>Hardly any software is maintained for its whole life by the original author.</li>
+<li>Code conventions improve the readability of the software, allowing engineers to understand new code more quickly and thoroughly.</li>
+<li>If you ship your source code as a product, you need to make sure it is as well packaged and clean as any other product you create.</li>
+</ul></p>
+      </div>
+      <div class="card-footer">
+        <span class="float-left">October 10, 2014</span>
+        <a
+        href="/java-code-conventions/"
+        class="float-right btn btn-outline-info btn-sm"
+        >Read</a
+        >
+      </div>
+    </div>
+  </a>
+</div>
+
+        
+      
+        
+          <div class="post-card">
+  <a href="/legal-identifiers-in-java/" class="post-card-link">
+    <div class="card">
+      <div class="card-head">
+        <img class="card-img-top" src='/images/default-hero.jpg' alt="Hero Image">
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">Legal Identifiers in Java</h5>
+        <p class="card-text post-summary"><p>What are Legal Identifiers in Java? It’s simple, The rules the compiler uses to determine whether a name is legal. Technically, legal identifiers must be composed of only Unicode characters, numbers, currency symbols, and connecting characters (like underscores).</p></p>
+      </div>
+      <div class="card-footer">
+        <span class="float-left">October 9, 2014</span>
+        <a
+        href="/legal-identifiers-in-java/"
+        class="float-right btn btn-outline-info btn-sm"
+        >Read</a
+        >
+      </div>
+    </div>
+  </a>
+</div>
+
+        
+      
+        
+          <div class="post-card">
+  <a href="/what-is-a-jagged-array-in-java/" class="post-card-link">
+    <div class="card">
+      <div class="card-head">
+        <img class="card-img-top" src='/images/default-hero.jpg' alt="Hero Image">
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">What is a Jagged Array in Java</h5>
+        <p class="card-text post-summary"><p>Jagged array in Java are Multi-Dimensional arrays with different array sizes. Jagged Arrays are sometimes termed as Ragged Arrays. Lets go through a quick tutorial</p></p>
+      </div>
+      <div class="card-footer">
+        <span class="float-left">October 8, 2014</span>
+        <a
+        href="/what-is-a-jagged-array-in-java/"
+        class="float-right btn btn-outline-info btn-sm"
+        >Read</a
+        >
+      </div>
+    </div>
+  </a>
+</div>
+
+        
+      
+        
+          <div class="post-card">
+  <a href="/multi-dimensional-arrays-in-java/" class="post-card-link">
+    <div class="card">
+      <div class="card-head">
+        <img class="card-img-top" src='/images/default-hero.jpg' alt="Hero Image">
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">Multi Dimensional Arrays in Java</h5>
+        <p class="card-text post-summary"><p>Multi Dimensional arrays in Java can be termed as arrays of arrays. We can create two-dimensional, three-dimensional, four-dimensional or n-dimensional arrays in Java. Its quite simple to create arrays in Java, yet more the dimensions more the confusion. Let us see a quick tutorial. In this tutorial I’m going to take three-dimensional array as example.</p></p>
+      </div>
+      <div class="card-footer">
+        <span class="float-left">October 7, 2014</span>
+        <a
+        href="/multi-dimensional-arrays-in-java/"
+        class="float-right btn btn-outline-info btn-sm"
+        >Read</a
+        >
+      </div>
+    </div>
+  </a>
+</div>
+
+        
+      
+        
+          <div class="post-card">
+  <a href="/how-to-return-an-array-java/" class="post-card-link">
+    <div class="card">
+      <div class="card-head">
+        <img class="card-img-top" src='/images/default-hero.jpg' alt="Hero Image">
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">How to Return an Array Java</h5>
+        <p class="card-text post-summary"><p>In Java, Arrays can be returned from the method. Again same as passing parameters two types of arrays are there. Array of primitive datatypes and the array of derived datatypes.</p>
+<ol>
+<li>Method Returning An Array Of Primitive Type</li>
+<li>Method Returrning An Array Of Derived Type</li>
+</ol></p>
+      </div>
+      <div class="card-footer">
+        <span class="float-left">October 6, 2014</span>
+        <a
+        href="/how-to-return-an-array-java/"
+        class="float-right btn btn-outline-info btn-sm"
+        >Read</a
+        >
+      </div>
+    </div>
+  </a>
+</div>
+
+        
+      
+        
+          <div class="post-card">
+  <a href="/how-to-pass-array-to-method-java/" class="post-card-link">
+    <div class="card">
+      <div class="card-head">
+        <img class="card-img-top" src='/images/default-hero.jpg' alt="Hero Image">
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">How to pass Array to method Java</h5>
+        <p class="card-text post-summary"><p>Arrays can be passed as the parameter in Java. They are Passes-By-Reference which means when we pass the array copy of the objects are not passed just the reference of the array is passed. Arrays can be passed in two ways .</p>
+<ol>
+<li>Passing Primitive Type Array</li>
+<li>Passing Derived Type Array</li>
+</ol></p>
+      </div>
+      <div class="card-footer">
+        <span class="float-left">October 5, 2014</span>
+        <a
+        href="/how-to-pass-array-to-method-java/"
+        class="float-right btn btn-outline-info btn-sm"
+        >Read</a
+        >
+      </div>
+    </div>
+  </a>
+</div>
+
+        
+      
+        
+          <div class="post-card">
+  <a href="/how-to-create-array-of-objects-java/" class="post-card-link">
+    <div class="card">
+      <div class="card-head">
+        <img class="card-img-top" src='/images/default-hero.jpg' alt="Hero Image">
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">How to create Array of Objects Java</h5>
+        <p class="card-text post-summary"><p>In Java, Array of objects java can hold the references to any type of Object. ARRAY CAN CONTAIN ONLY REFERENCES TO THE OBJECTS, BUT NOT THE OBJECTS ITSELF. Let us see Tutorial</p></p>
+      </div>
+      <div class="card-footer">
+        <span class="float-left">October 4, 2014</span>
+        <a
+        href="/how-to-create-array-of-objects-java/"
+        class="float-right btn btn-outline-info btn-sm"
+        >Read</a
+        >
+      </div>
+    </div>
+  </a>
+</div>
+
+        
+      
+        
+          <div class="post-card">
+  <a href="/how-to-assign-specific-value-to-each-element-in-array/" class="post-card-link">
+    <div class="card">
+      <div class="card-head">
+        <img class="card-img-top" src='/images/default-hero.jpg' alt="Hero Image">
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">How to assign specific value to each element in Array</h5>
+        <p class="card-text post-summary"><p>We can assign specific value to each element in the array in Java using the fill() method of java.util.Arrays class. This method is used mainly to initialize whole array at a time without looping through the array in Java. Let go through a tutorial.</p></p>
+      </div>
+      <div class="card-footer">
+        <span class="float-left">October 3, 2014</span>
+        <a
+        href="/how-to-assign-specific-value-to-each-element-in-array/"
+        class="float-right btn btn-outline-info btn-sm"
+        >Read</a
+        >
+      </div>
+    </div>
+  </a>
+</div>
+
+        
+      
+        
+          <div class="post-card">
+  <a href="/how-to-search-an-element-in-an-array-in-java/" class="post-card-link">
+    <div class="card">
+      <div class="card-head">
+        <img class="card-img-top" src='/images/default-hero.jpg' alt="Hero Image">
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">How to search an element in an array in java</h5>
+        <p class="card-text post-summary"><p>In Java searching an element in an array is simple. All we have to use is java.util.Arrays class binarySearch() method.</p>
+<p>Searches the specified array of ints for the specified value using the binary search algorithm. The array must be sorted (as by the sort(int[]) method) prior to making this call. If it is not sorted, the results are undefined. If the array contains multiple elements with the specified value, there is no guarantee which one will be found.</p></p>
+      </div>
+      <div class="card-footer">
+        <span class="float-left">October 2, 2014</span>
+        <a
+        href="/how-to-search-an-element-in-an-array-in-java/"
+        class="float-right btn btn-outline-info btn-sm"
+        >Read</a
+        >
+      </div>
+    </div>
+  </a>
+</div>
+
+        
+      
+        
+          <div class="post-card">
+  <a href="/how-to-sort-arrays-in-java/" class="post-card-link">
+    <div class="card">
+      <div class="card-head">
+        <img class="card-img-top" src='/images/default-hero.jpg' alt="Hero Image">
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">How to sort Arrays in Java</h5>
+        <p class="card-text post-summary"><p>Yes we have many sorting algorithms to sort elements. We used to implement one of the sorting algorithm to sort elements in previous programming languages like C, C++ etc.. But sorting an array in Java is a simple process. All we have to do is to use the sort method of Arrays class in Java.</p>
+<p>Internally sort() method of java.util.Arrays class uses <em><span style="text-decoration: underline;">Dual-Pivot Quicksort by Vladimir Yaroslavskiy, Jon Bentley, and Joshua Bloch.</span></em> This algorithm offers O(n log(n)) performance on many data sets that cause other quicksorts to degrade to quadratic performance, and is typically faster than traditional (one-pivot) Quicksort implementations.</p></p>
+      </div>
+      <div class="card-footer">
+        <span class="float-left">October 1, 2014</span>
+        <a
+        href="/how-to-sort-arrays-in-java/"
+        class="float-right btn btn-outline-info btn-sm"
+        >Read</a
+        >
+      </div>
+    </div>
+  </a>
+</div>
+
+        
+      
+        
+          <div class="post-card">
+  <a href="/how-to-print-array-in-array-format-in-java/" class="post-card-link">
+    <div class="card">
+      <div class="card-head">
+        <img class="card-img-top" src='/images/default-hero.jpg' alt="Hero Image">
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">How to print Array in array format in Java</h5>
+        <p class="card-text post-summary"><p>To print an array or to display an array in Java we used to iterate through the array using for loop and print them in sysout. But java.util.Arrays class have inbuilt method toString() which prints the array directly without looping through array. It prints in the format of square brackets with comma separated elements eg : [ 1, 2, 3, 4 ]</p></p>
+      </div>
+      <div class="card-footer">
+        <span class="float-left">September 30, 2014</span>
+        <a
+        href="/how-to-print-array-in-array-format-in-java/"
+        class="float-right btn btn-outline-info btn-sm"
+        >Read</a
+        >
+      </div>
+    </div>
+  </a>
+</div>
+
+        
+      
+    </div>
+    <div class="paginator">
+      
+<ul class="pagination">
+  <li class="page-item">
+    <a href="/categories/java/" class="page-link" aria-label="First"><span aria-hidden="true">&laquo;&laquo;</span></a>
+  </li>
+  <li class="page-item">
+    <a href="/categories/java/" class="page-link" aria-label="Previous"><span aria-hidden="true">&laquo;</span></a>
+  </li>
+  <li class="page-item">
+    <a class="page-link" href="/categories/java/">1</a>
+  </li>
+  <li class="page-item active">
+    <a class="page-link" href="/categories/java/page/2/">2</a>
+  </li>
+  <li class="page-item">
+    <a class="page-link" href="/categories/java/page/3/">3</a>
+  </li>
+  <li class="page-item">
+    <a class="page-link" href="/categories/java/page/4/">4</a>
+  </li>
+  <li class="page-item">
+    <a href="/categories/java/page/3/" class="page-link" aria-label="Next"><span aria-hidden="true">&raquo;</span></a>
+  </li>
+  <li class="page-item">
+    <a href="/categories/java/page/4/" class="page-link" aria-label="Last"><span aria-hidden="true">&raquo;&raquo;</span></a>
+  </li>
+</ul>
+
+
+    </div>
+  </div>
+</section>
+
+
+      
+       
+    </div>
+
+    
+    
+
+
+
+
+
+
+
+
+
+  
+      
+  
+
+
+
+  
+  
+    
+  
+
+  
+  
+    
+  
+
+  
+  
+    
+    
+      
+    
+  
+
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+    
+  
+  
+
+  
+  
+  
+
+  <footer class="container-fluid text-center align-content-center footer pb-2">
+    <div class="container pt-5">
+      <div class="row text-left">
+        
+        <div class="col-md-4 col-sm-12">
+          <h5>Navigation</h5>
+          
+          <ul>
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="/#about">About</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="/#skills">Skills</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="/#experiences">Experience</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="/#education">Education</a>
+                </li>
+              
+              
+          </ul>
+          
+        </div>
+        
+        
+        <div class="col-md-4 col-sm-12">
+          <h5>Contact me:</h5>
+          <ul>
+            
+            <li><span>Email: </span> <span>baluatcomputerscience@outlook.com</span></li>
+            
+          </ul>
+        </div>
+        
+        
+        
+      </div>
+    </div>
+    
+    
+    <hr />
+    <div class="container">
+      <div class="row text-left">
+        <div class="col-md-4">
+        </div>
+        <div class="col-md-4 text-center">© 2021 Copyright.</div>
+        <div class="col-md-4 text-right">
+        </div>
+      </div>
+    </div>
+    
+  </footer>
+
+
+    <script type="text/javascript" src="/js/jquery-3.4.1.min.js"></script>
+<script type="text/javascript" src="/js/popper.min.js"></script>
+<script type="text/javascript" src="/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="/js/navbar.js"></script>
+<script type="text/javascript" src="/js/plyr.js"></script>
+<script type="text/javascript" src="/js/main.js"></script>
+
+
+    
+    
+    <script src="/js/list.js"></script>
+
+  </body>
+</html>

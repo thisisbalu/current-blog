@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Rete Algorithm</title>
+    <meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+
+<link rel="stylesheet" href="/css/bootstrap.min.css"/>
+<link rel="stylesheet" href="/css/layouts/main.css"/>
+<link rel="stylesheet" href="/css/navigators/navbar.css"/>
+<link rel="stylesheet" href="/css/plyr.css"/>
+<link rel="stylesheet" href="/css/flag-icon.min.css"/>
+
+
+<link href="https://fonts.googleapis.com/css2?family=Muli:wght@300;400;500;600" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" />
+
+
+
+
+  
+
+  
+  
+  
+    
+  
+  
+
+  <link rel="icon" type="image/png" href="/images/logos/favicon-32x32_hu6c0760df4368777065bb45ed9c8928ba_2423_42x0_resize_box_2.png" />
+
+<meta property="og:title" content="Rete Algorithm" />
+<meta property="og:description" content="Rete Algorithm is an efficient pattern matching algorithm that compares a large collection of patterns to a large collection of objects. It was invented by Charles L. Forgy and documented in his Ph.D. thesis in 1978-79 at Carnegie-Mellon University. " />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://thisisbalu.github.io/rete-algorithm/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2016-05-15T17:16:47&#43;00:00" />
+<meta property="article:modified_time" content="2016-05-15T17:16:47&#43;00:00" />
+
+
+
+    
+    
+<meta name="description" content="Rete Algorithm" />
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/atom-one-dark.min.css"
+/>
+<link rel="stylesheet" href="/css/layouts/single.css"/>
+<link rel="stylesheet" href="/css/navigators/sidebar.css">
+
+<link rel="stylesheet" href="/css/style.css"/>
+
+
+
+    
+    
+  </head>
+
+  <body data-spy="scroll" data-target="#TableOfContents" data-offset="80">
+    <div class="container-fluid bg-dimmed wrapper">
+      
+      
+    
+
+
+
+
+
+  
+
+
+  
+
+
+
+
+  
+  
+    
+  
+  
+
+
+
+  
+  
+    
+  
+  
+
+
+<nav class="navbar navbar-expand-xl top-navbar final-navbar shadow">
+  <div class="container">
+      <button class="navbar-toggler navbar-light" id="sidebar-toggler" type="button" onclick="toggleSidebar()">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="/">
+      
+        <img src="/images/logos/apple-icon-114x114_hu10b496cbdd14ccc59d427707b2b76be1_9048_42x0_resize_box_2.png" alt="Logo">
+      Bala Subramanyam Lanka</a>
+    <button class="navbar-toggler navbar-light" id="toc-toggler" type="button" onclick="toggleTOC()">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse lang-selector" id="top-nav-items">
+      <ul class="navbar-nav ml-auto">
+      
+      </ul>
+    </div>
+  </div>
+  
+  
+    <img src="/images/logos/apple-icon-114x114_hu10b496cbdd14ccc59d427707b2b76be1_9048_42x0_resize_box_2.png" class="d-none" id="main-logo" alt="Logo">
+  
+  
+    <img src="/images/logos/apple-icon-114x114_hu10b496cbdd14ccc59d427707b2b76be1_9048_42x0_resize_box_2.png" class="d-none" id="inverted-logo" alt="Inverted Logo">
+  
+</nav>
+
+
+
+      
+      
+  <section class="sidebar-section" id="sidebar-section">
+    <div class="sidebar-holder">
+      <div class="sidebar" id="sidebar">
+        <form class="mx-auto" method="get" action="/search">
+          <input type="text" name="keyword" value="" placeholder="Search" data-search="" id="search-box" />
+        </form>
+        <div class="sidebar-tree">
+          <ul class="tree" id="tree">
+            <li id="list-heading"><a href="/posts" data-filter="all">Posts</a></li>
+            <div class="subtree">
+                
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/sample/" title="Welcome">Welcome</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li>
+      <i class="fas fa-plus-circle"></i><a class="" href="">getting-started</a>
+      
+      <ul class="">
+        
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/2016-09-28-different-brms-tools-market/" title="Github Pages">Github Pages</a></li>
+  
+
+
+      </ul>
+    </li>
+  
+
+
+            </div>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+      
+      
+<section class="content-section" id="content-section">
+  <div class="content">
+    <div class="container p-0 read-area">
+      
+      <div class="hero-area col-sm-12" id="hero-area" style='background-image: url(https://thisisbalu.github.io/images/default-hero.jpg);'>
+      </div>
+
+      
+      <div class="page-content">
+        <div class="author-profile ml-auto align-self-lg-center">
+          <img class="rounded-circle" src='/images/author/balu_hu35c00e1b0d1c2b7ef4062ee49dc08602_54380_120x120_fit_box_2.png' alt="Author Image">
+          <h5 class="author-name">Bala Subramanyam Lanka</h5>
+          <p>May 15, 2016</p>
+        </div>
+
+        <div class="title">
+          <h1>Rete Algorithm</h1>
+        </div>
+        
+        <div class="post-content" id="post-content">
+          <p>Rete Algorithm is an efficient pattern matching algorithm that compares a large collection of patterns to a large collection of objects. It was invented by Charles L. Forgy and documented in his Ph.D. thesis in 1978-79 at Carnegie-Mellon University. </p>
+<p>There are lot many meanings for the word “RETE”. Some tell that it is a latin word which means net, comb. Others say that it is an Italian word which means fishing net. But Charles always felt that rete is more like a living substance. So, he told that rete means the anatomical network of blood vessels and nerve fibres. He also clarifies how to spell it. It should be spelt as “Ree-tee Algorithm”.</p>
+<p>In this post, I would like to write the theory part of rete algorithm. I wanted to discuss the importance of rete algorithm, what are the components of the algorithm, how it works, how working memory elements are created and used in the algorithm etc.,</p>
+<h2 id="importance-of-rete-algorithm">Importance of RETE Algorithm</h2>
+<p>This algorithm is the heart of the Rule Engines from past ten years. Every Business Rule Mangement System that is available on the market uses the enhanced form of rete. Rete algorithm can be implemented by anyone since it is free. So vendors in the market tweak the Rete and create the enhanced form of the Rete Algorithms. For example – Drools uses RETEOO, IBM ODM uses Rete Plus, etc.,</p>
+<p>The Rete Match Algorithm is a method for comparing a set of patterns to a set of objects in order to determine all the possible matches.</p>
+<blockquote>
+<p>The Rete algorithm is widely used to implement matching functionality within pattern-matching engines that exploit a match-resolve-act cycle to support <span style="text-decoration: underline;"><strong>forward chaining</strong></span> and <span style="text-decoration: underline;"><strong>inferencing</strong></span>.</p>
+</blockquote>
+<p>The algorithm is efficient even when it processes large sets of patterns and objects because it does not iterate over the sets. In this algorithm, the patterns are compiled into a program to perform the match process. The program does not have to iterate over the patterns because it contains a tree-structured sorting network or index for the patterns. It does not have to iterate over the data because it maintains state information: the program computes the matches and partial matches for each object when it enters the data memory, and it stores the information as long as the object remains in the memory.</p>
+<h2 id="major-characteristics-of-rete-algorithm">Major Characteristics of Rete Algorithm</h2>
+<ul>
+<li>It reduces or eliminates certain types of redundancy through the use of node sharing.</li>
+<li>It stores partial matches when performing joins between different fact types. This, in turn, allows production systems to avoid complete re-evaluation of all facts each time changes are made to the production system’s working memory. Instead, the production system needs only to evaluate the changes (deltas) to working memory.</li>
+<li>It allows for efficient removal of memory elements when facts are retracted from working memory.</li>
+<li>It provides a means for many-many matching, an important feature when many or all possible solutions in a search network must be found.</li>
+</ul>
+<h2 id="how-does-rete-algorithm-work">How does Rete Algorithm work?</h2>
+<p>There are three main components of the Rete Algorithm. They are Alpha Network, Beta Network and Agenda.</p>
+<blockquote>
+<p>The Rete algorithm is designed to sacrifice memory for increased speed. It uses more memory for the loading the objects into the Working Memory.</p>
+</blockquote>
+<p>Speaking non-technically, rete algorithm is responsible for matching data tuples (“facts”) against productions (“rules”) in a pattern-matching production system (it may be a rule engine). Now let us see how it works.<figure id="attachment_1332" aria-describedby="caption-attachment-1332" style="width: 840px" class="wp-caption aligncenter"></p>
+<p><a href="http://www.balasubramanyamlanka.com/wp-content/uploads/2016/05/rete-algorithm.png"><img loading="lazy" class="size-large wp-image-1332" src="http://www.balasubramanyamlanka.com/wp-content/uploads/2016/05/rete-algorithm-1024x706.png" alt="Rete Algorithm Topology" width="840" height="579" srcset="http://www.balasubramanyamlanka.com/wp-content/uploads/2016/05/rete-algorithm-1024x706.png 1024w, http://www.balasubramanyamlanka.com/wp-content/uploads/2016/05/rete-algorithm-300x207.png 300w, http://www.balasubramanyamlanka.com/wp-content/uploads/2016/05/rete-algorithm-768x529.png 768w, http://www.balasubramanyamlanka.com/wp-content/uploads/2016/05/rete-algorithm-1200x827.png 1200w, http://www.balasubramanyamlanka.com/wp-content/uploads/2016/05/rete-algorithm.png 1252w" sizes="(max-width: 709px) 85vw, (max-width: 909px) 67vw, (max-width: 1362px) 62vw, 840px" /></a><figcaption id="caption-attachment-1332" class="wp-caption-text">Rete Algorithm Topology</figcaption></figure></p>
+<p>Rete is a directed acyclic graph that represents higher-level rule sets. They are generally represented at run-time using a network of in-memory objects.</p>
+<p>First, facts are “asserted” to working memory, then engine creates <em>working memory elements</em> (WMEs) for each fact. Each WME enters the Rete network at a single root node. The root node passes each WME on to its child nodes, and each WME may then be propagated through the network, possibly being stored in intermediate memories, until it arrives at a terminal node.</p>
+<h5 id="alpha-network">Alpha Network</h5>
+<p>It starts with constructing the rete network. The left side of the node graph forms a discrimination network responsible for selecting individual WMEs based on simple conditional tests which match WME attributes against constant values.</p>
+<p>Within the discrimination network, each branch of alpha nodes (also called 1-input nodes) terminates at a memory, called an <em>alpha memory</em>. These memories store collections of WMEs that match each condition in each node in a given node branch. WMEs that fail to match at least one condition in a branch are not materialised within the corresponding alpha memory. Alpha node branches may fork in order to minimise condition redundancy.</p>
+<h5 id="beta-network">Beta Network</h5>
+<p>The right side of the graph chiefly performs joins between different WMEs. It is optional and is only included if required. It consists of 2-input nodes where each node has a left and a right input. Each beta node sends its output to a <em>beta memory</em>.</p>
+<p>Beta nodes process tokens. A token is a unit of storage within a memory and also a unit of exchange between memories and nodes. In many implementations, tokens are introduced within alpha memories where they are used to hold single WMEs. These tokens are then passed to the beta network.</p>
+<p>Each beta node performs its work and, as a result, it may create new tokens to hold a list of WMEs representing a partial match. These extended tokens are then stored in beta memories and passed to subsequent beta nodes. In this case, the beta nodes typically pass lists of WMEs through the beta network by copying existing WME lists from each received token into new tokens and then adding a further WMEs to the lists as a result of performing a join or some other action. The new tokens are then stored in the output memory.</p>
+<p>WME lists that reach the end of a branch of beta nodes represent a complete match for a single production and are passed to terminal nodes. Each terminal node represents a single production, and each WME list that arrives at a terminal node represents a complete set of matching WMEs for the conditions in that production. For each WME list it receives, a production node will “activate” a new production instance on the “agenda”.</p>
+<h5 id="agenda">Agenda</h5>
+<p>Agendas are typically implemented as prioritised queues. During any one match-resolve-act cycle, the engine will find all possible matches for the facts currently asserted to working memory. Once all the current matches have been found, and corresponding production instances have been activated on the agenda, the engine determines an order in which the production instances may be “fired”.</p>
+<p>Each time any single production instance performs one or more such changes, the engine immediately enters a new match-resolve-act cycle. This includes “updates” to WMEs currently in the working memory. Updates are represented by retracting and then re-asserting the WME. The engine undertakes matching of the changed data which, in turn, may result in changes to the list of production instances on the agenda. Hence, after the actions for any one specific production instance have been executed, previously activated instances may have been de-activated and removed from the agenda, and new instances may have been activated.</p>
+<p>This post is for the brief understanding of Rete Algorithm. Please consider reading the base paper of this algorithm and videos for the exact core understanding. Happy Learning! Happy Exploring!!</p>
+<p> </p>
+<p><span style="text-decoration: underline;"><strong><em>Sources:</em></strong></span></p>
+<ul>
+<li><em><a href="http://www.csl.sri.com/users/mwfong/Technical/RETE%20Match%20Algorithm%20-%20Forgy%20OCR.pdf">http://www.csl.sri.com/users/mwfong/Technical/RETE%20Match%20Algorithm%20-%20Forgy%20OCR.pdf</a></em></li>
+<li><em><a href="https://www.youtube.com/watch?v=CmxHPJTAF3I">https://www.youtube.com/watch?v=CmxHPJTAF3I</a></em></li>
+<li><em><a href="https://docs.jboss.org/drools/release/5.2.0.Final/drools-expert-docs/html/ch03.html">https://docs.jboss.org/drools/release/5.2.0.Final/drools-expert-docs/html/ch03.html</a></em></li>
+<li><a href="https://techondec.wordpress.com/"><em>https://techondec.wordpress.com/</em></a></li>
+</ul>
+        </div>
+
+        
+        
+
+        
+      <hr />
+        
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+  
+
+  
+  
+
+
+<div class="row next-prev-navigator">
+  
+  
+</div>
+
+      <hr />
+      
+      
+      </div>
+    </div>
+  </div>
+  
+  <a id="scroll-to-top" class="btn"><i class="fas fa-chevron-circle-up"></i></a>
+  
+</section>
+
+
+      
+      
+  <section class="toc-section" id="toc-section">
+    
+    <div class="toc-holder">
+      <h5 class="text-center pl-3">Table of Contents</h5>
+      <hr>
+      <div class="toc">
+        <nav id="TableOfContents">
+  <ul>
+    <li><a href="#importance-of-rete-algorithm">Importance of RETE Algorithm</a></li>
+    <li><a href="#major-characteristics-of-rete-algorithm">Major Characteristics of Rete Algorithm</a></li>
+    <li><a href="#how-does-rete-algorithm-work">How does Rete Algorithm work?</a>
+      <ul>
+        <li>
+          <ul>
+            <li>
+              <ul>
+                <li><a href="#alpha-network">Alpha Network</a></li>
+                <li><a href="#beta-network">Beta Network</a></li>
+                <li><a href="#agenda">Agenda</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+      </div>
+    </div>
+    
+  </section>
+
+    </div>
+
+    
+    
+
+
+
+
+
+
+
+
+
+  
+      
+  
+
+
+
+  
+  
+    
+  
+
+  
+  
+    
+  
+
+  
+  
+    
+    
+      
+    
+  
+
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+    
+  
+  
+
+  
+  
+  
+
+  <footer class="container-fluid text-center align-content-center footer pb-2">
+    <div class="container pt-5">
+      <div class="row text-left">
+        
+        <div class="col-md-4 col-sm-12">
+          <h5>Navigation</h5>
+          
+          <ul>
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="/#about">About</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="/#skills">Skills</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="/#experiences">Experience</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="/#education">Education</a>
+                </li>
+              
+              
+          </ul>
+          
+        </div>
+        
+        
+        <div class="col-md-4 col-sm-12">
+          <h5>Contact me:</h5>
+          <ul>
+            
+            <li><span>Email: </span> <span>baluatcomputerscience@outlook.com</span></li>
+            
+          </ul>
+        </div>
+        
+        
+        
+      </div>
+    </div>
+    
+    
+    <hr />
+    <div class="container">
+      <div class="row text-left">
+        <div class="col-md-4">
+        </div>
+        <div class="col-md-4 text-center">© 2021 Copyright.</div>
+        <div class="col-md-4 text-right">
+        </div>
+      </div>
+    </div>
+    
+  </footer>
+
+
+    <script type="text/javascript" src="/js/jquery-3.4.1.min.js"></script>
+<script type="text/javascript" src="/js/popper.min.js"></script>
+<script type="text/javascript" src="/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="/js/navbar.js"></script>
+<script type="text/javascript" src="/js/plyr.js"></script>
+<script type="text/javascript" src="/js/main.js"></script>
+
+
+    
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js"></script>
+<script src="/js/single.js"></script>
+<script>
+  hljs.initHighlightingOnLoad();
+</script>
+
+
+  </body>
+</html>

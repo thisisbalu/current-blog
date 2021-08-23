@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>RetePlus Algorithm with Example – IBM ODM</title>
+    <meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+
+<link rel="stylesheet" href="/css/bootstrap.min.css"/>
+<link rel="stylesheet" href="/css/layouts/main.css"/>
+<link rel="stylesheet" href="/css/navigators/navbar.css"/>
+<link rel="stylesheet" href="/css/plyr.css"/>
+<link rel="stylesheet" href="/css/flag-icon.min.css"/>
+
+
+<link href="https://fonts.googleapis.com/css2?family=Muli:wght@300;400;500;600" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" />
+
+
+
+
+  
+
+  
+  
+  
+    
+  
+  
+
+  <link rel="icon" type="image/png" href="/images/logos/favicon-32x32_hu6c0760df4368777065bb45ed9c8928ba_2423_42x0_resize_box_2.png" />
+
+<meta property="og:title" content="RetePlus Algorithm with Example – IBM ODM" />
+<meta property="og:description" content="RetePlus algorithm is one of the execution modes in IBM ODM which is based on Rete algorithm. It works based on working memory, agenda creation, supports negative patterns, object notification, and Logical Objects. Use RetePlus optimization techniques to improve performance through reduction of the number of rules and conditions, computation of the rules to run, and prioritization of the rule order." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://thisisbalu.github.io/reteplus-algorithm-example/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2016-06-04T20:00:23&#43;00:00" />
+<meta property="article:modified_time" content="2016-06-04T20:00:23&#43;00:00" />
+
+
+
+    
+    
+<meta name="description" content="RetePlus Algorithm with Example – IBM ODM" />
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/atom-one-dark.min.css"
+/>
+<link rel="stylesheet" href="/css/layouts/single.css"/>
+<link rel="stylesheet" href="/css/navigators/sidebar.css">
+
+<link rel="stylesheet" href="/css/style.css"/>
+
+
+
+    
+    
+  </head>
+
+  <body data-spy="scroll" data-target="#TableOfContents" data-offset="80">
+    <div class="container-fluid bg-dimmed wrapper">
+      
+      
+    
+
+
+
+
+
+  
+
+
+  
+
+
+
+
+  
+  
+    
+  
+  
+
+
+
+  
+  
+    
+  
+  
+
+
+<nav class="navbar navbar-expand-xl top-navbar final-navbar shadow">
+  <div class="container">
+      <button class="navbar-toggler navbar-light" id="sidebar-toggler" type="button" onclick="toggleSidebar()">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="/">
+      
+        <img src="/images/logos/apple-icon-114x114_hu10b496cbdd14ccc59d427707b2b76be1_9048_42x0_resize_box_2.png" alt="Logo">
+      Bala Subramanyam Lanka</a>
+    <button class="navbar-toggler navbar-light" id="toc-toggler" type="button" onclick="toggleTOC()">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse lang-selector" id="top-nav-items">
+      <ul class="navbar-nav ml-auto">
+      
+      </ul>
+    </div>
+  </div>
+  
+  
+    <img src="/images/logos/apple-icon-114x114_hu10b496cbdd14ccc59d427707b2b76be1_9048_42x0_resize_box_2.png" class="d-none" id="main-logo" alt="Logo">
+  
+  
+    <img src="/images/logos/apple-icon-114x114_hu10b496cbdd14ccc59d427707b2b76be1_9048_42x0_resize_box_2.png" class="d-none" id="inverted-logo" alt="Inverted Logo">
+  
+</nav>
+
+
+
+      
+      
+  <section class="sidebar-section" id="sidebar-section">
+    <div class="sidebar-holder">
+      <div class="sidebar" id="sidebar">
+        <form class="mx-auto" method="get" action="/search">
+          <input type="text" name="keyword" value="" placeholder="Search" data-search="" id="search-box" />
+        </form>
+        <div class="sidebar-tree">
+          <ul class="tree" id="tree">
+            <li id="list-heading"><a href="/posts" data-filter="all">Posts</a></li>
+            <div class="subtree">
+                
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/sample/" title="Welcome">Welcome</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li>
+      <i class="fas fa-plus-circle"></i><a class="" href="">getting-started</a>
+      
+      <ul class="">
+        
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/2016-09-28-different-brms-tools-market/" title="Github Pages">Github Pages</a></li>
+  
+
+
+      </ul>
+    </li>
+  
+
+
+            </div>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+      
+      
+<section class="content-section" id="content-section">
+  <div class="content">
+    <div class="container p-0 read-area">
+      
+      <div class="hero-area col-sm-12" id="hero-area" style='background-image: url(https://thisisbalu.github.io/images/default-hero.jpg);'>
+      </div>
+
+      
+      <div class="page-content">
+        <div class="author-profile ml-auto align-self-lg-center">
+          <img class="rounded-circle" src='/images/author/balu_hu35c00e1b0d1c2b7ef4062ee49dc08602_54380_120x120_fit_box_2.png' alt="Author Image">
+          <h5 class="author-name">Bala Subramanyam Lanka</h5>
+          <p>June 4, 2016</p>
+        </div>
+
+        <div class="title">
+          <h1>RetePlus Algorithm with Example – IBM ODM</h1>
+        </div>
+        
+        <div class="post-content" id="post-content">
+          <p>RetePlus algorithm is one of the <a href="http://www.balasubramanyamlanka.com/rule-engine-execution-modes/">execution modes</a> in IBM ODM which is based on <a href="http://www.balasubramanyamlanka.com/rete-algorithm/">Rete algorithm</a>. It works based on working memory, agenda creation, supports negative patterns, object notification, and Logical Objects. Use RetePlus optimization techniques to improve performance through reduction of the number of rules and conditions, computation of the rules to run, and prioritization of the rule order.</p>
+<h2 id="working-of-reteplus-algorithm">Working of RetePlus Algorithm</h2>
+<ol>
+<li>
+<p>First, all the objects are loaded into the working memory. We call these objects as working memory objects.</p>
+</li>
+<li>
+<p>Rule Engine matches the rules with working memory objects.</p>
+</li>
+<li>
+<p>During this Pattern matching process, RetePlus algorithm creates a network based on semantic relationships between rule condition tests.</p>
+</li>
+<li>
+<p>If a rule got matched with the working memory objects, then the rule instance is created and added to the Agenda.
+<figure id="attachment_1472" aria-describedby="caption-attachment-1472" style="width: 655px" class="wp-caption aligncenter"><a href="http://www.balasubramanyamlanka.com/wp-content/uploads/2016/06/Working-of-RetePlus-Algorithm.jpg"><img loading="lazy" class="size-full wp-image-1472" src="http://www.balasubramanyamlanka.com/wp-content/uploads/2016/06/Working-of-RetePlus-Algorithm.jpg" alt="Working of RetePlus Algorithm" width="655" height="352" srcset="http://www.balasubramanyamlanka.com/wp-content/uploads/2016/06/Working-of-RetePlus-Algorithm.jpg 655w, http://www.balasubramanyamlanka.com/wp-content/uploads/2016/06/Working-of-RetePlus-Algorithm-300x161.jpg 300w" sizes="(max-width: 709px) 85vw, (max-width: 909px) 67vw, (max-width: 984px) 61vw, (max-width: 1362px) 45vw, 600px" /></a><figcaption id="caption-attachment-1472" class="wp-caption-text">Working of RetePlus Algorithm</figcaption></figure></li></p>
+<ul>
+<li>Then based on the Ordering properties, agenda selects the rule instance to trigger.</li>
+<li>The rule action of the rule gets triggered.</li>
+<li>When the rules are firing, sometimes there comes a situation where the working memory objects get updated. The rule action can modify the working memory objects in the following way:
+<ul>
+<li>By adding an object to the working memory</li>
+<li>By removing an object from the working memory</li>
+<li>By modifying the attributes of an existing object.</li>
+</ul>
+</li>
+<li>Whenever the working memory objects get updated, then rule engine repeats the pattern matching process.</li>
+<li>It reassesses matches after each rule instance is run and modifies the data. As a possible consequence, the list of rule instances in the agenda can change.</li>
+<li>Thus, this algorithm is incremental and data-driven.</li>
+<li>This algorithm is based on an inference process that the sequential and FastPath algorithms do not support in IBM ODM.</li>
+<li>This algorithm had five main sections. They are:
+<ul>
+<li>Working Memory</li>
+<li>Agenda</li>
+<li>Negative Patterns</li>
+<li>Object Notifications</li>
+<li>Network Operation</ol></li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+<pre><code>### Working Memory
+
+Each Rule engine in the Decision server is paired with a working memory. The working memory contains all the objects contained in the associated IlrContext object (base class of all the execution contexts. Rules can be executed only within an execution context.). You can modify the working memory by adding a statement in the &lt;em class=&quot;ph i&quot;&gt;action part of a rule&lt;/em&gt; or by using the Application Programming Interface (API).
+
+Thus, the rule engine is aware of the objects that are in the working memory and any objects that are linked to them. The rule engine can use only objects that are accessible from the working memory. Use the following methods to manage the working memory:
+
+  1. insert
+  2. retract
+  3. update
+  4. updateContext
+  5. enumerateObjects
+  6. getObjects
+
+Check [here][4] for better understanding of the methods given above.
+
+### Agenda
+
+The agenda is where &lt;span class=&quot;keyword&quot;&gt;Decision Server&lt;/span&gt; stores the rules whose patterns are all matched. Any rule that enters the agenda is said to be instantiated, it becomes a rule instance&lt;em class=&quot;ph i&quot;&gt;. &lt;/em&gt;
+
+&lt;p class=&quot;p&quot;&gt;
+  The agenda stores rule instances that are eligible to be executed. If the agenda is empty, the execution has no effect. Rule instances placed in the agenda are said to be eligible. Often, in the agenda, several rules are eligible. Consequently, the rule engine has to have some way of deciding which particular rule in the agenda should be executed.
+&lt;/p&gt;
+
+### Negative Patterns
+
+Negative Patterns are used for expressing the non-existence of a particular type of objects in the working memory. Generally, positive patterns are checked with the objects present in the working memory, By using these negative patterns in this algorithm we can reduce checking for all the patterns with the objects available.
+
+For specifying the negative patterns in the working memory, we should use **_&amp;#8220;not&amp;#8221;_** keyword prior to the condition of the objects.
+
+### Object Notifications
+
+We have four statements to control the individual operations of the objects in the working memory. Operations include &amp;#8211; Object insertion, Object removal, Object Update and Attribute modification.
+
+### RetePlus network operation {.title.sectiontitle}
+
+&lt;p class=&quot;p&quot;&gt;
+  The RetePlus network indexes rules so as to minimize the number of rules and conditions that need to be evaluated whenever the working memory is changed. The network minimizes the number of evaluations by sharing tests between rules and propagating changes incrementally. When all the tests have been completed, the network designates a rule.
+&lt;/p&gt;
+
+&lt;p class=&quot;p&quot;&gt;
+  A RetePlus network can be represented as a graph composed of three zones:
+&lt;/p&gt;
+
+&lt;p class=&quot;p&quot;&gt;
+  &lt;span style=&quot;text-decoration: underline;&quot;&gt;&lt;strong&gt;Discrimination tree&lt;/strong&gt;&lt;/span&gt;
+&lt;/p&gt;
+
+&lt;p class=&quot;p&quot;&gt;
+  A discrimination tree is a pattern-matching process that performs tests. These tests are represented by diamond shapes at the top of the network. The tests concern the classes of objects and the values of their attributes. Input to this tree consists of tokens representing each of the current objects in the working memory. When the pattern deals with only one object and its attributes, it is said to be a discrimination test. When it is a combination, it is called a join; these appear in the lower part of the graph.
+&lt;/p&gt;
+
+&lt;p class=&quot;p&quot;&gt;
+  &lt;span style=&quot;text-decoration: underline;&quot;&gt;&lt;strong&gt;Alpha nodes&lt;/strong&gt;&lt;/span&gt;
+&lt;/p&gt;
+
+&lt;p class=&quot;p&quot;&gt;
+  An alpha node is formed at the next level of the network, for each token that passes the tests of the discrimination tree. Each node is composed of one or several tokens, represented by round-cornered rectangles (there are three alpha nodes in the figure). One alpha node contains two B-class tokens. The other two nodes contain only one class token each—A-class and C-class tokens, respectively.
+&lt;/p&gt;
+
+&lt;p class=&quot;p&quot;&gt;
+  &lt;span style=&quot;text-decoration: underline;&quot;&gt;&lt;strong&gt;Tests and tuples&lt;/strong&gt;&lt;/span&gt;
+&lt;/p&gt;
+
+&lt;p class=&quot;p&quot;&gt;
+  The third zone of the network matches tokens of several classes of objects. The resulting nodes are known as tuples, which will be made up of several tokens. The equality test between attributes a2 and b3 gives rise to a node composed of two pairs of tokens, and the test between attributes b2 and c1 then filters out a triplet of tokens. In a RetePlus network, we often refer to tuples of this kind as join nodes.
+&lt;/p&gt;
+
+## RetePlus Execution Example {.p}
+
+  1. Let&amp;#8217;s imagine that there are two rules as shown below. 
+    &lt;figure id=&quot;attachment_1479&quot; aria-describedby=&quot;caption-attachment-1479&quot; style=&quot;width: 568px&quot; class=&quot;wp-caption aligncenter&quot;&gt;[&lt;img loading=&quot;lazy&quot; class=&quot;size-full wp-image-1479&quot; src=&quot;http://www.balasubramanyamlanka.com/wp-content/uploads/2016/06/RetePlus-Example.png&quot; alt=&quot;RetePlus Example&quot; width=&quot;568&quot; height=&quot;357&quot; srcset=&quot;http://www.balasubramanyamlanka.com/wp-content/uploads/2016/06/RetePlus-Example.png 568w, http://www.balasubramanyamlanka.com/wp-content/uploads/2016/06/RetePlus-Example-300x189.png 300w&quot; sizes=&quot;(max-width: 568px) 85vw, 568px&quot; /&gt;][5]&lt;figcaption id=&quot;caption-attachment-1479&quot; class=&quot;wp-caption-text&quot;&gt;RetePlus Example&lt;/figcaption&gt;&lt;/figure&gt;&lt;/li&gt; 
+    
+      * Now objects are loaded into the Working Memory. 
+        &lt;figure id=&quot;attachment_1481&quot; aria-describedby=&quot;caption-attachment-1481&quot; style=&quot;width: 632px&quot; class=&quot;wp-caption aligncenter&quot;&gt;[&lt;img loading=&quot;lazy&quot; class=&quot;size-full wp-image-1481&quot; src=&quot;http://www.balasubramanyamlanka.com/wp-content/uploads/2016/06/Objects-are-loaded-into-Working-memory.png&quot; alt=&quot;Objects are loaded into Working memory&quot; width=&quot;632&quot; height=&quot;382&quot; srcset=&quot;http://www.balasubramanyamlanka.com/wp-content/uploads/2016/06/Objects-are-loaded-into-Working-memory.png 632w, http://www.balasubramanyamlanka.com/wp-content/uploads/2016/06/Objects-are-loaded-into-Working-memory-300x181.png 300w&quot; sizes=&quot;(max-width: 709px) 85vw, (max-width: 909px) 67vw, (max-width: 984px) 61vw, (max-width: 1362px) 45vw, 600px&quot; /&gt;][6]&lt;figcaption id=&quot;caption-attachment-1481&quot; class=&quot;wp-caption-text&quot;&gt;Objects are loaded into Working memory&lt;/figcaption&gt;&lt;/figure&gt;&lt;/li&gt; 
+        
+          * Now pattern matching happens and if rules get matched with the objects, rule instances are created and added to the agenda. 
+            &lt;figure id=&quot;attachment_1482&quot; aria-describedby=&quot;caption-attachment-1482&quot; style=&quot;width: 617px&quot; class=&quot;wp-caption aligncenter&quot;&gt;[&lt;img loading=&quot;lazy&quot; class=&quot;size-full wp-image-1482&quot; src=&quot;http://www.balasubramanyamlanka.com/wp-content/uploads/2016/06/Agenda-gets-created.png&quot; alt=&quot;Agenda gets created&quot; width=&quot;617&quot; height=&quot;385&quot; srcset=&quot;http://www.balasubramanyamlanka.com/wp-content/uploads/2016/06/Agenda-gets-created.png 617w, http://www.balasubramanyamlanka.com/wp-content/uploads/2016/06/Agenda-gets-created-300x187.png 300w&quot; sizes=&quot;(max-width: 709px) 85vw, (max-width: 909px) 67vw, (max-width: 984px) 61vw, (max-width: 1362px) 45vw, 600px&quot; /&gt;][7]&lt;figcaption id=&quot;caption-attachment-1482&quot; class=&quot;wp-caption-text&quot;&gt;Agenda gets created&lt;/figcaption&gt;&lt;/figure&gt;&lt;/li&gt; 
+            
+              * Working memory objects get updated with new values that got fired from the agenda. 
+                &lt;figure id=&quot;attachment_1483&quot; aria-describedby=&quot;caption-attachment-1483&quot; style=&quot;width: 481px&quot; class=&quot;wp-caption aligncenter&quot;&gt;[&lt;img loading=&quot;lazy&quot; class=&quot;size-full wp-image-1483&quot; src=&quot;http://www.balasubramanyamlanka.com/wp-content/uploads/2016/06/Working-Memory-objects-get-updated.png&quot; alt=&quot;Working Memory objects get updated&quot; width=&quot;481&quot; height=&quot;301&quot; srcset=&quot;http://www.balasubramanyamlanka.com/wp-content/uploads/2016/06/Working-Memory-objects-get-updated.png 481w, http://www.balasubramanyamlanka.com/wp-content/uploads/2016/06/Working-Memory-objects-get-updated-300x188.png 300w&quot; sizes=&quot;(max-width: 481px) 85vw, 481px&quot; /&gt;][8]&lt;figcaption id=&quot;caption-attachment-1483&quot; class=&quot;wp-caption-text&quot;&gt;Working Memory objects get updated&lt;/figcaption&gt;&lt;/figure&gt;&lt;/li&gt; 
+                
+                  * Rule firing continues. 
+                    &lt;figure id=&quot;attachment_1484&quot; aria-describedby=&quot;caption-attachment-1484&quot; style=&quot;width: 485px&quot; class=&quot;wp-caption aligncenter&quot;&gt;[&lt;img loading=&quot;lazy&quot; class=&quot;size-full wp-image-1484&quot; src=&quot;http://www.balasubramanyamlanka.com/wp-content/uploads/2016/06/Other-rules-in-agenda-continues-to-fire.png&quot; alt=&quot;Other rules in agenda continues to fire&quot; width=&quot;485&quot; height=&quot;299&quot; srcset=&quot;http://www.balasubramanyamlanka.com/wp-content/uploads/2016/06/Other-rules-in-agenda-continues-to-fire.png 485w, http://www.balasubramanyamlanka.com/wp-content/uploads/2016/06/Other-rules-in-agenda-continues-to-fire-300x185.png 300w&quot; sizes=&quot;(max-width: 485px) 85vw, 485px&quot; /&gt;][9]&lt;figcaption id=&quot;caption-attachment-1484&quot; class=&quot;wp-caption-text&quot;&gt;Other rules in agenda continue to fire&lt;/figcaption&gt;&lt;/figure&gt;&lt;/li&gt; 
+                    
+                      * In the end, when no rules get matched with the Working memory objects, rule firing stops. &lt;figure id=&quot;attachment_1485&quot; aria-describedby=&quot;caption-attachment-1485&quot; style=&quot;width: 486px&quot; class=&quot;wp-caption aligncenter&quot;&gt;[&lt;img loading=&quot;lazy&quot; class=&quot;size-full wp-image-1485&quot; src=&quot;http://www.balasubramanyamlanka.com/wp-content/uploads/2016/06/Agenda-and-Working-memory-in-the-end.png&quot; alt=&quot;Agenda and Working memory in the end&quot; width=&quot;486&quot; height=&quot;297&quot; srcset=&quot;http://www.balasubramanyamlanka.com/wp-content/uploads/2016/06/Agenda-and-Working-memory-in-the-end.png 486w, http://www.balasubramanyamlanka.com/wp-content/uploads/2016/06/Agenda-and-Working-memory-in-the-end-300x183.png 300w&quot; sizes=&quot;(max-width: 486px) 85vw, 486px&quot; /&gt;][10]&lt;figcaption id=&quot;caption-attachment-1485&quot; class=&quot;wp-caption-text&quot;&gt;Agenda and Working memory in the end&lt;/figcaption&gt;&lt;/figure&gt; 
+                        Well, thats all about the RetePlus Algorithm! Feel free to comment your thoughts in the comments section below. Happy learning! Happy Exploring!!&lt;/li&gt; &lt;/ol&gt; 
+                        
+                        &amp;nbsp;
+                        
+                        _**Sources**:_
+                        
+                          * _[https://www.ibm.com/support/knowledgecenter/SSQP76\_8.5.1/com.ibm.odm.dserver.rules.designer.debug/optimizing\_topics/tpc\_opt\_reteplusalgo.html][11]_
+</code></pre>
+        </div>
+
+        
+        
+
+        
+      <hr />
+        
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+  
+
+  
+  
+
+
+<div class="row next-prev-navigator">
+  
+  
+</div>
+
+      <hr />
+      
+      
+      </div>
+    </div>
+  </div>
+  
+  <a id="scroll-to-top" class="btn"><i class="fas fa-chevron-circle-up"></i></a>
+  
+</section>
+
+
+      
+      
+  <section class="toc-section" id="toc-section">
+    
+    <div class="toc-holder">
+      <h5 class="text-center pl-3">Table of Contents</h5>
+      <hr>
+      <div class="toc">
+        <nav id="TableOfContents">
+  <ul>
+    <li><a href="#working-of-reteplus-algorithm">Working of RetePlus Algorithm</a></li>
+  </ul>
+</nav>
+      </div>
+    </div>
+    
+  </section>
+
+    </div>
+
+    
+    
+
+
+
+
+
+
+
+
+
+  
+      
+  
+
+
+
+  
+  
+    
+  
+
+  
+  
+    
+  
+
+  
+  
+    
+    
+      
+    
+  
+
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+    
+  
+  
+
+  
+  
+  
+
+  <footer class="container-fluid text-center align-content-center footer pb-2">
+    <div class="container pt-5">
+      <div class="row text-left">
+        
+        <div class="col-md-4 col-sm-12">
+          <h5>Navigation</h5>
+          
+          <ul>
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="/#about">About</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="/#skills">Skills</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="/#experiences">Experience</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="/#education">Education</a>
+                </li>
+              
+              
+          </ul>
+          
+        </div>
+        
+        
+        <div class="col-md-4 col-sm-12">
+          <h5>Contact me:</h5>
+          <ul>
+            
+            <li><span>Email: </span> <span>baluatcomputerscience@outlook.com</span></li>
+            
+          </ul>
+        </div>
+        
+        
+        
+      </div>
+    </div>
+    
+    
+    <hr />
+    <div class="container">
+      <div class="row text-left">
+        <div class="col-md-4">
+        </div>
+        <div class="col-md-4 text-center">© 2021 Copyright.</div>
+        <div class="col-md-4 text-right">
+        </div>
+      </div>
+    </div>
+    
+  </footer>
+
+
+    <script type="text/javascript" src="/js/jquery-3.4.1.min.js"></script>
+<script type="text/javascript" src="/js/popper.min.js"></script>
+<script type="text/javascript" src="/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="/js/navbar.js"></script>
+<script type="text/javascript" src="/js/plyr.js"></script>
+<script type="text/javascript" src="/js/main.js"></script>
+
+
+    
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js"></script>
+<script src="/js/single.js"></script>
+<script>
+  hljs.initHighlightingOnLoad();
+</script>
+
+
+  </body>
+</html>

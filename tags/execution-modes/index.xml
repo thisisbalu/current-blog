@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>execution modes on Bala Subramanyam Lanka</title>
+    <link>https://thisisbalu.github.io/tags/execution-modes/</link>
+    <description>Recent content in execution modes on Bala Subramanyam Lanka</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 15 Oct 2015 19:48:10 +0000</lastBuildDate><atom:link href="https://thisisbalu.github.io/tags/execution-modes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Rule Engine Execution Modes</title>
+      <link>https://thisisbalu.github.io/rule-engine-execution-modes/</link>
+      <pubDate>Thu, 15 Oct 2015 19:48:10 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/rule-engine-execution-modes/</guid>
+      <description>&lt;p&gt;The execution of the rules inside the rule engine of IBM Operational Decision Management follows three rule engine execution modes – RetePlus, sequential, and Fastpath execution modes. Execution mode affects which rules are executed and in which order. Execution mode specifies the algorithm used by the rule engine inside Decision Server.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

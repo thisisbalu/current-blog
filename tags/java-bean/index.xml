@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>java bean on Bala Subramanyam Lanka</title>
+    <link>https://thisisbalu.github.io/tags/java-bean/</link>
+    <description>Recent content in java bean on Bala Subramanyam Lanka</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 30 Aug 2014 19:52:12 +0000</lastBuildDate><atom:link href="https://thisisbalu.github.io/tags/java-bean/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to print bean object in Java</title>
+      <link>https://thisisbalu.github.io/how-to-print-bean-object-in-java/</link>
+      <pubDate>Sat, 30 Aug 2014 19:52:12 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/how-to-print-bean-object-in-java/</guid>
+      <description>To print any object in Java we have to convert it into string. The basic method we have to convert in to string is toString() method in java.lang.Object class. But this method by default prints the hexadecimal address value of the object. For example let us take the following Bean Class.
+PersonBean Class
+package com.javaindetail.bean;public class PersonBean {private String firstName;private String lastName;private String age;private String address;public String getFirstName() {return firstName;}public void setFirstName(String firstName) {this.</description>
+    </item>
+    
+  </channel>
+</rss>

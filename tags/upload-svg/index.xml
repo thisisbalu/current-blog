@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>upload svg on Bala Subramanyam Lanka</title>
+    <link>https://thisisbalu.github.io/tags/upload-svg/</link>
+    <description>Recent content in upload svg on Bala Subramanyam Lanka</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 19 Apr 2015 15:39:54 +0000</lastBuildDate><atom:link href="https://thisisbalu.github.io/tags/upload-svg/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Why WordPress restricts uploading SVG files?</title>
+      <link>https://thisisbalu.github.io/why-wordpress-restricts-uploading-svg-files/</link>
+      <pubDate>Sun, 19 Apr 2015 15:39:54 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/why-wordpress-restricts-uploading-svg-files/</guid>
+      <description>&lt;p&gt;WordPress media uploader restricts uploading SVG files into WordPress. It throws an error message “Sorry, this file type is not permitted for security reasons.” Yes! for security reasons WordPress blocks uploading SVG files. Error Dialog will be as follows.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Uploading SVG files through WordPress Media Uploader</title>
+      <link>https://thisisbalu.github.io/uploading-svg-files-through-wordpress-media-uploader/</link>
+      <pubDate>Fri, 17 Apr 2015 17:03:50 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/uploading-svg-files-through-wordpress-media-uploader/</guid>
+      <description>&lt;p&gt;Uploading SVG files through media uploader in WordPress is an issue faced by all the WordPress users or the bloggers who are interested in adding SVG image files in to their posts. SVG (&lt;a href=&#34;http://www.balasubramanyamlanka.com/infinitely-scalable-svg-scalable-vector-graphics/&#34;&gt;Scalable Vector Graphics&lt;/a&gt;) files are very popular because of their infinite scalability.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

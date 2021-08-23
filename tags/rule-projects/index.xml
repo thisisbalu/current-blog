@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rule Projects on Bala Subramanyam Lanka</title>
+    <link>https://thisisbalu.github.io/tags/rule-projects/</link>
+    <description>Recent content in Rule Projects on Bala Subramanyam Lanka</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 26 May 2016 01:48:58 +0000</lastBuildDate><atom:link href="https://thisisbalu.github.io/tags/rule-projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Organizing your application into rule projects – IBM ODM</title>
+      <link>https://thisisbalu.github.io/organizing-application-rule-projects-ibm-odm/</link>
+      <pubDate>Thu, 26 May 2016 01:48:58 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/organizing-application-rule-projects-ibm-odm/</guid>
+      <description>&lt;p&gt;By organizing your rule application as modular rule projects, you can improve the performance of Rule Designer for large rule applications, and facilitate the assignment of permissions in Decision Center&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>volunteer computing on Bala Subramanyam Lanka</title>
+    <link>https://thisisbalu.github.io/tags/volunteer-computing/</link>
+    <description>Recent content in volunteer computing on Bala Subramanyam Lanka</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 10 Apr 2015 17:48:19 +0000</lastBuildDate><atom:link href="https://thisisbalu.github.io/tags/volunteer-computing/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How MapReduce is different from Volunteer Computing (SETI@home, Folding@home, GIMPS)?</title>
+      <link>https://thisisbalu.github.io/how-mapreduce-is-different-from-volunteer-computing-setihome-foldinghome/</link>
+      <pubDate>Fri, 10 Apr 2015 17:48:19 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/how-mapreduce-is-different-from-volunteer-computing-setihome-foldinghome/</guid>
+      <description>&lt;p&gt;Volunteer Computing can be also termed as Distributive Computing. There are some of the volunteer computing projects such as SETI@home, Folding@home etc, GIMPS., in the world. Volunteer Computing is nothing but the owners of the computers donate their computing resources such as processing power and storage to some of the projects like SETI@home or Folding@home or GIMPS.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

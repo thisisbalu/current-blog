@@ -1,0 +1,2981 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Java Packages In Detail With Versions</title>
+    <meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+
+<link rel="stylesheet" href="/css/bootstrap.min.css"/>
+<link rel="stylesheet" href="/css/layouts/main.css"/>
+<link rel="stylesheet" href="/css/navigators/navbar.css"/>
+<link rel="stylesheet" href="/css/plyr.css"/>
+<link rel="stylesheet" href="/css/flag-icon.min.css"/>
+
+
+<link href="https://fonts.googleapis.com/css2?family=Muli:wght@300;400;500;600" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" />
+
+
+
+
+  
+
+  
+  
+  
+    
+  
+  
+
+  <link rel="icon" type="image/png" href="/images/logos/favicon-32x32_hu6c0760df4368777065bb45ed9c8928ba_2423_42x0_resize_box_2.png" />
+
+<meta property="og:title" content="Java Packages In Detail With Versions" />
+<meta property="og:description" content="Welcome to my blog Java In Detail. Let us see Packages In Detail :)
+I collected all the java packages, their brief descriptions and their versions in java standard environment till version 8. Below packages are given in the tabular format for your quick reference. Happy Learning!" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://thisisbalu.github.io/java-packages-in-detail-with-versions/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2014-09-28T15:05:33&#43;00:00" />
+<meta property="article:modified_time" content="2014-09-28T15:05:33&#43;00:00" />
+
+
+
+    
+    
+<meta name="description" content="Java Packages In Detail With Versions" />
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/atom-one-dark.min.css"
+/>
+<link rel="stylesheet" href="/css/layouts/single.css"/>
+<link rel="stylesheet" href="/css/navigators/sidebar.css">
+
+<link rel="stylesheet" href="/css/style.css"/>
+
+
+
+    
+    
+  </head>
+
+  <body data-spy="scroll" data-target="#TableOfContents" data-offset="80">
+    <div class="container-fluid bg-dimmed wrapper">
+      
+      
+    
+
+
+
+
+
+  
+
+
+  
+
+
+
+
+  
+  
+    
+  
+  
+
+
+
+  
+  
+    
+  
+  
+
+
+<nav class="navbar navbar-expand-xl top-navbar final-navbar shadow">
+  <div class="container">
+      <button class="navbar-toggler navbar-light" id="sidebar-toggler" type="button" onclick="toggleSidebar()">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="/">
+      
+        <img src="/images/logos/apple-icon-114x114_hu10b496cbdd14ccc59d427707b2b76be1_9048_42x0_resize_box_2.png" alt="Logo">
+      Bala Subramanyam Lanka</a>
+    <button class="navbar-toggler navbar-light" id="toc-toggler" type="button" onclick="toggleTOC()">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse lang-selector" id="top-nav-items">
+      <ul class="navbar-nav ml-auto">
+      
+      </ul>
+    </div>
+  </div>
+  
+  
+    <img src="/images/logos/apple-icon-114x114_hu10b496cbdd14ccc59d427707b2b76be1_9048_42x0_resize_box_2.png" class="d-none" id="main-logo" alt="Logo">
+  
+  
+    <img src="/images/logos/apple-icon-114x114_hu10b496cbdd14ccc59d427707b2b76be1_9048_42x0_resize_box_2.png" class="d-none" id="inverted-logo" alt="Inverted Logo">
+  
+</nav>
+
+
+
+      
+      
+  <section class="sidebar-section" id="sidebar-section">
+    <div class="sidebar-holder">
+      <div class="sidebar" id="sidebar">
+        <form class="mx-auto" method="get" action="/search">
+          <input type="text" name="keyword" value="" placeholder="Search" data-search="" id="search-box" />
+        </form>
+        <div class="sidebar-tree">
+          <ul class="tree" id="tree">
+            <li id="list-heading"><a href="/posts" data-filter="all">Posts</a></li>
+            <div class="subtree">
+                
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/sample/" title="Welcome">Welcome</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li>
+      <i class="fas fa-plus-circle"></i><a class="" href="">getting-started</a>
+      
+      <ul class="">
+        
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/2016-09-28-different-brms-tools-market/" title="Github Pages">Github Pages</a></li>
+  
+
+
+      </ul>
+    </li>
+  
+
+
+            </div>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+      
+      
+<section class="content-section" id="content-section">
+  <div class="content">
+    <div class="container p-0 read-area">
+      
+      <div class="hero-area col-sm-12" id="hero-area" style='background-image: url(https://thisisbalu.github.io/images/default-hero.jpg);'>
+      </div>
+
+      
+      <div class="page-content">
+        <div class="author-profile ml-auto align-self-lg-center">
+          <img class="rounded-circle" src='/images/author/balu_hu35c00e1b0d1c2b7ef4062ee49dc08602_54380_120x120_fit_box_2.png' alt="Author Image">
+          <h5 class="author-name">Bala Subramanyam Lanka</h5>
+          <p>September 28, 2014</p>
+        </div>
+
+        <div class="title">
+          <h1>Java Packages In Detail With Versions</h1>
+        </div>
+        
+        <div class="post-content" id="post-content">
+          <p>Welcome to my blog Java In Detail. Let us see Packages In Detail :)</p>
+<p>I collected all the java packages, their brief descriptions and their versions in java standard environment till version 8. Below packages are given in the tabular format for your quick reference. Happy Learning!</p>
+<p><strong>Packages Overview in Java</strong></p>
+<table>
+  <tr>
+    <th colspan="3">
+      Packages &#8211; JAVA SE 8
+    </th>
+  </tr>
+  <tr>
+    <td>
+      <strong>Package</strong>
+    </td>
+<pre><code>&lt;td&gt;
+  &lt;strong&gt;Description&lt;/strong&gt;
+&lt;/td&gt;
+
+&lt;td&gt;
+  &lt;strong&gt;Version&lt;/strong&gt;
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      java.applet
+    </td>
+<pre><code>&lt;td&gt;
+  Provides the classes necessary to create an applet and the classes an applet uses to communicate with its applet context.
+&lt;/td&gt;
+
+&lt;td&gt;
+  JDK1.0
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      java.awt
+    </td>
+<pre><code>&lt;td&gt;
+  Contains all of the classes for creating user interfaces and for painting graphics and images.
+&lt;/td&gt;
+
+&lt;td&gt;
+  JDK1.0
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      java.awt.color
+    </td>
+<pre><code>&lt;td&gt;
+  Provides classes for color spaces.
+&lt;/td&gt;
+
+&lt;td&gt;
+  JDK1.2
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      java.awt.datatransfer
+    </td>
+<pre><code>&lt;td&gt;
+  Provides interfaces and classes for transferring data between and within applications.
+&lt;/td&gt;
+
+&lt;td&gt;
+  JDK1.1
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      java.awt.dnd
+    </td>
+<pre><code>&lt;td&gt;
+  Drag and Drop is a direct manipulation gesture found in many Graphical User Interface systems that provides a mechanism to transfer information between two entities logically associated with presentation elements in the GUI.
+&lt;/td&gt;
+
+&lt;td&gt;
+  JDK1.2
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      java.awt.event
+    </td>
+<pre><code>&lt;td&gt;
+  Provides interfaces and classes for dealing with different types of events fired by AWT components.
+&lt;/td&gt;
+
+&lt;td&gt;
+  JDK1.1
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      java.awt.font
+    </td>
+<pre><code>&lt;td&gt;
+  Provides classes and interface relating to fonts.
+&lt;/td&gt;
+
+&lt;td&gt;
+  JDK1.2
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      java.awt.geom
+    </td>
+<pre><code>&lt;td&gt;
+  Provides the Java 2D classes for defining and performing operations on objects related to two-dimensional geometry.
+&lt;/td&gt;
+
+&lt;td&gt;
+  JDK1.2
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      java.awt.im
+    </td>
+<pre><code>&lt;td&gt;
+  Provides classes and interfaces for the input method framework.
+&lt;/td&gt;
+
+&lt;td&gt;
+  JDK1.2
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      java.awt.im.spi
+    </td>
+<pre><code>&lt;td&gt;
+  Provides interfaces that enable the development of input methods that can be used with any Java runtime environment.
+&lt;/td&gt;
+
+&lt;td&gt;
+  JDK1.3
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      java.awt.image
+    </td>
+<pre><code>&lt;td&gt;
+  Provides classes for creating and modifying images.
+&lt;/td&gt;
+
+&lt;td&gt;
+  JDK1.0
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      java.awt.image.renderable
+    </td>
+<pre><code>&lt;td&gt;
+  Provides classes and interfaces for producing rendering-independent images.
+&lt;/td&gt;
+
+&lt;td&gt;
+  JDK1.2
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      java.awt.print
+    </td>
+<pre><code>&lt;td&gt;
+  Provides classes and interfaces for a general printing API.
+&lt;/td&gt;
+
+&lt;td&gt;
+  JDK1.2
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      java.beans
+    </td>
+<pre><code>&lt;td&gt;
+  Contains classes related to developing beans &amp;#8212; components based on the JavaBeans™ architecture.
+&lt;/td&gt;
+
+&lt;td&gt;
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      java.beans.beancontext
+    </td>
+<pre><code>&lt;td&gt;
+  Provides classes and interfaces relating to bean context.
+&lt;/td&gt;
+
+&lt;td&gt;
+  JDK1.2
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      java.io
+    </td>
+<pre><code>&lt;td&gt;
+  Provides for system input and output through data streams, serialization and the file system.
+&lt;/td&gt;
+
+&lt;td&gt;
+  JDK1.0
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      java.lang
+    </td>
+<pre><code>&lt;td&gt;
+  Provides classes that are fundamental to the design of the Java programming language.
+&lt;/td&gt;
+
+&lt;td&gt;
+  JDK1.0
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      java.lang.annotation
+    </td>
+<pre><code>&lt;td&gt;
+  Provides library support for the Java programming language annotation facility.
+&lt;/td&gt;
+
+&lt;td&gt;
+  JDK1.5
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      java.lang.instrument
+    </td>
+<pre><code>&lt;td&gt;
+  Provides services that allow Java programming language agents to instrument programs running on the JVM.
+&lt;/td&gt;
+
+&lt;td&gt;
+  JDK1.5
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      java.lang.invoke
+    </td>
+<pre><code>&lt;td&gt;
+  The java.lang.invoke package contains dynamic language support provided directly by the Java core class libraries and virtual machine.
+&lt;/td&gt;
+
+&lt;td&gt;
+  JDK1.7
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      java.lang.management
+    </td>
+<pre><code>&lt;td&gt;
+  Provides the management interfaces for monitoring and management of the Java virtual machine and other components in the Java runtime.
+&lt;/td&gt;
+
+&lt;td&gt;
+  JDK1.5
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      java.lang.ref
+    </td>
+<pre><code>&lt;td&gt;
+  Provides reference-object classes, which support a limited degree of interaction with the garbage collector.
+&lt;/td&gt;
+
+&lt;td&gt;
+  JDK1.2
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      java.lang.reflect
+    </td>
+<pre><code>&lt;td&gt;
+  Provides classes and interfaces for obtaining reflective information about classes and objects.
+&lt;/td&gt;
+
+&lt;td&gt;
+  JDK1.1
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      java.math
+    </td>
+<pre><code>&lt;td&gt;
+  Provides classes for performing arbitrary-precision integer arithmetic (BigInteger) and arbitrary-precision decimal arithmetic (BigDecimal).
+&lt;/td&gt;
+
+&lt;td&gt;
+  JDK1.1
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      java.net
+    </td>
+<pre><code>&lt;td&gt;
+  Provides the classes for implementing networking applications.
+&lt;/td&gt;
+
+&lt;td&gt;
+  JDK1.0
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      java.nio
+    </td>
+<pre><code>&lt;td&gt;
+  Defines buffers, which are containers for data, and provides an overview of the other NIO packages.
+&lt;/td&gt;
+
+&lt;td&gt;
+  JDK1.4
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      java.nio.channels
+    </td>
+<pre><code>&lt;td&gt;
+  Defines channels, which represent connections to entities that are capable of performing I/O operations, such as files and sockets; defines selectors, for multiplexed, non-blocking I/O operations.
+&lt;/td&gt;
+
+&lt;td&gt;
+  JDK1.4
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      java.nio.channels.spi
+    </td>
+<pre><code>&lt;td&gt;
+  Service-provider classes for the java.nio.channels package.
+&lt;/td&gt;
+
+&lt;td&gt;
+  JDK1.4
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      java.nio.charset
+    </td>
+<pre><code>&lt;td&gt;
+  Defines charsets, decoders, and encoders, for translating between bytes and Unicode characters.
+&lt;/td&gt;
+
+&lt;td&gt;
+  JDK1.4
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      java.nio.charset.spi
+    </td>
+<pre><code>&lt;td&gt;
+  Service-provider classes for the java.nio.charset package.
+&lt;/td&gt;
+
+&lt;td&gt;
+  JDK1.4
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      java.nio.file
+    </td>
+<pre><code>&lt;td&gt;
+  Defines interfaces and classes for the Java virtual machine to access files, file attributes, and file systems.
+&lt;/td&gt;
+
+&lt;td&gt;
+  JDK1.7
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      java.nio.file.attribute
+    </td>
+<pre><code>&lt;td&gt;
+  Interfaces and classes providing access to file and file system attributes.
+&lt;/td&gt;
+
+&lt;td&gt;
+  JDK1.7
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      java.nio.file.spi
+    </td>
+<pre><code>&lt;td&gt;
+  Service-provider classes for the java.nio.file package.
+&lt;/td&gt;
+
+&lt;td&gt;
+  JDK1.7
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      java.rmi
+    </td>
+<pre><code>&lt;td&gt;
+  Provides the RMI package.
+&lt;/td&gt;
+
+&lt;td&gt;
+  JDK1.1
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      java.rmi.activation
+    </td>
+<pre><code>&lt;td&gt;
+  Provides support for RMI Object Activation.
+&lt;/td&gt;
+
+&lt;td&gt;
+  JDK1.2
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      java.rmi.dgc
+    </td>
+<pre><code>&lt;td&gt;
+  Provides classes and interface for RMI distributed garbage-collection (DGC).
+&lt;/td&gt;
+
+&lt;td&gt;
+  JDK1.1
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      java.rmi.registry
+    </td>
+<pre><code>&lt;td&gt;
+  Provides a class and two interfaces for the RMI registry.
+&lt;/td&gt;
+
+&lt;td&gt;
+  JDK1.1
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      java.rmi.server
+    </td>
+<pre><code>&lt;td&gt;
+  Provides classes and interfaces for supporting the server side of RMI.
+&lt;/td&gt;
+
+&lt;td&gt;
+  JDK1.1
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      java.security
+    </td>
+<pre><code>&lt;td&gt;
+  Provides the classes and interfaces for the security framework.
+&lt;/td&gt;
+
+&lt;td&gt;
+  JDK1.1
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      java.security.acl
+    </td>
+<pre><code>&lt;td&gt;
+  The classes and interfaces in this package have been superseded by classes in the java.security package.
+&lt;/td&gt;
+
+&lt;td&gt;
+  JDK1.1
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      java.security.cert
+    </td>
+<pre><code>&lt;td&gt;
+  Provides classes and interfaces for parsing and managing certificates, certificate revocation lists (CRLs), and certification paths.
+&lt;/td&gt;
+
+&lt;td&gt;
+  JDK1.2
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      java.security.interfaces
+    </td>
+<pre><code>&lt;td&gt;
+  Provides interfaces for generating RSA (Rivest, Shamir and Adleman AsymmetricCipher algorithm) keys as defined in the RSA Laboratory Technical Note PKCS#1, and DSA (Digital Signature Algorithm) keys as defined in NIST&amp;#8217;s FIPS-186.
+&lt;/td&gt;
+
+&lt;td&gt;
+  JDK1.1
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      java.security.spec
+    </td>
+<pre><code>&lt;td&gt;
+  Provides classes and interfaces for key specifications and algorithm parameter specifications.
+&lt;/td&gt;
+
+&lt;td&gt;
+  JDK1.2
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      java.sql
+    </td>
+<pre><code>&lt;td&gt;
+  Provides the API for accessing and processing data stored in a data source (usually a relational database) using the JavaTM programming language.
+&lt;/td&gt;
+
+&lt;td&gt;
+  JDK1.1
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      java.text
+    </td>
+<pre><code>&lt;td&gt;
+  Provides classes and interfaces for handling text, dates, numbers, and messages in a manner independent of natural languages.
+&lt;/td&gt;
+
+&lt;td&gt;
+  JDK1.1
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      java.text.spi
+    </td>
+<pre><code>&lt;td&gt;
+  Service provider classes for the classes in the java.text package.
+&lt;/td&gt;
+
+&lt;td&gt;
+  JDK1.6
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      java.time
+    </td>
+<pre><code>&lt;td&gt;
+  The main API for dates, times, instants, and durations.
+&lt;/td&gt;
+
+&lt;td&gt;
+  JDK1.8
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      java.time.chrono
+    </td>
+<pre><code>&lt;td&gt;
+  Generic API for calendar systems other than the default ISO.
+&lt;/td&gt;
+
+&lt;td&gt;
+  JDK1.8
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      java.time.format
+    </td>
+<pre><code>&lt;td&gt;
+  Provides classes to print and parse dates and times.
+&lt;/td&gt;
+
+&lt;td&gt;
+  JDK1.8
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      java.time.temporal
+    </td>
+<pre><code>&lt;td&gt;
+  Access to date and time using fields and units, and date time adjusters.
+&lt;/td&gt;
+
+&lt;td&gt;
+  JDK1.8
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      java.time.zone
+    </td>
+<pre><code>&lt;td&gt;
+  Support for time-zones and their rules.
+&lt;/td&gt;
+
+&lt;td&gt;
+  JDK1.8
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      java.util
+    </td>
+<pre><code>&lt;td&gt;
+  Contains the collections framework, legacy collection classes, event model, date and time facilities, internationalization, and miscellaneous utility classes (a string tokenizer, a random-number generator, and a bit array).
+&lt;/td&gt;
+
+&lt;td&gt;
+  JDK1.0
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      java.util.concurrent
+    </td>
+<pre><code>&lt;td&gt;
+  Utility classes commonly useful in concurrent programming.
+&lt;/td&gt;
+
+&lt;td&gt;
+  JDK1.5
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      java.util.concurrent.atomic
+    </td>
+<pre><code>&lt;td&gt;
+  A small toolkit of classes that support lock-free thread-safe programming on single variables.
+&lt;/td&gt;
+
+&lt;td&gt;
+  JDK1.5
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      java.util.concurrent.locks
+    </td>
+<pre><code>&lt;td&gt;
+  Interfaces and classes providing a framework for locking and waiting for conditions that is distinct from built-in synchronization and monitors.
+&lt;/td&gt;
+
+&lt;td&gt;
+  JDK1.5
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      java.util.function
+    </td>
+<pre><code>&lt;td&gt;
+  Functional interfaces provide target types for lambda expressions and method references.
+&lt;/td&gt;
+
+&lt;td&gt;
+  JDK1.8
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      java.util.jar
+    </td>
+<pre><code>&lt;td&gt;
+  Provides classes for reading and writing the JAR (Java ARchive) file format, which is based on the standard ZIP file format with an optional manifest file.
+&lt;/td&gt;
+
+&lt;td&gt;
+  JDK1.2
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      java.util.logging
+    </td>
+<pre><code>&lt;td&gt;
+  Provides the classes and interfaces of the JavaTM 2 platform&amp;#8217;s core logging facilities.
+&lt;/td&gt;
+
+&lt;td&gt;
+  JDK1.4
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      java.util.prefs
+    </td>
+<pre><code>&lt;td&gt;
+  This package allows applications to store and retrieve user and system preference and configuration data.
+&lt;/td&gt;
+
+&lt;td&gt;
+  JDK1.4
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      java.util.regex
+    </td>
+<pre><code>&lt;td&gt;
+  Classes for matching character sequences against patterns specified by regular expressions.
+&lt;/td&gt;
+
+&lt;td&gt;
+  JDK1.4
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      java.util.spi
+    </td>
+<pre><code>&lt;td&gt;
+  Service provider classes for the classes in the java.util package.
+&lt;/td&gt;
+
+&lt;td&gt;
+  JDK1.6
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      java.util.stream
+    </td>
+<pre><code>&lt;td&gt;
+  Classes to support functional-style operations on streams of elements, such as map-reduce transformations on collections.
+&lt;/td&gt;
+
+&lt;td&gt;
+  JDK1.8
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      java.util.zip
+    </td>
+<pre><code>&lt;td&gt;
+  Provides classes for reading and writing the standard ZIP and GZIP file formats.
+&lt;/td&gt;
+
+&lt;td&gt;
+  JDK1.1
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      javax.accessibility
+    </td>
+<pre><code>&lt;td&gt;
+  Defines a contract between user-interface components and an assistive technology that provides access to those components.
+&lt;/td&gt;
+
+&lt;td&gt;
+  JDK1.2
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      javax.activation
+    </td>
+<pre><code>&lt;td&gt;
+&lt;/td&gt;
+
+&lt;td&gt;
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      javax.activity
+    </td>
+<pre><code>&lt;td&gt;
+  Contains Activity service related exceptions thrown by the ORB machinery during unmarshalling.
+&lt;/td&gt;
+
+&lt;td&gt;
+  JDK1.5
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      javax.annotation
+    </td>
+<pre><code>&lt;td&gt;
+&lt;/td&gt;
+
+&lt;td&gt;
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      javax.annotation.processing
+    </td>
+<pre><code>&lt;td&gt;
+  Facilities for declaring annotation processors and for allowing annotation processors to communicate with an annotation processing tool environment.
+&lt;/td&gt;
+
+&lt;td&gt;
+  JDK1.6
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      javax.crypto
+    </td>
+<pre><code>&lt;td&gt;
+  Provides the classes and interfaces for cryptographic operations.
+&lt;/td&gt;
+
+&lt;td&gt;
+  JDK1.4
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      javax.crypto.interfaces
+    </td>
+<pre><code>&lt;td&gt;
+  Provides interfaces for Diffie-Hellman keys as defined in RSA Laboratories&amp;#8217; PKCS #3.
+&lt;/td&gt;
+
+&lt;td&gt;
+  JDK1.4
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      javax.crypto.spec
+    </td>
+<pre><code>&lt;td&gt;
+  Provides classes and interfaces for key specifications and algorithm parameter specifications.
+&lt;/td&gt;
+
+&lt;td&gt;
+  JDK1.4
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      javax.imageio
+    </td>
+<pre><code>&lt;td&gt;
+  The main package of the Java Image I/O API.
+&lt;/td&gt;
+
+&lt;td&gt;
+  JDK1.4
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      javax.imageio.event
+    </td>
+<pre><code>&lt;td&gt;
+  A package of the Java Image I/O API dealing with synchronous notification of events during the reading and writing of images.
+&lt;/td&gt;
+
+&lt;td&gt;
+  JDK1.4
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      javax.imageio.metadata
+    </td>
+<pre><code>&lt;td&gt;
+  A package of the Java Image I/O API dealing with reading and writing metadata.
+&lt;/td&gt;
+
+&lt;td&gt;
+  JDK1.4
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      javax.imageio.plugins.bmp
+    </td>
+<pre><code>&lt;td&gt;
+  Package containing the public classes used by the built-in BMP plug-in.
+&lt;/td&gt;
+
+&lt;td&gt;
+  JDK1.5
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      javax.imageio.plugins.jpeg
+    </td>
+<pre><code>&lt;td&gt;
+  Classes supporting the built-in JPEG plug-in.
+&lt;/td&gt;
+
+&lt;td&gt;
+  JDK1.4
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      javax.imageio.spi
+    </td>
+<pre><code>&lt;td&gt;
+  A package of the Java Image I/O API containing the plug-in interfaces for readers, writers, transcoders, and streams, and a runtime registry.
+&lt;/td&gt;
+
+&lt;td&gt;
+  JDK1.4
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      javax.imageio.stream
+    </td>
+<pre><code>&lt;td&gt;
+  A package of the Java Image I/O API dealing with low-level I/O from files and streams.
+&lt;/td&gt;
+
+&lt;td&gt;
+  JDK1.4
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      javax.jws
+    </td>
+<pre><code>&lt;td&gt;
+&lt;/td&gt;
+
+&lt;td&gt;
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      javax.jws.soap
+    </td>
+<pre><code>&lt;td&gt;
+&lt;/td&gt;
+
+&lt;td&gt;
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      javax.lang.model
+    </td>
+<pre><code>&lt;td&gt;
+  Classes and hierarchies of packages used to model the Java programming language.
+&lt;/td&gt;
+
+&lt;td&gt;
+  JDK1.6
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      javax.lang.model.element
+    </td>
+<pre><code>&lt;td&gt;
+  Interfaces used to model elements of the Java programming language.
+&lt;/td&gt;
+
+&lt;td&gt;
+  JDK1.6
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      javax.lang.model.type
+    </td>
+<pre><code>&lt;td&gt;
+  Interfaces used to model Java programming language types.
+&lt;/td&gt;
+
+&lt;td&gt;
+  JDK1.6
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      javax.lang.model.util
+    </td>
+<pre><code>&lt;td&gt;
+  Utilities to assist in the processing of program elements and types.
+&lt;/td&gt;
+
+&lt;td&gt;
+  JDK1.6
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      javax.management
+    </td>
+<pre><code>&lt;td&gt;
+  Provides the core classes for the Java Management Extensions.
+&lt;/td&gt;
+
+&lt;td&gt;
+  JDK1.5
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      javax.management.loading
+    </td>
+<pre><code>&lt;td&gt;
+  Provides the classes which implement advanced dynamic loading.
+&lt;/td&gt;
+
+&lt;td&gt;
+  JDK1.5
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      javax.management.modelmbean
+    </td>
+<pre><code>&lt;td&gt;
+  Provides the definition of the ModelMBean classes.
+&lt;/td&gt;
+
+&lt;td&gt;
+  JDK1.5
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      javax.management.monitor
+    </td>
+<pre><code>&lt;td&gt;
+  Provides the definition of the monitor classes.
+&lt;/td&gt;
+
+&lt;td&gt;
+  JDK1.5
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      javax.management.openmbean
+    </td>
+<pre><code>&lt;td&gt;
+  Provides the open data types and Open MBean descriptor classes.
+&lt;/td&gt;
+
+&lt;td&gt;
+  JDK1.5
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      javax.management.relation
+    </td>
+<pre><code>&lt;td&gt;
+  Provides the definition of the Relation Service.
+&lt;/td&gt;
+
+&lt;td&gt;
+  JDK1.5
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      javax.management.remote
+    </td>
+<pre><code>&lt;td&gt;
+  Interfaces for remote access to JMX MBean servers.
+&lt;/td&gt;
+
+&lt;td&gt;
+  JDK1.5
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      javax.management.remote.rmi
+    </td>
+<pre><code>&lt;td&gt;
+  The RMI connector is a connector for the JMX Remote API that uses RMI to transmit client requests to a remote MBean server.
+&lt;/td&gt;
+
+&lt;td&gt;
+  JDK1.5
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      javax.management.timer
+    </td>
+<pre><code>&lt;td&gt;
+  Provides the definition of the Timer MBean.
+&lt;/td&gt;
+
+&lt;td&gt;
+  JDK1.5
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      javax.naming
+    </td>
+<pre><code>&lt;td&gt;
+  Provides the classes and interfaces for accessing naming services.
+&lt;/td&gt;
+
+&lt;td&gt;
+  JDK1.3
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      javax.naming.directory
+    </td>
+<pre><code>&lt;td&gt;
+  Extends the javax.naming package to provide functionality for accessing directory services.
+&lt;/td&gt;
+
+&lt;td&gt;
+  JDK1.3
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      javax.naming.event
+    </td>
+<pre><code>&lt;td&gt;
+  Provides support for event notification when accessing naming and directory services.
+&lt;/td&gt;
+
+&lt;td&gt;
+  JDK1.3
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      javax.naming.ldap
+    </td>
+<pre><code>&lt;td&gt;
+  Provides support for LDAPv3 extended operations and controls.
+&lt;/td&gt;
+
+&lt;td&gt;
+  JDK1.3
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      javax.naming.spi
+    </td>
+<pre><code>&lt;td&gt;
+&lt;/td&gt;
+
+&lt;td&gt;
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      javax.net
+    </td>
+<pre><code>&lt;td&gt;
+  Provides classes for networking applications.
+&lt;/td&gt;
+
+&lt;td&gt;
+  JDK1.4
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      javax.net.ssl
+    </td>
+<pre><code>&lt;td&gt;
+  Provides classes for the secure socket package.
+&lt;/td&gt;
+
+&lt;td&gt;
+  JDK1.4
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      javax.print
+    </td>
+<pre><code>&lt;td&gt;
+  Provides the principal classes and interfaces for the JavaTM Print Service API.
+&lt;/td&gt;
+
+&lt;td&gt;
+  JDK1.4
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      javax.print.attribute
+    </td>
+<pre><code>&lt;td&gt;
+  Provides classes and interfaces that describe the types of JavaTM Print Service attributes and how they can be collected into attribute sets.
+&lt;/td&gt;
+
+&lt;td&gt;
+  JDK1.4
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      javax.print.attribute.standard
+    </td>
+<pre><code>&lt;td&gt;
+  Package javax.print.attribute.standard contains classes for specific printing attributes.
+&lt;/td&gt;
+
+&lt;td&gt;
+  JDK1.4
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      javax.print.event
+    </td>
+<pre><code>&lt;td&gt;
+  Package javax.print.event contains event classes and listener interfaces.
+&lt;/td&gt;
+
+&lt;td&gt;
+  JDK1.4
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      javax.rmi
+    </td>
+<pre><code>&lt;td&gt;
+  Contains user APIs for RMI-IIOP.
+&lt;/td&gt;
+
+&lt;td&gt;
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      javax.rmi.CORBA
+    </td>
+<pre><code>&lt;td&gt;
+  Contains portability APIs for RMI-IIOP.
+&lt;/td&gt;
+
+&lt;td&gt;
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      javax.rmi.ssl
+    </td>
+<pre><code>&lt;td&gt;
+  Provides implementations of RMIClientSocketFactory and RMIServerSocketFactory over the Secure Sockets Layer (SSL) or Transport Layer Security (TLS) protocols.
+&lt;/td&gt;
+
+&lt;td&gt;
+  JDK1.5
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      javax.script
+    </td>
+<pre><code>&lt;td&gt;
+  The scripting API consists of interfaces and classes that define Java TM Scripting Engines and provides a framework for their use in Java applications.
+&lt;/td&gt;
+
+&lt;td&gt;
+  JDK1.6
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      javax.security.auth
+    </td>
+<pre><code>&lt;td&gt;
+  This package provides a framework for authentication and authorization.
+&lt;/td&gt;
+
+&lt;td&gt;
+  JDK1.4
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      javax.security.auth.callback
+    </td>
+<pre><code>&lt;td&gt;
+  This package provides the classes necessary for services to interact with applications in order to retrieve information (authentication data including usernames or passwords, for example) or to display information (error and warning messages, for example).
+&lt;/td&gt;
+
+&lt;td&gt;
+  JDK1.4
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      javax.security.auth.kerberos
+    </td>
+<pre><code>&lt;td&gt;
+  This package contains utility classes related to the Kerberos network authentication protocol.
+&lt;/td&gt;
+
+&lt;td&gt;
+  JDK1.4
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      javax.security.auth.login
+    </td>
+<pre><code>&lt;td&gt;
+  This package provides a pluggable authentication framework.
+&lt;/td&gt;
+
+&lt;td&gt;
+  JDK1.4
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      javax.security.auth.spi
+    </td>
+<pre><code>&lt;td&gt;
+  This package provides the interface to be used for implementing pluggable authentication modules.
+&lt;/td&gt;
+
+&lt;td&gt;
+  JDK1.4
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      javax.security.auth.x500
+    </td>
+<pre><code>&lt;td&gt;
+  This package contains the classes that should be used to store X500 Principal and X500 Private Credentials in a Subject.
+&lt;/td&gt;
+
+&lt;td&gt;
+  JDK1.4
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      javax.security.cert
+    </td>
+<pre><code>&lt;td&gt;
+  Provides classes for public key certificates.
+&lt;/td&gt;
+
+&lt;td&gt;
+  JDK1.4
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      javax.security.sasl
+    </td>
+<pre><code>&lt;td&gt;
+  Contains class and interfaces for supporting SASL.
+&lt;/td&gt;
+
+&lt;td&gt;
+  JDK1.5
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      javax.sound.midi
+    </td>
+<pre><code>&lt;td&gt;
+  Provides interfaces and classes for I/O, sequencing, and synthesis of MIDI (Musical Instrument Digital Interface) data.
+&lt;/td&gt;
+
+&lt;td&gt;
+  JDK1.3
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      javax.sound.midi.spi
+    </td>
+<pre><code>&lt;td&gt;
+  Supplies interfaces for service providers to implement when offering new MIDI devices, MIDI file readers and writers, or sound bank readers.
+&lt;/td&gt;
+
+&lt;td&gt;
+  JDK1.3
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      javax.sound.sampled
+    </td>
+<pre><code>&lt;td&gt;
+  Provides interfaces and classes for capture, processing, and playback of sampled audio data.
+&lt;/td&gt;
+
+&lt;td&gt;
+  JDK1.3
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      javax.sound.sampled.spi
+    </td>
+<pre><code>&lt;td&gt;
+  Supplies abstract classes for service providers to subclass when offering new audio devices, sound file readers and writers, or audio format converters.
+&lt;/td&gt;
+
+&lt;td&gt;
+  JDK1.3
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      javax.sql
+    </td>
+<pre><code>&lt;td&gt;
+  Provides the API for server side data source access and processing from the JavaTM programming language.
+&lt;/td&gt;
+
+&lt;td&gt;
+  JDK1.4
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      javax.sql.rowset
+    </td>
+<pre><code>&lt;td&gt;
+  Standard interfaces and base classes for JDBC RowSet implementations.
+&lt;/td&gt;
+
+&lt;td&gt;
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      javax.sql.rowset.serial
+    </td>
+<pre><code>&lt;td&gt;
+  Provides utility classes to allow serializable mappings between SQL types and data types in the Java programming language.
+&lt;/td&gt;
+
+&lt;td&gt;
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      javax.sql.rowset.spi
+    </td>
+<pre><code>&lt;td&gt;
+  The standard classes and interfaces that a third party vendor has to use in its implementation of a synchronization provider.
+&lt;/td&gt;
+
+&lt;td&gt;
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      javax.swing
+    </td>
+<pre><code>&lt;td&gt;
+  Provides a set of &amp;#8220;lightweight&amp;#8221; (all-Java language) components that, to the maximum degree possible, work the same on all platforms.
+&lt;/td&gt;
+
+&lt;td&gt;
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      javax.swing.border
+    </td>
+<pre><code>&lt;td&gt;
+  Provides classes and interface for drawing specialized borders around a Swing component.
+&lt;/td&gt;
+
+&lt;td&gt;
+  JDK1.2
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      javax.swing.colorchooser
+    </td>
+<pre><code>&lt;td&gt;
+  Contains classes and interfaces used by the JColorChooser component.
+&lt;/td&gt;
+
+&lt;td&gt;
+  JDK1.2
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      javax.swing.event
+    </td>
+<pre><code>&lt;td&gt;
+  Provides for events fired by Swing components.
+&lt;/td&gt;
+
+&lt;td&gt;
+  JDK1.2
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      javax.swing.filechooser
+    </td>
+<pre><code>&lt;td&gt;
+  Contains classes and interfaces used by the JFileChooser component.
+&lt;/td&gt;
+
+&lt;td&gt;
+  JDK1.2
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      javax.swing.plaf
+    </td>
+<pre><code>&lt;td&gt;
+  Provides one interface and many abstract classes that Swing uses to provide its pluggable look-and-feel capabilities.
+&lt;/td&gt;
+
+&lt;td&gt;
+  JDK1.2
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      javax.swing.plaf.basic
+    </td>
+<pre><code>&lt;td&gt;
+  Provides user interface objects built according to the Basic look and feel.
+&lt;/td&gt;
+
+&lt;td&gt;
+  JDK1.2
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      javax.swing.plaf.metal
+    </td>
+<pre><code>&lt;td&gt;
+  Provides user interface objects built according to the Java look and feel (once codenamed Metal), which is the default look and feel.
+&lt;/td&gt;
+
+&lt;td&gt;
+  JDK1.2
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      javax.swing.plaf.multi
+    </td>
+<pre><code>&lt;td&gt;
+  Provides user interface objects that combine two or more look and feels.
+&lt;/td&gt;
+
+&lt;td&gt;
+  JDK1.2
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      javax.swing.plaf.nimbus
+    </td>
+<pre><code>&lt;td&gt;
+  Provides user interface objects built according to the cross-platform Nimbus look and feel.
+&lt;/td&gt;
+
+&lt;td&gt;
+  JDK1.7
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      javax.swing.plaf.synth
+    </td>
+<pre><code>&lt;td&gt;
+  Synth is a skinnable look and feel in which all painting is delegated.
+&lt;/td&gt;
+
+&lt;td&gt;
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      javax.swing.table
+    </td>
+<pre><code>&lt;td&gt;
+  Provides classes and interfaces for dealing with javax.swing.JTable.
+&lt;/td&gt;
+
+&lt;td&gt;
+  JDK1.2
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      javax.swing.text
+    </td>
+<pre><code>&lt;td&gt;
+  Provides classes and interfaces that deal with editable and noneditable text components.
+&lt;/td&gt;
+
+&lt;td&gt;
+  JDK1.2
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      javax.swing.text.html
+    </td>
+<pre><code>&lt;td&gt;
+  Provides the class HTMLEditorKit and supporting classes for creating HTML text editors.
+&lt;/td&gt;
+
+&lt;td&gt;
+  JDK1.2
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      javax.swing.text.html.parser
+    </td>
+<pre><code>&lt;td&gt;
+  Provides the default HTML parser, along with support classes.
+&lt;/td&gt;
+
+&lt;td&gt;
+  JDK1.2
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      javax.swing.text.rtf
+    </td>
+<pre><code>&lt;td&gt;
+  Provides a class (RTFEditorKit) for creating Rich-Text-Format text editors.
+&lt;/td&gt;
+
+&lt;td&gt;
+  JDK1.2
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      javax.swing.tree
+    </td>
+<pre><code>&lt;td&gt;
+  Provides classes and interfaces for dealing with javax.swing.JTree.
+&lt;/td&gt;
+
+&lt;td&gt;
+  JDK1.2
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      javax.swing.undo
+    </td>
+<pre><code>&lt;td&gt;
+  Allows developers to provide support for undo/redo in applications such as text editors.
+&lt;/td&gt;
+
+&lt;td&gt;
+  JDK1.2
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      javax.tools
+    </td>
+<pre><code>&lt;td&gt;
+  Provides interfaces for tools which can be invoked from a program, for example, compilers.
+&lt;/td&gt;
+
+&lt;td&gt;
+  JDK1.6
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      javax.transaction
+    </td>
+<pre><code>&lt;td&gt;
+  Contains three exceptions thrown by the ORB machinery during unmarshalling.
+&lt;/td&gt;
+
+&lt;td&gt;
+  JDK1.3
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      javax.transaction.xa
+    </td>
+<pre><code>&lt;td&gt;
+  Provides the API that defines the contract between the transaction manager and the resource manager, which allows the transaction manager to enlist and delist resource objects (supplied by the resource manager driver) in JTA transactions.
+&lt;/td&gt;
+
+&lt;td&gt;
+  JDK1.4
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      javax.xml
+    </td>
+<pre><code>&lt;td&gt;
+&lt;/td&gt;
+
+&lt;td&gt;
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      javax.xml.bind
+    </td>
+<pre><code>&lt;td&gt;
+  Provides a runtime binding framework for client applications including unmarshalling, marshalling, and validation capabilities.
+&lt;/td&gt;
+
+&lt;td&gt;
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      javax.xml.bind.annotation
+    </td>
+<pre><code>&lt;td&gt;
+  Defines annotations for customizing Java program elements to XML Schema mapping.
+&lt;/td&gt;
+
+&lt;td&gt;
+  JAXB 2.0
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      javax.xml.bind.annotation.adapters
+    </td>
+<pre><code>&lt;td&gt;
+  XmlAdapter and its spec-defined sub-classes to allow arbitrary Java classes to be used with JAXB.
+&lt;/td&gt;
+
+&lt;td&gt;
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      javax.xml.bind.attachment
+    </td>
+<pre><code>&lt;td&gt;
+  This package is implemented by a MIME-based package processor that enables the interpretation and creation of optimized binary data within an MIME-based package format.
+&lt;/td&gt;
+
+&lt;td&gt;
+  JAXB 2.0
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      javax.xml.bind.helpers
+    </td>
+<pre><code>&lt;td&gt;
+  JAXB Provider Use Only: Provides partial default implementations for some of the javax.xml.bind interfaces.
+&lt;/td&gt;
+
+&lt;td&gt;
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      javax.xml.bind.util
+    </td>
+<pre><code>&lt;td&gt;
+  Useful client utility classes.
+&lt;/td&gt;
+
+&lt;td&gt;
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      javax.xml.crypto
+    </td>
+<pre><code>&lt;td&gt;
+  Common classes for XML cryptography.
+&lt;/td&gt;
+
+&lt;td&gt;
+  JDK1.6
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      javax.xml.crypto.dom
+    </td>
+<pre><code>&lt;td&gt;
+  DOM-specific classes for the javax.xml.crypto package.
+&lt;/td&gt;
+
+&lt;td&gt;
+  JDK1.6
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      javax.xml.crypto.dsig
+    </td>
+<pre><code>&lt;td&gt;
+  Classes for generating and validating XML digital signatures.
+&lt;/td&gt;
+
+&lt;td&gt;
+  JDK1.6
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      javax.xml.crypto.dsig.dom
+    </td>
+<pre><code>&lt;td&gt;
+  DOM-specific classes for the javax.xml.crypto.dsig package.
+&lt;/td&gt;
+
+&lt;td&gt;
+  JDK1.6
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      javax.xml.crypto.dsig.keyinfo
+    </td>
+<pre><code>&lt;td&gt;
+  Classes for parsing and processing KeyInfo elements and structures.
+&lt;/td&gt;
+
+&lt;td&gt;
+  JDK1.6
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      javax.xml.crypto.dsig.spec
+    </td>
+<pre><code>&lt;td&gt;
+  Parameter classes for XML digital signatures.
+&lt;/td&gt;
+
+&lt;td&gt;
+  JDK1.6
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      javax.xml.datatype
+    </td>
+<pre><code>&lt;td&gt;
+  XML/Java Type Mappings.
+&lt;/td&gt;
+
+&lt;td&gt;
+  JDK1.5
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      javax.xml.namespace
+    </td>
+<pre><code>&lt;td&gt;
+  XML Namespace processing.
+&lt;/td&gt;
+
+&lt;td&gt;
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      javax.xml.parsers
+    </td>
+<pre><code>&lt;td&gt;
+  Provides classes allowing the processing of XML documents.
+&lt;/td&gt;
+
+&lt;td&gt;
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      javax.xml.soap
+    </td>
+<pre><code>&lt;td&gt;
+  Provides the API for creating and building SOAP messages.
+&lt;/td&gt;
+
+&lt;td&gt;
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      javax.xml.stream
+    </td>
+<pre><code>&lt;td&gt;
+&lt;/td&gt;
+
+&lt;td&gt;
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      javax.xml.stream.events
+    </td>
+<pre><code>&lt;td&gt;
+&lt;/td&gt;
+
+&lt;td&gt;
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      javax.xml.stream.util
+    </td>
+<pre><code>&lt;td&gt;
+&lt;/td&gt;
+
+&lt;td&gt;
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      javax.xml.transform
+    </td>
+<pre><code>&lt;td&gt;
+  This package defines the generic APIs for processing transformation instructions, and performing a transformation from source to result.
+&lt;/td&gt;
+
+&lt;td&gt;
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      javax.xml.transform.dom
+    </td>
+<pre><code>&lt;td&gt;
+  This package implements DOM-specific transformation APIs.
+&lt;/td&gt;
+
+&lt;td&gt;
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      javax.xml.transform.sax
+    </td>
+<pre><code>&lt;td&gt;
+  This package implements SAX2-specific transformation APIs.
+&lt;/td&gt;
+
+&lt;td&gt;
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      javax.xml.transform.stax
+    </td>
+<pre><code>&lt;td&gt;
+  Provides for StAX-specific transformation APIs.
+&lt;/td&gt;
+
+&lt;td&gt;
+  JDK1.6
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      javax.xml.transform.stream
+    </td>
+<pre><code>&lt;td&gt;
+  This package implements stream- and URI- specific transformation APIs.
+&lt;/td&gt;
+
+&lt;td&gt;
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      javax.xml.validation
+    </td>
+<pre><code>&lt;td&gt;
+  This package provides an API for validation of XML documents.
+&lt;/td&gt;
+
+&lt;td&gt;
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      javax.xml.ws
+    </td>
+<pre><code>&lt;td&gt;
+  This package contains the core JAX-WS APIs.
+&lt;/td&gt;
+
+&lt;td&gt;
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      javax.xml.ws.handler
+    </td>
+<pre><code>&lt;td&gt;
+  This package defines APIs for message handlers.
+&lt;/td&gt;
+
+&lt;td&gt;
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      javax.xml.ws.handler.soap
+    </td>
+<pre><code>&lt;td&gt;
+  This package defines APIs for SOAP message handlers.
+&lt;/td&gt;
+
+&lt;td&gt;
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      javax.xml.ws.http
+    </td>
+<pre><code>&lt;td&gt;
+  This package defines APIs specific to the HTTP binding.
+&lt;/td&gt;
+
+&lt;td&gt;
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      javax.xml.ws.soap
+    </td>
+<pre><code>&lt;td&gt;
+  This package defines APIs specific to the SOAP binding.
+&lt;/td&gt;
+
+&lt;td&gt;
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      javax.xml.ws.spi
+    </td>
+<pre><code>&lt;td&gt;
+  This package defines SPIs for JAX-WS.
+&lt;/td&gt;
+
+&lt;td&gt;
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      javax.xml.ws.spi.http
+    </td>
+<pre><code>&lt;td&gt;
+  Provides HTTP SPI that is used for portable deployment of JAX-WS web services in containers(for e.g.
+&lt;/td&gt;
+
+&lt;td&gt;
+  JAX-WS 2.2
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      javax.xml.ws.wsaddressing
+    </td>
+<pre><code>&lt;td&gt;
+  This package defines APIs related to WS-Addressing.
+&lt;/td&gt;
+
+&lt;td&gt;
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      javax.xml.xpath
+    </td>
+<pre><code>&lt;td&gt;
+  This package provides an object-model neutral API for the evaluation of XPath expressions and access to the evaluation environment.
+&lt;/td&gt;
+
+&lt;td&gt;
+  JDK1.5
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      org.ietf.jgss
+    </td>
+<pre><code>&lt;td&gt;
+  This package presents a framework that allows application developers to make use of security services like authentication, data integrity and data confidentiality from a variety of underlying security mechanisms like Kerberos, using a unified API.
+&lt;/td&gt;
+
+&lt;td&gt;
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      org.omg.CORBA
+    </td>
+<pre><code>&lt;td&gt;
+  Provides the mapping of the OMG CORBA APIs to the JavaTM programming language, including the class ORB, which is implemented so that a programmer can use it as a fully-functional Object Request Broker (ORB).
+&lt;/td&gt;
+
+&lt;td&gt;
+  JDK1.2
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      org.omg.CORBA_2_3
+    </td>
+<pre><code>&lt;td&gt;
+  The CORBA_2_3 package defines additions to existing CORBA interfaces in the Java[tm] Standard Edition 6.   These changes occurred in recent revisions to the CORBA API defined by the OMG.  The new methods were added to  interfaces derived from the corresponding interfaces in the CORBA package.  This provides backward compatibility and avoids breaking the JCK tests.
+&lt;/td&gt;
+
+&lt;td&gt;
+  JDK1.3
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      org.omg.CORBA_2_3.portable
+    </td>
+<pre><code>&lt;td&gt;
+  Provides methods for the input and output of value types, and contains other updates to the org/omg/CORBA/portable package.
+&lt;/td&gt;
+
+&lt;td&gt;
+  JDK1.3
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      org.omg.CORBA.DynAnyPackage
+    </td>
+<pre><code>&lt;td&gt;
+  Provides the exceptions used with the DynAny interface (InvalidValue, Invalid, InvalidSeq, and TypeMismatch).
+&lt;/td&gt;
+
+&lt;td&gt;
+  JDK1.2
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      org.omg.CORBA.ORBPackage
+    </td>
+<pre><code>&lt;td&gt;
+  Provides the exception InvalidName, which is thrown by the method ORB.resolve_initial_references and the exception InconsistentTypeCode, which is thrown by the Dynamic Any creation methods in the ORB class.
+&lt;/td&gt;
+
+&lt;td&gt;
+  JDK1.2
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      org.omg.CORBA.portable
+    </td>
+<pre><code>&lt;td&gt;
+  Provides a portability layer, that is, a set of ORB APIs that makes it possible for code generated by one vendor to run on another vendor&amp;#8217;s ORB.
+&lt;/td&gt;
+
+&lt;td&gt;
+  JDK1.2
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      org.omg.CORBA.TypeCodePackage
+    </td>
+<pre><code>&lt;td&gt;
+  Provides the user-defined exceptions BadKind and Bounds, which are thrown by methods in in the class TypeCode.
+&lt;/td&gt;
+
+&lt;td&gt;
+  JDK1.2
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      org.omg.CosNaming
+    </td>
+<pre><code>&lt;td&gt;
+  Provides a naming service for Java IDL.
+&lt;/td&gt;
+
+&lt;td&gt;
+  JDK1.3
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      org.omg.CosNaming<br /> .NamingContextExtPackage
+    </td>
+<pre><code>&lt;td&gt;
+  This package contains the following classes, which are used in org.omg.CosNaming.NamingContextExt:
+&lt;/td&gt;
+
+&lt;td&gt;
+  JDK1.4
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      org.omg.CosNaming<br /> .NamingContextPackage
+    </td>
+<pre><code>&lt;td&gt;
+  This package contains Exception classes for the org.omg.CosNaming package.
+&lt;/td&gt;
+
+&lt;td&gt;
+  JDK1.4
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      org.omg.Dynamic
+    </td>
+<pre><code>&lt;td&gt;
+  This package contains the Dynamic module specified in the OMG Portable Interceptor specification, http://cgi.omg.org/cgi-bin/doc?ptc/2000-08-06, section 21.9.
+&lt;/td&gt;
+
+&lt;td&gt;
+  JDK1.4
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      org.omg.DynamicAny
+    </td>
+<pre><code>&lt;td&gt;
+  Provides classes and interfaces that enable traversal of the data value associated with an any at runtime, and extraction of the primitive constituents of the data value.
+&lt;/td&gt;
+
+&lt;td&gt;
+  JDK1.4
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      org.omg.DynamicAny<br /> .DynAnyFactoryPackage
+    </td>
+<pre><code>&lt;td&gt;
+  This package contains classes and exceptions from the DynAnyFactory interface of the DynamicAny module specified in the OMG The Common Object Request Broker: Architecture and Specification, http://cgi.omg.org/cgi-bin/doc?formal/99-10-07, section 9.2.2.
+&lt;/td&gt;
+
+&lt;td&gt;
+  JDK1.4
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      org.omg.DynamicAny<br /> .DynAnyPackage
+    </td>
+<pre><code>&lt;td&gt;
+  This package contains classes and exceptions from the DynAny interface of the DynamicAny module specified in the OMG The Common Object Request Broker: Architecture and Specification, http://cgi.omg.org/cgi-bin/doc?formal/99-10-07, section 9.2.
+&lt;/td&gt;
+
+&lt;td&gt;
+  JDK1.4
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      org.omg.IOP
+    </td>
+<pre><code>&lt;td&gt;
+  This package contains the IOP module specified in the OMG document The Common Object Request Broker: Architecture and Specification, http://cgi.omg.org/cgi-bin/doc?formal/99-10-07, section 13.6.
+&lt;/td&gt;
+
+&lt;td&gt;
+  JDK1.4
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      org.omg.IOP<br /> .CodecFactoryPackage
+    </td>
+<pre><code>&lt;td&gt;
+  This package contains the exceptions specified in the IOP::CodeFactory interface (as part of the Portable Interceptors spec).
+&lt;/td&gt;
+
+&lt;td&gt;
+  JDK1.4
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      org.omg.IOP<br /> .CodecPackage
+    </td>
+<pre><code>&lt;td&gt;
+  This package is generated from the IOP::Codec IDL interface definition.
+&lt;/td&gt;
+
+&lt;td&gt;
+  JDK1.4
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      org.omg.Messaging
+    </td>
+<pre><code>&lt;td&gt;
+  This package contains the Messaging module specified in the OMG CORBA Messaging specification, http://cgi.omg.org/cgi-bin/doc?formal/99-10-07.
+&lt;/td&gt;
+
+&lt;td&gt;
+  JDK1.4
+&lt;/td&gt;
+</code></pre>
+  </tr>
+</table>
+        </div>
+
+        
+        
+
+        
+      <hr />
+        
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+  
+
+  
+  
+
+
+<div class="row next-prev-navigator">
+  
+  
+</div>
+
+      <hr />
+      
+      
+      </div>
+    </div>
+  </div>
+  
+  <a id="scroll-to-top" class="btn"><i class="fas fa-chevron-circle-up"></i></a>
+  
+</section>
+
+
+      
+      
+  <section class="toc-section" id="toc-section">
+    
+    <div class="toc-holder">
+      <h5 class="text-center pl-3">Table of Contents</h5>
+      <hr>
+      <div class="toc">
+        <nav id="TableOfContents"></nav>
+      </div>
+    </div>
+    
+  </section>
+
+    </div>
+
+    
+    
+
+
+
+
+
+
+
+
+
+  
+      
+  
+
+
+
+  
+  
+    
+  
+
+  
+  
+    
+  
+
+  
+  
+    
+    
+      
+    
+  
+
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+    
+  
+  
+
+  
+  
+  
+
+  <footer class="container-fluid text-center align-content-center footer pb-2">
+    <div class="container pt-5">
+      <div class="row text-left">
+        
+        <div class="col-md-4 col-sm-12">
+          <h5>Navigation</h5>
+          
+          <ul>
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="/#about">About</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="/#skills">Skills</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="/#experiences">Experience</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="/#education">Education</a>
+                </li>
+              
+              
+          </ul>
+          
+        </div>
+        
+        
+        <div class="col-md-4 col-sm-12">
+          <h5>Contact me:</h5>
+          <ul>
+            
+            <li><span>Email: </span> <span>baluatcomputerscience@outlook.com</span></li>
+            
+          </ul>
+        </div>
+        
+        
+        
+      </div>
+    </div>
+    
+    
+    <hr />
+    <div class="container">
+      <div class="row text-left">
+        <div class="col-md-4">
+        </div>
+        <div class="col-md-4 text-center">© 2021 Copyright.</div>
+        <div class="col-md-4 text-right">
+        </div>
+      </div>
+    </div>
+    
+  </footer>
+
+
+    <script type="text/javascript" src="/js/jquery-3.4.1.min.js"></script>
+<script type="text/javascript" src="/js/popper.min.js"></script>
+<script type="text/javascript" src="/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="/js/navbar.js"></script>
+<script type="text/javascript" src="/js/plyr.js"></script>
+<script type="text/javascript" src="/js/main.js"></script>
+
+
+    
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js"></script>
+<script src="/js/single.js"></script>
+<script>
+  hljs.initHighlightingOnLoad();
+</script>
+
+
+  </body>
+</html>

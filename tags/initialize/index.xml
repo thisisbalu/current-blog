@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>initialize on Bala Subramanyam Lanka</title>
+    <link>https://thisisbalu.github.io/tags/initialize/</link>
+    <description>Recent content in initialize on Bala Subramanyam Lanka</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 03 Oct 2014 14:30:09 +0000</lastBuildDate><atom:link href="https://thisisbalu.github.io/tags/initialize/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to assign specific value to each element in Array</title>
+      <link>https://thisisbalu.github.io/how-to-assign-specific-value-to-each-element-in-array/</link>
+      <pubDate>Fri, 03 Oct 2014 14:30:09 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/how-to-assign-specific-value-to-each-element-in-array/</guid>
+      <description>&lt;p&gt;We can assign specific value to each element in the array in Java using the fill() method of java.util.Arrays class. This method is used mainly to initialize whole array at a time without looping through the array in Java. Let go through a tutorial.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

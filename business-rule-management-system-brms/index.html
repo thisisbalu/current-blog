@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Business Rule Management System (BRMS)</title>
+    <meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+
+<link rel="stylesheet" href="/css/bootstrap.min.css"/>
+<link rel="stylesheet" href="/css/layouts/main.css"/>
+<link rel="stylesheet" href="/css/navigators/navbar.css"/>
+<link rel="stylesheet" href="/css/plyr.css"/>
+<link rel="stylesheet" href="/css/flag-icon.min.css"/>
+
+
+<link href="https://fonts.googleapis.com/css2?family=Muli:wght@300;400;500;600" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" />
+
+
+
+
+  
+
+  
+  
+  
+    
+  
+  
+
+  <link rel="icon" type="image/png" href="/images/logos/favicon-32x32_hu6c0760df4368777065bb45ed9c8928ba_2423_42x0_resize_box_2.png" />
+
+<meta property="og:title" content="Business Rule Management System (BRMS)" />
+<meta property="og:description" content="Business Rule Management System (BRMS) is an integrated application development and execution platform that allows organizations to define, deploy and monitor and maintain the vast variety of Automated decisions used by operational systems. A BRMS allows decision logic to be extracted and managed separately from core application code, so that it can be easily understood, maintained and reused access the organization." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://thisisbalu.github.io/business-rule-management-system-brms/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2016-09-27T16:26:10&#43;00:00" />
+<meta property="article:modified_time" content="2016-09-27T16:26:10&#43;00:00" />
+
+
+
+    
+    
+<meta name="description" content="Business Rule Management System (BRMS)" />
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/atom-one-dark.min.css"
+/>
+<link rel="stylesheet" href="/css/layouts/single.css"/>
+<link rel="stylesheet" href="/css/navigators/sidebar.css">
+
+<link rel="stylesheet" href="/css/style.css"/>
+
+
+
+    
+    
+  </head>
+
+  <body data-spy="scroll" data-target="#TableOfContents" data-offset="80">
+    <div class="container-fluid bg-dimmed wrapper">
+      
+      
+    
+
+
+
+
+
+  
+
+
+  
+
+
+
+
+  
+  
+    
+  
+  
+
+
+
+  
+  
+    
+  
+  
+
+
+<nav class="navbar navbar-expand-xl top-navbar final-navbar shadow">
+  <div class="container">
+      <button class="navbar-toggler navbar-light" id="sidebar-toggler" type="button" onclick="toggleSidebar()">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="/">
+      
+        <img src="/images/logos/apple-icon-114x114_hu10b496cbdd14ccc59d427707b2b76be1_9048_42x0_resize_box_2.png" alt="Logo">
+      Bala Subramanyam Lanka</a>
+    <button class="navbar-toggler navbar-light" id="toc-toggler" type="button" onclick="toggleTOC()">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse lang-selector" id="top-nav-items">
+      <ul class="navbar-nav ml-auto">
+      
+      </ul>
+    </div>
+  </div>
+  
+  
+    <img src="/images/logos/apple-icon-114x114_hu10b496cbdd14ccc59d427707b2b76be1_9048_42x0_resize_box_2.png" class="d-none" id="main-logo" alt="Logo">
+  
+  
+    <img src="/images/logos/apple-icon-114x114_hu10b496cbdd14ccc59d427707b2b76be1_9048_42x0_resize_box_2.png" class="d-none" id="inverted-logo" alt="Inverted Logo">
+  
+</nav>
+
+
+
+      
+      
+  <section class="sidebar-section" id="sidebar-section">
+    <div class="sidebar-holder">
+      <div class="sidebar" id="sidebar">
+        <form class="mx-auto" method="get" action="/search">
+          <input type="text" name="keyword" value="" placeholder="Search" data-search="" id="search-box" />
+        </form>
+        <div class="sidebar-tree">
+          <ul class="tree" id="tree">
+            <li id="list-heading"><a href="/posts" data-filter="all">Posts</a></li>
+            <div class="subtree">
+                
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/sample/" title="Welcome">Welcome</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li>
+      <i class="fas fa-plus-circle"></i><a class="" href="">getting-started</a>
+      
+      <ul class="">
+        
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/2016-09-28-different-brms-tools-market/" title="Github Pages">Github Pages</a></li>
+  
+
+
+      </ul>
+    </li>
+  
+
+
+            </div>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+      
+      
+<section class="content-section" id="content-section">
+  <div class="content">
+    <div class="container p-0 read-area">
+      
+      <div class="hero-area col-sm-12" id="hero-area" style='background-image: url(https://thisisbalu.github.io/images/default-hero.jpg);'>
+      </div>
+
+      
+      <div class="page-content">
+        <div class="author-profile ml-auto align-self-lg-center">
+          <img class="rounded-circle" src='/images/author/balu_hu35c00e1b0d1c2b7ef4062ee49dc08602_54380_120x120_fit_box_2.png' alt="Author Image">
+          <h5 class="author-name">Bala Subramanyam Lanka</h5>
+          <p>September 27, 2016</p>
+        </div>
+
+        <div class="title">
+          <h1>Business Rule Management System (BRMS)</h1>
+        </div>
+        
+        <div class="post-content" id="post-content">
+          <p>Business Rule Management System (BRMS) is an integrated application development and execution platform that allows organizations to define, deploy and monitor and maintain the vast variety of Automated decisions used by operational systems. A BRMS allows decision logic to be extracted and managed separately from core application code, so that it can be easily understood, maintained and reused access the organization.</p>
+<p>The definition that is given in the above para is in technical terms. To define BRMS in the more general way –<em><strong>Externalizing the Bussiness Condition Logic from the application code so that condition logics(technically called as rules) can be organized easily without disturbing the application.</strong></em> BRMS reduces the application developer dependency. A business user can directly edit business condition rules using BRMS.</p>
+<h2 id="components-of-business-rule-management-system">Components of Business Rule Management System</h2>
+<p>Business Rule Management System should include at least three primary components.<figure id="attachment_1494" aria-describedby="caption-attachment-1494" style="width: 840px" class="wp-caption aligncenter"></p>
+<p><a href="http://www.balasubramanyamlanka.com/wp-content/uploads/2016/09/Components-of-BRMS.jpg"><img loading="lazy" class="size-large wp-image-1494" src="http://www.balasubramanyamlanka.com/wp-content/uploads/2016/09/Components-of-BRMS-1024x897.jpg" alt="Components of BRMS" width="840" height="736" srcset="http://www.balasubramanyamlanka.com/wp-content/uploads/2016/09/Components-of-BRMS-1024x897.jpg 1024w, http://www.balasubramanyamlanka.com/wp-content/uploads/2016/09/Components-of-BRMS-300x263.jpg 300w, http://www.balasubramanyamlanka.com/wp-content/uploads/2016/09/Components-of-BRMS-768x673.jpg 768w, http://www.balasubramanyamlanka.com/wp-content/uploads/2016/09/Components-of-BRMS-1200x1052.jpg 1200w" sizes="(max-width: 709px) 85vw, (max-width: 909px) 67vw, (max-width: 1362px) 62vw, 840px" /></a><figcaption id="caption-attachment-1494" class="wp-caption-text">Components of BRMS</figcaption></figure></p>
+<h5 id="rule-repository">Rule Repository</h5>
+<p>A repository allowing rules to be externalized from core application code. The repository allows decision logic to be managed as an enterprise asset, making it easier to understand and update automated, operational decisions. This rule repository also helps in reusing the rule information across the application.</p>
+<h5 id="tools-for-both-technical-and-non-technical-users-to-define-and-manage-decision-logic-in-repository">Tools for both technical and non-technical users to define and manage decision logic in repository</h5>
+<p>These tools give the business function the ability to define rules that will guide the behavior of operational systems. These tools will facilitate collaboration between the technical and business on application maintenance and development.</p>
+<h5 id="runtime-engine">Runtime Engine</h5>
+<p>A runtime engine allowing systems to access and execute of rules in the engine will be based on specific execution algorithms.</p>
+<p>Happy Learning! Happy Exploring!!</p>
+        </div>
+
+        
+        
+
+        
+      <hr />
+        
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+  
+
+  
+  
+
+
+<div class="row next-prev-navigator">
+  
+  
+</div>
+
+      <hr />
+      
+      
+      </div>
+    </div>
+  </div>
+  
+  <a id="scroll-to-top" class="btn"><i class="fas fa-chevron-circle-up"></i></a>
+  
+</section>
+
+
+      
+      
+  <section class="toc-section" id="toc-section">
+    
+    <div class="toc-holder">
+      <h5 class="text-center pl-3">Table of Contents</h5>
+      <hr>
+      <div class="toc">
+        <nav id="TableOfContents">
+  <ul>
+    <li><a href="#components-of-business-rule-management-system">Components of Business Rule Management System</a>
+      <ul>
+        <li>
+          <ul>
+            <li>
+              <ul>
+                <li><a href="#rule-repository">Rule Repository</a></li>
+                <li><a href="#tools-for-both-technical-and-non-technical-users-to-define-and-manage-decision-logic-in-repository">Tools for both technical and non-technical users to define and manage decision logic in repository</a></li>
+                <li><a href="#runtime-engine">Runtime Engine</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+      </div>
+    </div>
+    
+  </section>
+
+    </div>
+
+    
+    
+
+
+
+
+
+
+
+
+
+  
+      
+  
+
+
+
+  
+  
+    
+  
+
+  
+  
+    
+  
+
+  
+  
+    
+    
+      
+    
+  
+
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+    
+  
+  
+
+  
+  
+  
+
+  <footer class="container-fluid text-center align-content-center footer pb-2">
+    <div class="container pt-5">
+      <div class="row text-left">
+        
+        <div class="col-md-4 col-sm-12">
+          <h5>Navigation</h5>
+          
+          <ul>
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="/#about">About</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="/#skills">Skills</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="/#experiences">Experience</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="/#education">Education</a>
+                </li>
+              
+              
+          </ul>
+          
+        </div>
+        
+        
+        <div class="col-md-4 col-sm-12">
+          <h5>Contact me:</h5>
+          <ul>
+            
+            <li><span>Email: </span> <span>baluatcomputerscience@outlook.com</span></li>
+            
+          </ul>
+        </div>
+        
+        
+        
+      </div>
+    </div>
+    
+    
+    <hr />
+    <div class="container">
+      <div class="row text-left">
+        <div class="col-md-4">
+        </div>
+        <div class="col-md-4 text-center">© 2021 Copyright.</div>
+        <div class="col-md-4 text-right">
+        </div>
+      </div>
+    </div>
+    
+  </footer>
+
+
+    <script type="text/javascript" src="/js/jquery-3.4.1.min.js"></script>
+<script type="text/javascript" src="/js/popper.min.js"></script>
+<script type="text/javascript" src="/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="/js/navbar.js"></script>
+<script type="text/javascript" src="/js/plyr.js"></script>
+<script type="text/javascript" src="/js/main.js"></script>
+
+
+    
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js"></script>
+<script src="/js/single.js"></script>
+<script>
+  hljs.initHighlightingOnLoad();
+</script>
+
+
+  </body>
+</html>

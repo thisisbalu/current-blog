@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>IBM on Bala Subramanyam Lanka</title>
+    <link>https://thisisbalu.github.io/categories/ibm/</link>
+    <description>Recent content in IBM on Bala Subramanyam Lanka</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 02 Jun 2016 20:25:15 +0000</lastBuildDate><atom:link href="https://thisisbalu.github.io/categories/ibm/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Synchronizing Rules and RuleDocs – Rule Solutions for Office, ODM</title>
+      <link>https://thisisbalu.github.io/synchronising-rules-ruledocs-rule-solutions-office/</link>
+      <pubDate>Thu, 02 Jun 2016 20:25:15 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/synchronising-rules-ruledocs-rule-solutions-office/</guid>
+      <description>&lt;p class=&#34;shortdesc&#34;&gt;
+  RuleDocs are Microsoft Office documents that contain your rules, decision tables, and ruleflows. Rules and ruleflows are stored in Word documents, while decision tables are stored as spreadsheets in Excel. We use t to edit and manage rules offline. You can also use them to present the rules together with documentation and supporting information, including the original policy or requirement.</description>
+    </item>
+    
+    <item>
+      <title>Rule Solutions for Office Installation – IBM ODM</title>
+      <link>https://thisisbalu.github.io/rule-solutions-office-installation-odm/</link>
+      <pubDate>Tue, 31 May 2016 17:59:20 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/rule-solutions-office-installation-odm/</guid>
+      <description>&lt;p class=&#34;p&#34;&gt;
+  &lt;span class=&#34;keyword&#34;&gt;Rule Solutions for Office&lt;/span&gt; enables you to edit business rules in Microsoft Office documents called RuleDocs. You can update and share rules with RuleDocs, which can also provide supporting documentation and information such as the original policies for the rules. &lt;span class=&#34;keyword&#34;&gt;Rule Solutions &lt;/span&gt;works in conjunction with &lt;span class=&#34;keyword&#34;&gt;Decision Center&lt;/span&gt;, which serves as a workspace for business users to collaborate on authoring, editing, organizing, and searching for business rules.</description>
+    </item>
+    
+    <item>
+      <title>Development Standards for Execution Object Model (XOM)</title>
+      <link>https://thisisbalu.github.io/development-standards-execution-object-model-xom/</link>
+      <pubDate>Tue, 24 May 2016 19:48:17 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/development-standards-execution-object-model-xom/</guid>
+      <description>&lt;p&gt;The Execution Object Model (XOM) is the model against which the rules run. It references the application objects and data and is the base implementation of the Business Object Model (BOM). Rule projects reference the XOM. Through the Execution Object Model, the rule engine can access application objects and methods, which can be Java objects, XML data, or data from other sources. At run time, rules that were written against the BOM are run against the XOM.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Initializing IBM RAD/RSA – eclipse.ini</title>
+      <link>https://thisisbalu.github.io/initialize-ibm-rad-rsa-options-eclipse-ini/</link>
+      <pubDate>Sat, 14 May 2016 18:22:48 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/initialize-ibm-rad-rsa-options-eclipse-ini/</guid>
+      <description>&lt;p&gt;IBM has a mega line up in the IDE business. Some of the IDEs provided by IBM are Eclipse, Rational Application Developer, Rational Software Architect Designer, Rational Business Developer, etc, When it comes to enterprise java development or operational decision management or business modelling, people use mostly RAD/RSA.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>IBM WebSphere Application Server Garbage Collection Policies</title>
+      <link>https://thisisbalu.github.io/ibm-websphere-application-server-garbage-collection-policies/</link>
+      <pubDate>Thu, 12 May 2016 18:16:30 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/ibm-websphere-application-server-garbage-collection-policies/</guid>
+      <description>&lt;p&gt;As long as an object is being referenced, the JVM considers it alive. Once an object is no longer referenced and therefore is not reachable by the application code, the garbage collector removes it and reclaims the unused memory. Java implicitly collects the garbage when objects are no longer referenced or  when Java heap is insufficient and unable to satisfy a request for storage, such as object creation, it automatically triggers garbage collection to free memory.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

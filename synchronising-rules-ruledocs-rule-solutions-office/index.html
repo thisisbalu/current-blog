@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Synchronizing Rules and RuleDocs – Rule Solutions for Office, ODM</title>
+    <meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+
+<link rel="stylesheet" href="/css/bootstrap.min.css"/>
+<link rel="stylesheet" href="/css/layouts/main.css"/>
+<link rel="stylesheet" href="/css/navigators/navbar.css"/>
+<link rel="stylesheet" href="/css/plyr.css"/>
+<link rel="stylesheet" href="/css/flag-icon.min.css"/>
+
+
+<link href="https://fonts.googleapis.com/css2?family=Muli:wght@300;400;500;600" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" />
+
+
+
+
+  
+
+  
+  
+  
+    
+  
+  
+
+  <link rel="icon" type="image/png" href="/images/logos/favicon-32x32_hu6c0760df4368777065bb45ed9c8928ba_2423_42x0_resize_box_2.png" />
+
+<meta property="og:title" content="Synchronizing Rules and RuleDocs – Rule Solutions for Office, ODM" />
+<meta property="og:description" content="
+  RuleDocs are Microsoft Office documents that contain your rules, decision tables, and ruleflows. Rules and ruleflows are stored in Word documents, while decision tables are stored as spreadsheets in Excel. We use t to edit and manage rules offline. You can also use them to present the rules together with documentation and supporting information, including the original policy or requirement." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://thisisbalu.github.io/synchronising-rules-ruledocs-rule-solutions-office/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2016-06-02T20:25:15&#43;00:00" />
+<meta property="article:modified_time" content="2016-06-02T20:25:15&#43;00:00" />
+
+
+
+    
+    
+<meta name="description" content="Synchronizing Rules and RuleDocs – Rule Solutions for Office, ODM" />
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/atom-one-dark.min.css"
+/>
+<link rel="stylesheet" href="/css/layouts/single.css"/>
+<link rel="stylesheet" href="/css/navigators/sidebar.css">
+
+<link rel="stylesheet" href="/css/style.css"/>
+
+
+
+    
+    
+  </head>
+
+  <body data-spy="scroll" data-target="#TableOfContents" data-offset="80">
+    <div class="container-fluid bg-dimmed wrapper">
+      
+      
+    
+
+
+
+
+
+  
+
+
+  
+
+
+
+
+  
+  
+    
+  
+  
+
+
+
+  
+  
+    
+  
+  
+
+
+<nav class="navbar navbar-expand-xl top-navbar final-navbar shadow">
+  <div class="container">
+      <button class="navbar-toggler navbar-light" id="sidebar-toggler" type="button" onclick="toggleSidebar()">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="/">
+      
+        <img src="/images/logos/apple-icon-114x114_hu10b496cbdd14ccc59d427707b2b76be1_9048_42x0_resize_box_2.png" alt="Logo">
+      Bala Subramanyam Lanka</a>
+    <button class="navbar-toggler navbar-light" id="toc-toggler" type="button" onclick="toggleTOC()">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse lang-selector" id="top-nav-items">
+      <ul class="navbar-nav ml-auto">
+      
+      </ul>
+    </div>
+  </div>
+  
+  
+    <img src="/images/logos/apple-icon-114x114_hu10b496cbdd14ccc59d427707b2b76be1_9048_42x0_resize_box_2.png" class="d-none" id="main-logo" alt="Logo">
+  
+  
+    <img src="/images/logos/apple-icon-114x114_hu10b496cbdd14ccc59d427707b2b76be1_9048_42x0_resize_box_2.png" class="d-none" id="inverted-logo" alt="Inverted Logo">
+  
+</nav>
+
+
+
+      
+      
+  <section class="sidebar-section" id="sidebar-section">
+    <div class="sidebar-holder">
+      <div class="sidebar" id="sidebar">
+        <form class="mx-auto" method="get" action="/search">
+          <input type="text" name="keyword" value="" placeholder="Search" data-search="" id="search-box" />
+        </form>
+        <div class="sidebar-tree">
+          <ul class="tree" id="tree">
+            <li id="list-heading"><a href="/posts" data-filter="all">Posts</a></li>
+            <div class="subtree">
+                
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/sample/" title="Welcome">Welcome</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li>
+      <i class="fas fa-plus-circle"></i><a class="" href="">getting-started</a>
+      
+      <ul class="">
+        
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/2016-09-28-different-brms-tools-market/" title="Github Pages">Github Pages</a></li>
+  
+
+
+      </ul>
+    </li>
+  
+
+
+            </div>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+      
+      
+<section class="content-section" id="content-section">
+  <div class="content">
+    <div class="container p-0 read-area">
+      
+      <div class="hero-area col-sm-12" id="hero-area" style='background-image: url(https://thisisbalu.github.io/images/default-hero.jpg);'>
+      </div>
+
+      
+      <div class="page-content">
+        <div class="author-profile ml-auto align-self-lg-center">
+          <img class="rounded-circle" src='/images/author/balu_hu35c00e1b0d1c2b7ef4062ee49dc08602_54380_120x120_fit_box_2.png' alt="Author Image">
+          <h5 class="author-name">Bala Subramanyam Lanka</h5>
+          <p>June 2, 2016</p>
+        </div>
+
+        <div class="title">
+          <h1>Synchronizing Rules and RuleDocs – Rule Solutions for Office, ODM</h1>
+        </div>
+        
+        <div class="post-content" id="post-content">
+          <p class="shortdesc">
+  RuleDocs are Microsoft Office documents that contain your rules, decision tables, and ruleflows. Rules and ruleflows are stored in Word documents, while decision tables are stored as spreadsheets in Excel. We use t to edit and manage rules offline. You can also use them to present the rules together with documentation and supporting information, including the original policy or requirement.
+</p><figure id="attachment_1434" aria-describedby="caption-attachment-1434" style="width: 429px" class="wp-caption aligncenter">
+<p><a href="http://www.balasubramanyamlanka.com/wp-content/uploads/2016/06/rules-ruledocs-rule-solutions-office-ibm-odm.jpg"><img loading="lazy" class="wp-image-1434 size-full" src="http://www.balasubramanyamlanka.com/wp-content/uploads/2016/06/rules-ruledocs-rule-solutions-office-ibm-odm.jpg" alt="Synchronising Rules and RuleDocs in Rule Solutions for Office" width="429" height="248" srcset="http://www.balasubramanyamlanka.com/wp-content/uploads/2016/06/rules-ruledocs-rule-solutions-office-ibm-odm.jpg 429w, http://www.balasubramanyamlanka.com/wp-content/uploads/2016/06/rules-ruledocs-rule-solutions-office-ibm-odm-300x173.jpg 300w" sizes="(max-width: 429px) 85vw, 429px" /></a><figcaption id="caption-attachment-1434" class="wp-caption-text">Synchronizing Rules and RuleDocs in Rule Solutions for Office</figcaption></figure></p>
+<p class="p">
+  You can store your RuleDocs at a location that is accessible to multiple users. Other users can then open RuleDocs for editing without accessing the <span class="keyword">Decision Center</span> console.
+</p>
+<blockquote>
+<p class="p">
+  To use these docs to edit your rules, you must set file associations for <span class="ph filepath">.docx</span> and <span class="ph filepath">.xlsx</span> to Microsoft Office Word and Excel, not just with the Microsoft Word and Excel viewers.
+</p>
+</blockquote>
+<p class="p">
+  When you work with these Docs in this way, you publish and update them from <span class="keyword">Decision Center</span> to make sure that the rules in <span class="keyword">Decision Center</span> and those in your Docs remain synchronized.
+</p>
+<li class="p">
+  <strong>Publish</strong> : To send the rules from <span class="keyword">Decision Center</span> to RuleDocs on a file system.
+</li>
+<li class="p">
+  <strong>Update</strong> : To save any changes made to your RuleDocs back to <span class="keyword">Decision Center</span>.
+</li>
+<p>When we download Rule Solutions for office, we will be able to see menu added to the Microsoft Word and Microsoft Excel. Rules menu will be added for Word and Decision Table Menu will be added to the Excel. Note that these menus can be seen only when the rules were published to the RuleDocs.<figure id="attachment_1424" aria-describedby="caption-attachment-1424" style="width: 840px" class="wp-caption aligncenter"></p>
+<p><a href="http://www.balasubramanyamlanka.com/wp-content/uploads/2016/05/rule-solutions-for-office.png"><img loading="lazy" class="size-large wp-image-1424" src="http://www.balasubramanyamlanka.com/wp-content/uploads/2016/05/rule-solutions-for-office-1024x294.png" alt="Rule Solutions for Office in Word and Excel" width="840" height="241" srcset="http://www.balasubramanyamlanka.com/wp-content/uploads/2016/05/rule-solutions-for-office-1024x294.png 1024w, http://www.balasubramanyamlanka.com/wp-content/uploads/2016/05/rule-solutions-for-office-300x86.png 300w, http://www.balasubramanyamlanka.com/wp-content/uploads/2016/05/rule-solutions-for-office-768x221.png 768w, http://www.balasubramanyamlanka.com/wp-content/uploads/2016/05/rule-solutions-for-office.png 1062w" sizes="(max-width: 709px) 85vw, (max-width: 909px) 67vw, (max-width: 1362px) 62vw, 840px" /></a><figcaption id="caption-attachment-1424" class="wp-caption-text">Rule Solutions for Office in Word and Excel</figcaption></figure></p>
+<p class="shortdesc">
+  <a href="http://www.balasubramanyamlanka.com/rule-solutions-office-installation-odm/"><span class="keyword">Rule Solutions for Office</span></a> supports different versions of Office. <span class="keyword">Rule Solutions for Office</span> works with Versions 2007 and 2010 of Microsoft Excel and Word. When you install <span class="keyword">Rule Solutions for Office</span>, you extend Excel and Word with add-ins that provide rule viewing, editing and management features for the RuleDocs.
+</p>
+<h2 id="steps-to-publish-rules-to-ruledocs">Steps to Publish rules to ruledocs:</h2>
+<ol>
+<li>
+<p>Open Decision Center, Select your project. In this case project, name is MyFirstProject_rules
+<figure id="attachment_1437" aria-describedby="caption-attachment-1437" style="width: 840px" class="wp-caption aligncenter"><a href="http://www.balasubramanyamlanka.com/wp-content/uploads/2016/06/Decision-Center.png"><img loading="lazy" class="size-large wp-image-1437" src="http://www.balasubramanyamlanka.com/wp-content/uploads/2016/06/Decision-Center-1024x621.png" alt="Decision Center" width="840" height="509" srcset="http://www.balasubramanyamlanka.com/wp-content/uploads/2016/06/Decision-Center-1024x621.png 1024w, http://www.balasubramanyamlanka.com/wp-content/uploads/2016/06/Decision-Center-300x182.png 300w, http://www.balasubramanyamlanka.com/wp-content/uploads/2016/06/Decision-Center-768x466.png 768w, http://www.balasubramanyamlanka.com/wp-content/uploads/2016/06/Decision-Center.png 1181w" sizes="(max-width: 709px) 85vw, (max-width: 909px) 67vw, (max-width: 1362px) 62vw, 840px" /></a><figcaption id="caption-attachment-1437" class="wp-caption-text">Decision Center</figcaption></figure></li></p>
+<ul>
+<li>
+<p>Go to the project tab in decision center and select Publish Rules to RuleDocs in Rule Solutions for Office Section.</p>
+<figure id="attachment_1438" aria-describedby="caption-attachment-1438" style="width: 840px" class="wp-caption aligncenter">[<img loading="lazy" class="size-large wp-image-1438" src="http://www.balasubramanyamlanka.com/wp-content/uploads/2016/06/Decision-Center-Project-Tab-1024x628.png" alt="Decision Center Project Tab" width="840" height="515" srcset="http://www.balasubramanyamlanka.com/wp-content/uploads/2016/06/Decision-Center-Project-Tab-1024x628.png 1024w, http://www.balasubramanyamlanka.com/wp-content/uploads/2016/06/Decision-Center-Project-Tab-300x184.png 300w, http://www.balasubramanyamlanka.com/wp-content/uploads/2016/06/Decision-Center-Project-Tab-768x471.png 768w, http://www.balasubramanyamlanka.com/wp-content/uploads/2016/06/Decision-Center-Project-Tab.png 1185w" sizes="(max-width: 709px) 85vw, (max-width: 909px) 67vw, (max-width: 1362px) 62vw, 840px" />][4]<figcaption id="caption-attachment-1438" class="wp-caption-text">Decision Center Project Tab</figcaption></figure></li> 
+<ul>
+<li>
+<p>Specify the local destination folder in Publish rules to RuleDocs (1/3) and click on next. Here we specify where we want to publish the RuleDoc and then edit the RuleDocs. In the <strong><span class="ph uicontrol">Publication location</span></strong> field, select a location from the drop-down list. The Configuration Manager must have created the location beforehand. In the <strong><span class="ph uicontrol">Additional path</span></strong> field, add any required subfolders to this location.</p>
+<figure id="attachment_1440" aria-describedby="caption-attachment-1440" style="width: 840px" class="wp-caption aligncenter">[<img loading="lazy" class="size-large wp-image-1440" src="http://www.balasubramanyamlanka.com/wp-content/uploads/2016/06/Publishing-rules-to-RuleDocs-1-1024x628.png" alt="Publishing rules to RuleDocs (1/3)" width="840" height="515" srcset="http://www.balasubramanyamlanka.com/wp-content/uploads/2016/06/Publishing-rules-to-RuleDocs-1-1024x628.png 1024w, http://www.balasubramanyamlanka.com/wp-content/uploads/2016/06/Publishing-rules-to-RuleDocs-1-300x184.png 300w, http://www.balasubramanyamlanka.com/wp-content/uploads/2016/06/Publishing-rules-to-RuleDocs-1-768x471.png 768w, http://www.balasubramanyamlanka.com/wp-content/uploads/2016/06/Publishing-rules-to-RuleDocs-1.png 1183w" sizes="(max-width: 709px) 85vw, (max-width: 909px) 67vw, (max-width: 1362px) 62vw, 840px" />][5]<figcaption id="caption-attachment-1440" class="wp-caption-text">Publishing rules to RuleDocs (1/3)</figcaption></figure></li> 
+<ul>
+<li>
+<p>Select the options for the RuleDocs in Publish rules to RuleDocs (2/3) and then click on next. Here, we specify which rules to include, how your RuleDoc is to be organized, and the locale. By default, all action rules, decision tables, and ruleflows of the current project are published to these Docs. However, you can select a subset based on an existing query. If you select a query when republishing to the same location, only rules selected by the query are published. This means that changes to rules in either <span class="keyword">Decision Center</span> or in the RuleDocs are taken into account if the query does not select those rules.</p>
+<figure id="attachment_1441" aria-describedby="caption-attachment-1441" style="width: 840px" class="wp-caption aligncenter">[<img loading="lazy" class="size-large wp-image-1441" src="http://www.balasubramanyamlanka.com/wp-content/uploads/2016/06/Publishing-rules-to-RuleDocs-2-1024x629.png" alt="Publishing rules to RuleDocs (2/3)" width="840" height="516" srcset="http://www.balasubramanyamlanka.com/wp-content/uploads/2016/06/Publishing-rules-to-RuleDocs-2-1024x629.png 1024w, http://www.balasubramanyamlanka.com/wp-content/uploads/2016/06/Publishing-rules-to-RuleDocs-2-300x184.png 300w, http://www.balasubramanyamlanka.com/wp-content/uploads/2016/06/Publishing-rules-to-RuleDocs-2-768x472.png 768w, http://www.balasubramanyamlanka.com/wp-content/uploads/2016/06/Publishing-rules-to-RuleDocs-2.png 1185w" sizes="(max-width: 709px) 85vw, (max-width: 909px) 67vw, (max-width: 1362px) 62vw, 840px" />][6]<figcaption id="caption-attachment-1441" class="wp-caption-text">Publishing rules to RuleDocs (2/3)</figcaption></figure></li> 
+<ul>
+<li>
+<p class="p">
+  Specify the actions to take for each rule in Publish rules to RuleDocs (3/3) and then click next. At the start of this step, <span class="keyword">Decision Center</span> displays a table comparing the synchronization state between the rules in <span class="keyword">Decision Center</span> and the folder location to which you are publishing and proposes an action to take for each rule. For example, during an initial publish, no RuleDocs exist at the publication location, so all actions are <span class="ph uicontrol">Add rule in <span class="keyword">Rule Solutions for Office.</span></span>
+</p>
+<figure id="attachment_1444" aria-describedby="caption-attachment-1444" style="width: 840px" class="wp-caption aligncenter">[<img loading="lazy" class="size-large wp-image-1444" src="http://www.balasubramanyamlanka.com/wp-content/uploads/2016/06/Publishing-rules-to-RuleDocs-3-1024x630.png" alt="Publishing rules to RuleDocs (3/3)" width="840" height="517" srcset="http://www.balasubramanyamlanka.com/wp-content/uploads/2016/06/Publishing-rules-to-RuleDocs-3-1024x630.png 1024w, http://www.balasubramanyamlanka.com/wp-content/uploads/2016/06/Publishing-rules-to-RuleDocs-3-300x185.png 300w, http://www.balasubramanyamlanka.com/wp-content/uploads/2016/06/Publishing-rules-to-RuleDocs-3-768x473.png 768w, http://www.balasubramanyamlanka.com/wp-content/uploads/2016/06/Publishing-rules-to-RuleDocs-3.png 1184w" sizes="(max-width: 709px) 85vw, (max-width: 909px) 67vw, (max-width: 1362px) 62vw, 840px" />][7]<figcaption id="caption-attachment-1444" class="wp-caption-text">Publishing rules to RuleDocs (3/3)</figcaption></figure></li> 
+<ul>
+<li>
+<p class="p">
+  Publishing status<span class="ph uicontrol"><span class="keyword">.</span></span>
+</p>
+<figure id="attachment_1451" aria-describedby="caption-attachment-1451" style="width: 840px" class="wp-caption aligncenter">[<img loading="lazy" class="size-large wp-image-1451" src="http://www.balasubramanyamlanka.com/wp-content/uploads/2016/06/Publishing-Status-1024x625.png" alt="Publishing Status" width="840" height="513" srcset="http://www.balasubramanyamlanka.com/wp-content/uploads/2016/06/Publishing-Status-1024x625.png 1024w, http://www.balasubramanyamlanka.com/wp-content/uploads/2016/06/Publishing-Status-300x183.png 300w, http://www.balasubramanyamlanka.com/wp-content/uploads/2016/06/Publishing-Status-768x468.png 768w, http://www.balasubramanyamlanka.com/wp-content/uploads/2016/06/Publishing-Status.png 1187w" sizes="(max-width: 709px) 85vw, (max-width: 909px) 67vw, (max-width: 1362px) 62vw, 840px" />][8]<figcaption id="caption-attachment-1451" class="wp-caption-text">Publishing Status</figcaption></figure></li> 
+<ul>
+<li>
+<p>Now all the rules from the project will be converted into the RuleDocs and saved to the local computer destination provided while publishing. <figure id="attachment_1448" aria-describedby="caption-attachment-1448" style="width: 840px" class="wp-caption aligncenter"><a href="http://www.balasubramanyamlanka.com/wp-content/uploads/2016/06/RuleDocs-saved-to-specified-local-destination.png"><img loading="lazy" class="size-large wp-image-1448" src="http://www.balasubramanyamlanka.com/wp-content/uploads/2016/06/RuleDocs-saved-to-specified-local-destination-1024x681.png" alt="RuleDocs saved to specified local destination" width="840" height="559" srcset="http://www.balasubramanyamlanka.com/wp-content/uploads/2016/06/RuleDocs-saved-to-specified-local-destination-1024x681.png 1024w, http://www.balasubramanyamlanka.com/wp-content/uploads/2016/06/RuleDocs-saved-to-specified-local-destination-300x200.png 300w, http://www.balasubramanyamlanka.com/wp-content/uploads/2016/06/RuleDocs-saved-to-specified-local-destination-768x511.png 768w, http://www.balasubramanyamlanka.com/wp-content/uploads/2016/06/RuleDocs-saved-to-specified-local-destination.png 1102w" sizes="(max-width: 709px) 85vw, (max-width: 909px) 67vw, (max-width: 1362px) 62vw, 840px" /></a><figcaption id="caption-attachment-1448" class="wp-caption-text">RuleDocs saved to specified local destination</figcaption></figure>
+Now all the rules from the decision center are converted into the Rule Docs and saved into our local system folder. We can now start working offline with the rules. We can Update them, add new entries in decision tables, delete some of the rules, modify the rule flow.<figure id="attachment_1452" aria-describedby="caption-attachment-1452" style="width: 840px" class="wp-caption aligncenter"></p>
+<p><a href="http://www.balasubramanyamlanka.com/wp-content/uploads/2016/06/Decision-Table-in-Microsoft-Excel-xslx.png"><img loading="lazy" class="size-large wp-image-1452" src="http://www.balasubramanyamlanka.com/wp-content/uploads/2016/06/Decision-Table-in-Microsoft-Excel-xslx-1024x593.png" alt="Decision Table in Microsoft Excel (xslx)" width="840" height="486" srcset="http://www.balasubramanyamlanka.com/wp-content/uploads/2016/06/Decision-Table-in-Microsoft-Excel-xslx-1024x593.png 1024w, http://www.balasubramanyamlanka.com/wp-content/uploads/2016/06/Decision-Table-in-Microsoft-Excel-xslx-300x174.png 300w, http://www.balasubramanyamlanka.com/wp-content/uploads/2016/06/Decision-Table-in-Microsoft-Excel-xslx-768x444.png 768w, http://www.balasubramanyamlanka.com/wp-content/uploads/2016/06/Decision-Table-in-Microsoft-Excel-xslx-1200x694.png 1200w, http://www.balasubramanyamlanka.com/wp-content/uploads/2016/06/Decision-Table-in-Microsoft-Excel-xslx.png 1258w" sizes="(max-width: 709px) 85vw, (max-width: 909px) 67vw, (max-width: 1362px) 62vw, 840px" /></a><figcaption id="caption-attachment-1452" class="wp-caption-text">Decision Table in Microsoft Excel (xslx)</figcaption></figure>
+All the changes that are done to these docs are saved locally in the specified location. Once we complete all our changes we can again update the decision center with all these changes. Let’s see how to Update the rules from the RuleDocs.</li> </ol></p>
+<h2 id="steps-to-update-rules-from-ruledocs">Steps to Update rules from RuleDocs</h2>
+<p>Let’s assume that we have added some entries to the decision table of the project. For updating the rules with changes of RuleDocs in local:</p>
+<ol>
+<li>
+<p>Open the Decision center, select our project on the home page then select project tab. Now select Update rules from RuleDocs in the Rule Solutions for Office section.
+<figure id="attachment_1438" aria-describedby="caption-attachment-1438" style="width: 840px" class="wp-caption aligncenter"><a href="http://www.balasubramanyamlanka.com/wp-content/uploads/2016/06/Decision-Center-Project-Tab.png"><img loading="lazy" class="size-large wp-image-1438" src="http://www.balasubramanyamlanka.com/wp-content/uploads/2016/06/Decision-Center-Project-Tab-1024x628.png" alt="Decision Center Project Tab" width="840" height="515" srcset="http://www.balasubramanyamlanka.com/wp-content/uploads/2016/06/Decision-Center-Project-Tab-1024x628.png 1024w, http://www.balasubramanyamlanka.com/wp-content/uploads/2016/06/Decision-Center-Project-Tab-300x184.png 300w, http://www.balasubramanyamlanka.com/wp-content/uploads/2016/06/Decision-Center-Project-Tab-768x471.png 768w, http://www.balasubramanyamlanka.com/wp-content/uploads/2016/06/Decision-Center-Project-Tab.png 1185w" sizes="(max-width: 709px) 85vw, (max-width: 909px) 67vw, (max-width: 1362px) 62vw, 840px" /></a><figcaption id="caption-attachment-1438" class="wp-caption-text">Decision Center Project Tab</figcaption></figure></li></p>
+<ul>
+<li>
+<p>In the next page specify the local docs path for updating the rules in Update rules from RuleDocs (1/2) section and then click next.</p>
+<figure id="attachment_1453" aria-describedby="caption-attachment-1453" style="width: 840px" class="wp-caption aligncenter">[<img loading="lazy" class="size-large wp-image-1453" src="http://www.balasubramanyamlanka.com/wp-content/uploads/2016/06/Update-rules-from-RuleDocs-12-1024x624.png" alt="Update rules from RuleDocs (1:2)" width="840" height="512" srcset="http://www.balasubramanyamlanka.com/wp-content/uploads/2016/06/Update-rules-from-RuleDocs-12-1024x624.png 1024w, http://www.balasubramanyamlanka.com/wp-content/uploads/2016/06/Update-rules-from-RuleDocs-12-300x183.png 300w, http://www.balasubramanyamlanka.com/wp-content/uploads/2016/06/Update-rules-from-RuleDocs-12-768x468.png 768w, http://www.balasubramanyamlanka.com/wp-content/uploads/2016/06/Update-rules-from-RuleDocs-12.png 1184w" sizes="(max-width: 709px) 85vw, (max-width: 909px) 67vw, (max-width: 1362px) 62vw, 840px" />][11]<figcaption id="caption-attachment-1453" class="wp-caption-text">Update rules from RuleDocs (1/2)</figcaption></figure></li> 
+<ul>
+<li>
+<p>Select the rules that should be updated into the rules from Update rules from RuleDocs (2/2) section and then click finish.</p>
+<figure id="attachment_1454" aria-describedby="caption-attachment-1454" style="width: 840px" class="wp-caption aligncenter">[<img loading="lazy" class="size-large wp-image-1454" src="http://www.balasubramanyamlanka.com/wp-content/uploads/2016/06/Update-rules-from-RuleDocs-22-1024x626.png" alt="Update rules from RuleDocs (2/2)" width="840" height="514" srcset="http://www.balasubramanyamlanka.com/wp-content/uploads/2016/06/Update-rules-from-RuleDocs-22-1024x626.png 1024w, http://www.balasubramanyamlanka.com/wp-content/uploads/2016/06/Update-rules-from-RuleDocs-22-300x183.png 300w, http://www.balasubramanyamlanka.com/wp-content/uploads/2016/06/Update-rules-from-RuleDocs-22-768x470.png 768w, http://www.balasubramanyamlanka.com/wp-content/uploads/2016/06/Update-rules-from-RuleDocs-22.png 1187w" sizes="(max-width: 709px) 85vw, (max-width: 909px) 67vw, (max-width: 1362px) 62vw, 840px" />][12]<figcaption id="caption-attachment-1454" class="wp-caption-text">Update rules from RuleDocs (2/2)</figcaption></figure></li> 
+<ul>
+<li>
+<p>Updating progress.</p>
+<figure id="attachment_1455" aria-describedby="caption-attachment-1455" style="width: 840px" class="wp-caption aligncenter">[<img loading="lazy" class="size-large wp-image-1455" src="http://www.balasubramanyamlanka.com/wp-content/uploads/2016/06/Updating-Progress-1024x635.png" alt="Updating Progress" width="840" height="521" srcset="http://www.balasubramanyamlanka.com/wp-content/uploads/2016/06/Updating-Progress-1024x635.png 1024w, http://www.balasubramanyamlanka.com/wp-content/uploads/2016/06/Updating-Progress-300x186.png 300w, http://www.balasubramanyamlanka.com/wp-content/uploads/2016/06/Updating-Progress-768x476.png 768w, http://www.balasubramanyamlanka.com/wp-content/uploads/2016/06/Updating-Progress.png 1185w" sizes="(max-width: 709px) 85vw, (max-width: 909px) 67vw, (max-width: 1362px) 62vw, 840px" />][13]<figcaption id="caption-attachment-1455" class="wp-caption-text">Updating Progress</figcaption></figure></li> 
+<ul>
+<li>
+<p>Check your rule in explore tab in the decision center, Vola! It gets updated with the RuleDocs from the local. <figure id="attachment_1456" aria-describedby="caption-attachment-1456" style="width: 840px" class="wp-caption aligncenter"><a href="http://www.balasubramanyamlanka.com/wp-content/uploads/2016/06/Decision-Table-gets-updated-in-the-Rules.png"><img loading="lazy" class="size-large wp-image-1456" src="http://www.balasubramanyamlanka.com/wp-content/uploads/2016/06/Decision-Table-gets-updated-in-the-Rules-1024x627.png" alt="Decision Table gets updated in the Rules" width="840" height="514" srcset="http://www.balasubramanyamlanka.com/wp-content/uploads/2016/06/Decision-Table-gets-updated-in-the-Rules-1024x627.png 1024w, http://www.balasubramanyamlanka.com/wp-content/uploads/2016/06/Decision-Table-gets-updated-in-the-Rules-300x184.png 300w, http://www.balasubramanyamlanka.com/wp-content/uploads/2016/06/Decision-Table-gets-updated-in-the-Rules-768x470.png 768w, http://www.balasubramanyamlanka.com/wp-content/uploads/2016/06/Decision-Table-gets-updated-in-the-Rules.png 1177w" sizes="(max-width: 709px) 85vw, (max-width: 909px) 67vw, (max-width: 1362px) 62vw, 840px" /></a><figcaption id="caption-attachment-1456" class="wp-caption-text">Decision Table gets updated in the Rules</figcaption></figure></p>
+<h2 id="edit-rules-decision-tables-and-ruleflows-without-publishing-and-updating-rules-and-docs">Edit rules, Decision tables, and Ruleflows without publishing and updating rules and docs</h2>
+<p class="p">
+  We can also use <span class="keyword">Rule Solutions for Office</span> for editing if you want to edit an element without publishing and updating. You can edit action rules, decision tables, and ruleflows.
+</p></ol> 
+</li>
+</ul>
+<blockquote>
+<p>The Configuration Manager must activate the feature for the icons to appear in the rule tables (see <a href="https://www.ibm.com/support/knowledgecenter/en/SSQP76_8.7.1/com.ibm.odm.dcenter.bu.econsole/topics/con_config_install_param.html" title="Many tasks that are related to customizing Decision Center require that you set configuration parameters.">Installation Settings Wizard: Setting configuration parameters</a>{.xref}).</p>
+</blockquote>
+<ol class="ol steps">
+  <li class="li step stepexpand">
+    <span class="ph cmd"><span class="ph cmd">On the <span class="ph uicontrol">Explore</span> tab, click <span class="ph uicontrol">Edit this element in <span class="keyword">Rule Solutions for Office</span> </span>next to the name of the project element in the table (<img class="image" src="https://www.ibm.com/support/knowledgecenter/en/SSQP76_8.7.1/com.ibm.odm.dcenter.bu.econsole/images/icon_edit_word.jpg" alt="Edit in Word" /> for action rules and ruleflows, or <img class="image" src="https://www.ibm.com/support/knowledgecenter/en/SSQP76_8.7.1/com.ibm.odm.dcenter.bu.econsole/images/icon_edit_excel.jpg" alt="Edit in Excel" /> for decision tables).</span></span> <p>
+      <figure id="attachment_1459" aria-describedby="caption-attachment-1459" style="width: 840px" class="wp-caption aligncenter"><a href="http://www.balasubramanyamlanka.com/wp-content/uploads/2016/06/Edit-in-Rule-Solutions-for-Office.png"><img loading="lazy" class="size-large wp-image-1459" src="http://www.balasubramanyamlanka.com/wp-content/uploads/2016/06/Edit-in-Rule-Solutions-for-Office-1024x627.png" alt="Edit in Rule Solutions for Office" width="840" height="514" srcset="http://www.balasubramanyamlanka.com/wp-content/uploads/2016/06/Edit-in-Rule-Solutions-for-Office-1024x627.png 1024w, http://www.balasubramanyamlanka.com/wp-content/uploads/2016/06/Edit-in-Rule-Solutions-for-Office-300x184.png 300w, http://www.balasubramanyamlanka.com/wp-content/uploads/2016/06/Edit-in-Rule-Solutions-for-Office-768x470.png 768w, http://www.balasubramanyamlanka.com/wp-content/uploads/2016/06/Edit-in-Rule-Solutions-for-Office.png 1186w" sizes="(max-width: 709px) 85vw, (max-width: 909px) 67vw, (max-width: 1362px) 62vw, 840px" /></a><figcaption id="caption-attachment-1459" class="wp-caption-text">Edit in Rule Solutions for Office</figcaption></figure></li> 
+<pre><code>  &lt;li class=&quot;li step stepexpand&quot;&gt;
+    &lt;span class=&quot;ph cmd&quot;&gt;&lt;span class=&quot;ph cmd&quot;&gt;In the File Download window, click &lt;span class=&quot;ph uicontrol&quot;&gt;Open&lt;/span&gt;.&lt;/span&gt;&lt;/span&gt; &lt;p&gt;
+      &lt;figure id=&quot;attachment_1460&quot; aria-describedby=&quot;caption-attachment-1460&quot; style=&quot;width: 840px&quot; class=&quot;wp-caption aligncenter&quot;&gt;&lt;a href=&quot;http://www.balasubramanyamlanka.com/wp-content/uploads/2016/06/Download.png&quot;&gt;&lt;img loading=&quot;lazy&quot; class=&quot;size-large wp-image-1460&quot; src=&quot;http://www.balasubramanyamlanka.com/wp-content/uploads/2016/06/Download-1024x629.png&quot; alt=&quot;Download&quot; width=&quot;840&quot; height=&quot;516&quot; srcset=&quot;http://www.balasubramanyamlanka.com/wp-content/uploads/2016/06/Download-1024x629.png 1024w, http://www.balasubramanyamlanka.com/wp-content/uploads/2016/06/Download-300x184.png 300w, http://www.balasubramanyamlanka.com/wp-content/uploads/2016/06/Download-768x472.png 768w, http://www.balasubramanyamlanka.com/wp-content/uploads/2016/06/Download.png 1187w&quot; sizes=&quot;(max-width: 709px) 85vw, (max-width: 909px) 67vw, (max-width: 1362px) 62vw, 840px&quot; /&gt;&lt;/a&gt;&lt;figcaption id=&quot;caption-attachment-1460&quot; class=&quot;wp-caption-text&quot;&gt;Download&lt;/figcaption&gt;&lt;/figure&gt;&lt;/li&gt; 
+
+      &lt;li class=&quot;li step stepexpand&quot;&gt;
+        &lt;span class=&quot;ph cmd&quot;&gt;In the &lt;span class=&quot;keyword&quot;&gt;Rule Solutions for Office&lt;/span&gt; window, click &lt;span class=&quot;ph uicontrol&quot;&gt;OK&lt;/span&gt;. &lt;/span&gt;A RuleDoc containing the contents of the project element opens. &lt;p&gt;
+          &lt;figure id=&quot;attachment_1461&quot; aria-describedby=&quot;caption-attachment-1461&quot; style=&quot;width: 840px&quot; class=&quot;wp-caption aligncenter&quot;&gt;&lt;a href=&quot;http://www.balasubramanyamlanka.com/wp-content/uploads/2016/06/RuleDoc-opens-with-decisiontable.png&quot;&gt;&lt;img loading=&quot;lazy&quot; class=&quot;size-large wp-image-1461&quot; src=&quot;http://www.balasubramanyamlanka.com/wp-content/uploads/2016/06/RuleDoc-opens-with-decisiontable-1024x591.png&quot; alt=&quot;RuleDoc opens with decisiontable&quot; width=&quot;840&quot; height=&quot;485&quot; srcset=&quot;http://www.balasubramanyamlanka.com/wp-content/uploads/2016/06/RuleDoc-opens-with-decisiontable-1024x591.png 1024w, http://www.balasubramanyamlanka.com/wp-content/uploads/2016/06/RuleDoc-opens-with-decisiontable-300x173.png 300w, http://www.balasubramanyamlanka.com/wp-content/uploads/2016/06/RuleDoc-opens-with-decisiontable-768x443.png 768w, http://www.balasubramanyamlanka.com/wp-content/uploads/2016/06/RuleDoc-opens-with-decisiontable-1200x692.png 1200w, http://www.balasubramanyamlanka.com/wp-content/uploads/2016/06/RuleDoc-opens-with-decisiontable.png 1260w&quot; sizes=&quot;(max-width: 709px) 85vw, (max-width: 909px) 67vw, (max-width: 1362px) 62vw, 840px&quot; /&gt;&lt;/a&gt;&lt;figcaption id=&quot;caption-attachment-1461&quot; class=&quot;wp-caption-text&quot;&gt;RuleDoc opens with decision table&lt;/figcaption&gt;&lt;/figure&gt;&lt;/li&gt; 
+
+          &lt;li class=&quot;li step stepexpand&quot;&gt;
+            &lt;span class=&quot;ph cmd&quot;&gt;Edit the project element in the RuleDoc.&lt;/span&gt;
+          &lt;/li&gt;
+          &lt;li class=&quot;li step stepexpand&quot;&gt;
+            Click check in to commit your changes. &lt;p&gt;
+              &lt;figure id=&quot;attachment_1462&quot; aria-describedby=&quot;caption-attachment-1462&quot; style=&quot;width: 840px&quot; class=&quot;wp-caption aligncenter&quot;&gt;&lt;a href=&quot;http://www.balasubramanyamlanka.com/wp-content/uploads/2016/06/Update-changes-and-click-check-into-commit-changes.png&quot;&gt;&lt;img loading=&quot;lazy&quot; class=&quot;size-large wp-image-1462&quot; src=&quot;http://www.balasubramanyamlanka.com/wp-content/uploads/2016/06/Update-changes-and-click-check-into-commit-changes-1024x586.png&quot; alt=&quot;Update changes and click check into commit changes&quot; width=&quot;840&quot; height=&quot;481&quot; srcset=&quot;http://www.balasubramanyamlanka.com/wp-content/uploads/2016/06/Update-changes-and-click-check-into-commit-changes-1024x586.png 1024w, http://www.balasubramanyamlanka.com/wp-content/uploads/2016/06/Update-changes-and-click-check-into-commit-changes-300x172.png 300w, http://www.balasubramanyamlanka.com/wp-content/uploads/2016/06/Update-changes-and-click-check-into-commit-changes-768x440.png 768w, http://www.balasubramanyamlanka.com/wp-content/uploads/2016/06/Update-changes-and-click-check-into-commit-changes-1200x687.png 1200w, http://www.balasubramanyamlanka.com/wp-content/uploads/2016/06/Update-changes-and-click-check-into-commit-changes.png 1263w&quot; sizes=&quot;(max-width: 709px) 85vw, (max-width: 909px) 67vw, (max-width: 1362px) 62vw, 840px&quot; /&gt;&lt;/a&gt;&lt;figcaption id=&quot;caption-attachment-1462&quot; class=&quot;wp-caption-text&quot;&gt;Update changes and click check in to commit changes&lt;/figcaption&gt;&lt;/figure&gt;&lt;/li&gt; 
+
+              &lt;li class=&quot;li step stepexpand&quot;&gt;
+                Decision Center Authentication for committing the changes. &lt;p&gt;
+                  &lt;figure id=&quot;attachment_1463&quot; aria-describedby=&quot;caption-attachment-1463&quot; style=&quot;width: 840px&quot; class=&quot;wp-caption aligncenter&quot;&gt;&lt;a href=&quot;http://www.balasubramanyamlanka.com/wp-content/uploads/2016/06/Decision-Center-Authentication.png&quot;&gt;&lt;img loading=&quot;lazy&quot; class=&quot;size-large wp-image-1463&quot; src=&quot;http://www.balasubramanyamlanka.com/wp-content/uploads/2016/06/Decision-Center-Authentication-1024x588.png&quot; alt=&quot;Decision Center Authentication&quot; width=&quot;840&quot; height=&quot;482&quot; srcset=&quot;http://www.balasubramanyamlanka.com/wp-content/uploads/2016/06/Decision-Center-Authentication-1024x588.png 1024w, http://www.balasubramanyamlanka.com/wp-content/uploads/2016/06/Decision-Center-Authentication-300x172.png 300w, http://www.balasubramanyamlanka.com/wp-content/uploads/2016/06/Decision-Center-Authentication-768x441.png 768w, http://www.balasubramanyamlanka.com/wp-content/uploads/2016/06/Decision-Center-Authentication-1200x689.png 1200w, http://www.balasubramanyamlanka.com/wp-content/uploads/2016/06/Decision-Center-Authentication.png 1266w&quot; sizes=&quot;(max-width: 709px) 85vw, (max-width: 909px) 67vw, (max-width: 1362px) 62vw, 840px&quot; /&gt;&lt;/a&gt;&lt;figcaption id=&quot;caption-attachment-1463&quot; class=&quot;wp-caption-text&quot;&gt;Decision Center Authentication&lt;/figcaption&gt;&lt;/figure&gt;&lt;/li&gt; 
+
+                  &lt;li class=&quot;li step stepexpand&quot;&gt;
+                    Enter the Commit Documentation before checking in the code into the repository. &lt;p&gt;
+                      &lt;figure id=&quot;attachment_1464&quot; aria-describedby=&quot;caption-attachment-1464&quot; style=&quot;width: 840px&quot; class=&quot;wp-caption aligncenter&quot;&gt;&lt;a href=&quot;http://www.balasubramanyamlanka.com/wp-content/uploads/2016/06/Commit-Documentaion-for-rule.png&quot;&gt;&lt;img loading=&quot;lazy&quot; class=&quot;size-large wp-image-1464&quot; src=&quot;http://www.balasubramanyamlanka.com/wp-content/uploads/2016/06/Commit-Documentaion-for-rule-1024x585.png&quot; alt=&quot;Commit Documentaion for rule&quot; width=&quot;840&quot; height=&quot;480&quot; srcset=&quot;http://www.balasubramanyamlanka.com/wp-content/uploads/2016/06/Commit-Documentaion-for-rule-1024x585.png 1024w, http://www.balasubramanyamlanka.com/wp-content/uploads/2016/06/Commit-Documentaion-for-rule-300x171.png 300w, http://www.balasubramanyamlanka.com/wp-content/uploads/2016/06/Commit-Documentaion-for-rule-768x439.png 768w, http://www.balasubramanyamlanka.com/wp-content/uploads/2016/06/Commit-Documentaion-for-rule-1200x686.png 1200w, http://www.balasubramanyamlanka.com/wp-content/uploads/2016/06/Commit-Documentaion-for-rule.png 1265w&quot; sizes=&quot;(max-width: 709px) 85vw, (max-width: 909px) 67vw, (max-width: 1362px) 62vw, 840px&quot; /&gt;&lt;/a&gt;&lt;figcaption id=&quot;caption-attachment-1464&quot; class=&quot;wp-caption-text&quot;&gt;Commit Documentation for rule&lt;/figcaption&gt;&lt;/figure&gt;&lt;/li&gt; 
+
+                      &lt;li class=&quot;li step stepexpand&quot;&gt;
+                        Open the Explore tab in the decision center to check the rule! Yes, the rule gets updated immediately after the commit from Rule Solutions for Office. &lt;figure id=&quot;attachment_1465&quot; aria-describedby=&quot;caption-attachment-1465&quot; style=&quot;width: 840px&quot; class=&quot;wp-caption aligncenter&quot;&gt;&lt;a href=&quot;http://www.balasubramanyamlanka.com/wp-content/uploads/2016/06/Rule-gets-updated.png&quot;&gt;&lt;img loading=&quot;lazy&quot; class=&quot;size-large wp-image-1465&quot; src=&quot;http://www.balasubramanyamlanka.com/wp-content/uploads/2016/06/Rule-gets-updated-1024x590.png&quot; alt=&quot;Rule gets updated&quot; width=&quot;840&quot; height=&quot;484&quot; srcset=&quot;http://www.balasubramanyamlanka.com/wp-content/uploads/2016/06/Rule-gets-updated-1024x590.png 1024w, http://www.balasubramanyamlanka.com/wp-content/uploads/2016/06/Rule-gets-updated-300x173.png 300w, http://www.balasubramanyamlanka.com/wp-content/uploads/2016/06/Rule-gets-updated-768x442.png 768w, http://www.balasubramanyamlanka.com/wp-content/uploads/2016/06/Rule-gets-updated.png 1162w&quot; sizes=&quot;(max-width: 709px) 85vw, (max-width: 909px) 67vw, (max-width: 1362px) 62vw, 840px&quot; /&gt;&lt;/a&gt;&lt;figcaption id=&quot;caption-attachment-1465&quot; class=&quot;wp-caption-text&quot;&gt;Rule gets updated&lt;/figcaption&gt;&lt;/figure&gt; &lt;p&gt;
+                          Well! I guess that is a very big post about the Rule Solutions for Office and the Docs. I had to make sure that all the information posted here is simple and easily understandable. Feel free to express your ideas or new points in the comments section below. Happy Learning! Happy Exploring!!&lt;/li&gt; &lt;/ol&gt; 
+
+                          &lt;p&gt;
+                            &amp;nbsp;
+                          &lt;/p&gt;
+
+                          &lt;p&gt;
+                            &lt;em&gt;&lt;strong&gt;Sources&lt;/strong&gt;:&lt;/em&gt;
+                          &lt;/p&gt;
+
+                          &lt;ul&gt;
+                            &lt;li&gt;
+                              &lt;em&gt;&lt;a href=&quot;https://www.ibm.com/support/knowledgecenter&quot;&gt;https://www.ibm.com/support/knowledgecenter&lt;/a&gt;&lt;/em&gt;
+                            &lt;/li&gt;
+                            &lt;li&gt;
+                              &lt;em&gt;&lt;a href=&quot;https://blogs.perficient.com&quot;&gt;https://blogs.perficient.com&lt;/a&gt;&lt;/em&gt;
+                            &lt;/li&gt;
+                          &lt;/ul&gt;
+</code></pre>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+        </div>
+
+        
+        
+
+        
+      <hr />
+        
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+  
+
+  
+  
+
+
+<div class="row next-prev-navigator">
+  
+  
+</div>
+
+      <hr />
+      
+      
+      </div>
+    </div>
+  </div>
+  
+  <a id="scroll-to-top" class="btn"><i class="fas fa-chevron-circle-up"></i></a>
+  
+</section>
+
+
+      
+      
+  <section class="toc-section" id="toc-section">
+    
+    <div class="toc-holder">
+      <h5 class="text-center pl-3">Table of Contents</h5>
+      <hr>
+      <div class="toc">
+        <nav id="TableOfContents">
+  <ul>
+    <li><a href="#steps-to-publish-rules-to-ruledocs">Steps to Publish rules to ruledocs:</a></li>
+    <li><a href="#steps-to-update-rules-from-ruledocs">Steps to Update rules from RuleDocs</a></li>
+    <li><a href="#edit-rules-decision-tables-and-ruleflows-without-publishing-and-updating-rules-and-docs">Edit rules, Decision tables, and Ruleflows without publishing and updating rules and docs</a></li>
+  </ul>
+</nav>
+      </div>
+    </div>
+    
+  </section>
+
+    </div>
+
+    
+    
+
+
+
+
+
+
+
+
+
+  
+      
+  
+
+
+
+  
+  
+    
+  
+
+  
+  
+    
+  
+
+  
+  
+    
+    
+      
+    
+  
+
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+    
+  
+  
+
+  
+  
+  
+
+  <footer class="container-fluid text-center align-content-center footer pb-2">
+    <div class="container pt-5">
+      <div class="row text-left">
+        
+        <div class="col-md-4 col-sm-12">
+          <h5>Navigation</h5>
+          
+          <ul>
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="/#about">About</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="/#skills">Skills</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="/#experiences">Experience</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="/#education">Education</a>
+                </li>
+              
+              
+          </ul>
+          
+        </div>
+        
+        
+        <div class="col-md-4 col-sm-12">
+          <h5>Contact me:</h5>
+          <ul>
+            
+            <li><span>Email: </span> <span>baluatcomputerscience@outlook.com</span></li>
+            
+          </ul>
+        </div>
+        
+        
+        
+      </div>
+    </div>
+    
+    
+    <hr />
+    <div class="container">
+      <div class="row text-left">
+        <div class="col-md-4">
+        </div>
+        <div class="col-md-4 text-center">© 2021 Copyright.</div>
+        <div class="col-md-4 text-right">
+        </div>
+      </div>
+    </div>
+    
+  </footer>
+
+
+    <script type="text/javascript" src="/js/jquery-3.4.1.min.js"></script>
+<script type="text/javascript" src="/js/popper.min.js"></script>
+<script type="text/javascript" src="/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="/js/navbar.js"></script>
+<script type="text/javascript" src="/js/plyr.js"></script>
+<script type="text/javascript" src="/js/main.js"></script>
+
+
+    
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js"></script>
+<script src="/js/single.js"></script>
+<script>
+  hljs.initHighlightingOnLoad();
+</script>
+
+
+  </body>
+</html>

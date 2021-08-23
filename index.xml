@@ -6,7 +6,7 @@
     <description>Recent content on Bala Subramanyam Lanka</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 08 Jun 2010 08:06:25 +0600</lastBuildDate><atom:link href="https://thisisbalu.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 21 Mar 2021 22:26:25 +0600</lastBuildDate><atom:link href="https://thisisbalu.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Resultados de Búsqueda</title>
       <link>https://thisisbalu.github.io/search/</link>
@@ -330,6 +330,974 @@ No content shown here is rendered, all content is based in the template layouts/
 Setting a very low sitemap priority will tell search engines this is not important content.
 This implementation uses Fusejs, jquery and mark.js
 Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description>
+    </item>
+    
+    <item>
+      <title>Welcome to my Portfolio</title>
+      <link>https://thisisbalu.github.io/posts/sample/</link>
+      <pubDate>Sun, 21 Mar 2021 22:26:25 +0600</pubDate>
+      
+      <guid>https://thisisbalu.github.io/posts/sample/</guid>
+      <description>Greeting! Thank you for visiting my portfolio. Currently, this does not contain many blog posts. I wish one day I will find something to worth of writing.</description>
+    </item>
+    
+    <item>
+      <title>Different BRMS Tools in Market</title>
+      <link>https://thisisbalu.github.io/posts/2016-09-28-different-brms-tools-market/</link>
+      <pubDate>Tue, 27 Sep 2016 18:40:40 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/posts/2016-09-28-different-brms-tools-market/</guid>
+      <description>&lt;p&gt;There are many vendors in the market who provide BRMS tools with a lot number of features with different pricing, standalone platforms, integrated suites and open source projects.&lt;/p&gt;
+&lt;p&gt;Ranking of the BRMS tools those are available in the market it difficult. The competition between products revolves around the relationships with vendors or price competition according to the Forrester Analyst John&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Applications of BRMS in the Real World</title>
+      <link>https://thisisbalu.github.io/applications-brms-real-world/</link>
+      <pubDate>Tue, 27 Sep 2016 17:10:09 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/applications-brms-real-world/</guid>
+      <description>&lt;p&gt;The main goal of BRMS is externalizing the Bussiness Condition Logic from the application code so that condition logics(technically called as rules) can be organized easily without disturbing the application. BRMS reduces the application developer dependency. A business user can directly edit business condition rules using BRMS. Some of the applications of brms are given below –&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Business Rule Management System (BRMS)</title>
+      <link>https://thisisbalu.github.io/business-rule-management-system-brms/</link>
+      <pubDate>Tue, 27 Sep 2016 16:26:10 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/business-rule-management-system-brms/</guid>
+      <description>&lt;p&gt;Business Rule Management System (BRMS) is an integrated application development and execution platform that allows organizations to define, deploy and monitor and maintain the vast variety of Automated decisions used by operational systems. A BRMS allows decision logic to be extracted and managed separately from core application code, so that it can be easily understood, maintained and reused access the organization.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>RetePlus Algorithm with Example – IBM ODM</title>
+      <link>https://thisisbalu.github.io/reteplus-algorithm-example/</link>
+      <pubDate>Sat, 04 Jun 2016 20:00:23 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/reteplus-algorithm-example/</guid>
+      <description>&lt;p&gt;RetePlus algorithm is one of the &lt;a href=&#34;http://www.balasubramanyamlanka.com/rule-engine-execution-modes/&#34;&gt;execution modes&lt;/a&gt; in IBM ODM which is based on &lt;a href=&#34;http://www.balasubramanyamlanka.com/rete-algorithm/&#34;&gt;Rete algorithm&lt;/a&gt;. It works based on working memory, agenda creation, supports negative patterns, object notification, and Logical Objects. Use RetePlus optimization techniques to improve performance through reduction of the number of rules and conditions, computation of the rules to run, and prioritization of the rule order.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Synchronizing Rules and RuleDocs – Rule Solutions for Office, ODM</title>
+      <link>https://thisisbalu.github.io/synchronising-rules-ruledocs-rule-solutions-office/</link>
+      <pubDate>Thu, 02 Jun 2016 20:25:15 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/synchronising-rules-ruledocs-rule-solutions-office/</guid>
+      <description>&lt;p class=&#34;shortdesc&#34;&gt;
+  RuleDocs are Microsoft Office documents that contain your rules, decision tables, and ruleflows. Rules and ruleflows are stored in Word documents, while decision tables are stored as spreadsheets in Excel. We use t to edit and manage rules offline. You can also use them to present the rules together with documentation and supporting information, including the original policy or requirement.</description>
+    </item>
+    
+    <item>
+      <title>Rule Solutions for Office Installation – IBM ODM</title>
+      <link>https://thisisbalu.github.io/rule-solutions-office-installation-odm/</link>
+      <pubDate>Tue, 31 May 2016 17:59:20 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/rule-solutions-office-installation-odm/</guid>
+      <description>&lt;p class=&#34;p&#34;&gt;
+  &lt;span class=&#34;keyword&#34;&gt;Rule Solutions for Office&lt;/span&gt; enables you to edit business rules in Microsoft Office documents called RuleDocs. You can update and share rules with RuleDocs, which can also provide supporting documentation and information such as the original policies for the rules. &lt;span class=&#34;keyword&#34;&gt;Rule Solutions &lt;/span&gt;works in conjunction with &lt;span class=&#34;keyword&#34;&gt;Decision Center&lt;/span&gt;, which serves as a workspace for business users to collaborate on authoring, editing, organizing, and searching for business rules.</description>
+    </item>
+    
+    <item>
+      <title>Organizing your application into rule projects – IBM ODM</title>
+      <link>https://thisisbalu.github.io/organizing-application-rule-projects-ibm-odm/</link>
+      <pubDate>Thu, 26 May 2016 01:48:58 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/organizing-application-rule-projects-ibm-odm/</guid>
+      <description>&lt;p&gt;By organizing your rule application as modular rule projects, you can improve the performance of Rule Designer for large rule applications, and facilitate the assignment of permissions in Decision Center&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Development Standards for Execution Object Model (XOM)</title>
+      <link>https://thisisbalu.github.io/development-standards-execution-object-model-xom/</link>
+      <pubDate>Tue, 24 May 2016 19:48:17 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/development-standards-execution-object-model-xom/</guid>
+      <description>&lt;p&gt;The Execution Object Model (XOM) is the model against which the rules run. It references the application objects and data and is the base implementation of the Business Object Model (BOM). Rule projects reference the XOM. Through the Execution Object Model, the rule engine can access application objects and methods, which can be Java objects, XML data, or data from other sources. At run time, rules that were written against the BOM are run against the XOM.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>What is an Expert System?</title>
+      <link>https://thisisbalu.github.io/expert-system/</link>
+      <pubDate>Sun, 22 May 2016 19:39:56 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/expert-system/</guid>
+      <description>&lt;p&gt;An Expert system is a computer system that uses artificial intelligence methods to solve problems within a specialized domain that ordinarily requires human expertise. They are designed to solve complex problems by reasoning about knowledge, represented primarily as if–then rules rather than through conventional procedural code.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>firing and firinglimit in Rule task – IBM ODM</title>
+      <link>https://thisisbalu.github.io/firing-firinglimit-ruletask-ibm-odm/</link>
+      <pubDate>Fri, 20 May 2016 20:08:14 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/firing-firinglimit-ruletask-ibm-odm/</guid>
+      <description>&lt;p&gt;Configuring the Rule task execution plays the key role in executing the rules in a rule flow. firing and firinglimit are the two rule task properties that help rule execution in a rule flow.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Ruleset Statistics – IBM ODM</title>
+      <link>https://thisisbalu.github.io/ruleset-statistics-ibm-odm/</link>
+      <pubDate>Thu, 19 May 2016 18:40:25 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/ruleset-statistics-ibm-odm/</guid>
+      <description>&lt;p&gt;A ruleset is a collection of rules and is the smallest executable unit in IBM ODM. Before it runs, a ruleset is parsed to convert rules into a format that can be executed in memory. The time it takes a ruleset to run the first time it is invoked is the sum of ruleset parsing time and actual ruleset execution time.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Different Versions of Rete Algorithm</title>
+      <link>https://thisisbalu.github.io/different-versions-rete-algorithm/</link>
+      <pubDate>Tue, 17 May 2016 18:22:51 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/different-versions-rete-algorithm/</guid>
+      <description>&lt;p&gt;Rete Algorithm has different enhanced form of variations. Charles L. Forgy had worked on three versions which exhibited more performance and fastness in the systems. They are Rete II, Rete III, and Rete NT. Although there are other enhanced versions of Rete by different vendors like RetePlus by IBM and ReteOO by RedHat, they are not considered.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Rule Engine Execution Mode – Choosing and Setting in ODM</title>
+      <link>https://thisisbalu.github.io/rule-engine-execution-mode-choosing-setting-odm/</link>
+      <pubDate>Mon, 16 May 2016 16:30:46 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/rule-engine-execution-mode-choosing-setting-odm/</guid>
+      <description>&lt;p&gt;IBM Operational Decision Management has three Rule Engine &lt;a href=&#34;http://www.balasubramanyamlanka.com/rule-engine-execution-modes/&#34;&gt;Execution modes&lt;/a&gt;. The tricky part comes while choosing the appropriate execution mode for the rules in the rule task. To choose the correct execution mode, we should consider all the rules in the rule task. &lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Rete Algorithm</title>
+      <link>https://thisisbalu.github.io/rete-algorithm/</link>
+      <pubDate>Sun, 15 May 2016 17:16:47 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/rete-algorithm/</guid>
+      <description>&lt;p&gt;Rete Algorithm is an efficient pattern matching algorithm that compares a large collection of patterns to a large collection of objects. It was invented by Charles L. Forgy and documented in his Ph.D. thesis in 1978-79 at Carnegie-Mellon University. &lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Initializing IBM RAD/RSA – eclipse.ini</title>
+      <link>https://thisisbalu.github.io/initialize-ibm-rad-rsa-options-eclipse-ini/</link>
+      <pubDate>Sat, 14 May 2016 18:22:48 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/initialize-ibm-rad-rsa-options-eclipse-ini/</guid>
+      <description>&lt;p&gt;IBM has a mega line up in the IDE business. Some of the IDEs provided by IBM are Eclipse, Rational Application Developer, Rational Software Architect Designer, Rational Business Developer, etc, When it comes to enterprise java development or operational decision management or business modelling, people use mostly RAD/RSA.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>IBM Operational Decision Management(ODM) Performance Tuning – JVM</title>
+      <link>https://thisisbalu.github.io/ibm-odm-performance-tuning-jvm/</link>
+      <pubDate>Fri, 13 May 2016 16:18:48 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/ibm-odm-performance-tuning-jvm/</guid>
+      <description>&lt;p&gt;JVM tuning is important for IBM ODM (Operational Decision Management) because Decision Server Rules and Decision Server Events are both Java Platform, Enterprise Edition (Java EE) applications that run on WebSphere Application Server. Optimal performance is, therefore, dependent upon the correct tuning of Decision Server, WebSphere Application Server, and the underlying JVM.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>IBM WebSphere Application Server Garbage Collection Policies</title>
+      <link>https://thisisbalu.github.io/ibm-websphere-application-server-garbage-collection-policies/</link>
+      <pubDate>Thu, 12 May 2016 18:16:30 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/ibm-websphere-application-server-garbage-collection-policies/</guid>
+      <description>&lt;p&gt;As long as an object is being referenced, the JVM considers it alive. Once an object is no longer referenced and therefore is not reachable by the application code, the garbage collector removes it and reclaims the unused memory. Java implicitly collects the garbage when objects are no longer referenced or  when Java heap is insufficient and unable to satisfy a request for storage, such as object creation, it automatically triggers garbage collection to free memory.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Categorising a website in Websense / Forcepoint</title>
+      <link>https://thisisbalu.github.io/categorising-website-websense-forcepoint/</link>
+      <pubDate>Wed, 11 May 2016 17:56:15 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/categorising-website-websense-forcepoint/</guid>
+      <description>&lt;p&gt;When we own a website, we have to make sure that our website is accessible from all the systems without any sort of proxy blocking. I work in a software organization, which uses Websense/Forcepoint, a security solution for the organization’s network.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Roadmap for Upgrading to Java SE7 Programmer II (1Z0-805)</title>
+      <link>https://thisisbalu.github.io/roadmap-upgrading-java-se7-programmer-ii-1z0-805/</link>
+      <pubDate>Thu, 05 May 2016 18:25:42 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/roadmap-upgrading-java-se7-programmer-ii-1z0-805/</guid>
+      <description>&lt;p&gt;People who are already certified for Java SE6 or below versions(Sun Certified Java Programmer-SCJP or Oracle Certified Java Programmer-OCJP) can upgrade to OCP Java SE7 Programmer II. This particular exam 1Z0-805 covers only certain topics.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Roadmap for OCP Java SE7 Programmer II (1Z0-804)</title>
+      <link>https://thisisbalu.github.io/roadmap-ocp-java-se7-programmer-ii-1z0-804/</link>
+      <pubDate>Thu, 05 May 2016 02:42:58 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/roadmap-ocp-java-se7-programmer-ii-1z0-804/</guid>
+      <description>&lt;p&gt;As I have discussed in the previous post, I have collected all the topics that we should get prepared for getting certified as Oracle Certified Professional Java SE7 Programmer II. All the topics of OCA are included in the OCP certification plus some more additional topics.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Roadmap for OCA Java SE7 Programmer I (1Z0-803)</title>
+      <link>https://thisisbalu.github.io/syllabus-oca-java-se7-programmer-1z0-803/</link>
+      <pubDate>Mon, 02 May 2016 19:04:04 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/syllabus-oca-java-se7-programmer-1z0-803/</guid>
+      <description>&lt;p&gt;When I have started preparing for the Java Certification(Oracle Certified Associate Java SE 7 Programmer 1Z0-803), I couldn’t find the topics that should be prepared for the exam. After the referring to the many friends and books, I got the list of topics that we should get prepared.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Java Certification by Oracle – JAVA SE</title>
+      <link>https://thisisbalu.github.io/java-certification-oracle-java-se/</link>
+      <pubDate>Sun, 01 May 2016 12:07:39 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/java-certification-oracle-java-se/</guid>
+      <description>&lt;p&gt;Getting certified by Oracle will become an add-on for any professional. I gave a serious thought about getting certified by Oracle in java by preparing for it. I will be sharing all my knowledge with you daily through my posts. &lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Rule Engine Execution Modes</title>
+      <link>https://thisisbalu.github.io/rule-engine-execution-modes/</link>
+      <pubDate>Thu, 15 Oct 2015 19:48:10 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/rule-engine-execution-modes/</guid>
+      <description>&lt;p&gt;The execution of the rules inside the rule engine of IBM Operational Decision Management follows three rule engine execution modes – RetePlus, sequential, and Fastpath execution modes. Execution mode affects which rules are executed and in which order. Execution mode specifies the algorithm used by the rule engine inside Decision Server.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Why WordPress restricts uploading SVG files?</title>
+      <link>https://thisisbalu.github.io/why-wordpress-restricts-uploading-svg-files/</link>
+      <pubDate>Sun, 19 Apr 2015 15:39:54 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/why-wordpress-restricts-uploading-svg-files/</guid>
+      <description>&lt;p&gt;WordPress media uploader restricts uploading SVG files into WordPress. It throws an error message “Sorry, this file type is not permitted for security reasons.” Yes! for security reasons WordPress blocks uploading SVG files. Error Dialog will be as follows.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Uploading SVG files through WordPress Media Uploader</title>
+      <link>https://thisisbalu.github.io/uploading-svg-files-through-wordpress-media-uploader/</link>
+      <pubDate>Fri, 17 Apr 2015 17:03:50 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/uploading-svg-files-through-wordpress-media-uploader/</guid>
+      <description>&lt;p&gt;Uploading SVG files through media uploader in WordPress is an issue faced by all the WordPress users or the bloggers who are interested in adding SVG image files in to their posts. SVG (&lt;a href=&#34;http://www.balasubramanyamlanka.com/infinitely-scalable-svg-scalable-vector-graphics/&#34;&gt;Scalable Vector Graphics&lt;/a&gt;) files are very popular because of their infinite scalability.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Unstructured Data</title>
+      <link>https://thisisbalu.github.io/unstructured-data/</link>
+      <pubDate>Thu, 16 Apr 2015 15:36:09 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/unstructured-data/</guid>
+      <description>&lt;p&gt;Unstructured data is the data that does not follow a specific format. We can also define unstructured data as the information that does not have a pre defined data model or not in a organised manner. If 20 percent of the data available to enterprises is structured data, the other 80 percent is unstructured. If there is a chance to analyse this whole data, we can see this world from the different perspective!&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Structured Data</title>
+      <link>https://thisisbalu.github.io/structured-data/</link>
+      <pubDate>Wed, 15 Apr 2015 17:08:44 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/structured-data/</guid>
+      <description>&lt;p&gt;There are many definitions for structured data. The term structured data can be referred as the data that resides in a fixed field within a record or a file. It can be also defined as the data that has a defined length and format. Examples of the structured data include numbers, dates, strings, records in databases, spreadsheets, etc.,. This kind of data can be easily entered, stored, analysed and queried.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>History of Hadoop</title>
+      <link>https://thisisbalu.github.io/history-of-hadoop/</link>
+      <pubDate>Tue, 14 Apr 2015 13:44:29 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/history-of-hadoop/</guid>
+      <description>&lt;p&gt;History of Hadoop had started in the year 2002 with the project Apache Nutch. Hadoop was created by Doug Cutting, the creator of Apache Lucene, the widely used text search library. Hadoop has its origins in Apache Nutch, an open source web search engine which itself is a part of Lucene Project.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Origin of the Name Hadoop</title>
+      <link>https://thisisbalu.github.io/origin-of-the-name-hadoop/</link>
+      <pubDate>Mon, 13 Apr 2015 17:54:15 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/origin-of-the-name-hadoop/</guid>
+      <description>&lt;p&gt;Origin of the Name Hadoop is not from an acronym and the name Hadoop doesn’t have any specific meaning too. It’s just a made up name! Hadoop Project’s creator, Doug Cutting, explains how the name came in to existing —&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>How MapReduce is different from Grid Computing and High Performance Computing?</title>
+      <link>https://thisisbalu.github.io/how-mapreduce-is-different-from-grid-computing-and-high-performance-computing/</link>
+      <pubDate>Sat, 11 Apr 2015 15:49:08 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/how-mapreduce-is-different-from-grid-computing-and-high-performance-computing/</guid>
+      <description>&lt;p&gt;Grid computing and High Performance Computing have been doing large scale batch processing from years, using such Application Program Interfaces (API) and as Message Passing Interface (MPS). Yes they are a sort of Distributive computing.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>How MapReduce is different from Volunteer Computing (SETI@home, Folding@home, GIMPS)?</title>
+      <link>https://thisisbalu.github.io/how-mapreduce-is-different-from-volunteer-computing-setihome-foldinghome/</link>
+      <pubDate>Fri, 10 Apr 2015 17:48:19 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/how-mapreduce-is-different-from-volunteer-computing-setihome-foldinghome/</guid>
+      <description>&lt;p&gt;Volunteer Computing can be also termed as Distributive Computing. There are some of the volunteer computing projects such as SETI@home, Folding@home etc, GIMPS., in the world. Volunteer Computing is nothing but the owners of the computers donate their computing resources such as processing power and storage to some of the projects like SETI@home or Folding@home or GIMPS.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Why MapReduce is needed instead of traditional Databases?</title>
+      <link>https://thisisbalu.github.io/why-mapreduce-is-needed-instead-of-traditional-databases/</link>
+      <pubDate>Thu, 09 Apr 2015 15:55:28 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/why-mapreduce-is-needed-instead-of-traditional-databases/</guid>
+      <description>&lt;p&gt;Why can’t we use databases with lots of disks to do large-scale batch analysis? Why MapReduce is needed? MapReduce has its own advantages over traditional databases(especially our relational databases). Both the traditional databases and MapReduce have their own perspectives. It depends on we are going to expose it. Lets discuss some of the points.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Data Storage and Analysis Problems Faced in Digital Universe</title>
+      <link>https://thisisbalu.github.io/data-storage-and-analysis-problems-faced-in-digital-universe/</link>
+      <pubDate>Wed, 08 Apr 2015 17:17:32 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/data-storage-and-analysis-problems-faced-in-digital-universe/</guid>
+      <description>&lt;p&gt;Data Storage and Analysis of the stored data is currently the problem in the &lt;a href=&#34;http://www.balasubramanyamlanka.com/data-how-it-is-important-in-this-digital-universe/&#34;&gt;Digital Universe&lt;/a&gt;. When I am studying 7th standard, that is in 2003 there used to be Floppy Disks in use! Yes those disks have storage capacity of 1.44 MB and with access speed of 60kbps. Now a days we have flash storage upto 128 GB with access speed of 60mbps to 120 mbps. We can just imagine how fast the storage capabilities and access speeds have been increased.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Data! How it is important in this Digital Universe</title>
+      <link>https://thisisbalu.github.io/data-how-it-is-important-in-this-digital-universe/</link>
+      <pubDate>Tue, 07 Apr 2015 17:31:29 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/data-how-it-is-important-in-this-digital-universe/</guid>
+      <description>&lt;p&gt;We live in the Date Age. It is very hard to measure the total volume of the data that is stored electronically in the universe. The estimated size of the data of Digital Universe in 2006 is 0.18 zettabytes, in 2011 it increased to 1.8 zettabytes, in 2013 it increased &lt;a href=&#34;http://www.emc.com/leadership/digital-universe/2014iview/executive-summary.htm&#34;&gt;more to 4.4 zettabytes&lt;/a&gt;! According to the new estimates this Digital Universe is going to increase by 10 factor in 2020. By 2020 it will be increased to 44 zettabytes.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Advantages of SVG (Scalable Vector Graphics)</title>
+      <link>https://thisisbalu.github.io/advantages-of-svg/</link>
+      <pubDate>Sun, 05 Apr 2015 13:41:28 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/advantages-of-svg/</guid>
+      <description>&lt;p&gt;SVG is trending technology in the internet world. There are many advantages of SVG. In crisp, SVG which stands for &lt;a href=&#34;http://www.balasubramanyamlanka.com/infinitely-scalable-svg-scalable-vector-graphics/&#34;&gt;Scalable Vector Graphics&lt;/a&gt; is used to define vector-based graphics for the Web. It was introduced by W3C in the year 1999 and it became W3C Recommendation from the year 2001&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Inline SVG in WordPress Post</title>
+      <link>https://thisisbalu.github.io/inline-svg-in-wordpress-post/</link>
+      <pubDate>Thu, 02 Apr 2015 17:38:03 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/inline-svg-in-wordpress-post/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://www.balasubramanyamlanka.com/infinitely-scalable-svg-scalable-vector-graphics/&#34;&gt;Scalable Vector Graphics (SVG)&lt;/a&gt; is a trending technology. As SVG is infinitely scalable graphics, it is widely used. There is a problem in using these graphics inside the a WordPress post. Yes, there are two problems with SVG in WordPress post. First thing is that you cannot upload a SVG image into the WordPress uploads and the second one is we cannot use inline SVG in WordPress post.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Infinitely Scalable SVG – Scalable Vector Graphics</title>
+      <link>https://thisisbalu.github.io/infinitely-scalable-svg-scalable-vector-graphics/</link>
+      <pubDate>Wed, 01 Apr 2015 18:09:25 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/infinitely-scalable-svg-scalable-vector-graphics/</guid>
+      <description>&lt;p&gt;Scalable Vector Graphics, widely known as SVG is becoming popular now a days. Scalable Vector Graphics is an open standard that was developed by &lt;a href=&#34;http://en.wikipedia.org/wiki/World_Wide_Web_Consortium&#34;&gt;World Wide Web Consortium(W3C)&lt;/a&gt; in 1999. SVG is an XML based vector image format for 2D Graphics that has support for interactivity and animation. In the year 2003 it became W3c recommendation. It is text based, which means you can create SVG in simple text file. Simply it is an image that will be written in xml with some of the predefined xml attributes and tags.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Best Glyph Icon Libraries available in Market</title>
+      <link>https://thisisbalu.github.io/best-glyph-icon-libraries-available-in-market/</link>
+      <pubDate>Sun, 22 Mar 2015 18:54:03 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/best-glyph-icon-libraries-available-in-market/</guid>
+      <description>&lt;p&gt;If you are not using the &lt;a href=&#34;http://www.balasubramanyamlanka.com/what-are-glyph-icons/&#34;&gt;Glyph Icon&lt;/a&gt; Libraries in you designing, then you are missing a lot! Yes glyph icons libraries are very useful, very flexible and very easy to implement via markup in our web pages. There are many glyph icon libraries out there in the internet. Here i have collected the good glyph icon libraries that are updated frequently with the newer stuff.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>What are Glyph Icons?</title>
+      <link>https://thisisbalu.github.io/what-are-glyph-icons/</link>
+      <pubDate>Fri, 20 Mar 2015 18:50:14 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/what-are-glyph-icons/</guid>
+      <description>&lt;p&gt;Glyph is a Greek word which had different meanings with respective to the different perspectives. For an example in typography glyph is a elemental symbol that can represented in the different styles that represents the same elemental symbol, in Architecture glyph is an ornamental carved groove, _in Computing glyph is a small graphic symbol. _There comes our perspective! Yes computing – Glyph Icons.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Custom Excerpt Length in WordPress</title>
+      <link>https://thisisbalu.github.io/custom-excerpt-length-in-wordpress/</link>
+      <pubDate>Mon, 16 Mar 2015 15:45:27 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/custom-excerpt-length-in-wordpress/</guid>
+      <description>&lt;p&gt;In WordPress, excerpt means a _short extract from the blog post. _The default length of the excerpt in WordPress is 55 characters. For the customisation purposes setting user defined length to the excerpt in WordPress is needed at times. This needs adding a small php function in to functions.php file. As mentioned above default length of the excerpt is 55 characters, to override the  default functionality excerpt length we have to add a filter in the same file.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Custom Excerpt More and Custom Excerpt More Link in WordPress</title>
+      <link>https://thisisbalu.github.io/custom-excerpt-more-and-custom-excerpt-more-link-in-wordpress/</link>
+      <pubDate>Fri, 13 Mar 2015 20:13:08 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/custom-excerpt-more-and-custom-excerpt-more-link-in-wordpress/</guid>
+      <description>&lt;p&gt;Before talking about the custom excerpt more in WordPress let’s talk about the general meaning of the excerpt. It means a &lt;em&gt;short extract from anything&lt;/em&gt;. So when it comes to the WordPress, excerpt means _a short extract from the blog post. _Excerpt in the blog is one of the important thing that every WordPress user uses it for the customisation.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Removing Query Strings from Static Resources</title>
+      <link>https://thisisbalu.github.io/removing-query-strings-from-static-resources/</link>
+      <pubDate>Thu, 12 Mar 2015 17:50:28 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/removing-query-strings-from-static-resources/</guid>
+      <description>&lt;p&gt;If you are a WordPress user, removing of query strings from static resources does matter in the website’s performance. When I was developing my blog’s theme I faced the same issues. In order to remove the query strings from the static resources we can write a small piece of javascript or write a simple function in php. I would prefer writing the php code in the functions.php file to remove query strings from static resources.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Selecting Appropriate Collection in Java</title>
+      <link>https://thisisbalu.github.io/selecting-appropriate-collection-in-java/</link>
+      <pubDate>Fri, 06 Mar 2015 18:33:12 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/selecting-appropriate-collection-in-java/</guid>
+      <description>&lt;p&gt;Collections in java is one of the important concept, that will help developers to minimise the coding efforts and increase the code efficiency. Of course everyone knows this fact. I always had a confusion between arraylist and the vector, Hashmap and Identity HashMap, HashMap and TreeMap and many! Selecting appropriate collection in java is a challenge. You can find the roadmap for selecting the correct collection while coding. Everything is self explanatory in the image.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>How to remove white spaces in Java?</title>
+      <link>https://thisisbalu.github.io/how-to-remove-white-spaces-in-java/</link>
+      <pubDate>Sat, 25 Oct 2014 05:41:43 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/how-to-remove-white-spaces-in-java/</guid>
+      <description>&lt;p&gt;Removing white spaces in Java is simple. All we have to do is to use &lt;a href=&#34;http://javaindetail.com/2014/09/19/what-is-meant-by-regular-expression-and-where-it-is-used-in-java/&#34;&gt;Regex&lt;/a&gt; and replaceAll() method of String class. A small tutorial is given below.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Unboxing and Auto-Unboxing in Java</title>
+      <link>https://thisisbalu.github.io/unboxing-and-auto-unboxing-in-java/</link>
+      <pubDate>Fri, 24 Oct 2014 04:00:05 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/unboxing-and-auto-unboxing-in-java/</guid>
+      <description>&lt;p&gt;Unboxing and AutoUnboxing in Java is a simple concept.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Unboxing&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Unwrapping the object into corresponding primitive data is called **Unboxing. **&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Boxing and Auto-Boxing in Java</title>
+      <link>https://thisisbalu.github.io/boxing-and-auto-boxing-in-java/</link>
+      <pubDate>Thu, 23 Oct 2014 14:21:22 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/boxing-and-auto-boxing-in-java/</guid>
+      <description>&lt;p&gt;Boxing and AutoBoxing in Java is simple concept in Java.&lt;br&gt;
+&lt;strong&gt;Boxing&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Wrapping primitive content into an object is called &lt;strong&gt;boxing&lt;/strong&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Wrapper Classes in Java</title>
+      <link>https://thisisbalu.github.io/wrapper-classes-in-java-2/</link>
+      <pubDate>Mon, 20 Oct 2014 04:00:31 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/wrapper-classes-in-java-2/</guid>
+      <description>&lt;p&gt;Lets see a simple java program to Wrap Primitive Data Types into Object using Wrapper Classes in Java&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Wrapper Classes in Java</title>
+      <link>https://thisisbalu.github.io/wrapper-classes-in-java/</link>
+      <pubDate>Sun, 19 Oct 2014 04:00:49 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/wrapper-classes-in-java/</guid>
+      <description>&lt;p&gt;Java is an Object Oriented Language which views everything as an object. For an instance a simple file can be treated as an object , an address of a system can be seen as an object , an image can be treated as an object (with java.awt.Image) and a simple data type can be converted into an object (with wrapper classes).&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Write Once Run Anywhere WORA</title>
+      <link>https://thisisbalu.github.io/write-once-run-anywhere-wora/</link>
+      <pubDate>Sat, 18 Oct 2014 04:00:48 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/write-once-run-anywhere-wora/</guid>
+      <description>&lt;p&gt;What is Write Once Run Anywhere WORA? In simple we can term it as Cross Platform Compatibility. It is some times Expressed as WORE – Write Once Run Everywhere. &lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Features of Java</title>
+      <link>https://thisisbalu.github.io/features-of-java/</link>
+      <pubDate>Fri, 17 Oct 2014 04:00:51 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/features-of-java/</guid>
+      <description>&lt;p&gt;There are 12 features of Java. Sometimes features of Java are also called as Java Buzzwords. Features are as follows:&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Java Redefined the term Internet</title>
+      <link>https://thisisbalu.github.io/java-redefined-the-term-internet/</link>
+      <pubDate>Thu, 16 Oct 2014 04:00:23 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/java-redefined-the-term-internet/</guid>
+      <description>&lt;p&gt;Today lets see how java changed the Internet. The Internet helped catapult Java to the forefront of programming, and Java, in turn, had a profound effect on the Internet. In addition to simplifying web programming in general, Java innovated a new type of networked program called the applet that changed the way the online world thought about content. The main factors that changed the internet are discussed below.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Java Team</title>
+      <link>https://thisisbalu.github.io/java-team/</link>
+      <pubDate>Wed, 15 Oct 2014 14:30:00 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/java-team/</guid>
+      <description>&lt;p&gt;Yes this post is about the people who created Java Language. After thorough search over internet and referring many books i got all the names of the people who made Java a Popular programming language.  James Gosling is the one who lead the team. Following members are the Java Team.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>How Java got started?</title>
+      <link>https://thisisbalu.github.io/how-java-got-started/</link>
+      <pubDate>Tue, 14 Oct 2014 14:30:04 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/how-java-got-started/</guid>
+      <description>&lt;h2 class=&#34;offscreen&#34; id=&#34;how-java-got-started&#34;&gt;How Java got started&lt;/h2&gt;
+&lt;p&gt;Java was conceived by &lt;strong&gt;James Gosling&lt;/strong&gt;, &lt;strong&gt;Patrick Naughton&lt;/strong&gt;, &lt;strong&gt;Chris Warth&lt;/strong&gt;, &lt;strong&gt;Ed Frank&lt;/strong&gt;, and &lt;strong&gt;Mike Sheridan&lt;/strong&gt; at Sun Microsystems, Inc. in 1991. It took 18 months to develop the first working version. This language was initially called “Oak,” but was renamed “Java” in 1995. Between the initial implementation of Oak in the fall of 1992 and the public announcement of Java in the spring of 1995, many more people contributed to the design and evolution of the language. &lt;strong&gt;Bill Joy&lt;/strong&gt;, &lt;strong&gt;Arthur van Hoff&lt;/strong&gt;, &lt;strong&gt;Jonathan Payne&lt;/strong&gt;, &lt;strong&gt;Frank Yellin&lt;/strong&gt;, and &lt;strong&gt;Tim Lindholm&lt;/strong&gt; were key contributors to the maturing of the original prototype.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Primitive Data Types in Java</title>
+      <link>https://thisisbalu.github.io/primitive-data-types-in-java/</link>
+      <pubDate>Mon, 13 Oct 2014 14:30:02 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/primitive-data-types-in-java/</guid>
+      <description>&lt;p&gt;There are eight primitive data types in Java:byte, short, int, long, char, float, double, and boolean. These can be put in four groups:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;Integers&lt;/span&gt; &lt;strong&gt;:&lt;/strong&gt; This group includes byte, short,int, and long, which are for whole-valued signed numbers.&lt;/li&gt;
+&lt;li&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;Floating-point numbers&lt;/span&gt; &lt;span style=&#34;text-decoration: underline;&#34;&gt;:&lt;/span&gt; This group includes float and double, which represent numbers with fractional precision.&lt;/li&gt;
+&lt;li&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;Characters&lt;/span&gt; &lt;strong&gt;:&lt;/strong&gt; This group includes char, which represents symbols in a character set, like letters and numbers.&lt;/li&gt;
+&lt;li&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;Boolean&lt;/span&gt; &lt;strong&gt;:&lt;/strong&gt; This group includes boolean, which is a special type for representing true/false values.&lt;/li&gt;
+&lt;/ol&gt;</description>
+    </item>
+    
+    <item>
+      <title>JavaBean Standards in Java</title>
+      <link>https://thisisbalu.github.io/javabean-standards-in-java/</link>
+      <pubDate>Sun, 12 Oct 2014 14:30:46 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/javabean-standards-in-java/</guid>
+      <description>&lt;p&gt;Today lets talk about Javabean Standards. JavaBeans are Java classes that have properties. For our purposes, think of properties as private instance variables. Since they’re private, the only way they can be accessed from outside of their class is through methods in the class. The methods that change a property’s value are called &lt;strong&gt;setter&lt;/strong&gt; methods, and the methods that retrieve a property’s value are called &lt;strong&gt;getter&lt;/strong&gt; methods.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Source File Declaration Rules in Java</title>
+      <link>https://thisisbalu.github.io/source-file-declaration-rules-in-java/</link>
+      <pubDate>Sat, 11 Oct 2014 14:30:01 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/source-file-declaration-rules-in-java/</guid>
+      <description>&lt;p&gt;Today lets see rules associated with declaring classes, import statements, and package statements in a source file. We can call them as declaration rules in Java.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Java Code Conventions</title>
+      <link>https://thisisbalu.github.io/java-code-conventions/</link>
+      <pubDate>Fri, 10 Oct 2014 14:30:17 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/java-code-conventions/</guid>
+      <description>&lt;h2 id=&#34;why-have-java-code-conventions&#34;&gt;Why Have Java Code Conventions&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;80% of the lifetime cost of a piece of software goes to maintenance.&lt;/li&gt;
+&lt;li&gt;Hardly any software is maintained for its whole life by the original author.&lt;/li&gt;
+&lt;li&gt;Code conventions improve the readability of the software, allowing engineers to understand new code more quickly and thoroughly.&lt;/li&gt;
+&lt;li&gt;If you ship your source code as a product, you need to make sure it is as well packaged and clean as any other product you create.&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+    <item>
+      <title>Legal Identifiers in Java</title>
+      <link>https://thisisbalu.github.io/legal-identifiers-in-java/</link>
+      <pubDate>Thu, 09 Oct 2014 14:30:38 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/legal-identifiers-in-java/</guid>
+      <description>&lt;p&gt;What are Legal Identifiers in Java? It’s simple, The rules the compiler uses to determine whether a name is legal. Technically, legal identifiers must be composed of only Unicode characters, numbers, currency symbols, and connecting characters (like underscores).&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>What is a Jagged Array in Java</title>
+      <link>https://thisisbalu.github.io/what-is-a-jagged-array-in-java/</link>
+      <pubDate>Wed, 08 Oct 2014 14:30:09 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/what-is-a-jagged-array-in-java/</guid>
+      <description>&lt;p&gt;Jagged array in Java are Multi-Dimensional arrays with different array sizes. Jagged Arrays are sometimes termed as Ragged Arrays. Lets go through a quick tutorial&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Multi Dimensional Arrays in Java</title>
+      <link>https://thisisbalu.github.io/multi-dimensional-arrays-in-java/</link>
+      <pubDate>Tue, 07 Oct 2014 14:30:58 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/multi-dimensional-arrays-in-java/</guid>
+      <description>&lt;p&gt;Multi Dimensional arrays in Java can be termed as arrays of arrays. We can create two-dimensional, three-dimensional, four-dimensional or n-dimensional arrays in Java. Its quite simple to create arrays in Java, yet more the dimensions more the confusion. Let us see a quick tutorial. In this tutorial I’m going to take three-dimensional array as example.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>How to Return an Array Java</title>
+      <link>https://thisisbalu.github.io/how-to-return-an-array-java/</link>
+      <pubDate>Mon, 06 Oct 2014 14:30:57 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/how-to-return-an-array-java/</guid>
+      <description>&lt;p&gt;In Java, Arrays can be returned from the method. Again same as passing parameters two types of arrays are there. Array of primitive datatypes and the array of derived datatypes.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Method Returning An Array Of Primitive Type&lt;/li&gt;
+&lt;li&gt;Method Returrning An Array Of Derived Type&lt;/li&gt;
+&lt;/ol&gt;</description>
+    </item>
+    
+    <item>
+      <title>How to pass Array to method Java</title>
+      <link>https://thisisbalu.github.io/how-to-pass-array-to-method-java/</link>
+      <pubDate>Sun, 05 Oct 2014 14:30:06 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/how-to-pass-array-to-method-java/</guid>
+      <description>&lt;p&gt;Arrays can be passed as the parameter in Java. They are Passes-By-Reference which means when we pass the array copy of the objects are not passed just the reference of the array is passed. Arrays can be passed in two ways .&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Passing Primitive Type Array&lt;/li&gt;
+&lt;li&gt;Passing Derived Type Array&lt;/li&gt;
+&lt;/ol&gt;</description>
+    </item>
+    
+    <item>
+      <title>How to create Array of Objects Java</title>
+      <link>https://thisisbalu.github.io/how-to-create-array-of-objects-java/</link>
+      <pubDate>Sat, 04 Oct 2014 14:30:48 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/how-to-create-array-of-objects-java/</guid>
+      <description>&lt;p&gt;In Java, Array of objects java can hold the references to any type of Object. ARRAY CAN CONTAIN ONLY REFERENCES TO THE OBJECTS, BUT NOT THE OBJECTS ITSELF. Let us see Tutorial&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>How to assign specific value to each element in Array</title>
+      <link>https://thisisbalu.github.io/how-to-assign-specific-value-to-each-element-in-array/</link>
+      <pubDate>Fri, 03 Oct 2014 14:30:09 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/how-to-assign-specific-value-to-each-element-in-array/</guid>
+      <description>&lt;p&gt;We can assign specific value to each element in the array in Java using the fill() method of java.util.Arrays class. This method is used mainly to initialize whole array at a time without looping through the array in Java. Let go through a tutorial.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>How to search an element in an array in java</title>
+      <link>https://thisisbalu.github.io/how-to-search-an-element-in-an-array-in-java/</link>
+      <pubDate>Thu, 02 Oct 2014 14:30:22 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/how-to-search-an-element-in-an-array-in-java/</guid>
+      <description>&lt;p&gt;In Java searching an element in an array is simple. All we have to use is java.util.Arrays class binarySearch() method.&lt;/p&gt;
+&lt;p&gt;Searches the specified array of ints for the specified value using the binary search algorithm. The array must be sorted (as by the sort(int[]) method) prior to making this call. If it is not sorted, the results are undefined. If the array contains multiple elements with the specified value, there is no guarantee which one will be found.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>How to sort Arrays in Java</title>
+      <link>https://thisisbalu.github.io/how-to-sort-arrays-in-java/</link>
+      <pubDate>Wed, 01 Oct 2014 14:30:29 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/how-to-sort-arrays-in-java/</guid>
+      <description>&lt;p&gt;Yes we have many sorting algorithms to sort elements. We used to implement one of the sorting algorithm to sort elements in previous programming languages like C, C++ etc.. But sorting an array in Java is a simple process. All we have to do is to use the sort method of Arrays class in Java.&lt;/p&gt;
+&lt;p&gt;Internally sort() method of java.util.Arrays class uses &lt;em&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;Dual-Pivot Quicksort by Vladimir Yaroslavskiy, Jon Bentley, and Joshua Bloch.&lt;/span&gt;&lt;/em&gt; This algorithm offers O(n log(n)) performance on many data sets that cause other quicksorts to degrade to quadratic performance, and is typically faster than traditional (one-pivot) Quicksort implementations.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>How to print Array in array format in Java</title>
+      <link>https://thisisbalu.github.io/how-to-print-array-in-array-format-in-java/</link>
+      <pubDate>Tue, 30 Sep 2014 14:30:48 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/how-to-print-array-in-array-format-in-java/</guid>
+      <description>&lt;p&gt;To print an array or to display an array in Java we used to iterate through the array using for loop and print them in sysout. But java.util.Arrays class have inbuilt method toString() which prints the array directly without looping through array. It prints in the format of square brackets with comma separated elements eg : [ 1, 2, 3, 4 ]&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>How to copy an Array in Java – Four different ways</title>
+      <link>https://thisisbalu.github.io/copy-an-array-in-java-four-different-ways/</link>
+      <pubDate>Mon, 29 Sep 2014 14:30:05 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/copy-an-array-in-java-four-different-ways/</guid>
+      <description>&lt;p&gt;There are four ways to copy an array in Java. Following are the different ways&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Using for Loop&lt;/li&gt;
+&lt;li&gt;Using copyOf() method of Array Class&lt;/li&gt;
+&lt;li&gt;Using clone() Method&lt;/li&gt;
+&lt;li&gt;Using arraycopy() method Of System Class&lt;/li&gt;
+&lt;/ol&gt;</description>
+    </item>
+    
+    <item>
+      <title>Java Packages In Detail With Versions</title>
+      <link>https://thisisbalu.github.io/java-packages-in-detail-with-versions/</link>
+      <pubDate>Sun, 28 Sep 2014 15:05:33 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/java-packages-in-detail-with-versions/</guid>
+      <description>&lt;p&gt;Welcome to my blog Java In Detail. Let us see Packages In Detail :)&lt;/p&gt;
+&lt;p&gt;I collected all the java packages, their brief descriptions and their versions in java standard environment till version 8. Below packages are given in the tabular format for your quick reference. Happy Learning!&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>How to split a String in Java</title>
+      <link>https://thisisbalu.github.io/how-to-split-a-string-in-java/</link>
+      <pubDate>Sun, 28 Sep 2014 14:30:53 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/how-to-split-a-string-in-java/</guid>
+      <description>&lt;p&gt;There are three better ways to split a string in Java.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Using split() method of String Class&lt;/li&gt;
+&lt;li&gt;Using StringTokenizer class of java.util package.&lt;/li&gt;
+&lt;li&gt;Using useDelimiter() of Scanner Class.&lt;/li&gt;
+&lt;/ol&gt;</description>
+    </item>
+    
+    <item>
+      <title>How to use StringTokenizer in Java</title>
+      <link>https://thisisbalu.github.io/how-to-use-stringtokenizer-in-java/</link>
+      <pubDate>Sat, 27 Sep 2014 14:30:33 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/how-to-use-stringtokenizer-in-java/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Package&lt;/strong&gt; : java.util.StringTokenizer&lt;br&gt;
+&lt;strong&gt;Extends&lt;/strong&gt; : java.lang.Object class&lt;br&gt;
+&lt;strong&gt;Implements&lt;/strong&gt; : Enumeration&lt;Object&gt;&lt;br&gt;
+&lt;strong&gt;Brief Description&lt;/strong&gt; : StringTokenizer in java is used to split or break a string into tokens based on a delimiter. Its methods do not distinguish among identifiers, numbers, and quoted strings.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Execution of Finally block with return statements</title>
+      <link>https://thisisbalu.github.io/execution-of-finally-block-with-return-statements/</link>
+      <pubDate>Fri, 26 Sep 2014 14:30:44 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/execution-of-finally-block-with-return-statements/</guid>
+      <description>&lt;p&gt;&lt;em&gt;Will the code in the finally block be called and run after a return statement is executed in the try block?&lt;/em&gt;&lt;br&gt;
+&lt;em&gt;What if there is a return statement in the try block and the finally block as well?&lt;/em&gt;&lt;br&gt;
+&lt;em&gt;What if exception is thrown in the try block and the return statement in finally block?&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Finally Block in Java – In Detail</title>
+      <link>https://thisisbalu.github.io/finally-block-in-java-in-detail/</link>
+      <pubDate>Thu, 25 Sep 2014 14:30:28 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/finally-block-in-java-in-detail/</guid>
+      <description>&lt;p&gt;Finally is a keyword that is used as finally block in exception handling. Finally block is used with the try block and catch blocks. Finally block always executes when the try block exits.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Placing cleanup code in a finally block is always a good practice, even when no exceptions are anticipated.&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>How to validate an email using Regex in Java</title>
+      <link>https://thisisbalu.github.io/how-to-validate-an-email-using-regex-in-java/</link>
+      <pubDate>Wed, 24 Sep 2014 14:30:54 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/how-to-validate-an-email-using-regex-in-java/</guid>
+      <description>Validating an email address in Java is quite simple with the Regular Expression(regex). I searched for many of the regular expression and found a simple way of validating an email.
+REGEX FOR EMAIL VALIDATING&amp;lt;blockquote style=&amp;ldquo;style=&amp;ldquo;font-size: 15px;&amp;quot;&amp;gt;
+^[_A-Za-z0-9-]+(.[_A-Za-z0-9-]+)*@[A-Za-z0-9-]+(.[A-Za-z0-9-]+)*(.[A-Za-z]{2,})$ 
+email Validating Tutorial
+package com.javaindetail.emailvalidation;import java.util.regex.Matcher;import java.util.regex.Pattern;public class EmailValidationRegex {private static final String EMAIL_VALIDATION_REGEX = &#34;^[_A-Za-z0-9-]+(\.[_A-Za-z0-9-]+)*@[A-Za-z0-9-]+(\.[A-Za-z0-9-]+)*(\.[A-Za-z]{2,})$&#34;;private static final String EMAIL1 = &#34;baluatcomputerscience@javaindetail.com&#34;;public static void main(String[] args) {Pattern pattern = Pattern.</description>
+    </item>
+    
+    <item>
+      <title>How to count the occurrences of a character in Java – Three Better Ways</title>
+      <link>https://thisisbalu.github.io/how-to-count-the-occurrences-of-a-character-in-java-three-better-ways/</link>
+      <pubDate>Tue, 23 Sep 2014 14:30:00 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/how-to-count-the-occurrences-of-a-character-in-java-three-better-ways/</guid>
+      <description>&lt;p&gt;There are three ways.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Using charAt – Traditional For Loop&lt;/li&gt;
+&lt;li&gt;Using toCharArray – Enhanced For Loop&lt;/li&gt;
+&lt;li&gt;Using replaceAll – Efficient Way without Looping&lt;/li&gt;
+&lt;/ol&gt;</description>
+    </item>
+    
+    <item>
+      <title>How to use Regular Expressions in Java – String Class Tutorial</title>
+      <link>https://thisisbalu.github.io/how-to-use-regular-expressions-in-java-string-class-tutorial/</link>
+      <pubDate>Mon, 22 Sep 2014 14:30:36 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/how-to-use-regular-expressions-in-java-string-class-tutorial/</guid>
+      <description>&lt;p&gt;We can use Regular Expressions on String class in Java. It can be applied on the following Methods.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;public boolean matches(String regex) – Tells whether or not this string matches the given regular expression.&lt;/li&gt;
+&lt;li&gt;public String[] split(String regex,int limit) –  Splits this string around matches of the given regular expression.&lt;/li&gt;
+&lt;li&gt;public String[] split(String regex) –   Splits this string around matches of the given regular expression.&lt;/li&gt;
+&lt;li&gt;replaceAll(String regex, String replacement) –    Replaces each substring of this string that matches the given regular expression with the given replacement.&lt;/li&gt;
+&lt;li&gt;replaceFirst(String regex, String replacement) –  Replaces the first substring of this string that matches the given regular expression with the given replacement.&lt;/li&gt;
+&lt;/ol&gt;</description>
+    </item>
+    
+    <item>
+      <title>How to use Regular Expressions in Java – Pattern and Matcher Tutorial</title>
+      <link>https://thisisbalu.github.io/how-to-use-regular-expression-in-java-pattern-and-matcher-tutorial/</link>
+      <pubDate>Sun, 21 Sep 2014 14:30:31 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/how-to-use-regular-expression-in-java-pattern-and-matcher-tutorial/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Pattern Class in Java&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Pattern class is compiled representation of a regular expression. A regular expression, specified as a string, must first be compiled into an instance of this class. The resulting pattern can then be used to create a Matcher object that can match arbitrary character sequences against the regular expression. All of the state involved in performing a match resides in the matcher, so many matcher’s can share the same pattern.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>How to use Regular Expressions in Java – Syntaxes</title>
+      <link>https://thisisbalu.github.io/how-to-use-regular-expressions-in-java-syntaxes/</link>
+      <pubDate>Sat, 20 Sep 2014 17:33:55 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/how-to-use-regular-expressions-in-java-syntaxes/</guid>
+      <description>Many languages like Java, Phython, C#, Perl, Groovy and others support Regular Expressions in their own way. Let us see how regular expressions are used and the syntax of different regular expressions in Java.
+Following are the List of Syntaxes
+   Expression  &amp;lt;th&amp;gt; Description &amp;lt;/th&amp;gt;     ^  &amp;lt;td&amp;gt; beginning of line. &amp;lt;/td&amp;gt;     $  &amp;lt;td&amp;gt; end of line. &amp;lt;/td&amp;gt;     .</description>
+    </item>
+    
+    <item>
+      <title>What is meant by Regular Expression and Where it is used in Java</title>
+      <link>https://thisisbalu.github.io/what-is-meant-by-regular-expression-and-where-it-is-used-in-java/</link>
+      <pubDate>Fri, 19 Sep 2014 14:30:40 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/what-is-meant-by-regular-expression-and-where-it-is-used-in-java/</guid>
+      <description>&lt;p&gt;Regular Expression, widely termed as Regex is a sequence of characters which forms a search pattern. It is used to match the patterns in the string or the text. Using the regex we can find a pattern and also we can replace the pattern(speaking in perspective with Java). Always regex is applied to the string or text from left to right.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Final Keyword in Java – Three Main Uses</title>
+      <link>https://thisisbalu.github.io/final-keyword-in-java-three-main-uses/</link>
+      <pubDate>Thu, 18 Sep 2014 14:30:00 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/final-keyword-in-java-three-main-uses/</guid>
+      <description>&lt;p&gt;In Java, the keyword final is a simple but powerful tool that allows us to write code that is more readable, enables the compiler to catch some logic errors, and prevents accidental misuse of classes and member functions.&lt;/p&gt;
+&lt;p&gt;Final keyword has mainly THREE USES as listed below&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;a final class cannot be inherited.&lt;/li&gt;
+&lt;li&gt;a final method cannot be overridden.&lt;/li&gt;
+&lt;li&gt;final data members, parameters and local variables cannot change once they are declared with final keyword.&lt;/li&gt;
+&lt;/ol&gt;</description>
+    </item>
+    
+    <item>
+      <title>Generating Unique Id in Java Part 2 – UID Java Tutorial</title>
+      <link>https://thisisbalu.github.io/generating-unique-id-in-java-part-2-uid-java-tutorial/</link>
+      <pubDate>Wed, 17 Sep 2014 14:30:13 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/generating-unique-id-in-java-part-2-uid-java-tutorial/</guid>
+      <description>&lt;p&gt;With reference to the previous &lt;a href=&#34;http://javaindetail.com/2014/09/16/generating-unique-id-in-java-part-1-uuid-java-tutorial/&#34;&gt;post&lt;/a&gt;, we had another way to generate the unique id in Java through UID class from the rmi server package in Java. This is an alternative method to use if we are still using Java versions below 5.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;UID Class in Java&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Package : java.rmi.server.UID&lt;br&gt;
+Extends : Object&lt;br&gt;
+Implements : Serializable&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Generating Unique Id in Java Part 1 – UUID Java Tutorial</title>
+      <link>https://thisisbalu.github.io/generating-unique-id-in-java-part-1-uuid-java-tutorial/</link>
+      <pubDate>Tue, 16 Sep 2014 17:16:41 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/generating-unique-id-in-java-part-1-uuid-java-tutorial/</guid>
+      <description>&lt;p&gt;Generating the Unique Ids in Java is a very easy task. There are many ways to generate unique ids in Java, one of the best way is to use UUID class from the util package in Java.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;UUID – Universally Unique Identifier&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;A universally unique identifier (UUID) is an identifier standard used in software construction, standardized by the Open Software Foundation (OSF) as part of the Distributed Computing Environment (DCE).&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>How to concatenate two strings in Java</title>
+      <link>https://thisisbalu.github.io/how-to-concatenate-two-strings-in-java/</link>
+      <pubDate>Mon, 08 Sep 2014 18:06:54 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/how-to-concatenate-two-strings-in-java/</guid>
+      <description>&lt;p&gt;The basic operation we perform daily in Java is concatenating the strings. Concatenation of strings in Java can be achieved in three ways.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Concatenation using + operator.&lt;/li&gt;
+&lt;li&gt;Concatenation using concat() method of String class.&lt;/li&gt;
+&lt;li&gt;Concatenation using append() method of StringBuffer class.&lt;/li&gt;
+&lt;/ol&gt;</description>
+    </item>
+    
+    <item>
+      <title>How to use Calendar in Java</title>
+      <link>https://thisisbalu.github.io/how-to-use-calendar-in-java/</link>
+      <pubDate>Thu, 04 Sep 2014 19:59:16 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/how-to-use-calendar-in-java/</guid>
+      <description>&lt;p&gt;There is a great confusion between Calendar class and GregorianCalendar class. Let us look into these classes in detail.  These classes are for providing the standard calendar for world.&lt;/p&gt;
+&lt;h4 id=&#34;span-styletext-decorationunderlinecalendar-class-is-an-abstract-classspan&#34;&gt;&lt;span style=&#34;text-decoration:underline;&#34;&gt;Calendar Class is an Abstract Class&lt;/span&gt;&lt;/h4&gt;
+&lt;p&gt;**Package : **java.util.Calendar&lt;/p&gt;
+&lt;p&gt;**Extends : **Object class&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>How to use SimpleDateFormat in Java</title>
+      <link>https://thisisbalu.github.io/how-to-use-simpledateformat-in-java/</link>
+      <pubDate>Wed, 03 Sep 2014 19:58:37 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/how-to-use-simpledateformat-in-java/</guid>
+      <description>&lt;p&gt;**Package : **java.text.SimpleDateFormat&lt;/p&gt;
+&lt;p&gt;**Extends : **DateFormat class (java.text.DateFormat class extends java.text.Format, java.text.Format extends java.lang.Object)&lt;/p&gt;
+&lt;p&gt;**Implements : **Serializable Interface, Cloneable Interface.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>The Java Mascot – Duke</title>
+      <link>https://thisisbalu.github.io/the-java-mascot-duke/</link>
+      <pubDate>Tue, 02 Sep 2014 18:40:43 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/the-java-mascot-duke/</guid>
+      <description>&lt;p&gt;Before knowing about the Duke, The Java Mascot let us know about mascot.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;What is a Mascot?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;A mascot is any person, animal, or object thought to bring luck or anything used to represent a group with a common public identity, such as a school, professional sports team, society, military unit, or brand name. Mascots are also used as fictional, representative spokespeople for consumer products.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>How to use Date in Java</title>
+      <link>https://thisisbalu.github.io/how-to-use-date-in-java/</link>
+      <pubDate>Tue, 02 Sep 2014 17:44:39 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/how-to-use-date-in-java/</guid>
+      <description>&lt;p&gt;**Package : **java.util.Date&lt;/p&gt;
+&lt;p&gt;**Extends : **Object class&lt;/p&gt;
+&lt;p&gt;**Implements :  **Serializable class, Cloneable class, Comparable&lt;date&gt;&lt;/p&gt;
+&lt;p&gt;**Brief Description : **Date class is used to represent the specific instance of time with milliseconds precision introduced in JDK 1.0. Date class used prior to the JDK 1.1 for getting the date and time in the Java program.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>How to print bean object in Java</title>
+      <link>https://thisisbalu.github.io/how-to-print-bean-object-in-java/</link>
+      <pubDate>Sat, 30 Aug 2014 19:52:12 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/how-to-print-bean-object-in-java/</guid>
+      <description>To print any object in Java we have to convert it into string. The basic method we have to convert in to string is toString() method in java.lang.Object class. But this method by default prints the hexadecimal address value of the object. For example let us take the following Bean Class.
+PersonBean Class
+package com.javaindetail.bean;public class PersonBean {private String firstName;private String lastName;private String age;private String address;public String getFirstName() {return firstName;}public void setFirstName(String firstName) {this.</description>
+    </item>
+    
+    <item>
+      <title>Java Versions and Features</title>
+      <link>https://thisisbalu.github.io/java-versions-and-features/</link>
+      <pubDate>Wed, 27 Aug 2014 19:31:27 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/java-versions-and-features/</guid>
+      <description>&lt;p&gt;Java is the language that is updated with new versions and features frequently. J2SE 8 is the present version of the Java. Lets drive into the history of the Java Versions and Features in detail. All the versions of the Java have their Code Names (&lt;a href=&#34;http://javaindetail.com/2014/08/26/java-code-names/&#34; title=&#34;Java Code Names&#34;&gt;Click here for code names and release dates&lt;/a&gt;) Following are the Versions and Features of Java.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Java Code Names</title>
+      <link>https://thisisbalu.github.io/java-code-names/</link>
+      <pubDate>Tue, 26 Aug 2014 19:20:04 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/java-code-names/</guid>
+      <description>&lt;p&gt;We daily program, daily use Java, daily think about Java but many of us do not know code names of Java versions. Yes code names for each version released till date. Let us know in detail about the Java code names in Java In Detail :)&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>java.lang package in brief</title>
+      <link>https://thisisbalu.github.io/java-lang-package-in-brief/</link>
+      <pubDate>Sun, 17 Aug 2014 17:35:41 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/java-lang-package-in-brief/</guid>
+      <description>&lt;p&gt;How many classes, interfaces, Exceptions, Errors, Annotations, Enums are there in java.lang? What are the classes, interfaces, Exceptions, Errors, Annotations, Enums present in java.lang package? Lets see in brief.&lt;/p&gt;
+&lt;p&gt;This post is just briefing of the java.lang package.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>How to use equals method in java.lang.Object class</title>
+      <link>https://thisisbalu.github.io/equals-java-lang-object-equals-method-of-object-class/</link>
+      <pubDate>Sat, 16 Aug 2014 18:15:17 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/equals-java-lang-object-equals-method-of-object-class/</guid>
+      <description>&lt;p&gt;Let us see equals method in detail in java in detail ;)&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-java&#34; prism=&#34;1&#34;&gt;public boolean equals(Object obj)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Indicates whether some other object is “equal to” this one.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>How to clone an object in java</title>
+      <link>https://thisisbalu.github.io/clone-java-lang-object-clone-method-of-object-class/</link>
+      <pubDate>Fri, 15 Aug 2014 17:39:40 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/clone-java-lang-object-clone-method-of-object-class/</guid>
+      <description>&lt;p&gt;Creates and returns a copy of this object. The precise meaning of “copy” may depend on the class of the object. The general intent is that, for any object x, the expression:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-java&#34; prism=&#34;1&#34;&gt;
+x.clone() != x
+&lt;/code&gt;&lt;/pre&gt;</description>
+    </item>
+    
+    <item>
+      <title>How to use Object Class Constructor</title>
+      <link>https://thisisbalu.github.io/object-java-lang-object/</link>
+      <pubDate>Fri, 15 Aug 2014 16:37:54 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/object-java-lang-object/</guid>
+      <description>&lt;p&gt;Before going into the Object constructor let us know what is a constructor?&lt;/p&gt;
+&lt;p&gt;A class contains constructors that are invoked to create objects from the class blueprint. Constructor declarations look like method declarations except that they use the name of the class and have no return type.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Object Class -The root of class hierarchy</title>
+      <link>https://thisisbalu.github.io/object-class-the-root-of-class-hierarchy/</link>
+      <pubDate>Thu, 14 Aug 2014 20:16:05 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/object-class-the-root-of-class-hierarchy/</guid>
+      <description>&lt;p&gt;Object Class is the root of the class hierarchy in Java. Every class has a Object class as a super class. Hence all the objects extends the methods of this class. Introduced in &lt;strong&gt;JDK1.0&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The Object class, in the java.lang package, sits at the top of the class hierarchy tree. Every class is a descendant, direct or indirect, of the Object class. Every class you use or write inherits the instance methods of Object. You need not use any of these methods, but, if you choose to do so, you may need to override them with code that is specific to your class. The methods inherited from Object are given below.&lt;/p&gt;</description>
     </item>
     
     <item>

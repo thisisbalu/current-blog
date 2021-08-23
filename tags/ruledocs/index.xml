@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>RuleDocs on Bala Subramanyam Lanka</title>
+    <link>https://thisisbalu.github.io/tags/ruledocs/</link>
+    <description>Recent content in RuleDocs on Bala Subramanyam Lanka</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 02 Jun 2016 20:25:15 +0000</lastBuildDate><atom:link href="https://thisisbalu.github.io/tags/ruledocs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Synchronizing Rules and RuleDocs – Rule Solutions for Office, ODM</title>
+      <link>https://thisisbalu.github.io/synchronising-rules-ruledocs-rule-solutions-office/</link>
+      <pubDate>Thu, 02 Jun 2016 20:25:15 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/synchronising-rules-ruledocs-rule-solutions-office/</guid>
+      <description>&lt;p class=&#34;shortdesc&#34;&gt;
+  RuleDocs are Microsoft Office documents that contain your rules, decision tables, and ruleflows. Rules and ruleflows are stored in Word documents, while decision tables are stored as spreadsheets in Excel. We use t to edit and manage rules offline. You can also use them to present the rules together with documentation and supporting information, including the original policy or requirement.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>uid on Bala Subramanyam Lanka</title>
+    <link>https://thisisbalu.github.io/tags/uid/</link>
+    <description>Recent content in uid on Bala Subramanyam Lanka</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 17 Sep 2014 14:30:13 +0000</lastBuildDate><atom:link href="https://thisisbalu.github.io/tags/uid/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Generating Unique Id in Java Part 2 – UID Java Tutorial</title>
+      <link>https://thisisbalu.github.io/generating-unique-id-in-java-part-2-uid-java-tutorial/</link>
+      <pubDate>Wed, 17 Sep 2014 14:30:13 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/generating-unique-id-in-java-part-2-uid-java-tutorial/</guid>
+      <description>&lt;p&gt;With reference to the previous &lt;a href=&#34;http://javaindetail.com/2014/09/16/generating-unique-id-in-java-part-1-uuid-java-tutorial/&#34;&gt;post&lt;/a&gt;, we had another way to generate the unique id in Java through UID class from the rmi server package in Java. This is an alternative method to use if we are still using Java versions below 5.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;UID Class in Java&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Package : java.rmi.server.UID&lt;br&gt;
+Extends : Object&lt;br&gt;
+Implements : Serializable&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

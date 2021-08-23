@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>XOM on Bala Subramanyam Lanka</title>
+    <link>https://thisisbalu.github.io/tags/xom/</link>
+    <description>Recent content in XOM on Bala Subramanyam Lanka</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 24 May 2016 19:48:17 +0000</lastBuildDate><atom:link href="https://thisisbalu.github.io/tags/xom/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Development Standards for Execution Object Model (XOM)</title>
+      <link>https://thisisbalu.github.io/development-standards-execution-object-model-xom/</link>
+      <pubDate>Tue, 24 May 2016 19:48:17 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/development-standards-execution-object-model-xom/</guid>
+      <description>&lt;p&gt;The Execution Object Model (XOM) is the model against which the rules run. It references the application objects and data and is the base implementation of the Business Object Model (BOM). Rule projects reference the XOM. Through the Execution Object Model, the rule engine can access application objects and methods, which can be Java objects, XML data, or data from other sources. At run time, rules that were written against the BOM are run against the XOM.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

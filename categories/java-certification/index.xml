@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Java Certification on Bala Subramanyam Lanka</title>
+    <link>https://thisisbalu.github.io/categories/java-certification/</link>
+    <description>Recent content in Java Certification on Bala Subramanyam Lanka</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 05 May 2016 18:25:42 +0000</lastBuildDate><atom:link href="https://thisisbalu.github.io/categories/java-certification/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Roadmap for Upgrading to Java SE7 Programmer II (1Z0-805)</title>
+      <link>https://thisisbalu.github.io/roadmap-upgrading-java-se7-programmer-ii-1z0-805/</link>
+      <pubDate>Thu, 05 May 2016 18:25:42 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/roadmap-upgrading-java-se7-programmer-ii-1z0-805/</guid>
+      <description>&lt;p&gt;People who are already certified for Java SE6 or below versions(Sun Certified Java Programmer-SCJP or Oracle Certified Java Programmer-OCJP) can upgrade to OCP Java SE7 Programmer II. This particular exam 1Z0-805 covers only certain topics.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Roadmap for OCP Java SE7 Programmer II (1Z0-804)</title>
+      <link>https://thisisbalu.github.io/roadmap-ocp-java-se7-programmer-ii-1z0-804/</link>
+      <pubDate>Thu, 05 May 2016 02:42:58 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/roadmap-ocp-java-se7-programmer-ii-1z0-804/</guid>
+      <description>&lt;p&gt;As I have discussed in the previous post, I have collected all the topics that we should get prepared for getting certified as Oracle Certified Professional Java SE7 Programmer II. All the topics of OCA are included in the OCP certification plus some more additional topics.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Roadmap for OCA Java SE7 Programmer I (1Z0-803)</title>
+      <link>https://thisisbalu.github.io/syllabus-oca-java-se7-programmer-1z0-803/</link>
+      <pubDate>Mon, 02 May 2016 19:04:04 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/syllabus-oca-java-se7-programmer-1z0-803/</guid>
+      <description>&lt;p&gt;When I have started preparing for the Java Certification(Oracle Certified Associate Java SE 7 Programmer 1Z0-803), I couldn’t find the topics that should be prepared for the exam. After the referring to the many friends and books, I got the list of topics that we should get prepared.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

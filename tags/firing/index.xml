@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>firing on Bala Subramanyam Lanka</title>
+    <link>https://thisisbalu.github.io/tags/firing/</link>
+    <description>Recent content in firing on Bala Subramanyam Lanka</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 20 May 2016 20:08:14 +0000</lastBuildDate><atom:link href="https://thisisbalu.github.io/tags/firing/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>firing and firinglimit in Rule task – IBM ODM</title>
+      <link>https://thisisbalu.github.io/firing-firinglimit-ruletask-ibm-odm/</link>
+      <pubDate>Fri, 20 May 2016 20:08:14 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/firing-firinglimit-ruletask-ibm-odm/</guid>
+      <description>&lt;p&gt;Configuring the Rule task execution plays the key role in executing the rules in a rule flow. firing and firinglimit are the two rule task properties that help rule execution in a rule flow.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

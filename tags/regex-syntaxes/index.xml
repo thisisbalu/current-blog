@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>regex syntaxes on Bala Subramanyam Lanka</title>
+    <link>https://thisisbalu.github.io/tags/regex-syntaxes/</link>
+    <description>Recent content in regex syntaxes on Bala Subramanyam Lanka</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 20 Sep 2014 17:33:55 +0000</lastBuildDate><atom:link href="https://thisisbalu.github.io/tags/regex-syntaxes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to use Regular Expressions in Java – Syntaxes</title>
+      <link>https://thisisbalu.github.io/how-to-use-regular-expressions-in-java-syntaxes/</link>
+      <pubDate>Sat, 20 Sep 2014 17:33:55 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/how-to-use-regular-expressions-in-java-syntaxes/</guid>
+      <description>Many languages like Java, Phython, C#, Perl, Groovy and others support Regular Expressions in their own way. Let us see how regular expressions are used and the syntax of different regular expressions in Java.
+Following are the List of Syntaxes
+   Expression  &amp;lt;th&amp;gt; Description &amp;lt;/th&amp;gt;     ^  &amp;lt;td&amp;gt; beginning of line. &amp;lt;/td&amp;gt;     $  &amp;lt;td&amp;gt; end of line. &amp;lt;/td&amp;gt;     .</description>
+    </item>
+    
+  </channel>
+</rss>

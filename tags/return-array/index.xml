@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>return array on Bala Subramanyam Lanka</title>
+    <link>https://thisisbalu.github.io/tags/return-array/</link>
+    <description>Recent content in return array on Bala Subramanyam Lanka</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 06 Oct 2014 14:30:57 +0000</lastBuildDate><atom:link href="https://thisisbalu.github.io/tags/return-array/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Return an Array Java</title>
+      <link>https://thisisbalu.github.io/how-to-return-an-array-java/</link>
+      <pubDate>Mon, 06 Oct 2014 14:30:57 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/how-to-return-an-array-java/</guid>
+      <description>&lt;p&gt;In Java, Arrays can be returned from the method. Again same as passing parameters two types of arrays are there. Array of primitive datatypes and the array of derived datatypes.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Method Returning An Array Of Primitive Type&lt;/li&gt;
+&lt;li&gt;Method Returrning An Array Of Derived Type&lt;/li&gt;
+&lt;/ol&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

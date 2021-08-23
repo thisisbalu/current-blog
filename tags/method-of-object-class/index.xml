@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Method of Object Class on Bala Subramanyam Lanka</title>
+    <link>https://thisisbalu.github.io/tags/method-of-object-class/</link>
+    <description>Recent content in Method of Object Class on Bala Subramanyam Lanka</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 16 Aug 2014 18:15:17 +0000</lastBuildDate><atom:link href="https://thisisbalu.github.io/tags/method-of-object-class/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to use equals method in java.lang.Object class</title>
+      <link>https://thisisbalu.github.io/equals-java-lang-object-equals-method-of-object-class/</link>
+      <pubDate>Sat, 16 Aug 2014 18:15:17 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/equals-java-lang-object-equals-method-of-object-class/</guid>
+      <description>&lt;p&gt;Let us see equals method in detail in java in detail ;)&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-java&#34; prism=&#34;1&#34;&gt;public boolean equals(Object obj)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Indicates whether some other object is “equal to” this one.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>How to clone an object in java</title>
+      <link>https://thisisbalu.github.io/clone-java-lang-object-clone-method-of-object-class/</link>
+      <pubDate>Fri, 15 Aug 2014 17:39:40 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/clone-java-lang-object-clone-method-of-object-class/</guid>
+      <description>&lt;p&gt;Creates and returns a copy of this object. The precise meaning of “copy” may depend on the class of the object. The general intent is that, for any object x, the expression:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-java&#34; prism=&#34;1&#34;&gt;
+x.clone() != x
+&lt;/code&gt;&lt;/pre&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>exception handling on Bala Subramanyam Lanka</title>
+    <link>https://thisisbalu.github.io/tags/exception-handling/</link>
+    <description>Recent content in exception handling on Bala Subramanyam Lanka</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 26 Sep 2014 14:30:44 +0000</lastBuildDate><atom:link href="https://thisisbalu.github.io/tags/exception-handling/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Execution of Finally block with return statements</title>
+      <link>https://thisisbalu.github.io/execution-of-finally-block-with-return-statements/</link>
+      <pubDate>Fri, 26 Sep 2014 14:30:44 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/execution-of-finally-block-with-return-statements/</guid>
+      <description>&lt;p&gt;&lt;em&gt;Will the code in the finally block be called and run after a return statement is executed in the try block?&lt;/em&gt;&lt;br&gt;
+&lt;em&gt;What if there is a return statement in the try block and the finally block as well?&lt;/em&gt;&lt;br&gt;
+&lt;em&gt;What if exception is thrown in the try block and the return statement in finally block?&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MapReduce on Bala Subramanyam Lanka</title>
+    <link>https://thisisbalu.github.io/tags/mapreduce/</link>
+    <description>Recent content in MapReduce on Bala Subramanyam Lanka</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 11 Apr 2015 15:49:08 +0000</lastBuildDate><atom:link href="https://thisisbalu.github.io/tags/mapreduce/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How MapReduce is different from Grid Computing and High Performance Computing?</title>
+      <link>https://thisisbalu.github.io/how-mapreduce-is-different-from-grid-computing-and-high-performance-computing/</link>
+      <pubDate>Sat, 11 Apr 2015 15:49:08 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/how-mapreduce-is-different-from-grid-computing-and-high-performance-computing/</guid>
+      <description>&lt;p&gt;Grid computing and High Performance Computing have been doing large scale batch processing from years, using such Application Program Interfaces (API) and as Message Passing Interface (MPS). Yes they are a sort of Distributive computing.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>How MapReduce is different from Volunteer Computing (SETI@home, Folding@home, GIMPS)?</title>
+      <link>https://thisisbalu.github.io/how-mapreduce-is-different-from-volunteer-computing-setihome-foldinghome/</link>
+      <pubDate>Fri, 10 Apr 2015 17:48:19 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/how-mapreduce-is-different-from-volunteer-computing-setihome-foldinghome/</guid>
+      <description>&lt;p&gt;Volunteer Computing can be also termed as Distributive Computing. There are some of the volunteer computing projects such as SETI@home, Folding@home etc, GIMPS., in the world. Volunteer Computing is nothing but the owners of the computers donate their computing resources such as processing power and storage to some of the projects like SETI@home or Folding@home or GIMPS.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Why MapReduce is needed instead of traditional Databases?</title>
+      <link>https://thisisbalu.github.io/why-mapreduce-is-needed-instead-of-traditional-databases/</link>
+      <pubDate>Thu, 09 Apr 2015 15:55:28 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/why-mapreduce-is-needed-instead-of-traditional-databases/</guid>
+      <description>&lt;p&gt;Why can’t we use databases with lots of disks to do large-scale batch analysis? Why MapReduce is needed? MapReduce has its own advantages over traditional databases(especially our relational databases). Both the traditional databases and MapReduce have their own perspectives. It depends on we are going to expose it. Lets discuss some of the points.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

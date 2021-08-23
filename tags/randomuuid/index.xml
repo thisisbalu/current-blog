@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>randomUUID on Bala Subramanyam Lanka</title>
+    <link>https://thisisbalu.github.io/tags/randomuuid/</link>
+    <description>Recent content in randomUUID on Bala Subramanyam Lanka</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 16 Sep 2014 17:16:41 +0000</lastBuildDate><atom:link href="https://thisisbalu.github.io/tags/randomuuid/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Generating Unique Id in Java Part 1 – UUID Java Tutorial</title>
+      <link>https://thisisbalu.github.io/generating-unique-id-in-java-part-1-uuid-java-tutorial/</link>
+      <pubDate>Tue, 16 Sep 2014 17:16:41 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/generating-unique-id-in-java-part-1-uuid-java-tutorial/</guid>
+      <description>&lt;p&gt;Generating the Unique Ids in Java is a very easy task. There are many ways to generate unique ids in Java, one of the best way is to use UUID class from the util package in Java.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;UUID – Universally Unique Identifier&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;A universally unique identifier (UUID) is an identifier standard used in software construction, standardized by the Open Software Foundation (OSF) as part of the Distributed Computing Environment (DCE).&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

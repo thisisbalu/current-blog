@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>auto-unboxing on Bala Subramanyam Lanka</title>
+    <link>https://thisisbalu.github.io/tags/auto-unboxing/</link>
+    <description>Recent content in auto-unboxing on Bala Subramanyam Lanka</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 24 Oct 2014 04:00:05 +0000</lastBuildDate><atom:link href="https://thisisbalu.github.io/tags/auto-unboxing/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Unboxing and Auto-Unboxing in Java</title>
+      <link>https://thisisbalu.github.io/unboxing-and-auto-unboxing-in-java/</link>
+      <pubDate>Fri, 24 Oct 2014 04:00:05 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/unboxing-and-auto-unboxing-in-java/</guid>
+      <description>&lt;p&gt;Unboxing and AutoUnboxing in Java is a simple concept.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Unboxing&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Unwrapping the object into corresponding primitive data is called **Unboxing. **&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -5,6 +5,151 @@
     <link>https://thisisbalu.github.io/categories/</link>
     <description>Recent content in Categories on Bala Subramanyam Lanka</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://thisisbalu.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Tue, 27 Sep 2016 17:10:09 +0000</lastBuildDate><atom:link href="https://thisisbalu.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>BRMS</title>
+      <link>https://thisisbalu.github.io/categories/brms/</link>
+      <pubDate>Tue, 27 Sep 2016 17:10:09 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/categories/brms/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Algorithms</title>
+      <link>https://thisisbalu.github.io/categories/algorithms/</link>
+      <pubDate>Sat, 04 Jun 2016 20:00:23 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/categories/algorithms/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ODM</title>
+      <link>https://thisisbalu.github.io/categories/odm/</link>
+      <pubDate>Sat, 04 Jun 2016 20:00:23 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/categories/odm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>IBM</title>
+      <link>https://thisisbalu.github.io/categories/ibm/</link>
+      <pubDate>Thu, 02 Jun 2016 20:25:15 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/categories/ibm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Uncategorized</title>
+      <link>https://thisisbalu.github.io/categories/uncategorized/</link>
+      <pubDate>Tue, 31 May 2016 17:59:20 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/categories/uncategorized/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Technology</title>
+      <link>https://thisisbalu.github.io/categories/technology/</link>
+      <pubDate>Sun, 22 May 2016 19:39:56 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/categories/technology/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Java</title>
+      <link>https://thisisbalu.github.io/categories/java/</link>
+      <pubDate>Thu, 12 May 2016 18:16:30 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/categories/java/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Java Certification</title>
+      <link>https://thisisbalu.github.io/categories/java-certification/</link>
+      <pubDate>Thu, 05 May 2016 18:25:42 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/categories/java-certification/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Wordpress</title>
+      <link>https://thisisbalu.github.io/categories/wordpress/</link>
+      <pubDate>Sun, 19 Apr 2015 15:39:54 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/categories/wordpress/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Big Data</title>
+      <link>https://thisisbalu.github.io/categories/big-data/</link>
+      <pubDate>Thu, 16 Apr 2015 15:36:09 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/categories/big-data/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hadoop</title>
+      <link>https://thisisbalu.github.io/categories/hadoop/</link>
+      <pubDate>Tue, 14 Apr 2015 13:44:29 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/categories/hadoop/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MapReduce</title>
+      <link>https://thisisbalu.github.io/categories/mapreduce/</link>
+      <pubDate>Sat, 11 Apr 2015 15:49:08 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/categories/mapreduce/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Features</title>
+      <link>https://thisisbalu.github.io/categories/features/</link>
+      <pubDate>Sun, 05 Apr 2015 13:41:28 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/categories/features/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Java Facts</title>
+      <link>https://thisisbalu.github.io/categories/java-facts/</link>
+      <pubDate>Fri, 17 Oct 2014 04:00:51 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/categories/java-facts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Regex</title>
+      <link>https://thisisbalu.github.io/categories/regex/</link>
+      <pubDate>Wed, 24 Sep 2014 14:30:54 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/categories/regex/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>HTML/CSS</title>
+      <link>https://thisisbalu.github.io/categories/html/css/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/categories/html/css/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

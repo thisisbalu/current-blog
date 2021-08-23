@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>java.lang on Bala Subramanyam Lanka</title>
+    <link>https://thisisbalu.github.io/tags/java.lang/</link>
+    <description>Recent content in java.lang on Bala Subramanyam Lanka</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 17 Aug 2014 17:35:41 +0000</lastBuildDate><atom:link href="https://thisisbalu.github.io/tags/java.lang/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>java.lang package in brief</title>
+      <link>https://thisisbalu.github.io/java-lang-package-in-brief/</link>
+      <pubDate>Sun, 17 Aug 2014 17:35:41 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/java-lang-package-in-brief/</guid>
+      <description>&lt;p&gt;How many classes, interfaces, Exceptions, Errors, Annotations, Enums are there in java.lang? What are the classes, interfaces, Exceptions, Errors, Annotations, Enums present in java.lang package? Lets see in brief.&lt;/p&gt;
+&lt;p&gt;This post is just briefing of the java.lang package.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>How to use equals method in java.lang.Object class</title>
+      <link>https://thisisbalu.github.io/equals-java-lang-object-equals-method-of-object-class/</link>
+      <pubDate>Sat, 16 Aug 2014 18:15:17 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/equals-java-lang-object-equals-method-of-object-class/</guid>
+      <description>&lt;p&gt;Let us see equals method in detail in java in detail ;)&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-java&#34; prism=&#34;1&#34;&gt;public boolean equals(Object obj)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Indicates whether some other object is “equal to” this one.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Object Class -The root of class hierarchy</title>
+      <link>https://thisisbalu.github.io/object-class-the-root-of-class-hierarchy/</link>
+      <pubDate>Thu, 14 Aug 2014 20:16:05 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/object-class-the-root-of-class-hierarchy/</guid>
+      <description>&lt;p&gt;Object Class is the root of the class hierarchy in Java. Every class has a Object class as a super class. Hence all the objects extends the methods of this class. Introduced in &lt;strong&gt;JDK1.0&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The Object class, in the java.lang package, sits at the top of the class hierarchy tree. Every class is a descendant, direct or indirect, of the Object class. Every class you use or write inherits the instance methods of Object. You need not use any of these methods, but, if you choose to do so, you may need to override them with code that is specific to your class. The methods inherited from Object are given below.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

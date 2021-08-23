@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>brms on Bala Subramanyam Lanka</title>
+    <link>https://thisisbalu.github.io/tags/brms/</link>
+    <description>Recent content in brms on Bala Subramanyam Lanka</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 27 Sep 2016 17:10:09 +0000</lastBuildDate><atom:link href="https://thisisbalu.github.io/tags/brms/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Applications of BRMS in the Real World</title>
+      <link>https://thisisbalu.github.io/applications-brms-real-world/</link>
+      <pubDate>Tue, 27 Sep 2016 17:10:09 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/applications-brms-real-world/</guid>
+      <description>&lt;p&gt;The main goal of BRMS is externalizing the Bussiness Condition Logic from the application code so that condition logics(technically called as rules) can be organized easily without disturbing the application. BRMS reduces the application developer dependency. A business user can directly edit business condition rules using BRMS. Some of the applications of brms are given below –&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Business Rule Management System (BRMS)</title>
+      <link>https://thisisbalu.github.io/business-rule-management-system-brms/</link>
+      <pubDate>Tue, 27 Sep 2016 16:26:10 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/business-rule-management-system-brms/</guid>
+      <description>&lt;p&gt;Business Rule Management System (BRMS) is an integrated application development and execution platform that allows organizations to define, deploy and monitor and maintain the vast variety of Automated decisions used by operational systems. A BRMS allows decision logic to be extracted and managed separately from core application code, so that it can be easily understood, maintained and reused access the organization.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>search element on Bala Subramanyam Lanka</title>
+    <link>https://thisisbalu.github.io/tags/search-element/</link>
+    <description>Recent content in search element on Bala Subramanyam Lanka</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 02 Oct 2014 14:30:22 +0000</lastBuildDate><atom:link href="https://thisisbalu.github.io/tags/search-element/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to search an element in an array in java</title>
+      <link>https://thisisbalu.github.io/how-to-search-an-element-in-an-array-in-java/</link>
+      <pubDate>Thu, 02 Oct 2014 14:30:22 +0000</pubDate>
+      
+      <guid>https://thisisbalu.github.io/how-to-search-an-element-in-an-array-in-java/</guid>
+      <description>&lt;p&gt;In Java searching an element in an array is simple. All we have to use is java.util.Arrays class binarySearch() method.&lt;/p&gt;
+&lt;p&gt;Searches the specified array of ints for the specified value using the binary search algorithm. The array must be sorted (as by the sort(int[]) method) prior to making this call. If it is not sorted, the results are undefined. If the array contains multiple elements with the specified value, there is no guarantee which one will be found.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
